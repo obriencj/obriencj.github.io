@@ -6,7 +6,7 @@ tagline : "is a pile of bits"
 ---
 {% include JB/setup %}
 
-{% for post in site.posts reversed limit:3 %}
+{% for post in site.posts limit:3 %}
 ## {{ post.title }}
  __posted [{{ post.date | date_to_string }}]({{ post.url }})__
 
