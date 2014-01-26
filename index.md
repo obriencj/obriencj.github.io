@@ -6,8 +6,8 @@ actual theme and stuff, maybe from Jekyll... not a priority.
 
 * [GPG Public Key][gpgkey]
 
-[gpgkey]: /gpg/52829C5C.pub_key
-"public key 52829C5C"
+[gpgkey]: /gpg/52829C5C.asc
+"ASCII-armored public key 52829C5C"
 
 [multimarkdown]: https://github.com/fletcher/peg-multimarkdown
 
