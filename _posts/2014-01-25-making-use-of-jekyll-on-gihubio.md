@@ -2,6 +2,7 @@
 layout: post
 title: "Making use of Jekyll on github.io"
 description: ""
+category: general
 tags: ["ideas", "hosting", "relax"]
 
 ---
