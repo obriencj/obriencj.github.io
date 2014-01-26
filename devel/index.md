@@ -3,6 +3,7 @@ layout: page
 title: "Projects"
 description: ""
 tagline: "that I happen to work on"
+tags: ["projects"]
 
 ---
 
