@@ -116,8 +116,8 @@ friends, not hosted elsewhere.
 * [Remove Blizzard Frames][removeframes] - removes the default
   Blizzard raid frames and boss frames
 
-[whoseaura]: /~siege/addons/whoseaura.zip
-[removeframes]: /~siege/addons/removeframes.zip
+[whoseaura]: http://preoccupied.net/~siege/addons/whoseaura.zip
+[removeframes]: http://preoccupied.net/~siege/addons/removeframes.zip
 
 
 ### Old Stuff
