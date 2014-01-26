@@ -1,34 +1,34 @@
-name : obriencj
-title : obriencj
-tagline : is a pile of bits
+name : "obriencj"
+title : "obriencj"
+tagline : "is a pile of bits"
 
-production_url : http://obriencj.preoccupied.net
-copyright : 2000-2014
+production_url : "http://obriencj.preoccupied.net"
+copyright : "2000-2014"
 
-markdown : redcarpet
+markdown : "redcarpet"
 pygments : true
 
 author :
-  name : Christopher O'Brien
-  email : obriencj@gmail.com
-  github : obriencj
-  twitter : obriencj
+  name : "Christopher O'Brien"
+  email : "obriencj@gmail.com"
+  github : "obriencj"
+  twitter : "obriencj"
 
 JB:
-  version : 0.3.0
+  version : "0.3.0"
   BASE_PATH : false
   ASSET_PATH : false
-  archive_path : /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  archive_path : "/archive.html"
+  categories_path : "/categories.html"
+  tags_path : "/tags.html"
+  atom_path : "/atom.xml"
+  rss_path : "/rss.xml"
   analytics :
-    provider : google
+    provider : "google"
     google :
-      tracking_id : 'UA-47351906-2'
+      tracking_id : "UA-47351906-2"
   sharing :
-    provider : tweet
+    provider : "tweet"
   comments :
     provider : false
 
