@@ -1,6 +1,6 @@
 ---
 layout : page
-title : Christopher O'Brien
+title : "Christopher O'Brien"
 tagline : "is a pile of bits"
 
 ---
