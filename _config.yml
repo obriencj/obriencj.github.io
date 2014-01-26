@@ -8,6 +8,8 @@ copyright : "2000-2014"
 markdown : "redcarpet"
 pygments : true
 
+permalink: "pretty"
+
 author :
   name : "Christopher O'Brien"
   email : "obriencj@gmail.com"
