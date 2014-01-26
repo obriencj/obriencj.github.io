@@ -7,8 +7,10 @@
 *.tar
 *~
 .#*
+.DS_Store
 MANIFEST
+_site
+_theme_packages
 build
 dist
 tmp
-_site

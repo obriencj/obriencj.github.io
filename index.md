@@ -1,15 +1,18 @@
-# Christopher O'Brien
+---
+layout : page
+title : Christopher O'Brien
+tagline : "is a pile of bits"
 
-Here's my minimalistic landing page. I threw this together in markdown
-and converted it to html via [multimarkdown]. I'm considering an
-actual theme and stuff, maybe from Jekyll... not a priority.
+---
+{% include JB/setup %}
+
+Here's my minimalistic landing page. I've moved around a lot lately,
+hopefully I can stay here a bit longer.
 
 * [GPG Public Key][gpgkey]
 
 [gpgkey]: /gpg/52829C5C.asc
 "ASCII-armored public key 52829C5C"
-
-[multimarkdown]: https://github.com/fletcher/peg-multimarkdown
 
 
 ## Social Platforms
