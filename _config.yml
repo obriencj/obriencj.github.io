@@ -20,9 +20,9 @@ JB:
   version : "0.3.0"
   BASE_PATH : false
   ASSET_PATH : false
-  archive_path : "/archive.html"
-  categories_path : "/categories.html"
-  tags_path : "/tags.html"
+  archive_path : "/archive/"
+  categories_path : "/categories/"
+  tags_path : "/tags/"
   atom_path : "/atom.xml"
   rss_path : "/rss.xml"
   analytics :
