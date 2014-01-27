@@ -22,6 +22,7 @@ JB:
   ASSET_PATH : false
   archive_path : "/archive/"
   categories_path : "/categories/"
+  pages_path : "/pages/"
   tags_path : "/tags/"
   atom_path : "/atom.xml"
   rss_path : "/rss.xml"
@@ -29,9 +30,14 @@ JB:
     provider : "google"
     google :
       tracking_id : "UA-47351906-2"
-  sharing :
-    provider : "tweet"
+  # sharing :
+  #   twitter :
+  #     size :
+  #     via :
+  #     count :
+  #   googleplus :
+  #     size : medium
+  #     width : 
+  #     annotation : bubble
   comments :
     provider : false
-
-
