@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[obriencj]]></title>
-  <link href="http://obriencj.github.io/atom.xml" rel="self"/>
-  <link href="http://obriencj.github.io/"/>
-  <updated>2014-01-28T02:44:03-05:00</updated>
-  <id>http://obriencj.github.io/</id>
+  <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2014-01-28T02:47:27-05:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Well How About Octopress Instead?]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/28/well-how-about-octopress-instead/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/28/well-how-about-octopress-instead</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
     <content type="html"><![CDATA[<p>I was a bit unhappy with how JekyllBootstrap was turning out, so now
 I’m playing around with Octopress.</p>
 
@@ -26,10 +26,10 @@ I’m playing around with Octopress.</p>
   
   <entry>
     <title type="html"><![CDATA[I Wrote Up My Todo List]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/26/i-wrote-up-my-todo-list/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/"/>
     <updated>2014-01-26T00:00:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/26/i-wrote-up-my-todo-list</id>
-    <content type="html"><![CDATA[<p>I started to write up a <a href="http://obriencj.github.io/projects/ideas">TODO/Idea</a> list as a page, and now
+    <id>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list</id>
+    <content type="html"><![CDATA[<p>I started to write up a <a href="http://obriencj.preoccupied.net/projects/ideas">TODO/Idea</a> list as a page, and now
 I am overwhelmed by how many things there are that I wanted to work
 on. And I know that there are more than what I could think to list at
 this moment…</p>
@@ -38,9 +38,9 @@ this moment…</p>
   
   <entry>
     <title type="html"><![CDATA[Making Use of Jekyll on github.io]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
     <updated>2014-01-25T00:00:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
     <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated
 page. I’m considering the posibilities. Is this more convenient or
 better than the tumblr I’d been maintaining? I’m not sure. I know
