@@ -3,7 +3,7 @@ layout: page
 title: "Contact"
 description: ""
 tagline: "how to reach me"
-tags: ["contact"]
+tags: ["about"]
 
 ---
 
