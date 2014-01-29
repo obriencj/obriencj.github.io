@@ -35,5 +35,5 @@ If you're interested in the various projects I am working on, please
 visit the [projects page](/projects).
 
 If you'd like to otherwise contact me, you may find ways to do so on
-my [contact page](contact).
+my [contact page](/about/contact).
 
