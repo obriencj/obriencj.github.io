@@ -4,25 +4,29 @@
         <loc>
             http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/
         </loc>
-        <lastmod>2014-01-28T02:21:54-05:00</lastmod>
+        <lastmod>2014-01-28T23:47:45-05:00</lastmod>
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/</loc>
-        <lastmod>2014-01-28T02:22:05-05:00</lastmod>
+        <lastmod>2014-01-28T23:47:45-05:00</lastmod>
     </url>
     <url>
         <loc>
             http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/
         </loc>
-        <lastmod>2014-01-28T02:24:48-05:00</lastmod>
+        <lastmod>2014-01-28T23:47:45-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://obriencj.preoccupied.net/about/contact/</loc>
+        <lastmod>2014-01-28T23:53:54-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://obriencj.preoccupied.net/about/</loc>
+        <lastmod>2014-01-29T00:39:05-05:00</lastmod>
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/blog/archives/</loc>
-        <lastmod>2014-01-28T02:24:48-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://obriencj.preoccupied.net/contact/</loc>
-        <lastmod>2014-01-28T02:29:01-05:00</lastmod>
+        <lastmod>2014-01-28T23:47:45-05:00</lastmod>
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/gpg/52829C5C.asc</loc>
@@ -30,18 +34,18 @@
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/</loc>
-        <lastmod>2014-01-28T02:24:48-05:00</lastmod>
+        <lastmod>2014-01-28T23:47:45-05:00</lastmod>
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/projects/ideas/</loc>
-        <lastmod>2014-01-28T02:22:31-05:00</lastmod>
+        <lastmod>2014-01-28T23:47:45-05:00</lastmod>
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/projects/</loc>
-        <lastmod>2014-01-28T02:22:22-05:00</lastmod>
+        <lastmod>2014-01-28T23:47:45-05:00</lastmod>
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/robots.txt</loc>
-        <lastmod>2014-01-28T01:28:23-05:00</lastmod>
+        <lastmod>2014-01-28T23:47:45-05:00</lastmod>
     </url>
 </urlset>
