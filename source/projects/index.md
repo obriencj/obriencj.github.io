@@ -28,7 +28,12 @@ the mess. It gives an excellent perspective.
 "Projects on Google Code"
 
 
-### Python Projects
+## Project Ideas
+
+Massive disaster of [ideas](/projects/ideas)
+
+
+## Python Projects
 
 I've enjoyed working in [Python] more than any other language I've yet
 run across. Thus it's unsurprising that I use it whenever there's an
@@ -50,7 +55,7 @@ opportunity to do so!
 [python-sibilant]: http://github.com/obriencj/python-sibilant
 
 
-### Bukkit Plugins
+## Bukkit Plugins
 
 I've put together a number of [Bukkit] plugins that we used to employ
 on the [minecraft.preoccupied.net][mc.p.n] (which is currently offline).
@@ -81,7 +86,7 @@ on the [minecraft.preoccupied.net][mc.p.n] (which is currently offline).
 [bukkit-want]: http://github.com/obriencj/bukkit-want
 
 
-### Warcraft Addons
+## Warcraft Addons
 
 Some ultra-tiny addons for World of Warcraft, distributed here for
 friends, not hosted elsewhere.
@@ -95,7 +100,7 @@ friends, not hosted elsewhere.
 [removeframes]: http://preoccupied.net/~siege/addons/removeframes.zip
 
 
-### Old Stuff
+## Old Stuff
 
 Interests change as time goes by. 
 

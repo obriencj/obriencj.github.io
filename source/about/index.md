@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About me"
-description: ""
+description: "all about siege"
 tagline: "what do you want to know?"
 tags: ["about"]
 
