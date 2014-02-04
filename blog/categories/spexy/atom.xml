@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Spexy | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/categories/spexy/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
   <updated>2014-02-04T00:34:56-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
@@ -12,51 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Well How About Octopress Instead?]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
-    <updated>2014-01-28T02:24:05-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
-    <content type="html"><![CDATA[<p>I was a bit unhappy with how JekyllBootstrap was turning out, so now
-I’m playing around with Octopress.</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[I Wrote Up My Todo List]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/"/>
-    <updated>2014-01-26T00:00:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list</id>
-    <content type="html"><![CDATA[<p>I started to write up a <a href="http://obriencj.preoccupied.net/projects/ideas">TODO/Idea</a> list as a page, and now
-I am overwhelmed by how many things there are that I wanted to work
-on. And I know that there are more than what I could think to list at
-this moment…</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Making Use of Jekyll on github.io]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
-    <updated>2014-01-25T00:00:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
-    <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated
-page. I’m considering the posibilities. Is this more convenient or
-better than the tumblr I’d been maintaining? I’m not sure. I know
-these pages get to take advantage of the CDN. That’s a bonus. I also
-know that I have direct access to the full history and content of all
-of my posts immediately – also a bonus.</p>
-
-<p>But I am not very happy with the theming right now. I’ve had to make a
-number of changes to what should have been a functioning theme (but
-which wasn’t). Do I want to get invested in layout design as part of
-this? Not really, no. But it may be worth the effort.</p>
-
-<p>Things to consider on a lazy and cold Sunday.</p>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gist -- Output of Spexy_try]]></title>
@@ -141,7 +96,7 @@ same for 2008, but I digress.</p>
 
 <p>I present an example of Spexy, and the perfectly valid Python it emits</p>
 
-<div><script src="https://gist.github.com/8567348.js"></script>
+<p><div><script src='https://gist.github.com/8567348.js'></script>
 <noscript><pre><code>[siege@maybe src]$ python spexy.py
 &gt;&gt;&gt;&gt; (defun make_pair ()
         (letrec ((value None)
@@ -177,22 +132,7 @@ same for 2008, but I digress.</p>
 &gt;&gt;&gt;&gt; (getter)
 --&gt; getter()
 &#39;919&#39;</code></pre></noscript></div>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Celebrating Three Years of an Unused Tumblr]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/"/>
-    <updated>2014-01-21T00:00:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr</id>
-    <content type="html"><![CDATA[<p>Tumblr let me know that this blog turned three today. It wanted me to post a picture of a cupcake, but I&#8217;ve spared myself that indignity.</p>
-<p>I&#8217;m reminded that I really haven&#8217;t been keeping on with my resolution to document more of what I work on. I wonder if &#8220;blog more&#8221; is the dork version of &#8220;go to the gym&#8221; resolutions.</p>
-<p>I&#8217;ve been up to my usual foolishness; writing silly things in Python that nobody will ever likely use. The most recent such project is&nbsp;<a href="http://github.com/obriencj/python-promises">python-promises</a>, which is what it sounds like &#8211; a promises implementation in Python. The only interesting part (perhaps) is the transparent proxy implementation.</p>
-<p>I resurrected an older project,&nbsp;<a href="http://github.com/obriencj/python-brine">python-brine</a>, which is a library for pickling functions. Actually pickling them, not just referring to them by name as the default behavior of the pickle library would do.</p>
-<p>My&nbsp;<a href="http://github.com/obriencj/python-javatools">python-javatools</a>&nbsp;project sees a reasonable amount of use, thanks to the particulars of my employment. It&#8217;s proven quite useful as a check during productization of Java bits. It&#8217;s a shame that the HTML reports it generates are so glaringly ugly&#8230; I need to make friends with a UX/UI person.</p>
-<p>Once I get brine and promises a bit more fleshed out, I&#8217;ll probably abandon them in favor of my next crazy idea. I&#8217;ve been itching to see how hard it would be to reify continuations in Python, and then actually call/return through them again. I&#8217;m giggling just thinking about it.</p>
-<p>The bukkit server has been offline for a while now. I have all of these custom mods for bukkit, and they&#8217;re all terribly outdated (and some are obsoleted by in-built features). Zoe has been bugging me to get the server running again, but truth be told I&#8217;m not very interested in Minecraft lately. Maybe I will experience a personal resurgence! Looking through the&nbsp;<a href="http://tumblr.preoccupied.net/">tumblr for the server</a>&nbsp;I&#8217;m somewhat homesick for it&#8230; but not enough to actually get it set back up.</p>
+</p>
 ]]></content>
   </entry>
   

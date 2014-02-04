@@ -2,6 +2,24 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
+            http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/
+        </loc>
+        <lastmod>2014-02-04T00:31:32-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/</loc>
+        <lastmod>2014-02-04T00:26:09-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/</loc>
+        <lastmod>2014-02-03T23:28:13-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/</loc>
+        <lastmod>2014-02-04T00:31:08-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
             http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/
         </loc>
         <lastmod>2014-01-31T16:47:25-05:00</lastmod>
@@ -26,7 +44,7 @@
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/blog/archives/</loc>
-        <lastmod>2014-01-31T16:47:25-05:00</lastmod>
+        <lastmod>2014-02-04T00:31:32-05:00</lastmod>
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/gpg/52829C5C.asc</loc>
@@ -34,7 +52,7 @@
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/</loc>
-        <lastmod>2014-01-31T16:47:25-05:00</lastmod>
+        <lastmod>2014-02-04T00:31:32-05:00</lastmod>
     </url>
     <url>
         <loc>http://obriencj.preoccupied.net/projects/ideas/</loc>
