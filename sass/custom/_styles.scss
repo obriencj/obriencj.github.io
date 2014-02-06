@@ -25,6 +25,10 @@ article > header {
     margin-bottom: 0.5em;
 }
 
+ul.tag-cloud li {
+    display: inline;
+}
+
 .gist div {
     margin: 0 0 0;
 }
@@ -43,4 +47,3 @@ article > header {
 .gist-meta, .gist-data {
     width: 789px;
 }
-
