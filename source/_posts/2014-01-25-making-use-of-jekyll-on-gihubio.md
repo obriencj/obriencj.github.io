@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Making use of Jekyll on github.io"
+date: 2014-01-25 00:01:00 -0500
 description: ""
 category: general
 tags: ["ideas", "hosting", "relax"]

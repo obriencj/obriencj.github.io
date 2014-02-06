@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "I wrote up my todo list"
+date: 2014-01-26 00:01:00 -0500
 description: ""
 category: projects
 tags: [projects, ideas, todo]
