@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: General | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/categories/general/atom.xml" rel="self"/>
+  <title><![CDATA[Tag: hosting | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/tags/hosting/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
   <updated>2014-02-06T15:07:30-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Making Use of Jekyll on github.io]]></title>
+    <title type="html"><![CDATA[Making use of Jekyll on github.io]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
     <updated>2014-01-25T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>

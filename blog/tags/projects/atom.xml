@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Projects | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/categories/projects/atom.xml" rel="self"/>
+  <title><![CDATA[Tag: projects | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/tags/projects/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
   <updated>2014-02-06T15:07:30-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Well How About Octopress Instead?]]></title>
+    <title type="html"><![CDATA[Well how about Octopress instead?]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
@@ -24,7 +24,7 @@ I’m playing around with Octopress.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[I Wrote Up My Todo List]]></title>
+    <title type="html"><![CDATA[I wrote up my todo list]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/"/>
     <updated>2014-01-26T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list</id>
