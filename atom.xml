@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-02-04T00:34:56-05:00</updated>
+  <updated>2014-02-06T14:07:41-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -20,14 +20,13 @@
     <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
     <content type="html"><![CDATA[<p>I was a bit unhappy with how JekyllBootstrap was turning out, so now
 I’m playing around with Octopress.</p>
-
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[I Wrote Up My Todo List]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/"/>
-    <updated>2014-01-26T00:00:00-05:00</updated>
+    <updated>2014-01-26T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list</id>
     <content type="html"><![CDATA[<p>I started to write up a <a href="http://obriencj.preoccupied.net/projects/ideas">TODO/Idea</a> list as a page, and now
 I am overwhelmed by how many things there are that I wanted to work
@@ -39,7 +38,7 @@ this moment…</p>
   <entry>
     <title type="html"><![CDATA[Making Use of Jekyll on github.io]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
-    <updated>2014-01-25T00:00:00-05:00</updated>
+    <updated>2014-01-25T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
     <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated
 page. I’m considering the posibilities. Is this more convenient or
@@ -93,47 +92,9 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Spexy? Oh God What Did I Do...]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
-    <updated>2014-01-22T00:00:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
-    <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
-Something I’d forgotten. Something that is so bizarre I’m not even
-sure what I was thinking when I hacked at it. Something I had to
-double check that I’d actually written, because it was so foreign to
-me.</p>
-
-<!-- more -->
-
-<p>Then I noticed the date. Ah 2007, the Ambien era. When Space Lord
-Zolpidem guided me on battles through the multiverse on a nightly
-basis. I don’t remember a whole lot from 2007. Wish I could say the
-same for 2008, but I digress.</p>
-
-<p>At some point in our adventures, SLZ and I apparently hacked together a LISP/Scheme-like python file encoding – “spexy”.</p>
-
-<p><em>Keep in mind, this isn’t a scheme interpreter written in Python.</em> No
- no no, this decodes to Python. I think I’m going to try and clean
- this up and see how much sense it can be made to make.*</p>
-
-<p>And then you can bet your ass I’m going to pollute GitHub with it.</p>
-
-<p>Stay off drugs, kids.</p>
-
-<hr />
-
-<ul>
-  <li>2014-01-23: it’s up on GitHub now – <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
-  <li>2014-02-03: originally posted to Tumblr, moved over here</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Gist -- Spexy Repl Example]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/"/>
-    <updated>2014-01-22T00:00:00-05:00</updated>
+    <updated>2014-01-22T00:02:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example</id>
     <content type="html"><![CDATA[<p>For those with strong stomachs</p>
 
@@ -182,12 +143,53 @@ same for 2008, but I digress.</p>
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Spexy? Oh God What Did I Do...]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
+    <updated>2014-01-22T00:01:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
+    <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
+Something I’d forgotten. Something that is so bizarre I’m not even
+sure what I was thinking when I hacked at it. Something I had to
+double check that I’d actually written, because it was so foreign to
+me.</p>
+
+<!-- more -->
+
+<p>Then I noticed the date. Ah 2007, the Ambien era. When Space Lord
+Zolpidem guided me on battles through the multiverse on a nightly
+basis. I don’t remember a whole lot from 2007. Wish I could say the
+same for 2008, but I digress.</p>
+
+<p>At some point in our adventures, SLZ and I apparently hacked together a LISP/Scheme-like python file encoding – “spexy”.</p>
+
+<p><em>Keep in mind, this isn’t a scheme interpreter written in Python.</em> No
+ no no, this decodes to Python. I think I’m going to try and clean
+ this up and see how much sense it can be made to make.*</p>
+
+<p>And then you can bet your ass I’m going to pollute GitHub with it.</p>
+
+<p>Stay off drugs, kids.</p>
+
+<hr />
+
+<ul>
+  <li>2014-01-23: it’s up on GitHub now – <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
+  <li>2014-02-03: originally posted to Tumblr, moved over here</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Celebrating Three Years of an Unused Tumblr]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/"/>
-    <updated>2014-01-21T00:00:00-05:00</updated>
+    <updated>2014-01-21T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr</id>
     <content type="html"><![CDATA[<p>Tumblr let me know that this blog turned three today. It wanted me to post a picture of a cupcake, but I&#8217;ve spared myself that indignity.</p>
 <p>I&#8217;m reminded that I really haven&#8217;t been keeping on with my resolution to document more of what I work on. I wonder if &#8220;blog more&#8221; is the dork version of &#8220;go to the gym&#8221; resolutions.</p>
+
+<!-- more -->
+
 <p>I&#8217;ve been up to my usual foolishness; writing silly things in Python that nobody will ever likely use. The most recent such project is&nbsp;<a href="http://github.com/obriencj/python-promises">python-promises</a>, which is what it sounds like &#8211; a promises implementation in Python. The only interesting part (perhaps) is the transparent proxy implementation.</p>
 <p>I resurrected an older project,&nbsp;<a href="http://github.com/obriencj/python-brine">python-brine</a>, which is a library for pickling functions. Actually pickling them, not just referring to them by name as the default behavior of the pickle library would do.</p>
 <p>My&nbsp;<a href="http://github.com/obriencj/python-javatools">python-javatools</a>&nbsp;project sees a reasonable amount of use, thanks to the particulars of my employment. It&#8217;s proven quite useful as a check during productization of Java bits. It&#8217;s a shame that the HTML reports it generates are so glaringly ugly&#8230; I need to make friends with a UX/UI person.</p>

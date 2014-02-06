@@ -4,7 +4,7 @@
   <title><![CDATA[Category: General | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/categories/general/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-02-04T00:34:56-05:00</updated>
+  <updated>2014-02-06T14:07:41-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Making Use of Jekyll on github.io]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
-    <updated>2014-01-25T00:00:00-05:00</updated>
+    <updated>2014-01-25T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
     <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated
 page. I’m considering the posibilities. Is this more convenient or
