@@ -2,11 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-<<<<<<< HEAD
 url: http://obriencj.preoccupied.net
-=======
-url: http://obriencj.github.io
->>>>>>> configuration changes
 title: obriencj
 subtitle: "is a pile of bits"
 author: "Christopher O'Brien"
