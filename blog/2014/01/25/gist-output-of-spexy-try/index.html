@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Gist -- Output of Spexy_try - obriencj</title>
+  <title>Gist - Output of Spexy_try - obriencj</title>
   <meta name="author" content="Christopher O'Brien">
 
   
@@ -83,7 +83,7 @@ work, which &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Gist -- Output of Spexy_try</h1>
+      <h1 class="entry-title">Gist - Output of Spexy_try</h1>
     
     
       <p class="meta">
@@ -114,16 +114,106 @@ face.</p>
 <!-- more -->
 
 <p>But… I’m surprised how the me from 2007 thought some of the features
-through – especially taking into consideration the state of my brain
-at the time. The module itself runs the input code through distinct
-parsing and evaluation steps, which includes a macro expansion pass
-before moving on to specials. I get the idea that I may have intended
-to write parts of Spexy <strong>in</strong> Spexy once I got <code>defmacro</code> support
-written. Maybe that can be next.</p>
+through – especially taking into consideration the
+<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif" title="Come with me on an adventure you'll never remember">state of my brain</a> at the time. The module itself runs the input code
+through distinct parsing and evaluation steps, which includes a macro
+expansion pass before moving on to specials. I get the idea that I may
+have intended to write parts of Spexy <strong>in</strong> Spexy once I got
+<code>defmacro</code> support written. Maybe that can be next.</p>
 
 <p>On this fine (albeit very cold) evening, I suffered a fit of
 inspiration (and giggling). When the dust settled, Spexy had gained
 support for <code>try/except</code> expressions.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>output of spexy_try</span><a href="https://gist.github.com/obriencj/8610594">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+<span class="line-number">32</span>
+<span class="line-number">33</span>
+<span class="line-number">34</span>
+<span class="line-number">35</span>
+<span class="line-number">36</span>
+<span class="line-number">37</span>
+<span class="line-number">38</span>
+<span class="line-number">39</span>
+<span class="line-number">40</span>
+<span class="line-number">41</span>
+<span class="line-number">42</span>
+<span class="line-number">43</span>
+<span class="line-number">44</span>
+</pre></td><td class="code"><pre><code class="text"><span class="line">maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
+</span><span class="line">The original spexy source is
+</span><span class="line">-----
+</span><span class="line">(defun division (x y)
+</span><span class="line">  (let ((result None))
+</span><span class="line">    (try
+</span><span class="line">      (setf result (/ x y))
+</span><span class="line">
+</span><span class="line">      ((ZeroDivisionError)
+</span><span class="line">        (println &quot;division by zero!&quot; x &quot;/&quot; y)
+</span><span class="line">        False)
+</span><span class="line">      (:else
+</span><span class="line">        (println &quot;result is&quot; result)
+</span><span class="line">        result)
+</span><span class="line">      (:finally
+</span><span class="line">        (println &quot;executing finally clause&quot;)))))
+</span><span class="line">-----
+</span><span class="line">
+</span><span class="line">parses into tree
+</span><span class="line">-----
+</span><span class="line">[&#39;defun&#39;, &#39;division&#39;, [&#39;x&#39;, &#39;y&#39;], [&#39;let&#39;, [[&#39;result&#39;, &#39;None&#39;]], [&#39;try&#39;, [&#39;setf&#39;, &#39;result&#39;, [&#39;/&#39;, &#39;x&#39;, &#39;y&#39;]], [[&#39;ZeroDivisionError&#39;], [&#39;println&#39;, &#39;&quot;division by zero!&quot;&#39;, &#39;x&#39;, &#39;&quot;/&quot;&#39;, &#39;y&#39;], &#39;False&#39;], [&#39;:else&#39;, [&#39;println&#39;, &#39;&quot;result is&quot;&#39;, &#39;result&#39;], &#39;result&#39;], [&#39;:finally&#39;, [&#39;println&#39;, &#39;&quot;executing finally clause&quot;&#39;]]]]]
+</span><span class="line">-----
+</span><span class="line">
+</span><span class="line">processed into Python
+</span><span class="line">-----
+</span><span class="line">globals().__setitem__(&#39;division&#39;, (lambda x, y: ((lambda result: (lambda _lcls:(eval(compile(&#39;def try_block(try_clause,except_0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n&#39;,&#39;&lt;spexy&gt;&#39;,&#39;single&#39;),globals(),_lcls), _lcls)[-1])({})[&#39;try_block&#39;]((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;division by zero!&quot;, &quot; &quot;, x, &quot; &quot;, &quot;/&quot;, &quot; &quot;, y, &#39;\n&#39;))), False,)[-1]), (lambda : (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;result is&quot;, &quot; &quot;, result[0], &#39;\n&#39;))), result[0],)[-1]), (lambda : __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;executing finally clause&quot;, &#39;\n&#39;))))))([None]))))
+</span><span class="line">-----
+</span><span class="line">
+</span><span class="line">division(1, 2)
+</span><span class="line">result is 0
+</span><span class="line">executing finally clause
+</span><span class="line">result: 0
+</span><span class="line">
+</span><span class="line">division(4, 2)
+</span><span class="line">result is 2
+</span><span class="line">executing finally clause
+</span><span class="line">result: 2
+</span><span class="line">
+</span><span class="line">division(2, 0)
+</span><span class="line">division by zero! 2 / 0
+</span><span class="line">executing finally clause
+</span><span class="line">result: False
+</span><span class="line">
+</span><span class="line">it works!
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 <p>It’s pretty ugly. It’s ugly pretty. Most importantly, it’s satisfying
 the rules of Spexy. “What rules,” you ask? As I’ve been toiling over
@@ -159,12 +249,18 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/hack/'>hack</a>, <a class='category' href='/blog/categories/python/'>python</a>, <a class='category' href='/blog/categories/spexy/'>spexy</a>
+    <a class='category' href='/blog/categories/projects/'>projects</a>
   
 </span>
 
 
       
+
+<span class="tags">
+  
+    <a class='tag' href='/blog/tags/gist/'>gist</a>, <a class='tag' href='/blog/tags/hack/'>hack</a>, <a class='tag' href='/blog/tags/lisp/'>lisp</a>, <a class='tag' href='/blog/tags/python/'>python</a>, <a class='tag' href='/blog/tags/spexy/'>spexy</a>
+  
+</span>
 
 
     </p>
@@ -184,7 +280,7 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/01/22/gist-spexy-repl-example/" title="Previous Post: gist -- spexy repl example">&laquo; gist -- spexy repl example</a>
+        <a class="basic-alignment left" href="/blog/2014/01/22/gist-spexy-repl-example/" title="Previous Post: gist - spexy repl example">&laquo; gist - spexy repl example</a>
       
       
         <a class="basic-alignment right" href="/blog/2014/01/25/making-use-of-jekyll-on-gihubio/" title="Next Post: Making use of Jekyll on github.io">Making use of Jekyll on github.io &raquo;</a>
@@ -214,11 +310,11 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
       </li>
     
       <li class="post">
-        <a href="/blog/2014/01/25/gist-output-of-spexy-try/">Gist -- Output of Spexy_try</a>
+        <a href="/blog/2014/01/25/gist-output-of-spexy-try/">Gist - Output of Spexy_try</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/01/22/gist-spexy-repl-example/">Gist -- Spexy Repl Example</a>
+        <a href="/blog/2014/01/22/gist-spexy-repl-example/">Gist - Spexy Repl Example</a>
       </li>
     
   </ul>
@@ -228,13 +324,16 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
 
   <div class="tag-cloud">
   <p class="tags">
-<a style="font-size: 90%" href="/blog/tags/hosting/">hosting</a>
-<a style="font-size: 140%" href="/blog/tags/ideas/">ideas</a>
-<a style="font-size: 90%" href="/blog/tags/jekyll/">jekyll</a>
-<a style="font-size: 90%" href="/blog/tags/octopress/">octopress</a>
-<a style="font-size: 140%" href="/blog/tags/projects/">projects</a>
-<a style="font-size: 90%" href="/blog/tags/relax/">relax</a>
-<a style="font-size: 90%" href="/blog/tags/todo/">todo</a>
+<a style="font-size: 122%" href="/blog/tags/gist/">gist</a>
+<a style="font-size: 122%" href="/blog/tags/github-dot-io/">github.io</a>
+<a style="font-size: 140%" href="/blog/tags/hack/">hack</a>
+<a style="font-size: 122%" href="/blog/tags/jekyll/">jekyll</a>
+<a style="font-size: 140%" href="/blog/tags/lisp/">lisp</a>
+<a style="font-size: 90%" href="/blog/tags/projects/">projects</a>
+<a style="font-size: 140%" href="/blog/tags/python/">python</a>
+<a style="font-size: 140%" href="/blog/tags/spexy/">spexy</a>
+<a style="font-size: 90%" href="/blog/tags/tumblr/">tumblr</a>
+<a style="font-size: 90%" href="/blog/tags/zolpidem/">zolpidem</a>
 
   </p>
   <p class="tag-cloud-more">

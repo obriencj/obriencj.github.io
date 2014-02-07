@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-02-06T19:18:52-05:00</updated>
+  <updated>2014-02-06T20:52:16-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -18,8 +18,30 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
-    <content type="html"><![CDATA[<p>I was a bit unhappy with how JekyllBootstrap was turning out, so now
-I’m playing around with Octopress.</p>
+    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
+I’m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
+
+<!-- more -->
+
+<p>It’s taken me a little over a week to get this looking something like
+an actual blog. I have no idea why the default layout is so nutty
+(huge fonts, etc).</p>
+
+<p>I’m using the <a href="https://github.com/robbyedwards/octopress-tag-pages">tag-pages</a> and <a href="https://github.com/robbyedwards/octopress-tag-cloud">tag-cloud</a> plugins. I’m a little bit
+baffled as to why post tagging behavior wasn’t included with Octopress
+as a baseline feature.</p>
+
+<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/" title="Gist Tag">gist plugin</a>, but it’s currently rendering code
+blocks <a href="https://github.com/imathis/octopress/issues/847" title="GitHub gist changes break gist plugin formatting #847">terribly wrong</a>, so I’m reduced to inserting the
+gists directly in any posts I write. This of course has its pros and
+cons. I am not reliant on a bit of javascript and the gist site itself
+to display my snippets, but I am also no longer receiving live updates
+if I make any changes.</p>
+
+<p>I’ve imported my scant few <a href="http://obriencj.tumblr.com">Tumblr</a> posts, and have gone through the
+tweaks to make them work in this blog. I believe that I shall now
+abandon Tumblr in favor of posting here…</p>
+
 ]]></content>
   </entry>
   
@@ -40,12 +62,17 @@ this moment…</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
     <updated>2014-01-25T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
-    <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated
-page. I’m considering the posibilities. Is this more convenient or
-better than the tumblr I’d been maintaining? I’m not sure. I know
-these pages get to take advantage of the CDN. That’s a bonus. I also
-know that I have direct access to the full history and content of all
-of my posts immediately – also a bonus.</p>
+    <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
+in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">Jekyll</a> on
+<a href="https://pages.github.com" title="GitHub Pages">github.io</a>. I’m swimming in the posibilities.</p>
+
+<!-- more -->
+
+<p>Is this more convenient or better than the <a href="http://obriencj.tumblr.com">Tumblr</a> I’d been
+maintaining?  I’m not sure. I know these pages get to take advantage
+of the CDN. That’s a bonus. I also know that I have direct access to
+the full history and content of all of my posts immediately – also a
+bonus.</p>
 
 <p>But I am not very happy with the theming right now. I’ve had to make a
 number of changes to what should have been a functioning theme (but
@@ -58,7 +85,7 @@ this? Not really, no. But it may be worth the effort.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Gist -- Output of Spexy_try]]></title>
+    <title type="html"><![CDATA[Gist - Output of Spexy_try]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/"/>
     <updated>2014-01-25T00:00:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try</id>
@@ -70,16 +97,106 @@ face.</p>
 <!-- more -->
 
 <p>But… I’m surprised how the me from 2007 thought some of the features
-through – especially taking into consideration the state of my brain
-at the time. The module itself runs the input code through distinct
-parsing and evaluation steps, which includes a macro expansion pass
-before moving on to specials. I get the idea that I may have intended
-to write parts of Spexy <strong>in</strong> Spexy once I got <code>defmacro</code> support
-written. Maybe that can be next.</p>
+through – especially taking into consideration the
+<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif" title="Come with me on an adventure you'll never remember">state of my brain</a> at the time. The module itself runs the input code
+through distinct parsing and evaluation steps, which includes a macro
+expansion pass before moving on to specials. I get the idea that I may
+have intended to write parts of Spexy <strong>in</strong> Spexy once I got
+<code>defmacro</code> support written. Maybe that can be next.</p>
 
 <p>On this fine (albeit very cold) evening, I suffered a fit of
 inspiration (and giggling). When the dust settled, Spexy had gained
 support for <code>try/except</code> expressions.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>output of spexy_try</span><a href="https://gist.github.com/obriencj/8610594">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+<span class="line-number">32</span>
+<span class="line-number">33</span>
+<span class="line-number">34</span>
+<span class="line-number">35</span>
+<span class="line-number">36</span>
+<span class="line-number">37</span>
+<span class="line-number">38</span>
+<span class="line-number">39</span>
+<span class="line-number">40</span>
+<span class="line-number">41</span>
+<span class="line-number">42</span>
+<span class="line-number">43</span>
+<span class="line-number">44</span>
+</pre></td><td class="code"><pre><code class="text"><span class="line">maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
+</span><span class="line">The original spexy source is
+</span><span class="line">-----
+</span><span class="line">(defun division (x y)
+</span><span class="line">  (let ((result None))
+</span><span class="line">    (try
+</span><span class="line">      (setf result (/ x y))
+</span><span class="line">
+</span><span class="line">      ((ZeroDivisionError)
+</span><span class="line">        (println &quot;division by zero!&quot; x &quot;/&quot; y)
+</span><span class="line">        False)
+</span><span class="line">      (:else
+</span><span class="line">        (println &quot;result is&quot; result)
+</span><span class="line">        result)
+</span><span class="line">      (:finally
+</span><span class="line">        (println &quot;executing finally clause&quot;)))))
+</span><span class="line">-----
+</span><span class="line">
+</span><span class="line">parses into tree
+</span><span class="line">-----
+</span><span class="line">[&#39;defun&#39;, &#39;division&#39;, [&#39;x&#39;, &#39;y&#39;], [&#39;let&#39;, [[&#39;result&#39;, &#39;None&#39;]], [&#39;try&#39;, [&#39;setf&#39;, &#39;result&#39;, [&#39;/&#39;, &#39;x&#39;, &#39;y&#39;]], [[&#39;ZeroDivisionError&#39;], [&#39;println&#39;, &#39;&quot;division by zero!&quot;&#39;, &#39;x&#39;, &#39;&quot;/&quot;&#39;, &#39;y&#39;], &#39;False&#39;], [&#39;:else&#39;, [&#39;println&#39;, &#39;&quot;result is&quot;&#39;, &#39;result&#39;], &#39;result&#39;], [&#39;:finally&#39;, [&#39;println&#39;, &#39;&quot;executing finally clause&quot;&#39;]]]]]
+</span><span class="line">-----
+</span><span class="line">
+</span><span class="line">processed into Python
+</span><span class="line">-----
+</span><span class="line">globals().__setitem__(&#39;division&#39;, (lambda x, y: ((lambda result: (lambda _lcls:(eval(compile(&#39;def try_block(try_clause,except_0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n&#39;,&#39;&lt;spexy&gt;&#39;,&#39;single&#39;),globals(),_lcls), _lcls)[-1])({})[&#39;try_block&#39;]((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;division by zero!&quot;, &quot; &quot;, x, &quot; &quot;, &quot;/&quot;, &quot; &quot;, y, &#39;\n&#39;))), False,)[-1]), (lambda : (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;result is&quot;, &quot; &quot;, result[0], &#39;\n&#39;))), result[0],)[-1]), (lambda : __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;executing finally clause&quot;, &#39;\n&#39;))))))([None]))))
+</span><span class="line">-----
+</span><span class="line">
+</span><span class="line">division(1, 2)
+</span><span class="line">result is 0
+</span><span class="line">executing finally clause
+</span><span class="line">result: 0
+</span><span class="line">
+</span><span class="line">division(4, 2)
+</span><span class="line">result is 2
+</span><span class="line">executing finally clause
+</span><span class="line">result: 2
+</span><span class="line">
+</span><span class="line">division(2, 0)
+</span><span class="line">division by zero! 2 / 0
+</span><span class="line">executing finally clause
+</span><span class="line">result: False
+</span><span class="line">
+</span><span class="line">it works!
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 <p>It’s pretty ugly. It’s ugly pretty. Most importantly, it’s satisfying
 the rules of Spexy. “What rules,” you ask? As I’ve been toiling over
@@ -92,15 +209,128 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Gist -- Spexy Repl Example]]></title>
+    <title type="html"><![CDATA[Gist - Spexy Repl Example]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/"/>
     <updated>2014-01-22T00:02:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example</id>
-    <content type="html"><![CDATA[<p>For those with strong stomachs</p>
+    <content type="html"><![CDATA[<p>For those with strong stomachs I present an example of <a href="https://github.com/obriencj/python-spexy">Spexy</a>, and the
+perfectly valid Python it emits</p>
 
 <!-- more -->
 
-<p>I present an example of Spexy, and the perfectly valid Python it emits</p>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>spexy repl example</span><a href="https://gist.github.com/obriencj/8567348">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+<span class="line-number">32</span>
+<span class="line-number">33</span>
+<span class="line-number">34</span>
+<span class="line-number">35</span>
+</pre></td><td class="code"><pre><code class="text"><span class="line">[siege@maybe src]$ python spexy.py
+</span><span class="line">&gt;&gt;&gt;&gt; (defun make_pair ()
+</span><span class="line">        (letrec ((value None)
+</span><span class="line">                (getter (lambda () value))
+</span><span class="line">                (setter (lambda (v) (setf value v))))
+</span><span class="line">            (make-list getter setter)))
+</span><span class="line">--&gt; globals().__setitem__(&#39;make_pair&#39;, (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
+</span><span class="line">&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
+</span><span class="line">        (define getter (getf gs 0))
+</span><span class="line">        (define setter (getf gs 1)))
+</span><span class="line">--&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__(&#39;getter&#39;, gs[0].__getitem__(0)), globals().__setitem__(&#39;setter&#39;, gs[0].__getitem__(1)),)[-1])([None]))
+</span><span class="line">&gt;&gt;&gt;&gt; (getter)
+</span><span class="line">--&gt; getter()
+</span><span class="line">&gt;&gt;&gt;&gt; getter
+</span><span class="line">--&gt; getter
+</span><span class="line">&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
+</span><span class="line">&gt;&gt;&gt;&gt; setter
+</span><span class="line">--&gt; setter
+</span><span class="line">&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
+</span><span class="line">&gt;&gt;&gt;&gt; (setter)
+</span><span class="line">--&gt; setter()
+</span><span class="line">## &lt;lambda&gt;() takes exactly 1 argument (0 given)
+</span><span class="line">&gt;&gt;&gt;&gt; (setter &quot;hello world&quot;)
+</span><span class="line">--&gt; setter(&quot;hello world&quot;)
+</span><span class="line">&gt;&gt;&gt;&gt; (getter)
+</span><span class="line">--&gt; getter()
+</span><span class="line">&#39;hello world&#39;
+</span><span class="line">&gt;&gt;&gt;&gt; (getter)
+</span><span class="line">--&gt; getter()
+</span><span class="line">&#39;hello world&#39;
+</span><span class="line">&gt;&gt;&gt;&gt; (setter &quot;919&quot;)
+</span><span class="line">--&gt; setter(&quot;919&quot;)
+</span><span class="line">&gt;&gt;&gt;&gt; (getter)
+</span><span class="line">--&gt; getter()
+</span><span class="line">&#39;919&#39;
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>more spexy repl</span><a href="https://gist.github.com/obriencj/8609890">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+</pre></td><td class="code"><pre><code class="text"><span class="line">maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
+</span><span class="line">Python 2.7.6 (default, Nov 18 2013, 15:12:51)
+</span><span class="line">[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
+</span><span class="line">Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+</span><span class="line">&gt;&gt;&gt; from spexy import repl
+</span><span class="line">&gt;&gt;&gt; from datetime import datetime
+</span><span class="line">&gt;&gt;&gt; repl(globals())
+</span><span class="line">&gt;&gt;&gt;&gt; (let ((who &quot;siege&quot;) (date 1999))
+</span><span class="line">       (letrec ((fmt &quot;Hello %s, party like it is %i!&quot;)
+</span><span class="line">                (msg (% fmt (make-tuple who date))))
+</span><span class="line">         (println msg)))
+</span><span class="line"> --&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.__setitem__(0, &quot;Hello %s, party like it is %i!&quot;), msg.__setitem__(0, (fmt[0] % (who[0], date[0],))), __import__(&#39;sys&#39;).stdout.writelines(map(str, (msg[0], &#39;\n&#39;))),)[-1])([None], [None])))([&quot;siege&quot;], [1999]))
+</span><span class="line">Hello siege, party like it is 1999!
+</span><span class="line">&gt;&gt;&gt;&gt; (println &quot;But...&quot; &quot;it isn&#39;t&quot; 1999 &quot;anymore, it&#39;s&quot; (. (datetime.now) year))
+</span><span class="line"> --&gt; __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;But...&quot;, &quot; &quot;, &quot;it isn&#39;t&quot;, &quot; &quot;, 1999, &quot; &quot;, &quot;anymore, it&#39;s&quot;, &quot; &quot;, datetime.now().year, &#39;\n&#39;)))
+</span><span class="line">But... it isn&#39;t 1999 anymore, it&#39;s 2014
+</span><span class="line">&gt;&gt;&gt;&gt; (quit)
+</span><span class="line">
+</span><span class="line">&gt;&gt;&gt; quit()
+</span><span class="line">maybe:python-spexy siege$
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 ]]></content>
   </entry>
   

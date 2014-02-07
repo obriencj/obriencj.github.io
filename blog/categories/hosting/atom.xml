@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tag: jekyll | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/tags/jekyll/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Hosting | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/categories/hosting/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
   <updated>2014-02-06T20:52:16-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Well how about Octopress instead?]]></title>
+    <title type="html"><![CDATA[Well How About Octopress Instead?]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
@@ -46,7 +46,7 @@ abandon Tumblr in favor of posting here…</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Making use of Jekyll on github.io]]></title>
+    <title type="html"><![CDATA[Making Use of Jekyll on github.io]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
     <updated>2014-01-25T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
@@ -69,6 +69,24 @@ this? Not really, no. But it may be worth the effort.</p>
 
 <p>Things to consider on a lazy and cold Sunday.</p>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Celebrating Three Years of an Unused Tumblr]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/"/>
+    <updated>2014-01-21T00:01:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr</id>
+    <content type="html"><![CDATA[<p>Tumblr let me know that this blog turned three today. It wanted me to post a picture of a cupcake, but I've spared myself that indignity.</p>
+<p>I'm reminded that I really haven't been keeping on with my resolution to document more of what I work on. I wonder if "blog more" is the dork version of "go to the gym" resolutions.</p>
+
+<!-- more -->
+
+<p>I've been up to my usual foolishness; writing silly things in Python that nobody will ever likely use. The most recent such project is&nbsp;<a href="http://github.com/obriencj/python-promises">python-promises</a>, which is what it sounds like -- a promises implementation in Python. The only interesting part (perhaps) is the transparent proxy implementation.</p>
+<p>I resurrected an older project,&nbsp;<a href="http://github.com/obriencj/python-brine">python-brine</a>, which is a library for pickling functions. Actually pickling them, not just referring to them by name as the default behavior of the pickle library would do.</p>
+<p>My&nbsp;<a href="http://github.com/obriencj/python-javatools">python-javatools</a>&nbsp;project sees a reasonable amount of use, thanks to the particulars of my employment. It's proven quite useful as a check during productization of Java bits. It's a shame that the HTML reports it generates are so glaringly ugly... I need to make friends with a UX/UI person.</p>
+<p>Once I get brine and promises a bit more fleshed out, I'll probably abandon them in favor of my next crazy idea. I've been itching to see how hard it would be to reify continuations in Python, and then actually call/return through them again. I'm giggling just thinking about it.</p>
+<p>The bukkit server has been offline for a while now. I have all of these custom mods for bukkit, and they're all terribly outdated (and some are obsoleted by in-built features). Zoe has been bugging me to get the server running again, but truth be told I'm not very interested in Minecraft lately. Maybe I will experience a personal resurgence! Looking through the&nbsp;<a href="http://tumblr.preoccupied.net/">tumblr for the server</a>&nbsp;I'm somewhat homesick for it... but not enough to actually get it set back up.</p>
 ]]></content>
   </entry>
   

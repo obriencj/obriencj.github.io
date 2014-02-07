@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Projects | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/categories/projects/atom.xml" rel="self"/>
+  <title><![CDATA[Tag: lisp | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/tags/lisp/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
   <updated>2014-02-06T20:52:16-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
@@ -14,19 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[I Wrote Up My Todo List]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/"/>
-    <updated>2014-01-26T00:01:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list</id>
-    <content type="html"><![CDATA[<p>I started to write up a <a href="/projects/ideas">TODO/Idea</a> list as a page, and now
-I am overwhelmed by how many things there are that I wanted to work
-on. And I know that there are more than what I could think to list at
-this moment…</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gist - Output of Spexy_try]]></title>
+    <title type="html"><![CDATA[gist - output of spexy_try]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/"/>
     <updated>2014-01-25T00:00:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try</id>
@@ -105,7 +93,7 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Gist - Spexy Repl Example]]></title>
+    <title type="html"><![CDATA[gist - spexy repl example]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/"/>
     <updated>2014-01-22T00:02:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example</id>
@@ -184,7 +172,7 @@ maybe:python-spexy siege$
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Spexy? Oh God What Did I Do...]]></title>
+    <title type="html"><![CDATA[Spexy? Oh god what did I do...]]></title>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
     <updated>2014-01-22T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
