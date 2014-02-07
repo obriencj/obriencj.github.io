@@ -2,6 +2,7 @@
 layout: post
 title: "Barrels of brine"
 date: 2014-02-06 22:16:40 -0500
+updated: 2014-02-07 16:30:00 -0500
 comments: true
 category: projects
 tags:
@@ -10,7 +11,6 @@ tags:
   - github
   - unittest
   - coverage
-  - draft
 
 ---
 
@@ -49,14 +49,10 @@ the value of a distributed system like git.
 
 ## Get it tested
 
-Next I took all of five seconds to "port" it from [distutils] to
+Next I took all of five minutes to "port" it from [distutils] to
 [setuptools]. I had to shuffle a few files around, but in the end it
 built and the "test" scripts (more like examples) let me confirm that
 it still worked.
-
-[distutils]: http://docs.python.org/2/distutils/
-
-[setuptools]: http://pythonhosted.org/setuptools/
 
 In the last few years one of the things that I've discovered that I
 enjoy doing is writing unit tests and getting to 100% code coverage.
@@ -82,6 +78,10 @@ detailed reporting. I was able to definitively throw out legacy
 methods in some cases, while in others I expanded upon my unit tests
 until in no time at all I'd reached the much vaunted 100% coverage.
 
+[distutils]: http://docs.python.org/2/distutils/
+
+[setuptools]: http://pythonhosted.org/setuptools/
+
 [unittest]: http://docs.python.org/2/library/unittest.html
 "unittest &mdash; Unit testing framework"
 
@@ -90,20 +90,25 @@ until in no time at all I'd reached the much vaunted 100% coverage.
 
 ## Fill in the blanks
 
-The TODO is rapidly shrinking. I added support for `functools.partial`
-tonight. I added unit tests to ensure it worked correctly via brine
-and in a barrel. I checked my coverage.
+The TODO is rapidly shrinking. Tonight I added support -- including
+unit tests -- for wrapping `functools.partial` instances.
 
-I want to tweak the timing on when a barrel brines its contents -- it
-is currently doing it too early. It needs to wait until just before
-pickling, to ensure that mutable values are no longer changing.
+I also want to add support for unbound instance methods and class
+methods. Should be trivial.
 
-I also want to add support for unbounc instance methods and class
-methods.
+The only large change I want to make involves a tweak to the timing on
+when a barrel brines its contents. Currently the values are brined
+immediately, which is too early. It needs to wait until just before
+pickling, to ensure that mutable values haven't changed.
 
-But after that... I think we're can call it a wrap. I'll let it sit
-for a week to make sure that I didn't forget anything. Maybe read over
-it once or twice. And then I'll call it 1.0.0 and post it to PyPI.
+I should look at generating proper HTML documentation. There is almost
+certainly something that is the de-facto standard for such a task, I
+only need to discover it.
+
+But after that... I think I can call it a wrap. I'll let it sit for a
+week to make sure that I didn't forget anything. Maybe read over it
+once or twice. And then I'll call it 1.0.0, tag it, and post it to
+PyPI.
 
 And maybe in another five years I'll find a reason to pick it up
 again!
