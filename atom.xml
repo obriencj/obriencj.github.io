@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-02-06T15:07:30-05:00</updated>
+  <updated>2014-02-06T19:18:52-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -101,44 +101,6 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
 <!-- more -->
 
 <p>I present an example of Spexy, and the perfectly valid Python it emits</p>
-
-<div><script src="https://gist.github.com/8567348.js"></script>
-<noscript><pre><code>[siege@maybe src]$ python spexy.py
-&gt;&gt;&gt;&gt; (defun make_pair ()
-        (letrec ((value None)
-                (getter (lambda () value))
-                (setter (lambda (v) (setf value v))))
-            (make-list getter setter)))
---&gt; globals().__setitem__(&#39;make_pair&#39;, (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
-&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
-        (define getter (getf gs 0))
-        (define setter (getf gs 1)))
---&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__(&#39;getter&#39;, gs[0].__getitem__(0)), globals().__setitem__(&#39;setter&#39;, gs[0].__getitem__(1)),)[-1])([None]))
-&gt;&gt;&gt;&gt; (getter)
---&gt; getter()
-&gt;&gt;&gt;&gt; getter
---&gt; getter
-&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
-&gt;&gt;&gt;&gt; setter
---&gt; setter
-&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
-&gt;&gt;&gt;&gt; (setter)
---&gt; setter()
-## &lt;lambda&gt;() takes exactly 1 argument (0 given)
-&gt;&gt;&gt;&gt; (setter &quot;hello world&quot;)
---&gt; setter(&quot;hello world&quot;)
-&gt;&gt;&gt;&gt; (getter)
---&gt; getter()
-&#39;hello world&#39;
-&gt;&gt;&gt;&gt; (getter)
---&gt; getter()
-&#39;hello world&#39;
-&gt;&gt;&gt;&gt; (setter &quot;919&quot;)
---&gt; setter(&quot;919&quot;)
-&gt;&gt;&gt;&gt; (getter)
---&gt; getter()
-&#39;919&#39;</code></pre></noscript></div>
-
 ]]></content>
   </entry>
   
@@ -160,11 +122,12 @@ Zolpidem guided me on battles through the multiverse on a nightly
 basis. I don’t remember a whole lot from 2007. Wish I could say the
 same for 2008, but I digress.</p>
 
-<p>At some point in our adventures, SLZ and I apparently hacked together a LISP/Scheme-like python file encoding – “spexy”.</p>
+<p>At some point in our adventures, SLZ and I apparently hacked together
+a LISP/Scheme-like python file encoding – “spexy”.</p>
 
 <p><em>Keep in mind, this isn’t a scheme interpreter written in Python.</em> No
- no no, this decodes to Python. I think I’m going to try and clean
- this up and see how much sense it can be made to make.*</p>
+no no, this decodes to Python. I think I’m going to try and clean this
+up and see how much sense it can be made to make.</p>
 
 <p>And then you can bet your ass I’m going to pollute GitHub with it.</p>
 
