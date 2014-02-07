@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>I Wrote Up My Todo List - obriencj</title>
+  <title>Barrels of Brine - obriencj</title>
   <meta name="author" content="Christopher O'Brien">
 
   
-  <meta name="description" content="">
+  <meta name="description" content="I’ve been very happy spending my evenings working with a small project
+entitled python-brine. The code is relatively straight-forward, the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list">
+  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="obriencj" type="application/atom+xml">
@@ -81,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">I Wrote Up My Todo List</h1>
+      <h1 class="entry-title">Barrels of Brine</h1>
     
     
       <p class="meta">
@@ -97,17 +98,88 @@
   
 
 
-<time datetime="2014-01-26T00:01:00-05:00" pubdate data-updated="true">Jan 26<span>th</span>, 2014</time>
+<time datetime="2014-02-06T22:16:40-05:00" pubdate data-updated="true">Feb 6<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I started to write up a <a href="/projects/ideas">TODO/Idea</a> list as a page, and now
-I am overwhelmed by how many things there are that I wanted to work
-on. And I know that there are more than what I could think to list at
-this moment…</p>
+<div class="entry-content"><p>I’ve been very happy spending my evenings working with a small project
+entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
+functionality and goals are well-defined. Put simply, brine allows you
+to pickle actual python code. For a significantly more in-depth
+explanation, click the above link and peruse the README.</p>
+
+<!-- more -->
+
+<p>Brine was originally written back in 2008. It had been written as an
+“I-wonder” rather than an “I-need” and as such it never saw use except
+in its own hackish example scripts. Thus from October of 2008 until
+January of 2014 is sat forgotten.</p>
+
+<p>And then I found it again, and decided it merited resucitation.</p>
+
+<h2 id="get-it-moved">Get it moved</h2>
+
+<p>The very first thing I did was import it to github. It had been living
+on code.google.com for all those years… with only one commit.</p>
+
+<p>Before code.google, it had been in a CVS (remember that?) repository
+on a machine which has long since disappeared. So all history for
+brine prior to that snapshot in October of 2008 is gone. A lesson in
+the value of a distributed system like git.</p>
+
+<h2 id="get-it-tested">Get it tested</h2>
+
+<p>Next I took all of five seconds to “port” it from <a href="http://docs.python.org/2/distutils/">distutils</a> to
+<a href="http://pythonhosted.org/setuptools/">setuptools</a>. I had to shuffle a few files around, but in the end it
+built and the “test” scripts (more like examples) let me confirm that
+it still worked.</p>
+
+<p>In the last few years one of the things that I’ve discovered that I
+enjoy doing is writing unit tests and getting to 100% code coverage.
+As sad as it may sounds, yes I actually have been doing that for
+fun. It’s very much like a game. The tasks are clearly defined,
+there’s a simple attainable goal of a perfect score. Right up my
+alley!</p>
+
+<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html" title="unittest &mdash; Unit testing framework">unittest</a>
+cases.</p>
+
+<p>Those tests came in handy when I started actively hacking again on the
+code itself. I’d resolved to add the remaining missing features, clean
+things up, document it – to really polish this little project up
+before setting it on a shelf again. And of course as I tinkered I
+broke it in weird and unexpected ways. But my unit tests were there to
+catch me in my errors before I strayed too far.</p>
+
+<p>And so more tests got written, and old code got untangled.</p>
+
+<p>Thank goodness for <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> – incredibly easy to use, with
+detailed reporting. I was able to definitively throw out legacy
+methods in some cases, while in others I expanded upon my unit tests
+until in no time at all I’d reached the much vaunted 100% coverage.</p>
+
+<h2 id="fill-in-the-blanks">Fill in the blanks</h2>
+
+<p>The TODO is rapidly shrinking. I added support for <code>functools.partial</code>
+tonight. I added unit tests to ensure it worked correctly via brine
+and in a barrel. I checked my coverage.</p>
+
+<p>I want to tweak the timing on when a barrel brines its contents – it
+is currently doing it too early. It needs to wait until just before
+pickling, to ensure that mutable values are no longer changing.</p>
+
+<p>I also want to add support for unbounc instance methods and class
+methods.</p>
+
+<p>But after that… I think we’re can call it a wrap. I’ll let it sit
+for a week to make sure that I didn’t forget anything. Maybe read over
+it once or twice. And then I’ll call it 1.0.0 and post it to PyPI.</p>
+
+<p>And maybe in another five years I’ll find a reason to pick it up
+again!</p>
 </div>
 
 
@@ -130,7 +202,7 @@ this moment…</p>
   
 
 
-<time datetime="2014-01-26T00:01:00-05:00" pubdate data-updated="true">Jan 26<span>th</span>, 2014</time>
+<time datetime="2014-02-06T22:16:40-05:00" pubdate data-updated="true">Feb 6<span>th</span>, 2014</time>
       
 
 <span class="categories">
@@ -144,7 +216,7 @@ this moment…</p>
 
 <span class="tags">
   
-    <a class='tag' href='/blog/tags/ideas/'>ideas</a>, <a class='tag' href='/blog/tags/projects/'>projects</a>, <a class='tag' href='/blog/tags/todo/'>todo</a>
+    <a class='tag' href='/blog/tags/brine/'>brine</a>, <a class='tag' href='/blog/tags/coverage/'>coverage</a>, <a class='tag' href='/blog/tags/draft/'>draft</a>, <a class='tag' href='/blog/tags/github/'>github</a>, <a class='tag' href='/blog/tags/python/'>python</a>, <a class='tag' href='/blog/tags/unittest/'>unittest</a>
   
 </span>
 
@@ -153,7 +225,7 @@ this moment…</p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/" data-via="obriencj" data-counturl="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/" data-via="obriencj" data-counturl="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -166,10 +238,8 @@ this moment…</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/01/25/making-use-of-jekyll-on-gihubio/" title="Previous Post: Making use of Jekyll on github.io">&laquo; Making use of Jekyll on github.io</a>
+        <a class="basic-alignment left" href="/blog/2014/01/28/well-how-about-octopress-instead/" title="Previous Post: Well how about Octopress instead?">&laquo; Well how about Octopress instead?</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/01/28/well-how-about-octopress-instead/" title="Next Post: Well how about Octopress instead?">Well how about Octopress instead? &raquo;</a>
       
     </p>
   </footer>
