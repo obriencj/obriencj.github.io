@@ -1,9 +1,13 @@
 ---
 layout: page
+meta: false
+footer: false
 title: "Projects"
 description: ""
 tagline: "that I happen to work on"
-tags: ["projects"]
+date: 2014-01-01 00:00:00 -0500
+category: site
+tags: [ projects ]
 
 ---
 
@@ -102,7 +106,7 @@ friends, not hosted elsewhere.
 
 ## Old Stuff
 
-Interests change as time goes by. 
+Interests change as time goes by.
 
 * [Pidgin] - I used to contribute to the Pidgin project, specifically
   in the arena of Sametime support.

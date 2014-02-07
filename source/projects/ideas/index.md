@@ -1,8 +1,13 @@
 ---
 layout: page
+meta: false
+footer: false
 title: "Ideas"
 description: "brainstorms and todos"
 tagline: "brainstorms and todos"
+category: site
+tags: [ projects, ideas ]
+date: 2014-01-01 00:00:00 -0500
 
 ---
 

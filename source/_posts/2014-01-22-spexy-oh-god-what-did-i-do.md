@@ -25,11 +25,12 @@ Zolpidem guided me on battles through the multiverse on a nightly
 basis. I don't remember a whole lot from 2007. Wish I could say the
 same for 2008, but I digress.
 
-At some point in our adventures, SLZ and I apparently hacked together a LISP/Scheme-like python file encoding -- "spexy".
+At some point in our adventures, SLZ and I apparently hacked together
+a LISP/Scheme-like python file encoding -- "spexy".
 
-*Keep in mind, this isn't a scheme interpreter written in Python.* No
- no no, this decodes to Python. I think I'm going to try and clean
- this up and see how much sense it can be made to make.*
+_Keep in mind, this isn't a scheme interpreter written in Python._ No
+no no, this decodes to Python. I think I'm going to try and clean this
+up and see how much sense it can be made to make.
 
 And then you can bet your ass I'm going to pollute GitHub with it.
 

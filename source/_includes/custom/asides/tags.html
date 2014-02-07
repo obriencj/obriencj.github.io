@@ -1,7 +1,12 @@
 <section>
-  <h1>Tagged Posts</h1>
-  <ul class="tag-cloud">
-{% tag_cloud font-size: 90-140%, limit: 8, style: list, sort: alpha %}
-  <li><a href="/blog/tags/">more ...</a></li>
-  </ul>
+  <h1>Tags</h1>
+
+  <div class="tag-cloud">
+  <p class="tags">
+{% tag_cloud font-size: 90-140%, limit: 10, style: para, sort: alpha %}
+  </p>
+  <p class="tag-cloud-more">
+  <a href="/blog/tags/">more &rarr;</a>
+  </p>
+  </div>
 </section>

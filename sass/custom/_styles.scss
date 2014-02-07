@@ -25,8 +25,35 @@ article > header {
     margin-bottom: 0.5em;
 }
 
-ul.tag-cloud li {
-    display: inline;
+span.tags:before {
+    content: "\2022";
+    display: inline-block;
+    padding: 0.4em 0.2em;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+div.tag-cloud {
+    padding: 0.1em;
+    margin: 0;
+    background-color: white;
+}
+
+div.tag-cloud p {
+    width: 100%;
+    margin: 0.1em 0;
+    padding: 0.1em 0;
+    text-align: justify;
+}
+
+div.tag-cloud a {
+    margin: 0.1em;
+    text-decoration: none;
 }
 
 .gist div {

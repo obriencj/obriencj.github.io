@@ -17,5 +17,3 @@ For those with strong stomachs
 <!-- more -->
 
 I present an example of Spexy, and the perfectly valid Python it emits
-
-{% gist 8567348 %}
