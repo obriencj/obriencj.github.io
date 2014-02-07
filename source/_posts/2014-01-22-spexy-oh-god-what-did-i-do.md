@@ -3,7 +3,8 @@ title: "Spexy? Oh god what did I do..."
 date: 2014-01-22 00:01:00 -0500
 comments: true
 layout: post
-categories:
+category: projects
+tags:
   - python
   - hack
   - zolpidem
