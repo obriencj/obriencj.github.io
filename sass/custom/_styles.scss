@@ -31,6 +31,14 @@ span.tags:before {
     padding: 0.4em 0.2em;
 }
 
+div.footnotes {
+    background: $img-border top left repeat-x;
+    width: 100%;
+    padding-top: 1em;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
 a {
     text-decoration: none;
 }
