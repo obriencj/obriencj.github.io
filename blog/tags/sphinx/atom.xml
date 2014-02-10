@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: sphinx | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/sphinx/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-02-10T02:31:35-05:00</updated>
+  <updated>2014-02-10T02:32:43-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -55,7 +55,7 @@ polar opposites. Pdoc will generate the API page for a module, and do
 nothing else. Sphinx will do just about anything at all as part of the
 documentation generation, API page creation just happens to be an
 addon. Above all, Sphinx is a <a href="http://docutils.sourceforge.net/rst.html">reST</a> (reStructuredText) processor.  As
-a massive convenience Sphinx offers a <code>[sphinx-apidoc]</code> quickstart
+a massive convenience Sphinx offers a <code>sphinx-apidoc</code> <a href="http://sphinx-doc.org/invocation.html#invocation-apidoc">quickstart</a>
 that will generate the base setup for building API pages. It took only
 a little while before I had nice looking docs being created. A bit
 more hacking and I’d added targets to convert my existing <code>README.md</code>
