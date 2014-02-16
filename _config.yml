@@ -4,7 +4,7 @@
 
 url: http://obriencj.preoccupied.net
 title: obriencj
-subtitle: is a pile of bits
+subtitle: "is a pile of bits"
 author: "Christopher O'Brien"
 simple_search: http://google.com/search
 description:
@@ -95,4 +95,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id: "UA-47351906-2"
 
 # Facebook Like
-facebook_like: true
+facebook_like: false
