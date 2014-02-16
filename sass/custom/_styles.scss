@@ -16,13 +16,33 @@
     /* background-color: red; */
 }
 
-#content .blog-index article {
+article {
     padding-top: 1em;
 }
 
 article > header {
     padding-top: 2.0em;
     margin-bottom: 0.5em;
+}
+
+article > footer {
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+h1.entry-title small {
+    font-size: 0.5em;
+    color: grey;
+}
+
+
+/* general */
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 span.tags:before {
@@ -39,12 +59,7 @@ div.footnotes {
     line-height: 1.2em;
 }
 
-a {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
+/* tag cloud behavior */
 
 div.tag-cloud {
     padding: 0.1em;
@@ -64,6 +79,8 @@ div.tag-cloud a {
     text-decoration: none;
 }
 
+
+/* For embedded code snippets */
 
 .gist div {
     margin: 0 0 0;
