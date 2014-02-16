@@ -53,3 +53,6 @@ visit the [projects page](/projects).
 
 If you'd like to otherwise contact me, you may find ways to do so on
 my [contact page](/about/contact).
+
+If you're looking for a tip jar, I've hidden it
+[over here](/about/support).

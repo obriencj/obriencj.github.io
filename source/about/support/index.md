@@ -1,9 +1,12 @@
 ---
 layout: page
+meta: false
+footer: false
 title: "Support"
 tagline: "if you're feeling generous"
 date: 2014-02-16 13:44
 comments: false
+category: site
 
 ---
 

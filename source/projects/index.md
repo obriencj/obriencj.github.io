@@ -3,9 +3,9 @@ layout: page
 meta: false
 footer: false
 title: "Projects"
-description: ""
 tagline: "that I happen to work on"
 date: 2014-01-01 00:00:00 -0500
+comments: false
 category: site
 tags: [ projects ]
 
