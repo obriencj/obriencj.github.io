@@ -58,6 +58,8 @@ I imported this a few days ago from an old CVS checkout. It's
 currently living in GitHub in a non-working state. I'd love to get my
 brain wrapped around this and really get it working.
 
+[More on sibilant](/projects/ideas/sibilant/)
+
 
 ## python call/cc
 __reified continuations in python__
