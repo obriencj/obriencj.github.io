@@ -24,7 +24,7 @@ the starting point for any future hacking.
 [re-discovered]: /blog/2014/01/22/spexy-oh-god-what-did-i-do/
 [imported sibilant]: https://github.com/obriencj/python-sibilant
 
-# Sibilant Goals
+## Sibilant Goals
 
 * Python 3
 * Scheme-like (LISP1, not LISP2)
@@ -52,9 +52,9 @@ the starting point for any future hacking.
 * should support multimethods and CLOS-style class definitions
   (dispatching to Pythonic classes? Maybe a metaclass?)
 
-# Related
+## Related
 
-## Clojure
+### Clojure
 There is already a serious and strong LISP that runs on Python, and it
 is [Clojure]. If anyone were to ask me, "should I use Sibilant?" I
 would tell them to look to [Python Clojure] instead. Clojure has a real
@@ -67,7 +67,7 @@ Python platforms.
 [Clojure]: http://clojure.org/
 [Python Clojure]: https://github.com/halgari/clojure-py
 
-## Sibilant Javascript
+### Sibilant Javascript
 
 There is also another project that has come into existence named
 "sibilant". What with it being a dictionary word meaning loosely
