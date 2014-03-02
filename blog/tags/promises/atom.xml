@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: promises | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/promises/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-03-02T18:12:52-05:00</updated>
+  <updated>2014-03-02T18:15:33-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -18,8 +18,8 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/"/>
     <updated>2014-03-02T14:16:30-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises</id>
-    <content type="html"><![CDATA[<p>It’s beautiful, this fine sunny Sunay. Zoe is outside playing with the
-neighbors and I’m relaxing in the breeze. I’m working on a bit of
+    <content type="html"><![CDATA[<p>It’s beautiful, this fine sunny Sunday. Zoe is outside playing with
+the neighbors and I’m relaxing in the breeze. I’m working on a bit of
 clean-up coding from yesterday’s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
 I had finally gotten around to <a href="https://gist.github.com/obriencj/9298654">writing</a> a unit test
 harness for the XML-RPC multicall promise bits. I was so excited to
@@ -40,6 +40,9 @@ docstrings and getting them into the format that <a href="https://github.com/num
 for <a href="http://obriencj.preoccupied.net/python-promises/">the documentation</a>. That can be what I work on in the evenings in
 bed, this week.</p>
 
+<p>I’ll let the project sit for a bit, and see if anything else crops up
+that needs changing. But if all goes well, I think I’ll be tagging
+version 1.0.0 soon, and posting the module up on PyPI.</p>
 ]]></content>
   </entry>
   
