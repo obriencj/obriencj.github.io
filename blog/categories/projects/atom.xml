@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Projects | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/categories/projects/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-02-22T20:04:41-05:00</updated>
+  <updated>2014-03-02T18:12:52-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Delivering on Promises]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/"/>
+    <updated>2014-03-02T14:16:30-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises</id>
+    <content type="html"><![CDATA[<p>It’s beautiful, this fine sunny Sunay. Zoe is outside playing with the
+neighbors and I’m relaxing in the breeze. I’m working on a bit of
+clean-up coding from yesterday’s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
+I had finally gotten around to <a href="https://gist.github.com/obriencj/9298654">writing</a> a unit test
+harness for the XML-RPC multicall promise bits. I was so excited to
+have that working that I charged through writing tests and fixing bugs
+for the multiprocess and multithread modules as well. Before I knew
+it, my promises module was looking darn-near worthy of a 1.0</p>
+
+<!-- more -->
+
+<p>As I had done before with <a href="http://github.com/obriencj/python-brine">brine</a> I went ahead and set up <a href="https://travis-ci.org/obriencj/python-promises">travis.ci</a>
+and <a href="https://coveralls.io/r/obriencj/python-promises?branch=master">coveralls.io</a> hooks. I am still astounded (and grateful) that
+there’s such infrastructure available gratis to the open source
+community.</p>
+
+<p>I’ve also started the more tedious task of going through the
+docstrings and getting them into the format that <a href="https://github.com/numpy/numpydoc">numpydocs</a> and
+<a href="http://sphinx-doc.org/">sphinx</a> are expecting. I need to write up significantly more examples
+for <a href="http://obriencj.preoccupied.net/python-promises/">the documentation</a>. That can be what I work on in the evenings in
+bed, this week.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python, Sphinx, and GitHUB]]></title>
@@ -275,85 +305,6 @@ project – it’s a puzzle! The inspiration was never “I need a tool
 that will do…” it was “I wonder if I can…” and from there sprung
 up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#concept">rules</a>.</p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gist - Spexy Repl Example]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/"/>
-    <updated>2014-01-22T00:02:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example</id>
-    <content type="html"><![CDATA[<p>For those with strong stomachs I present an example of <a href="https://github.com/obriencj/python-spexy">Spexy</a>, and the
-perfectly valid Python it emits</p>
-
-<!-- more -->
-
-<p><code>text spexy repl example https://gist.github.com/obriencj/8567348 Gist
-[siege@maybe src]$ python spexy.py
-&gt;&gt;&gt;&gt; (defun make_pair ()
-        (letrec ((value None)
-                (getter (lambda () value))
-                (setter (lambda (v) (setf value v))))
-            (make-list getter setter)))
---&gt; globals().__setitem__('make_pair', (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
-&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
-        (define getter (getf gs 0))
-        (define setter (getf gs 1)))
---&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__('getter', gs[0].__getitem__(0)), globals().__setitem__('setter', gs[0].__getitem__(1)),)[-1])([None]))
-&gt;&gt;&gt;&gt; (getter)
---&gt; getter()
-&gt;&gt;&gt;&gt; getter
---&gt; getter
-&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
-&gt;&gt;&gt;&gt; setter
---&gt; setter
-&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
-&gt;&gt;&gt;&gt; (setter)
---&gt; setter()
-## &lt;lambda&gt;() takes exactly 1 argument (0 given)
-&gt;&gt;&gt;&gt; (setter "hello world")
---&gt; setter("hello world")
-&gt;&gt;&gt;&gt; (getter)
---&gt; getter()
-'hello world'
-&gt;&gt;&gt;&gt; (getter)
---&gt; getter()
-'hello world'
-&gt;&gt;&gt;&gt; (setter "919")
---&gt; setter("919")
-&gt;&gt;&gt;&gt; (getter)
---&gt; getter()
-'919'
-</code></p>
-
-<p>```text more spexy repl https://gist.github.com/obriencj/8609890 Gist
-maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
-Python 2.7.6 (default, Nov 18 2013, 15:12:51)
-[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
-Type “help”, “copyright”, “credits” or “license” for more information.
-»&gt; from spexy import repl
-»&gt; from datetime import datetime
-»&gt; repl(globals())
-»» (let ((who “siege”) (date 1999))
-       (letrec ((fmt “Hello %s, party like it is %i!”)
-                (msg (% fmt (make-tuple who date))))
-         (println msg)))
- –&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.<strong>setitem</strong>(0, “Hello %s, party like it is %i!”), msg.<strong>setitem</strong>(0, (fmt[0] % (who[0], date[0],))), <strong>import</strong>(‘sys’).stdout.writelines(map(str, (msg[0], ‘\n’))),)[-1])([None], [None])))([“siege”], [1999]))
-Hello siege, party like it is 1999!
-»» (println “But…” “it isn’t” 1999 “anymore, it’s” (. (datetime.now) year))
- –&gt; <strong>import</strong>(‘sys’).stdout.writelines(map(str, (“But…”, “ “, “it isn’t”, “ “, 1999, “ “, “anymore, it’s”, “ “, datetime.now().year, ‘\n’)))
-But… it isn’t 1999 anymore, it’s 2014
-»» (quit)</p>
-
-<blockquote>
-  <blockquote>
-    <blockquote>
-      <p>quit()
-maybe:python-spexy siege$
-```</p>
-    </blockquote>
-  </blockquote>
-</blockquote>
 ]]></content>
   </entry>
   

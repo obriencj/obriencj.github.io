@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: python | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/python/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-02-22T20:04:41-05:00</updated>
+  <updated>2014-03-02T18:12:52-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Delivering on Promises]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/"/>
+    <updated>2014-03-02T14:16:30-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises</id>
+    <content type="html"><![CDATA[<p>It’s beautiful, this fine sunny Sunay. Zoe is outside playing with the
+neighbors and I’m relaxing in the breeze. I’m working on a bit of
+clean-up coding from yesterday’s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
+I had finally gotten around to <a href="https://gist.github.com/obriencj/9298654">writing</a> a unit test
+harness for the XML-RPC multicall promise bits. I was so excited to
+have that working that I charged through writing tests and fixing bugs
+for the multiprocess and multithread modules as well. Before I knew
+it, my promises module was looking darn-near worthy of a 1.0</p>
+
+<!-- more -->
+
+<p>As I had done before with <a href="http://github.com/obriencj/python-brine">brine</a> I went ahead and set up <a href="https://travis-ci.org/obriencj/python-promises">travis.ci</a>
+and <a href="https://coveralls.io/r/obriencj/python-promises?branch=master">coveralls.io</a> hooks. I am still astounded (and grateful) that
+there’s such infrastructure available gratis to the open source
+community.</p>
+
+<p>I’ve also started the more tedious task of going through the
+docstrings and getting them into the format that <a href="https://github.com/numpy/numpydoc">numpydocs</a> and
+<a href="http://sphinx-doc.org/">sphinx</a> are expecting. I need to write up significantly more examples
+for <a href="http://obriencj.preoccupied.net/python-promises/">the documentation</a>. That can be what I work on in the evenings in
+bed, this week.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python, Sphinx, and GitHUB]]></title>
@@ -342,45 +372,6 @@ maybe:python-spexy siege$
     </blockquote>
   </blockquote>
 </blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spexy? Oh god what did I do...]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
-    <updated>2014-01-22T00:01:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
-    <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
-Something I’d forgotten. Something that is so bizarre I’m not even
-sure what I was thinking when I hacked at it. Something I had to
-double check that I’d actually written, because it was so foreign to
-me.</p>
-
-<!-- more -->
-
-<p>Then I noticed the date. Ah 2007, the Ambien era. When Space Lord
-Zolpidem guided me on battles through the multiverse on a nightly
-basis. I don’t remember a whole lot from 2007. Wish I could say the
-same for 2008, but I digress.</p>
-
-<p>At some point in our adventures, SLZ and I apparently hacked together
-a LISP/Scheme-like python file encoding – “spexy”.</p>
-
-<p><em>Keep in mind, this isn’t a scheme interpreter written in Python.</em> No
-no no, this decodes to Python. I think I’m going to try and clean this
-up and see how much sense it can be made to make.</p>
-
-<p>And then you can bet your ass I’m going to pollute GitHub with it.</p>
-
-<p>Stay off drugs, kids.</p>
-
-<hr />
-
-<ul>
-  <li>2014-01-23: it’s up on GitHub now – <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
-  <li>2014-02-03: originally posted to Tumblr, moved over here</li>
-</ul>
-
 ]]></content>
   </entry>
   
