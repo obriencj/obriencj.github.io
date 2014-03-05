@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-03-02T18:15:33-05:00</updated>
+  <updated>2014-03-05T18:44:53-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Brine on the Wire]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/"/>
+    <updated>2014-03-05T13:00:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire</id>
+    <content type="html"><![CDATA[<p>I realized while hacking on the test cases for the <a href="http://github.com/obriencj/python-promises">promises</a>
+multiprocess module that it would be really useful if I could easily
+pass along anonymous functions. So I threw together a new
+<a href="http://obriencj.preoccupied.net/python-brine/queues/">queues module</a> for <a href="http://github.com/obriencj/python-brine">brine</a> that provides some <a href="http://docs.python.org/2/library/multiprocessing.html#multiprocessing.Queue">Queue</a> subclasses
+which automatically brine/unbrine any passed work.</p>
+
+<p>This got me to thinking about the potential for sending code between
+processes, or even between machines. Certainly powerful, but also
+hazardous.</p>
+
+<!-- more -->
+
+<p>One possible application of such ridiculousness is in passing
+higher-order functions around over queues such that multiprocessing
+can execute them and pass the new function back to the controller. I
+can envision a trampoline-like model that could cross processors or
+even machines. Of course that is remote code execution. And holy-shit
+is that ever a can of worms.</p>
+
+<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/" title="Phillip Jones on G+">good friend</a>, I could implement a signing
+step. When unpickling callable code it could be checked for a proper
+signature and an exception raised if something were amiss. It could
+use out-of-band key exchange or a certificate-based system… but I am
+torn as to whether I should be providing such a facility or if it
+properly ought to live in whatever transport layer a user comes up
+with. Should I rely on everyone else to secure their communications
+and to verify the messages being sent?  Or should I do the work to
+craft a verification step that is in-built?</p>
+
+<p>This is likely moot as I doubt anyone will ever use this – even I
+don’t actually have a use for it! The project only exists because I
+was once told <em>“you can’t pickle functions,”</em> and I thought, <em>“the
+hell I can’t!”</em> However, I feel that if I’ve made such a tool freely
+available (and I have) I should also take some care that it can be
+used responsibly.</p>
+
+<p>There is a light-on-details <a href="http://sourceforge.net/projects/trustedpickle/">TrustedPickle</a> project, but I cannot help
+noticing it commits one of the major sins in cryptogrophy –
+unnecessarily re-implementing things themselves. And there are no
+tests cases. And it was last updated in 2003.</p>
+
+<p>Setting up a pickle-like module (or wrapper) that automatically
+creates and attaches a cryptographic signature seems to be useful
+enough to warrant some attention. Connecting that to a Queue
+implementation that performs the sign/verify steps transparently would
+be simple enough. This may become another entry for my
+<a href="http://obriencj.preoccupied.net/projects/ideas">ideas</a> page…</p>
+
+<hr />
+
+<p><em>Note: I <a href="https://plus.google.com/114793537781613459114/posts/gY8zXQjefEJ">posted</a> about this topic on G+ as well. I should probably
+have written it up here first… oh well, next time</em></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Delivering on Promises]]></title>

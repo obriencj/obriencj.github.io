@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Projects | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/categories/projects/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-03-02T18:15:33-05:00</updated>
+  <updated>2014-03-05T18:44:53-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Brine on the Wire]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/"/>
+    <updated>2014-03-05T13:00:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire</id>
+    <content type="html"><![CDATA[<p>I realized while hacking on the test cases for the <a href="http://github.com/obriencj/python-promises">promises</a>
+multiprocess module that it would be really useful if I could easily
+pass along anonymous functions. So I threw together a new
+<a href="http://obriencj.preoccupied.net/python-brine/queues/">queues module</a> for <a href="http://github.com/obriencj/python-brine">brine</a> that provides some <a href="http://docs.python.org/2/library/multiprocessing.html#multiprocessing.Queue">Queue</a> subclasses
+which automatically brine/unbrine any passed work.</p>
+
+<p>This got me to thinking about the potential for sending code between
+processes, or even between machines. Certainly powerful, but also
+hazardous.</p>
+
+<!-- more -->
+
+<p>One possible application of such ridiculousness is in passing
+higher-order functions around over queues such that multiprocessing
+can execute them and pass the new function back to the controller. I
+can envision a trampoline-like model that could cross processors or
+even machines. Of course that is remote code execution. And holy-shit
+is that ever a can of worms.</p>
+
+<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/" title="Phillip Jones on G+">good friend</a>, I could implement a signing
+step. When unpickling callable code it could be checked for a proper
+signature and an exception raised if something were amiss. It could
+use out-of-band key exchange or a certificate-based system… but I am
+torn as to whether I should be providing such a facility or if it
+properly ought to live in whatever transport layer a user comes up
+with. Should I rely on everyone else to secure their communications
+and to verify the messages being sent?  Or should I do the work to
+craft a verification step that is in-built?</p>
+
+<p>This is likely moot as I doubt anyone will ever use this – even I
+don’t actually have a use for it! The project only exists because I
+was once told <em>“you can’t pickle functions,”</em> and I thought, <em>“the
+hell I can’t!”</em> However, I feel that if I’ve made such a tool freely
+available (and I have) I should also take some care that it can be
+used responsibly.</p>
+
+<p>There is a light-on-details <a href="http://sourceforge.net/projects/trustedpickle/">TrustedPickle</a> project, but I cannot help
+noticing it commits one of the major sins in cryptogrophy –
+unnecessarily re-implementing things themselves. And there are no
+tests cases. And it was last updated in 2003.</p>
+
+<p>Setting up a pickle-like module (or wrapper) that automatically
+creates and attaches a cryptographic signature seems to be useful
+enough to warrant some attention. Connecting that to a Queue
+implementation that performs the sign/verify steps transparently would
+be simple enough. This may become another entry for my
+<a href="/projects/ideas">ideas</a> page…</p>
+
+<hr />
+
+<p><em>Note: I <a href="https://plus.google.com/114793537781613459114/posts/gY8zXQjefEJ">posted</a> about this topic on G+ as well. I should probably
+have written it up here first… oh well, next time</em></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Delivering on Promises]]></title>
@@ -229,85 +290,6 @@ again!</p>
 I am overwhelmed by how many things there are that I wanted to work
 on. And I know that there are more than what I could think to list at
 this moment…</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gist - Output of Spexy_try]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/"/>
-    <updated>2014-01-25T00:00:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try</id>
-    <content type="html"><![CDATA[<p>Because it’s Friday night and I have nothing else going on, I’ve been
-hacking away at <a href="https://github.com/obriencj/python-spexy">Spexy</a> again. It remains an utterly insane body of
-work, which no clear-minded individual should approach with a straight
-face.</p>
-
-<!-- more -->
-
-<p>But… I’m surprised how the me from 2007 thought some of the features
-through – especially taking into consideration the
-<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif" title="Come with me on an adventure you'll never remember">state of my brain</a> at the time. The module itself runs the input code
-through distinct parsing and evaluation steps, which includes a macro
-expansion pass before moving on to specials. I get the idea that I may
-have intended to write parts of Spexy <strong>in</strong> Spexy once I got
-<code>defmacro</code> support written. Maybe that can be next.</p>
-
-<p>On this fine (albeit very cold) evening, I suffered a fit of
-inspiration (and giggling). When the dust settled, Spexy had gained
-support for <code>try/except</code> expressions.</p>
-
-<p>```text output of spexy_try https://gist.github.com/obriencj/8610594 Gist
-maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
-The original spexy source is
-—–
-(defun division (x y)
-  (let ((result None))
-    (try
-      (setf result (/ x y))</p>
-
-<pre><code>  ((ZeroDivisionError)
-    (println "division by zero!" x "/" y)
-    False)
-  (:else
-    (println "result is" result)
-    result)
-  (:finally
-    (println "executing finally clause"))))) -----
-</code></pre>
-
-<h2 id="parses-into-tree">parses into tree</h2>
-<p>[‘defun’, ‘division’, [‘x’, ‘y’], [‘let’, [[‘result’, ‘None’]], [‘try’, [‘setf’, ‘result’, [’/’, ‘x’, ‘y’]], [[‘ZeroDivisionError’], [‘println’, ‘“division by zero!”’, ‘x’, ‘”/”’, ‘y’], ‘False’], [‘:else’, [‘println’, ‘“result is”’, ‘result’], ‘result’], [‘:finally’, [‘println’, ‘“executing finally clause”’]]]]]
-—–</p>
-
-<h2 id="processed-into-python">processed into Python</h2>
-<p>globals().<strong>setitem</strong>(‘division’, (lambda x, y: ((lambda result: (lambda <em>lcls:(eval(compile(‘def try_block(try_clause,except</em>0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n’,’<spexy>','single'),globals(),_lcls), _lcls)[-1])({})['try_block']((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__('sys').stdout.writelines(map(str, ("division by zero!", " ", x, " ", "/", " ", y, '\n'))), False,)[-1]), (lambda : (__import__('sys').stdout.writelines(map(str, ("result is", " ", result[0], '\n'))), result[0],)[-1]), (lambda : __import__('sys').stdout.writelines(map(str, ("executing finally clause", '\n'))))))([None]))))
------</spexy></p>
-
-<p>division(1, 2)
-result is 0
-executing finally clause
-result: 0</p>
-
-<p>division(4, 2)
-result is 2
-executing finally clause
-result: 2</p>
-
-<p>division(2, 0)
-division by zero! 2 / 0
-executing finally clause
-result: False</p>
-
-<p>it works!
-```</p>
-
-<p>It’s pretty ugly. It’s ugly pretty. Most importantly, it’s satisfying
-the rules of Spexy. “What rules,” you ask? As I’ve been toiling over
-this I’ve remembered more about just why the thing exists. It’s not a
-project – it’s a puzzle! The inspiration was never “I need a tool
-that will do…” it was “I wonder if I can…” and from there sprung
-up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#concept">rules</a>.</p>
-
 ]]></content>
   </entry>
   

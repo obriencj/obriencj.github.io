@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Tag: Github - obriencj</title>
+  <title>Brine on the Wire - obriencj</title>
   <meta name="author" content="Christopher O'Brien">
 
   
-  <meta name="description" content="Tag: github">
+  <meta name="description" content="I realized while hacking on the test cases for the promises
+multiprocess module that it would be really useful if I could easily
+pass along anonymous &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://obriencj.preoccupied.netblog/tags/github">
+  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="obriencj" type="application/atom+xml">
@@ -77,61 +79,147 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Tag: Github</h1>
+    
+      <h1 class="entry-title">Brine on the Wire</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-05T13:00:00-05:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="tag">
 
 
+<div class="entry-content"><p>I realized while hacking on the test cases for the <a href="http://github.com/obriencj/python-promises">promises</a>
+multiprocess module that it would be really useful if I could easily
+pass along anonymous functions. So I threw together a new
+<a href="http://obriencj.preoccupied.net/python-brine/queues/">queues module</a> for <a href="http://github.com/obriencj/python-brine">brine</a> that provides some <a href="http://docs.python.org/2/library/multiprocessing.html#multiprocessing.Queue">Queue</a> subclasses
+which automatically brine/unbrine any passed work.</p>
 
-  
-  <h2>2014</h2>
+<p>This got me to thinking about the potential for sending code between
+processes, or even between machines. Certainly powerful, but also
+hazardous.</p>
 
-<article>
-  
+<!-- more -->
 
-<h1><a href="/blog/2014/02/09/python/">Python, Sphinx, and GitHUB</a></h1>
-<time datetime="2014-02-09T22:20:51-05:00" pubdate><span class='month'>Feb</span> <span class='day'>09</span> <span class='year'>2014</span></time>
+<p>One possible application of such ridiculousness is in passing
+higher-order functions around over queues such that multiprocessing
+can execute them and pass the new function back to the controller. I
+can envision a trampoline-like model that could cross processors or
+even machines. Of course that is remote code execution. And holy-shit
+is that ever a can of worms.</p>
 
-<footer>
+<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/" title="Phillip Jones on G+">good friend</a>, I could implement a signing
+step. When unpickling callable code it could be checked for a proper
+signature and an exception raised if something were amiss. It could
+use out-of-band key exchange or a certificate-based system… but I am
+torn as to whether I should be providing such a facility or if it
+properly ought to live in whatever transport layer a user comes up
+with. Should I rely on everyone else to secure their communications
+and to verify the messages being sent?  Or should I do the work to
+craft a verification step that is in-built?</p>
 
-  <span class="categories">posted in <a class='category' href='/blog/categories/hosting/'>hosting</a>, <a class='category' href='/blog/categories/projects/'>projects</a></span>
+<p>This is likely moot as I doubt anyone will ever use this – even I
+don’t actually have a use for it! The project only exists because I
+was once told <em>“you can’t pickle functions,”</em> and I thought, <em>“the
+hell I can’t!”</em> However, I feel that if I’ve made such a tool freely
+available (and I have) I should also take some care that it can be
+used responsibly.</p>
 
+<p>There is a light-on-details <a href="http://sourceforge.net/projects/trustedpickle/">TrustedPickle</a> project, but I cannot help
+noticing it commits one of the major sins in cryptogrophy –
+unnecessarily re-implementing things themselves. And there are no
+tests cases. And it was last updated in 2003.</p>
 
-  <span class="tags">tagged with <a class='tag' href='/blog/tags/epydoc/'>epydoc</a>, <a class='tag' href='/blog/tags/github/'>github</a>, <a class='tag' href='/blog/tags/pdoc/'>pdoc</a>, <a class='tag' href='/blog/tags/python/'>python</a>, <a class='tag' href='/blog/tags/sphinx/'>sphinx</a></span>
+<p>Setting up a pickle-like module (or wrapper) that automatically
+creates and attaches a cryptographic signature seems to be useful
+enough to warrant some attention. Connecting that to a Queue
+implementation that performs the sign/verify steps transparently would
+be simple enough. This may become another entry for my
+<a href="/projects/ideas">ideas</a> page…</p>
 
-</footer>
+<hr />
 
-
-</article>
-
-
-
-<article>
-  
-
-<h1><a href="/blog/2014/02/06/barrels-of-brine/">Barrels of brine</a></h1>
-<time datetime="2014-02-06T22:16:40-05:00" pubdate><span class='month'>Feb</span> <span class='day'>06</span> <span class='year'>2014</span></time>
-
-<footer>
-
-  <span class="categories">posted in <a class='category' href='/blog/categories/projects/'>projects</a></span>
-
-
-  <span class="tags">tagged with <a class='tag' href='/blog/tags/brine/'>brine</a>, <a class='tag' href='/blog/tags/coverage/'>coverage</a>, <a class='tag' href='/blog/tags/github/'>github</a>, <a class='tag' href='/blog/tags/python/'>python</a>, <a class='tag' href='/blog/tags/unittest/'>unittest</a></span>
-
-</footer>
-
-
-</article>
+<p><em>Note: I <a href="https://plus.google.com/114793537781613459114/posts/gY8zXQjefEJ">posted</a> about this topic on G+ as well. I should probably
+have written it up here first… oh well, next time</em></p>
 
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Christopher O'Brien</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-05T13:00:00-05:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/projects/'>projects</a>
+  
+</span>
+
+
+      
+
+<span class="tags">
+  
+    <a class='tag' href='/blog/tags/brine/'>brine</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/" data-via="obriencj" data-counturl="http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/03/02/delivering-on-promises/" title="Previous Post: Delivering on Promises">&laquo; Delivering on Promises</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>

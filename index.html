@@ -9,9 +9,9 @@
   <meta name="author" content="Christopher O'Brien">
 
   
-  <meta name="description" content="It’s beautiful, this fine sunny Sunday. Zoe is outside playing with
-the neighbors and I’m relaxing in the breeze. I’m working on a bit of
-clean-up &hellip;">
+  <meta name="description" content="I realized while hacking on the test cases for the promises
+multiprocess module that it would be really useful if I could easily
+pass along anonymous &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,55 @@ clean-up &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/05/brine-on-the-wire/">Brine on the Wire</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-05T13:00:00-05:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I realized while hacking on the test cases for the <a href="http://github.com/obriencj/python-promises">promises</a>
+multiprocess module that it would be really useful if I could easily
+pass along anonymous functions. So I threw together a new
+<a href="http://obriencj.preoccupied.net/python-brine/queues/">queues module</a> for <a href="http://github.com/obriencj/python-brine">brine</a> that provides some <a href="http://docs.python.org/2/library/multiprocessing.html#multiprocessing.Queue">Queue</a> subclasses
+which automatically brine/unbrine any passed work.</p>
+
+<p>This got me to thinking about the potential for sending code between
+processes, or even between machines. Certainly powerful, but also
+hazardous.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/03/05/brine-on-the-wire/">continue &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
@@ -477,51 +526,6 @@ perfectly valid Python it emits</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/22/spexy-oh-god-what-did-i-do/">Spexy? Oh God What Did I Do&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-01-22T00:01:00-05:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
-Something I’d forgotten. Something that is so bizarre I’m not even
-sure what I was thinking when I hacked at it. Something I had to
-double check that I’d actually written, because it was so foreign to
-me.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/01/22/spexy-oh-god-what-did-i-do/">continue &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -535,6 +539,10 @@ me.</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/03/05/brine-on-the-wire/">Brine on the Wire</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/03/02/delivering-on-promises/">Delivering on Promises</a>
@@ -552,10 +560,6 @@ me.</p>
         <a href="/blog/2014/02/06/barrels-of-brine/">Barrels of Brine</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2014/01/28/well-how-about-octopress-instead/">Well How About Octopress Instead?</a>
-      </li>
-    
   </ul>
 </section>
 <section>
@@ -563,6 +567,7 @@ me.</p>
 
   <div class="tag-cloud">
   <p class="tags">
+<a style="font-size: 109%" href="/blog/tags/brine/">brine</a>
 <a style="font-size: 109%" href="/blog/tags/gist/">gist</a>
 <a style="font-size: 109%" href="/blog/tags/github/">github</a>
 <a style="font-size: 109%" href="/blog/tags/github-dot-io/">github.io</a>
@@ -570,7 +575,6 @@ me.</p>
 <a style="font-size: 90%" href="/blog/tags/ideas/">ideas</a>
 <a style="font-size: 109%" href="/blog/tags/jekyll/">jekyll</a>
 <a style="font-size: 121%" href="/blog/tags/lisp/">lisp</a>
-<a style="font-size: 90%" href="/blog/tags/projects/">projects</a>
 <a style="font-size: 140%" href="/blog/tags/python/">python</a>
 <a style="font-size: 121%" href="/blog/tags/spexy/">spexy</a>
 
