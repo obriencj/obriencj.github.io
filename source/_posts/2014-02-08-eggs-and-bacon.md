@@ -3,16 +3,14 @@ layout: post
 title: "Eggs and Bacon"
 date: 2014-02-08 13:00:04 -0500
 comments: true
-categories:
-  - personal
+category: personal
+tags:
   - food
   - brine
 
 ---
 
 Let me tell you about breakfast.
-
-<!-- more -->
 
 I woke up this morning, and immediately started hacking on [brine],
 finally revamping the last major issue that had been bothering
@@ -21,6 +19,8 @@ me. Whipped up the unit tests to cover the new changes. Blam, [pushed].
 [brine]: https://github.com/obriencj/python-brine/
 
 [pushed]: https://github.com/obriencj/python-brine/commit/902a23cb5683336d54eda4a5a05b00f8142727c3
+
+<!-- more -->
 
 
 ## Late Night Not-so-hacking
