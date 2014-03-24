@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: brine | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/brine/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-03-05T18:44:53-05:00</updated>
+  <updated>2014-03-24T19:23:15-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -71,6 +71,163 @@ be simple enough. This may become another entry for my
 <p><em>Note: I <a href="https://plus.google.com/114793537781613459114/posts/gY8zXQjefEJ">posted</a> about this topic on G+ as well. I should probably
 have written it up here first… oh well, next time</em></p>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eggs and Bacon]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon/"/>
+    <updated>2014-02-08T13:00:04-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon</id>
+    <content type="html"><![CDATA[<p>Let me tell you about breakfast.</p>
+
+<p>I woke up this morning, and immediately started hacking on <a href="https://github.com/obriencj/python-brine/">brine</a>,
+finally revamping the last major issue that had been bothering
+me. Whipped up the unit tests to cover the new changes. Blam, <a href="https://github.com/obriencj/python-brine/commit/902a23cb5683336d54eda4a5a05b00f8142727c3">pushed</a>.</p>
+
+<!-- more -->
+
+<h2 id="late-night-not-so-hacking">Late Night Not-so-hacking</h2>
+
+<p>Last night, I’d decided to pay a visit to an old haunt of mine – the
+<a href="http://ambassadorcinemas.com/joomla/index.php?option=com_content&amp;task=view&amp;id=207">Rialto Theatre</a>. Thinking to just lounge around amidst the noise of
+that cult classic the <a href="http://lickitlips.com/">Rocky Horror Picture Show</a> and maybe poke
+around a bit at either <a href="https://github.com/obriencj/python-brine/">brine</a> or <a href="https://github.com/obriencj/python-spexy/">spexy</a>. No serious work, just
+sitting in the sea of sound and riding the distraction.</p>
+
+<p>It proved too distracting.</p>
+
+<p>Mind you, I’ve had success with this in the past. There are nights
+where hanging in the lobby gets you just enough volume to make you pay
+attention to the things in front of you. My friend <a href="https://plus.google.com/+MikeMcLean/">Mike</a> has made me
+dwell more consciously on this phenomenon, where before I rode through
+it unawares.</p>
+
+<p>But last night, there was simply too much going on. Too many people
+that I wanted to pay attention to. I started thinking about approaching
+the problems with barrel, and moments later I’d lose all focus. So I
+packed it in, bailed-out, and head home.</p>
+
+<p>And this is why I don’t feel bad for sleeping in until 11am and
+subsequently staying there working on my changes in peace and quiet.</p>
+
+<p>But this post isn’t about my sleep schedule.</p>
+
+<h2 id="bacon-amp-eggs">Bacon &amp; Eggs</h2>
+
+<p>Today I am going to share with you the secrets of the lazy bastard
+version of bacon and eggs. And toast. And coffee.</p>
+
+<p>You will require the following:</p>
+
+<ul>
+  <li>a stove</li>
+  <li>coffee maker</li>
+  <li>instant coffee <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></li>
+  <li>a coffee mug <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
+  <li>a toaster</li>
+  <li>two slices of bread</li>
+  <li>a fork</li>
+  <li>a frying pan</li>
+  <li>half&amp;half</li>
+  <li>two eggs</li>
+  <li>two or three slices of bacon</li>
+  <li>a clean paper towel</li>
+  <li>a jar of horrors <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></li>
+</ul>
+
+<p>There’s no butter on that list. Because all my butter is spoiled, and
+even when I buy butter, I forget to use it and it spoils. Other people
+bring me butter sometimes, and then they cook. When they leave, they
+leave the butter. And then the butter spoils. So I never bother trying
+to cook with butter.</p>
+
+<p>Begin by starting the coffee. If all else goes well, it will be done
+by the time everything else is. If everything else goes to hell, well
+at least you’ll have the coffee.</p>
+
+<p>Next grab your frying pan. If it’s dirty from yesterday’s breakfast,
+clean it off under running water. If for some reason you have a clean
+pan, give it a quick rinse anyway. Don’t bother to dry it off.</p>
+
+<p>Switch on the eye, and set the damp frying pan on it. While it heats
+up, listen for the sizzle of water to let you know it’s actually doing
+something. This is the perfect time to fight with the <a href="http://michaelkelly.artofeurope.com/orb1.htm">cling-film</a> you
+keep the bacon in. Once you’ve obtained the (two-to-three slices of)
+bacon from its shimmering coccoon, toss them into the pan. Lovingly
+re-wrap the remainder and put away in the fridge.</p>
+
+<p>Employ the fork on the bacon. Get it arranged, press it down. Play
+with it, whatever. I don’t know how to describe the act of cooking
+bacon, just make something up. Eventually the individual strips will
+have shrunk to what looks like the right size and the right color.
+When you feel happy with how things are coming along, pluck them from
+the pan and drop them onto the paper towel. The towel will soak up the
+burning hot grease while you continue work on the next step. Switch
+off the stove eye.</p>
+
+<p>Pour the grease from the pan into the jar of horrors. Be careful, it’s
+bad if you screw this step up. A hot grease spill will ruin your
+morning like nothing else. If you do not have a jar of horrors, you
+can create one by taking an empty pickle jar and pouring hot bacon
+grease into it.</p>
+
+<p>Set the pan aside somewhere stable. There will be a bit of grease left
+coating it, and that’s just fine.</p>
+
+<p>Get the slices of bread, and put them into the toaster. Put the
+remaining bread away. These scant moments give the pan a moment to
+cool off from dammit hot to regular hot.</p>
+
+<p>Return to the pan and pour a bit of half&amp;half in. How much? Just
+eyeball it and think to yourself, <em>will this much mix well with two
+eggs?</em> Then crack two eggs into the pan. Switch the stove eye back on
+to a bit over half heat and move the pan onto it. Employ the fork to
+break up and stir the eggs, bacon grease, and half&amp;half into a
+mixture. The substance should slowly turn into something rather akin
+to scrambled eggs.</p>
+
+<p>When you are satisfied that the eggs look about right, switch off the
+heat and remove the pan from the stove to somewhere stable.</p>
+
+<p>By now the bacon should have dried, the toaster should have popped,
+and the coffee should have percolated. Move the bacon into the pan. Move
+the toast into the pan. Pour the coffee into the mug.</p>
+
+<p>You can now consume your delicious breakfast directly from the pan,
+using the same fork you cooked it with. Consider the rest of the day
+as you stare out the kitchen window – should you go downtown, or
+maybe post in your blog? When you’ve finished, scrape any leftovers
+into the trash or nearby dog <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup>, and toss the pan and fork into the
+sink where they can remain until you want breakfast again tomorrow.</p>
+
+<p>It should be noted that I have an electric, flat-top stove. If you
+have an electric coil-type stove, or a gas stove, then the timing on
+these instructions may be wildly altered. If so, you’re on your own,
+godspeed.</p>
+
+<p>Now I think I’ll go <a href="http://morningtimes-raleigh.com/">downtown</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>If you grind your own coffee or whatever, then you have the time
+to make a “proper” breakfast, so go do that instead.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>If you are the sort of person who opts to drink the coffee
+straight from the carafe, the mug is optional.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>The jar of horrors is optional for those who have a septic tank
+and don’t care <a href="http://www.youtube.com/watch?v=40SveAvKq_k">how bad it gets</a>. If you’re on city sewer, you’ll
+need the jar.<a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>I don’t have a dog, but in my imagination they’d love this part<a href="#fnref:4" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ]]></content>
   </entry>
   

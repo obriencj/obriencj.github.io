@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Food | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/categories/food/atom.xml" rel="self"/>
+  <title><![CDATA[Tag: food | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/tags/food/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-03-05T18:44:53-05:00</updated>
+  <updated>2014-03-24T19:23:15-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -20,11 +20,11 @@
     <id>http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon</id>
     <content type="html"><![CDATA[<p>Let me tell you about breakfast.</p>
 
-<!-- more -->
-
 <p>I woke up this morning, and immediately started hacking on <a href="https://github.com/obriencj/python-brine/">brine</a>,
 finally revamping the last major issue that had been bothering
 me. Whipped up the unit tests to cover the new changes. Blam, <a href="https://github.com/obriencj/python-brine/commit/902a23cb5683336d54eda4a5a05b00f8142727c3">pushed</a>.</p>
+
+<!-- more -->
 
 <h2 id="late-night-not-so-hacking">Late Night Not-so-hacking</h2>
 
