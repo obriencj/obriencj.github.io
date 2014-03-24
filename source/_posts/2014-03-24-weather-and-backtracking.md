@@ -6,12 +6,11 @@ date: 2014-03-24 00:05:53 -0400
 comments: true
 categories:
   - projects
-  - personal
 tags:
   - weather
   - sibilant
   - ideas
-  - draft
+  - python
 
 ---
 
