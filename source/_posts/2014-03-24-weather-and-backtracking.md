@@ -3,6 +3,7 @@ layout: post
 title: "Weather and Backtracking"
 tagline: "Miserable Drizzle and Muddled Thinking"
 date: 2014-03-24 00:05:53 -0400
+edited: 2014-03-27 18:45:00 -0400
 comments: true
 categories:
   - projects
@@ -40,25 +41,42 @@ language is right up my proverbial alley!
 [favorite coffee spot]: http://morningtimes-raleigh.com
 "The Morning Times, Raleigh"
 
-But this path is not easily traversed. The lines my brain travels
-along are bumpy and with poor visibility. In my personal hacks I often
-don't know where I'm going, psychologically or programmatically, until
-I get there. I may say, with a gesture, that I'm headed in so-and-so
-direction. But where the journey ends, who knows.
+But this path is not easily traversed. The routes my inadequate brain
+travels along are bumpy and often with poor visibility. In my personal
+hacks I don't always know where I'm going, psychologically or
+programmatically, until I get there. I may indicate -- as with a vague
+gesture -- that I'm headed in so-and-so direction. Where the journey
+actually ends, who knows.
+
+In this particular venture, I've already found myself at a dead-end. A
+LISP compiler must, by the very definition of things, be
+incremental. And I have painted myself into a corner, trying to be
+clever and converting the structure of the source code into an AST
+that includes special forms. Since a LISP macro (they being *the whole
+goddamn point*) can conceivably be defined at any expression (at any
+depth) I cannot safely create an AST in such a fashion. I need to
+delay that step, and compile and execute the expression tree
+*in-place*, with the environment traversing along with the
+compiler. And so I must back track, a difficult lesson
+learned. There's good reason that LISPs don't use structures past
+cons-lists, and now I see one of those reasons quite clearly.
+
+But let's focus on the happy discoveries over the frustrating ones,
+today, yes? Let's talk about continuations and trampolines!
 
 
 ## Teaching Phantoms
 
-In order to consider things in their entirety in my own mind, I often
+Often, in order to consider things in their entirety in my own mind, I
 try to explain them as to an interested novice. I do this in the
-shower, or while staring off into space while my coffee gets cold. I
+shower, or while staring off into space while my coffee grows cold. I
 dream up a situation -- as many mad people do -- where another person
 exists that wants to learn something, and I must rise to the occasion
 to teach them.
 
 This mental habit has served me surprisingly well, though it may have
 contributed to my social failings. It's hard to find love while
-staring off into space.
+staring vacantly off into space.
 
 So let me pretend -- in the interest of advancing this narrative --
 that there is someone in need of teaching, so that I may be forced to
@@ -172,7 +190,7 @@ there*, you simply have to snag it.
 A less wonderful side-effect is that your more *traditional* call
 stack can become quite deep, to the point of over-flowing. The
 implementation language doesn't necessarily know that you never intend
-to descend back out of the call stack, that your program is just one
+to descend back out of the call stack -- that your program is just one
 call after another after another. It holds onto data you never wish to
 make use of.
 
@@ -201,6 +219,9 @@ def factorial(num):
         return 1
     else:
         return num * factorial(num - 1)
+
+# prints 120
+print(factorial(5))
 ```
 
 No problem. Now let's convert that to CPS
@@ -213,13 +234,16 @@ def factorial(cont, num):
     else:
         k = lambda x: cont(num * x)
         factorial(k, num - 1)
+
+# also prints 120
+factorial(print, 5)
 ```
 
-They're both going to run up against the recursion limit on Python (or
-stack space if you disable such limits). However, the CPS factorial
-doesn't actually *need* the stack that it is consuming -- it never
-returns! The value is accumulated deeper and deeper down a line of
-continuations.
+For large numbers, they're both going to run up against the recursion
+limit on Python (or stack space if you disable such limits). However,
+the CPS factorial doesn't actually *need* the stack that it is
+consuming -- it never returns! The value is accumulated deeper and
+deeper down a line of continuations.
 
 What follows is a rewrite of the CPS factorial that makes use of a
 trampoline backing the recursive calls. When the call stack becomes
@@ -258,6 +282,9 @@ def countstack():
 
 
 def bounce_call(work, *args):
+    # this could also be implemented without a stack check, and as
+    # such could bounce every single call.
+
     if countstack() >= STACK_LIMIT:
         raise ContinueCall(partial(work, *args)).with_traceback(None)
     else:
@@ -296,14 +323,18 @@ to its normal behavior.
 ## So What Next?
 
 If we can guarantee a trampoline (and of course we can, we're writing
-the interpreter), then we can with relative safety make use of CPS in
-our generated executable. We must be consistent though -- if we're
-going to be throwing away the return stack, we need to be certain that
-we definitely haven't emitted code that wants to use it! This is the
-call-conformity. We must compile every expression into a series of
-steps, each of which has the conformity in its evaluation, that it
-takes a continuation and will (eventually) pass execution along to it
-with the result.
+the compiler and interpreter), then we can with relative safety make
+use of CPS in our generated executable. We must be consistent though
+-- if we're going to be throwing away the return stack, we need to be
+certain that we definitely haven't emitted code that wants to use it!
+This is the call-conformity. We must compile every expression into a
+series of steps, each of which has the conformity in its evaluation,
+that it takes a continuation and will (eventually) pass execution
+along to it with the result.
 
 In my next post, I will endeavor to communicate just how I've decided
 to do such!
+
+---
+
+_Edited 2014-03-25 : explain the problems I've run into in sibilant with macros, thus clarifying the post title_
