@@ -337,4 +337,5 @@ to do such!
 
 ---
 
-_Edited 2014-03-25 : explain the problems I've run into in sibilant with macros, thus clarifying the post title_
+_Edited 2014-03-25 : explain the problems I've run into in sibilant
+with macros, thus clarifying the post title_
