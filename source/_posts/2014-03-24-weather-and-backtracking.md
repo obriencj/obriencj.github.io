@@ -3,7 +3,7 @@ layout: post
 title: "Weather and Backtracking"
 tagline: "Miserable Drizzle and Muddled Thinking"
 date: 2014-03-24 00:05:53 -0400
-edited: 2014-03-27 18:45:00 -0400
+updated: 2014-03-27 18:45:00 -0400
 comments: true
 categories:
   - projects
