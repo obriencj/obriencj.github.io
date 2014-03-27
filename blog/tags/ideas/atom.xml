@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: ideas | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/ideas/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-03-24T19:28:54-04:00</updated>
+  <updated>2014-03-27T18:43:17-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -41,24 +41,41 @@ creative stories or unique views into real events – composing a
 compiler around what I consider to be an elegant and inspired computer
 language is right up my proverbial alley!</p>
 
-<p>But this path is not easily traversed. The lines my brain travels
-along are bumpy and with poor visibility. In my personal hacks I often
-don’t know where I’m going, psychologically or programmatically, until
-I get there. I may say, with a gesture, that I’m headed in so-and-so
-direction. But where the journey ends, who knows.</p>
+<p>But this path is not easily traversed. The routes my inadequate brain
+travels along are bumpy and often with poor visibility. In my personal
+hacks I don’t always know where I’m going, psychologically or
+programmatically, until I get there. I may indicate – as with a vague
+gesture – that I’m headed in so-and-so direction. Where the journey
+actually ends, who knows.</p>
+
+<p>In this particular venture, I’ve already found myself at a dead-end. A
+LISP compiler must, by the very definition of things, be
+incremental. And I have painted myself into a corner, trying to be
+clever and converting the structure of the source code into an AST
+that includes special forms. Since a LISP macro (they being <em>the whole
+goddamn point</em>) can conceivably be defined at any expression (at any
+depth) I cannot safely create an AST in such a fashion. I need to
+delay that step, and compile and execute the expression tree
+<em>in-place</em>, with the environment traversing along with the
+compiler. And so I must back track, a difficult lesson
+learned. There’s good reason that LISPs don’t use structures past
+cons-lists, and now I see one of those reasons quite clearly.</p>
+
+<p>But let’s focus on the happy discoveries over the frustrating ones,
+today, yes? Let’s talk about continuations and trampolines!</p>
 
 <h2 id="teaching-phantoms">Teaching Phantoms</h2>
 
-<p>In order to consider things in their entirety in my own mind, I often
+<p>Often, in order to consider things in their entirety in my own mind, I
 try to explain them as to an interested novice. I do this in the
-shower, or while staring off into space while my coffee gets cold. I
+shower, or while staring off into space while my coffee grows cold. I
 dream up a situation – as many mad people do – where another person
 exists that wants to learn something, and I must rise to the occasion
 to teach them.</p>
 
 <p>This mental habit has served me surprisingly well, though it may have
 contributed to my social failings. It’s hard to find love while
-staring off into space.</p>
+staring vacantly off into space.</p>
 
 <p>So let me pretend – in the interest of advancing this narrative –
 that there is someone in need of teaching, so that I may be forced to
@@ -170,7 +187,7 @@ there</em>, you simply have to snag it.</p>
 <p>A less wonderful side-effect is that your more <em>traditional</em> call
 stack can become quite deep, to the point of over-flowing. The
 implementation language doesn’t necessarily know that you never intend
-to descend back out of the call stack, that your program is just one
+to descend back out of the call stack – that your program is just one
 call after another after another. It holds onto data you never wish to
 make use of.</p>
 
@@ -191,32 +208,38 @@ leave the past behind. It’ll bog you down, otherwise.</p>
 <p>Let’s contrive an example. Here we’ll use a recursive factorial
 definition.</p>
 
-<p><code>python
+<p>```python
 # recursive factorial definition
 def factorial(num):
     if num == 0 or num == 1:
         return 1
     else:
-        return num * factorial(num - 1)
-</code></p>
+        return num * factorial(num - 1)</p>
+
+<h1 id="prints-120">prints 120</h1>
+<p>print(factorial(5))
+```</p>
 
 <p>No problem. Now let’s convert that to CPS</p>
 
-<p><code>python
+<p>```python
 # a continuation-passing-style recursive factorial
 def factorial(cont, num):
     if num == 0 or num == 1:
         cont(1)
     else:
         k = lambda x: cont(num * x)
-        factorial(k, num - 1)
-</code></p>
+        factorial(k, num - 1)</p>
 
-<p>They’re both going to run up against the recursion limit on Python (or
-stack space if you disable such limits). However, the CPS factorial
-doesn’t actually <em>need</em> the stack that it is consuming – it never
-returns! The value is accumulated deeper and deeper down a line of
-continuations.</p>
+<h1 id="also-prints-120">also prints 120</h1>
+<p>factorial(print, 5)
+```</p>
+
+<p>For large numbers, they’re both going to run up against the recursion
+limit on Python (or stack space if you disable such limits). However,
+the CPS factorial doesn’t actually <em>need</em> the stack that it is
+consuming – it never returns! The value is accumulated deeper and
+deeper down a line of continuations.</p>
 
 <p>What follows is a rewrite of the CPS factorial that makes use of a
 trampoline backing the recursive calls. When the call stack becomes
@@ -251,11 +274,15 @@ while frame:
 return counter
 </code></pre>
 
-<p>def bounce_call(work, <em>args):
-    if countstack() &gt;= STACK_LIMIT:
-        raise ContinueCall(partial(work, *args)).with_traceback(None)
-    else:
-        work(</em>args)</p>
+<p>def bounce_call(work, *args):
+    # this could also be implemented without a stack check, and as
+    # such could bounce every single call.</p>
+
+<pre><code>if countstack() &gt;= STACK_LIMIT:
+    raise ContinueCall(partial(work, *args)).with_traceback(None)
+else:
+    work(*args)
+</code></pre>
 
 <p>def bouncy(func, final_cont, *args):
     work = partial(func, final_cont, *args)
@@ -286,17 +313,21 @@ to its normal behavior.</p>
 <h2 id="so-what-next">So What Next?</h2>
 
 <p>If we can guarantee a trampoline (and of course we can, we’re writing
-the interpreter), then we can with relative safety make use of CPS in
-our generated executable. We must be consistent though – if we’re
-going to be throwing away the return stack, we need to be certain that
-we definitely haven’t emitted code that wants to use it! This is the
-call-conformity. We must compile every expression into a series of
-steps, each of which has the conformity in its evaluation, that it
-takes a continuation and will (eventually) pass execution along to it
-with the result.</p>
+the compiler and interpreter), then we can with relative safety make
+use of CPS in our generated executable. We must be consistent though
+– if we’re going to be throwing away the return stack, we need to be
+certain that we definitely haven’t emitted code that wants to use it!
+This is the call-conformity. We must compile every expression into a
+series of steps, each of which has the conformity in its evaluation,
+that it takes a continuation and will (eventually) pass execution
+along to it with the result.</p>
 
 <p>In my next post, I will endeavor to communicate just how I’ve decided
 to do such!</p>
+
+<hr />
+
+<p><em>Edited 2014-03-25 : explain the problems I’ve run into in sibilant with macros, thus clarifying the post title</em></p>
 ]]></content>
   </entry>
   
