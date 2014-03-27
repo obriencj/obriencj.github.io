@@ -16,7 +16,7 @@ tags:
 ---
 
 Spring should be arriving any moment now, and indeed there are hints
-of warmth and green coming soon. Those glipses of a happy future are
+of warmth and green coming soon. Those glimpses of a happy future are
 punctuated with an almost spiteful enthusiasm by incredibly gross
 weather. "Gross" is definitely the right word for it. The temperature
 will drop 30 degrees (F) overnight, and a harsh gusting wind will
