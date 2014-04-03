@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Some Kind of Call Conformity"
-date: 2014-03-24 19:22:35 -0400
+date: 2014-04-10 18:45:35 -0400
 comments: true
 published: false
 categories:
@@ -11,7 +11,6 @@ tags:
   - lisp
   - ideas
   - python
-  - draft
 
 ---
 
