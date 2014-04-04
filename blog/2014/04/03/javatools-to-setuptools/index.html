@@ -5,13 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Delivering on Promises - obriencj</title>
+  <title>Javatools to Setuptools - obriencj</title>
   <meta name="author" content="Christopher O'Brien">
 
   
-  <meta name="description" content="It’s beautiful, this fine sunny Sunday. Zoe is outside playing with
-the neighbors and I’m relaxing in the breeze. I’m working on a bit of
-clean-up &hellip;">
+  <meta name="description" content="I was supposed to write about sibilant, but of course I’ve been
+distracted. My daughter is out of school on spring break, and I’ve taken leave
+from &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +20,7 @@ clean-up &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises">
+  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="obriencj" type="application/atom+xml">
@@ -83,7 +83,7 @@ clean-up &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Delivering on Promises</h1>
+      <h1 class="entry-title">Javatools to Setuptools</h1>
     
     
       <p class="meta">
@@ -99,38 +99,94 @@ clean-up &hellip;">
   
 
 
-<time datetime="2014-03-02T14:16:30-05:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2014</time>
+<time datetime="2014-04-03T18:52:24-04:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>It’s beautiful, this fine sunny Sunday. Zoe is outside playing with
-the neighbors and I’m relaxing in the breeze. I’m working on a bit of
-clean-up coding from yesterday’s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
-I had finally gotten around to <a href="https://gist.github.com/obriencj/9298654">writing</a> a unit test
-harness for the XML-RPC multicall promise bits. I was so excited to
-have that working that I charged through writing tests and fixing bugs
-for the multiprocess and multithread modules as well. Before I knew
-it, my promises module was looking darn-near worthy of a 1.0</p>
+<div class="entry-content"><p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I’ve been
+distracted.</p>
+
+<p>My daughter is out of school on spring break, and I’ve taken leave
+from work so that we could hang out together. Of course this means
+that we’ve just been finding new ways to ignore each other as the week
+has gone by. We’ve certainly spent a lot of time at various parks and
+playgrounds, and we’ve played an awful lot of Minecraft together. But
+on the evenings we’ve also set up something approaching residency at
+our <a href="http://morningtimes-raleigh.com">favorite coffee shop</a>. She will sit and munch on chocolate chip
+cookies while watching videos and playing games on her ipad–
+oblivious to my presence– and I’ll find myself looking for something
+unimportant to half-heartedly hack on. It’s a pleasant and relaxing
+situation, this modern bonding.</p>
+
+<p>And so it came to pass that I was looking over the <a href="http://github.com/obriencj/python-javatools">python-javatools</a>
+project again.</p>
 
 <!-- more -->
 
-<p>As I had done before with <a href="http://github.com/obriencj/python-brine">brine</a> I went ahead and set up <a href="https://travis-ci.org/obriencj/python-promises">travis.ci</a>
-and <a href="https://coveralls.io/r/obriencj/python-promises?branch=master">coveralls.io</a> hooks. I am still astounded (and grateful) that
-there’s such infrastructure available gratis to the open source
-community.</p>
+<h2 id="javatools">Javatools</h2>
 
-<p>I’ve also started the more tedious task of going through the
-docstrings and getting them into the format that <a href="https://github.com/numpy/numpydoc">numpydocs</a> and
-<a href="http://sphinx-doc.org/">sphinx</a> are expecting. I need to write up significantly more examples
-for <a href="http://obriencj.preoccupied.net/python-promises/">the documentation</a>. That can be what I work on in the evenings in
-bed, this week.</p>
+<p>I typically write my projects and tools in reverse– that is to say, I
+write them as if I had the API that I wanted, and then I create the
+library to fulfill that wish. In the end, I have a library and a tool
+that consumes it.</p>
 
-<p>I’ll let the project sit for a bit, and see if anything else crops up
-that needs changing. But if all goes well, I think I’ll be tagging
-version 1.0.0 soon, and posting the module up on PyPI.</p>
+<p><a href="http://github.com/obriencj/python-javatools">Javatools</a> still turned out to be a bit of a mess. It arose from a
+simple enough question, it was suspected that a change in the binaries
+for some classes was limited to line numbering and was otherwise
+harmless. I took a quick glance at the format specifications for Java
+class files, and indeed that information is trivial to fetch.</p>
+
+<p>Thus, organically, began the life of a tool whose purpose is to
+compare class binaries and discover the “meaningful” differences.</p>
+
+<h2 id="unit-tests">Unit tests</h2>
+
+<p>This likely sounds mad, but I enjoy writing unit tests. They’re easy
+to throw together without paying a whole lot of attention, and you
+aren’t likely to actively break something. Use tools like
+<a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> and it becomes a game; trying to reach 100% <a href="https://docs.python.org/2/library/unittest.html">unittest</a>
+coverage for some little library that has a total of 20 users in the
+entire world.</p>
+
+<p>I started writing Javatools before I’d developed the habit of writing
+tests in parallel. Mind you, I “tested” the project frequently,
+running it against all manner of samples from out in the wild. I kept
+a script in git whose sole job was to compare two versions of JBoss AS
+against one-another– that was my test case.</p>
+
+<p>Approaching actual test writing for this project seemed daunting at
+first– it meant I’d need to create data to test against, and that
+meant writing Java code so that I could disassemble it again later and
+check that what my tooling reports is indeed what ought to be there.
+But that’s exactly what I’ve been doing this week in the coffee shop–
+creating sample classes that I could tear apart. I’ve found one bug in
+javatools so far with this, so I even have something to show for it.</p>
+
+<h2 id="setuptools">Setuptools</h2>
+
+<p>In order to more easily manage my unittests, I’ve migrated setup.py
+from the in-built <a href="https://docs.python.org/2/distutils/">distutils</a> module to <a href="http://pythonhosted.org/setuptools/">setuptools</a>. Setuptools has a
+few quirks, and I’ve had to make adjustments to accommodate those. For
+instance, renaming the <code>src</code> directory to <code>javatools</code>. In theory I
+will be able to simplify setup.py by moving the <code>pylint</code> command out
+into its own file, but I haven’t arrived at that point yet.</p>
+
+<p>Unfortunately, I still need to override the <code>build_py</code> command class
+to pre-compile my <a href="http://www.cheetahtemplate.org/">Cheetah</a> templates into python modules.</p>
+
+<p>Since this introduces a dependency for the project, I’ve kept these
+changes (including the unittests) in a <a href="https://github.com/obriencj/python-javatools/tree/setuptools">separate branch</a> until I can
+ascertain that it’s not too much churn for the upcoming 1.4 release.</p>
+
+<p>Setuptools is widely-enough used that I sincerely doubt there will be
+any real issue with the switch. After a few more tests I’ll hopefully
+merge back to master and finally tag version 1.4 in git.</p>
+
+<p>And then I’ll have to go back to thinking about the compiler for
+sibilant.</p>
 </div>
 
 
@@ -153,7 +209,7 @@ version 1.0.0 soon, and posting the module up on PyPI.</p>
   
 
 
-<time datetime="2014-03-02T14:16:30-05:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2014</time>
+<time datetime="2014-04-03T18:52:24-04:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2014</time>
       
 
 <span class="categories">
@@ -167,7 +223,7 @@ version 1.0.0 soon, and posting the module up on PyPI.</p>
 
 <span class="tags">
   
-    <a class='tag' href='/blog/tags/promises/'>promises</a>, <a class='tag' href='/blog/tags/python/'>python</a>
+    <a class='tag' href='/blog/tags/javatools/'>javatools</a>, <a class='tag' href='/blog/tags/python/'>python</a>, <a class='tag' href='/blog/tags/setuptools/'>setuptools</a>
   
 </span>
 
@@ -176,7 +232,7 @@ version 1.0.0 soon, and posting the module up on PyPI.</p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/" data-via="obriencj" data-counturl="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/" data-via="obriencj" data-counturl="http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -187,10 +243,8 @@ version 1.0.0 soon, and posting the module up on PyPI.</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/02/09/python/" title="Previous Post: Python, Sphinx, and GitHUB">&laquo; Python, Sphinx, and GitHUB</a>
+        <a class="basic-alignment left" href="/blog/2014/03/24/weather-and-backtracking/" title="Previous Post: Weather and Backtracking">&laquo; Weather and Backtracking</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/05/brine-on-the-wire/" title="Next Post: Brine On the Wire">Brine On the Wire &raquo;</a>
       
     </p>
   </footer>

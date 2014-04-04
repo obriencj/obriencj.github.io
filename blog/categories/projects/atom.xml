@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Projects | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/categories/projects/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-03-27T19:27:35-04:00</updated>
+  <updated>2014-04-03T20:22:29-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,95 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Javatools to Setuptools]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/"/>
+    <updated>2014-04-03T18:52:24-04:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools</id>
+    <content type="html"><![CDATA[<p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I’ve been
+distracted.</p>
+
+<p>My daughter is out of school on spring break, and I’ve taken leave
+from work so that we could hang out together. Of course this means
+that we’ve just been finding new ways to ignore each other as the week
+has gone by. We’ve certainly spent a lot of time at various parks and
+playgrounds, and we’ve played an awful lot of Minecraft together. But
+on the evenings we’ve also set up something approaching residency at
+our <a href="http://morningtimes-raleigh.com">favorite coffee shop</a>. She will sit and munch on chocolate chip
+cookies while watching videos and playing games on her ipad–
+oblivious to my presence– and I’ll find myself looking for something
+unimportant to half-heartedly hack on. It’s a pleasant and relaxing
+situation, this modern bonding.</p>
+
+<p>And so it came to pass that I was looking over the <a href="http://github.com/obriencj/python-javatools">python-javatools</a>
+project again.</p>
+
+<!-- more -->
+
+<h2 id="javatools">Javatools</h2>
+
+<p>I typically write my projects and tools in reverse– that is to say, I
+write them as if I had the API that I wanted, and then I create the
+library to fulfill that wish. In the end, I have a library and a tool
+that consumes it.</p>
+
+<p><a href="http://github.com/obriencj/python-javatools">Javatools</a> still turned out to be a bit of a mess. It arose from a
+simple enough question, it was suspected that a change in the binaries
+for some classes was limited to line numbering and was otherwise
+harmless. I took a quick glance at the format specifications for Java
+class files, and indeed that information is trivial to fetch.</p>
+
+<p>Thus, organically, began the life of a tool whose purpose is to
+compare class binaries and discover the “meaningful” differences.</p>
+
+<h2 id="unit-tests">Unit tests</h2>
+
+<p>This likely sounds mad, but I enjoy writing unit tests. They’re easy
+to throw together without paying a whole lot of attention, and you
+aren’t likely to actively break something. Use tools like
+<a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> and it becomes a game; trying to reach 100% <a href="https://docs.python.org/2/library/unittest.html">unittest</a>
+coverage for some little library that has a total of 20 users in the
+entire world.</p>
+
+<p>I started writing Javatools before I’d developed the habit of writing
+tests in parallel. Mind you, I “tested” the project frequently,
+running it against all manner of samples from out in the wild. I kept
+a script in git whose sole job was to compare two versions of JBoss AS
+against one-another– that was my test case.</p>
+
+<p>Approaching actual test writing for this project seemed daunting at
+first– it meant I’d need to create data to test against, and that
+meant writing Java code so that I could disassemble it again later and
+check that what my tooling reports is indeed what ought to be there.
+But that’s exactly what I’ve been doing this week in the coffee shop–
+creating sample classes that I could tear apart. I’ve found one bug in
+javatools so far with this, so I even have something to show for it.</p>
+
+<h2 id="setuptools">Setuptools</h2>
+
+<p>In order to more easily manage my unittests, I’ve migrated setup.py
+from the in-built <a href="https://docs.python.org/2/distutils/">distutils</a> module to <a href="http://pythonhosted.org/setuptools/">setuptools</a>. Setuptools has a
+few quirks, and I’ve had to make adjustments to accommodate those. For
+instance, renaming the <code>src</code> directory to <code>javatools</code>. In theory I
+will be able to simplify setup.py by moving the <code>pylint</code> command out
+into its own file, but I haven’t arrived at that point yet.</p>
+
+<p>Unfortunately, I still need to override the <code>build_py</code> command class
+to pre-compile my <a href="http://www.cheetahtemplate.org/">Cheetah</a> templates into python modules.</p>
+
+<p>Since this introduces a dependency for the project, I’ve kept these
+changes (including the unittests) in a <a href="https://github.com/obriencj/python-javatools/tree/setuptools">separate branch</a> until I can
+ascertain that it’s not too much churn for the upcoming 1.4 release.</p>
+
+<p>Setuptools is widely-enough used that I sincerely doubt there will be
+any real issue with the switch. After a few more tests I’ll hopefully
+merge back to master and finally tag version 1.4 in git.</p>
+
+<p>And then I’ll have to go back to thinking about the compiler for
+sibilant.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Weather and Backtracking]]></title>
@@ -509,94 +598,6 @@ docstring.<a href="#fnref:1" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Barrels of Brine]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/"/>
-    <updated>2014-02-06T22:16:40-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine</id>
-    <content type="html"><![CDATA[<p>I’ve been very happy spending my evenings working with a small project
-entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
-functionality and goals are well-defined. Put simply, brine allows you
-to pickle actual python code. For a significantly more in-depth
-explanation, click the above link and peruse the README.</p>
-
-<!-- more -->
-
-<p>Brine was originally written back in 2008. It had been written as an
-“I-wonder” rather than an “I-need” and as such it never saw use except
-in its own hackish example scripts. Thus from October of 2008 until
-January of 2014 is sat forgotten.</p>
-
-<p>And then I found it again, and decided it merited resucitation.</p>
-
-<h2 id="get-it-moved">Get it moved</h2>
-
-<p>The very first thing I did was import it to github. It had been living
-on code.google.com for all those years… with only one commit.</p>
-
-<p>Before code.google, it had been in a CVS (remember that?) repository
-on a machine which has long since disappeared. So all history for
-brine prior to that snapshot in October of 2008 is gone. A lesson in
-the value of a distributed system like git.</p>
-
-<h2 id="get-it-tested">Get it tested</h2>
-
-<p>Next I took all of five minutes to “port” it from <a href="http://docs.python.org/2/distutils/">distutils</a> to
-<a href="http://pythonhosted.org/setuptools/">setuptools</a>. I had to shuffle a few files around, but in the end it
-built and the “test” scripts (more like examples) let me confirm that
-it still worked.</p>
-
-<p>In the last few years one of the things that I’ve discovered that I
-enjoy doing is writing unit tests and getting to 100% code coverage.
-As sad as it may sounds, yes I actually have been doing that for
-fun. It’s very much like a game. The tasks are clearly defined,
-there’s a simple attainable goal of a perfect score. Right up my
-alley!</p>
-
-<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html" title="unittest &mdash; Unit testing framework">unittest</a>
-cases.</p>
-
-<p>Those tests came in handy when I started actively hacking again on the
-code itself. I’d resolved to add the remaining missing features, clean
-things up, document it – to really polish this little project up
-before setting it on a shelf again. And of course as I tinkered I
-broke it in weird and unexpected ways. But my unit tests were there to
-catch me in my errors before I strayed too far.</p>
-
-<p>And so more tests got written, and old code got untangled.</p>
-
-<p>Thank goodness for <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> – incredibly easy to use, with
-detailed reporting. I was able to definitively throw out legacy
-methods in some cases, while in others I expanded upon my unit tests
-until in no time at all I’d reached the much vaunted 100% coverage.</p>
-
-<h2 id="fill-in-the-blanks">Fill in the blanks</h2>
-
-<p>The TODO is rapidly shrinking. Tonight I added support – including
-unit tests – for wrapping <code>functools.partial</code> instances.</p>
-
-<p>I also want to add support for unbound instance methods and class
-methods. Should be trivial.</p>
-
-<p>The only large change I want to make involves a tweak to the timing on
-when a barrel brines its contents. Currently the values are brined
-immediately, which is too early. It needs to wait until just before
-pickling, to ensure that mutable values haven’t changed.</p>
-
-<p>I should look at generating proper HTML documentation. There is almost
-certainly something that is the de-facto standard for such a task, I
-only need to discover it.</p>
-
-<p>But after that… I think I can call it a wrap. I’ll let it sit for a
-week to make sure that I didn’t forget anything. Maybe read over it
-once or twice. And then I’ll call it 1.0.0, tag it, and post it to
-PyPI.</p>
-
-<p>And maybe in another five years I’ll find a reason to pick it up
-again!</p>
 ]]></content>
   </entry>
   
