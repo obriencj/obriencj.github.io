@@ -3,7 +3,7 @@ layout: post
 title: "Javatools to setuptools"
 date: 2014-04-03 18:52:24 -0400
 comments: true
-published: false
+published: true
 categories:
   - projects
 tags:
@@ -40,7 +40,7 @@ project again.
 ## Javatools
 
 I typically write my projects and tools in reverse-- that is to say, I
-write them as if I had the tool that I wanted, and then I create the
+write them as if I had the API that I wanted, and then I create the
 library to fulfill that wish. In the end, I have a library and a tool
 that consumes it.
 
@@ -55,7 +55,6 @@ compare class binaries and discover the "meaningful" differences.
 
 [javatools]: http://github.com/obriencj/python-javatools
 
-
 ## Unit tests
 
 This likely sounds mad, but I enjoy writing unit tests. They're easy
@@ -69,24 +68,23 @@ entire world.
 [unittest]: https://docs.python.org/2/library/unittest.html
 
 I started writing Javatools before I'd developed the habit of writing
-tests in (close-to) parallel. Mind you, I "tested" the project
-frequently, running it against all manner of samples from out in the
-wild. I kept a script in git whose sole job was to compare two
-versions of JBoss AS against one-another-- that was my test case!
+tests in parallel. Mind you, I "tested" the project frequently,
+running it against all manner of samples from out in the wild. I kept
+a script in git whose sole job was to compare two versions of JBoss AS
+against one-another-- that was my test case.
 
 Approaching actual test writing for this project seemed daunting at
 first-- it meant I'd need to create data to test against, and that
 meant writing Java code so that I could disassemble it again later and
-check that what my tooling reports is indeed what ought to be
-there. But that's exactly what I've been doing this week. Creating
-sample classes that I could tear apart. I've found one bug in
-javatools so far with this.
-
+check that what my tooling reports is indeed what ought to be there.
+But that's exactly what I've been doing this week in the coffee shop--
+creating sample classes that I could tear apart. I've found one bug in
+javatools so far with this, so I even have something to show for it.
 
 ## Setuptools
 
 In order to more easily manage my unittests, I've migrated setup.py
-from the in-build [distutils] module to [setuptools]. Setuptools has a
+from the in-built [distutils] module to [setuptools]. Setuptools has a
 few quirks, and I've had to make adjustments to accommodate those. For
 instance, renaming the `src` directory to `javatools`. In theory I
 will be able to simplify setup.py by moving the `pylint` command out
@@ -95,4 +93,19 @@ into its own file, but I haven't arrived at that point yet.
 Unfortunately, I still need to override the `build_py` command class
 to pre-compile my [Cheetah] templates into python modules.
 
+[distutils]: https://docs.python.org/2/distutils/
+[setuptools]: http://pythonhosted.org/setuptools/
 [cheetah]: http://www.cheetahtemplate.org/
+
+Since this introduces a dependency for the project, I've kept these
+changes (including the unittests) in a [separate branch] until I can
+ascertain that it's not too much churn for the upcoming 1.4 release.
+
+[separate branch]: https://github.com/obriencj/python-javatools/tree/setuptools
+
+Setuptools is widely-enough used that I sincerely doubt there will be
+any real issue with the switch. After a few more tests I'll hopefully
+merge back to master and finally tag version 1.4 in git.
+
+And then I'll have to go back to thinking about the compiler for
+sibilant.
