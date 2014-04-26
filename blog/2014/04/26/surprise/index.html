@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Barrels of Brine - obriencj</title>
+  <title>Surprise, There Are Users - obriencj</title>
   <meta name="author" content="Christopher O'Brien">
 
   
-  <meta name="description" content="I’ve been very happy spending my evenings working with a small project
-entitled python-brine. The code is relatively straight-forward, the &hellip;">
+  <meta name="description" content="My motorcycle is in the shop this morning. I ride a little TU250x
+that I call “Tux”. I bought her for myself as a birthday present last
+year, and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@ entitled python-brine. The code is relatively straight-forward, the &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine">
+  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2014/04/26/surprise">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="obriencj" type="application/atom+xml">
@@ -82,7 +83,7 @@ entitled python-brine. The code is relatively straight-forward, the &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Barrels of Brine</h1>
+      <h1 class="entry-title">Surprise, There Are Users</h1>
     
     
       <p class="meta">
@@ -98,95 +99,47 @@ entitled python-brine. The code is relatively straight-forward, the &hellip;">
   
 
 
-
-  
-<time datetime="2014-02-07T16:30:00-05:00" class="updated">Updated Feb 7<span>th</span>, 2014</time>
+<time datetime="2014-04-26T12:35:18-04:00" pubdate data-updated="true">Apr 26<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I’ve been very happy spending my evenings working with a small project
-entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
-functionality and goals are well-defined. Put simply, brine allows you
-to pickle actual python code. For a significantly more in-depth
-explanation, click the above link and peruse the README.</p>
+<div class="entry-content"><p>My motorcycle is in the shop this morning. I ride a little <a href="http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx">TU250x</a>
+that I call “Tux”. I bought her for myself as a birthday present last
+year, and have put a little over 6000 miles on her since. She’s a good
+bike, and I take a lot of pleasure in our rides together. I perform
+the majority of her maintenance myself – oil, chain, valves,
+electrical. But one thing I didn’t want to do was replace and balance
+the tires, so I’m paying the guys at <a href="http://www.team-powersports.com/">Team Powersports</a> to do it.</p>
+
+<p>While Tux is off getting new tires, my daughter and I are sitting on
+the back porch. She has been reading <a href="http://en.wikipedia.org/wiki/Rurouni_Kenshin">Rurouni Kenshin</a> for the first
+time, and I have been working on the documentation for
+<a href="http://github.com/obriencj/python-promises">python-promises</a>.</p>
 
 <!-- more -->
 
-<p>Brine was originally written back in 2008. It had been written as an
-“I-wonder” rather than an “I-need” and as such it never saw use except
-in its own hackish example scripts. Thus from October of 2008 until
-January of 2014 is sat forgotten.</p>
+<p>I recently discovered, much to my surprise, that promises has a
+user. Possibly more than one. This is crazy to me because of all my
+projects promises has the most direct competition. It’s also one I
+decided not to publish on <a href="http://pypi.python.org/pypi/">PyPI</a> (for the very reason of the
+previously mentioned competing modules). It would appear that indeed
+the very act of publishing code publicly will draw <em>someone</em> to use
+it. I had maintained doubt about this rule, but I will have to take
+this new anecdote in stride.</p>
 
-<p>And then I found it again, and decided it merited resucitation.</p>
+<p>Oh dear. I hope that doesn’t mean <a href="http://github.com/obriencj/python-spexy">Spexy</a> has users…</p>
 
-<h2 id="get-it-moved">Get it moved</h2>
+<p>This new-found user has turned out to be very useful. They’ve already
+<a href="https://github.com/obriencj/python-promises/issues/1">provided</a> excellent and insightful feedback, which in turn
+has blossomed into new features. I can only hope that my other
+projects will over time gather attention of similar quality.</p>
 
-<p>The very first thing I did was import it to github. It had been living
-on code.google.com for all those years… with only one commit.</p>
-
-<p>Before code.google, it had been in a CVS (remember that?) repository
-on a machine which has long since disappeared. So all history for
-brine prior to that snapshot in October of 2008 is gone. A lesson in
-the value of a distributed system like git.</p>
-
-<h2 id="get-it-tested">Get it tested</h2>
-
-<p>Next I took all of five minutes to “port” it from <a href="http://docs.python.org/2/distutils/">distutils</a> to
-<a href="http://pythonhosted.org/setuptools/">setuptools</a>. I had to shuffle a few files around, but in the end it
-built and the “test” scripts (more like examples) let me confirm that
-it still worked.</p>
-
-<p>In the last few years one of the things that I’ve discovered that I
-enjoy doing is writing unit tests and getting to 100% code coverage.
-As sad as it may sounds, yes I actually have been doing that for
-fun. It’s very much like a game. The tasks are clearly defined,
-there’s a simple attainable goal of a perfect score. Right up my
-alley!</p>
-
-<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html" title="unittest &mdash; Unit testing framework">unittest</a>
-cases.</p>
-
-<p>Those tests came in handy when I started actively hacking again on the
-code itself. I’d resolved to add the remaining missing features, clean
-things up, document it – to really polish this little project up
-before setting it on a shelf again. And of course as I tinkered I
-broke it in weird and unexpected ways. But my unit tests were there to
-catch me in my errors before I strayed too far.</p>
-
-<p>And so more tests got written, and old code got untangled.</p>
-
-<p>Thank goodness for <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> – incredibly easy to use, with
-detailed reporting. I was able to definitively throw out legacy
-methods in some cases, while in others I expanded upon my unit tests
-until in no time at all I’d reached the much vaunted 100% coverage.</p>
-
-<h2 id="fill-in-the-blanks">Fill in the blanks</h2>
-
-<p>The TODO is rapidly shrinking. Tonight I added support – including
-unit tests – for wrapping <code>functools.partial</code> instances.</p>
-
-<p>I also want to add support for unbound instance methods and class
-methods. Should be trivial.</p>
-
-<p>The only large change I want to make involves a tweak to the timing on
-when a barrel brines its contents. Currently the values are brined
-immediately, which is too early. It needs to wait until just before
-pickling, to ensure that mutable values haven’t changed.</p>
-
-<p>I should look at generating proper HTML documentation. There is almost
-certainly something that is the de-facto standard for such a task, I
-only need to discover it.</p>
-
-<p>But after that… I think I can call it a wrap. I’ll let it sit for a
-week to make sure that I didn’t forget anything. Maybe read over it
-once or twice. And then I’ll call it 1.0.0, tag it, and post it to
-PyPI.</p>
-
-<p>And maybe in another five years I’ll find a reason to pick it up
-again!</p>
+<p>Perhaps I’ll rethink promises a bit more. After I give it a good hard
+look I’ll reconsider if maybe – just maybe – I ought to publish it
+to PyPI after all.</p>
 </div>
 
 
@@ -209,9 +162,7 @@ again!</p>
   
 
 
-
-  
-<time datetime="2014-02-07T16:30:00-05:00" class="updated">Updated Feb 7<span>th</span>, 2014</time>
+<time datetime="2014-04-26T12:35:18-04:00" pubdate data-updated="true">Apr 26<span>th</span>, 2014</time>
       
 
 <span class="categories">
@@ -225,7 +176,7 @@ again!</p>
 
 <span class="tags">
   
-    <a class='tag' href='/blog/tags/brine/'>brine</a>, <a class='tag' href='/blog/tags/coverage/'>coverage</a>, <a class='tag' href='/blog/tags/github/'>github</a>, <a class='tag' href='/blog/tags/python/'>python</a>, <a class='tag' href='/blog/tags/unittest/'>unittest</a>
+    <a class='tag' href='/blog/tags/birthday/'>birthday</a>, <a class='tag' href='/blog/tags/motorcycle/'>motorcycle</a>, <a class='tag' href='/blog/tags/promises/'>promises</a>, <a class='tag' href='/blog/tags/python/'>python</a>
   
 </span>
 
@@ -234,7 +185,7 @@ again!</p>
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/" data-via="obriencj" data-counturl="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://obriencj.preoccupied.net/blog/2014/04/26/surprise/" data-via="obriencj" data-counturl="http://obriencj.preoccupied.net/blog/2014/04/26/surprise/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -245,10 +196,8 @@ again!</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/01/28/well-how-about-octopress-instead/" title="Previous Post: Well how about Octopress instead?">&laquo; Well how about Octopress instead?</a>
+        <a class="basic-alignment left" href="/blog/2014/04/03/javatools-to-setuptools/" title="Previous Post: Javatools to setuptools">&laquo; Javatools to setuptools</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/02/08/eggs-and-bacon/" title="Next Post: Eggs and Bacon">Eggs and Bacon &raquo;</a>
       
     </p>
   </footer>
