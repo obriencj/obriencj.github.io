@@ -33,12 +33,9 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-<<<<<<< HEAD
 tag_dir: blog/tags
 markdown: kramdown
-=======
-markdown: redcarpet2
->>>>>>> configuration changes
+#markdown: redcarpet2
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
@@ -52,11 +49,7 @@ titlecase: true       # Converts page and post titles to titlecase
 # you want them to appear.  To add custom asides, create files in
 # /source/_includes/custom/asides/ and add them to the list like
 # 'custom/asides/custom_aside_name.html'
-<<<<<<< HEAD
 default_asides: [asides/recent_posts.html, custom/asides/tags.html, custom/asides/twitter.html, custom/asides/about.html, asides/googleplus.html]
-=======
-default_asides: [asides/recent_posts.html, asides/twitter.html, asides/github.html, asides/googleplus.html]
->>>>>>> configuration changes
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
