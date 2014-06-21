@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: motorcycle | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/tags/motorcycle/atom.xml" rel="self"/>
-  <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-05-22T16:28:32-04:00</updated>
-  <id>http://obriencj.preoccupied.net/</id>
+  <link href="http://obriencj.github.io/blog/tags/motorcycle/atom.xml" rel="self"/>
+  <link href="http://obriencj.github.io/"/>
+  <updated>2014-06-21T14:08:43-04:00</updated>
+  <id>http://obriencj.github.io/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Surprise, There Are Users]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/04/26/surprise/"/>
+    <link href="http://obriencj.github.io/blog/2014/04/26/surprise/"/>
     <updated>2014-04-26T12:35:18-04:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/04/26/surprise</id>
+    <id>http://obriencj.github.io/blog/2014/04/26/surprise</id>
     <content type="html"><![CDATA[<p>My motorcycle is in the shop this morning. I ride a little <a href="http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx">TU250x</a>
 that I call “Tux”. I bought her for myself as a birthday present last
 year, and have put a little over 6000 miles on her since. She’s a good

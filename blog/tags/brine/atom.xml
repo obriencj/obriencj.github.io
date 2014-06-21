@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: brine | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/tags/brine/atom.xml" rel="self"/>
-  <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-05-22T16:28:32-04:00</updated>
-  <id>http://obriencj.preoccupied.net/</id>
+  <link href="http://obriencj.github.io/blog/tags/brine/atom.xml" rel="self"/>
+  <link href="http://obriencj.github.io/"/>
+  <updated>2014-06-21T14:08:43-04:00</updated>
+  <id>http://obriencj.github.io/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Brine On the Wire]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/"/>
+    <link href="http://obriencj.github.io/blog/2014/03/05/brine-on-the-wire/"/>
     <updated>2014-03-05T13:00:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire</id>
+    <id>http://obriencj.github.io/blog/2014/03/05/brine-on-the-wire</id>
     <content type="html"><![CDATA[<p>I realized while hacking on the test cases for the <a href="http://github.com/obriencj/python-promises">promises</a>
 multiprocess module that it would be really useful if I could easily
 pass along anonymous functions. So I threw together a new
@@ -76,9 +76,9 @@ have written it up here first… oh well, next time</em></p>
   
   <entry>
     <title type="html"><![CDATA[Eggs and Bacon]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon/"/>
+    <link href="http://obriencj.github.io/blog/2014/02/08/eggs-and-bacon/"/>
     <updated>2014-02-08T13:00:04-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon</id>
+    <id>http://obriencj.github.io/blog/2014/02/08/eggs-and-bacon</id>
     <content type="html"><![CDATA[<p>Let me tell you about breakfast.</p>
 
 <p>I woke up this morning, and immediately started hacking on <a href="https://github.com/obriencj/python-brine/">brine</a>,
@@ -233,9 +233,9 @@ need the jar.<a href="#fnref:3" rel="reference">&#8617;</a></p>
   
   <entry>
     <title type="html"><![CDATA[Barrels of brine]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/"/>
+    <link href="http://obriencj.github.io/blog/2014/02/06/barrels-of-brine/"/>
     <updated>2014-02-06T22:16:40-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine</id>
+    <id>http://obriencj.github.io/blog/2014/02/06/barrels-of-brine</id>
     <content type="html"><![CDATA[<p>I’ve been very happy spending my evenings working with a small project
 entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
 functionality and goals are well-defined. Put simply, brine allows you

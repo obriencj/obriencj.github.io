@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: github.io | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/tags/github-dot-io/atom.xml" rel="self"/>
-  <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-05-22T16:28:32-04:00</updated>
-  <id>http://obriencj.preoccupied.net/</id>
+  <link href="http://obriencj.github.io/blog/tags/github-dot-io/atom.xml" rel="self"/>
+  <link href="http://obriencj.github.io/"/>
+  <updated>2014-06-21T14:08:43-04:00</updated>
+  <id>http://obriencj.github.io/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Well how about Octopress instead?]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
+    <link href="http://obriencj.github.io/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
+    <id>http://obriencj.github.io/blog/2014/01/28/well-how-about-octopress-instead</id>
     <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
 I’m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
 
@@ -47,9 +47,9 @@ abandon Tumblr in favor of posting here…</p>
   
   <entry>
     <title type="html"><![CDATA[Making use of Jekyll on github.io]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
+    <link href="http://obriencj.github.io/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
     <updated>2014-01-25T00:01:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
+    <id>http://obriencj.github.io/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
     <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
 in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">Jekyll</a> on
 <a href="https://pages.github.com" title="GitHub Pages">github.io</a>. I’m swimming in the posibilities.</p>

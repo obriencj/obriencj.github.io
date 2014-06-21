@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: sphinx | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/tags/sphinx/atom.xml" rel="self"/>
-  <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-05-22T16:28:32-04:00</updated>
-  <id>http://obriencj.preoccupied.net/</id>
+  <link href="http://obriencj.github.io/blog/tags/sphinx/atom.xml" rel="self"/>
+  <link href="http://obriencj.github.io/"/>
+  <updated>2014-06-21T14:08:43-04:00</updated>
+  <id>http://obriencj.github.io/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Python, Sphinx, and GitHUB]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/02/09/python/"/>
+    <link href="http://obriencj.github.io/blog/2014/02/09/python/"/>
     <updated>2014-02-09T22:20:51-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/02/09/python</id>
+    <id>http://obriencj.github.io/blog/2014/02/09/python</id>
     <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/" title="The Morning Times">coffee shop</a>, trying to determine how
 I wanted to generate the API documentation for <a href="http://github.com/obriencj/python-brine">brine</a>.</p>
 

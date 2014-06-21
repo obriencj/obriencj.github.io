@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: sibilant | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/tags/sibilant/atom.xml" rel="self"/>
-  <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-05-22T16:28:32-04:00</updated>
-  <id>http://obriencj.preoccupied.net/</id>
+  <link href="http://obriencj.github.io/blog/tags/sibilant/atom.xml" rel="self"/>
+  <link href="http://obriencj.github.io/"/>
+  <updated>2014-06-21T14:08:43-04:00</updated>
+  <id>http://obriencj.github.io/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Weather and Backtracking]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking/"/>
+    <link href="http://obriencj.github.io/blog/2014/03/24/weather-and-backtracking/"/>
     <updated>2014-03-24T00:05:53-04:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking</id>
+    <id>http://obriencj.github.io/blog/2014/03/24/weather-and-backtracking</id>
     <content type="html"><![CDATA[<p>Spring should be arriving any moment now, and indeed there are hints
 of warmth and green coming soon. Those glimpses of a happy future are
 punctuated with an almost spiteful enthusiasm by incredibly gross

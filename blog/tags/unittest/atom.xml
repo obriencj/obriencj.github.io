@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: unittest | obriencj]]></title>
-  <link href="http://obriencj.preoccupied.net/blog/tags/unittest/atom.xml" rel="self"/>
-  <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-05-22T16:28:32-04:00</updated>
-  <id>http://obriencj.preoccupied.net/</id>
+  <link href="http://obriencj.github.io/blog/tags/unittest/atom.xml" rel="self"/>
+  <link href="http://obriencj.github.io/"/>
+  <updated>2014-06-21T14:08:43-04:00</updated>
+  <id>http://obriencj.github.io/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Barrels of brine]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/"/>
+    <link href="http://obriencj.github.io/blog/2014/02/06/barrels-of-brine/"/>
     <updated>2014-02-06T22:16:40-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine</id>
+    <id>http://obriencj.github.io/blog/2014/02/06/barrels-of-brine</id>
     <content type="html"><![CDATA[<p>I’ve been very happy spending my evenings working with a small project
 entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
 functionality and goals are well-defined. Put simply, brine allows you
