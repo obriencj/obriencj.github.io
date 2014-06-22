@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: octopress | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/octopress/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-06-21T21:44:07-04:00</updated>
+  <updated>2014-06-21T22:05:31-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -18,38 +18,30 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
-    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/">JekyllBootstrap</a> was turning out, so now
-I&rsquo;m playing around with <a href="http://octopress.org/">Octopress</a>.</p>
+    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
+I’m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
 
 <!-- more -->
 
-
-<p>It&rsquo;s taken me a little over a week to get this looking something like
+<p>It’s taken me a little over a week to get this looking something like
 an actual blog. I have no idea why the default layout is so nutty
 (huge fonts, etc).</p>
 
-<p>I&rsquo;m using the <a href="https://github.com/robbyedwards/octopress-tag-pages">tag-pages</a> and <a href="https://github.com/robbyedwards/octopress-tag-cloud">tag-cloud</a> plugins. I&rsquo;m a little bit
-baffled as to why post tagging behavior wasn&rsquo;t included with Octopress
+<p>I’m using the <a href="https://github.com/robbyedwards/octopress-tag-pages">tag-pages</a> and <a href="https://github.com/robbyedwards/octopress-tag-cloud">tag-cloud</a> plugins. I’m a little bit
+baffled as to why post tagging behavior wasn’t included with Octopress
 as a baseline feature.</p>
 
-<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/">gist plugin</a>, but it&rsquo;s currently rendering code
-blocks <a href="https://github.com/imathis/octopress/issues/847">terribly wrong</a>, so I&rsquo;m reduced to inserting the
+<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/" title="Gist Tag">gist plugin</a>, but it’s currently rendering code
+blocks <a href="https://github.com/imathis/octopress/issues/847" title="GitHub gist changes break gist plugin formatting #847">terribly wrong</a>, so I’m reduced to inserting the
 gists directly in any posts I write. This of course has its pros and
 cons. I am not reliant on a bit of javascript and the gist site itself
 to display my snippets, but I am also no longer receiving live updates
 if I make any changes.</p>
 
-<p>I&rsquo;ve imported my scant few <a href="http://obriencj.tumblr.com">Tumblr</a> posts, and have gone through the
+<p>I’ve imported my scant few <a href="http://obriencj.tumblr.com">Tumblr</a> posts, and have gone through the
 tweaks to make them work in this blog. I believe that I shall now
-abandon Tumblr in favor of posting here&hellip;</p>
+abandon Tumblr in favor of posting here…</p>
 
-<p>&ldquo;The Quickest Way to Blog on GitHub Pages&rdquo;</p>
-
-<p>&ldquo;A blogging framework for hackers&rdquo;</p>
-
-<p>&ldquo;Gist Tag&rdquo;</p>
-
-<p>&ldquo;GitHub gist changes break gist plugin formatting #847&rdquo;</p>
 ]]></content>
   </entry>
   

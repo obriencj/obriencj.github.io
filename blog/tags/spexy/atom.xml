@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: spexy | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/spexy/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-06-21T21:44:07-04:00</updated>
+  <updated>2014-06-21T22:05:31-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -18,17 +18,16 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/"/>
     <updated>2014-01-25T00:00:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try</id>
-    <content type="html"><![CDATA[<p>Because it&rsquo;s Friday night and I have nothing else going on, I&rsquo;ve been
+    <content type="html"><![CDATA[<p>Because it’s Friday night and I have nothing else going on, I’ve been
 hacking away at <a href="https://github.com/obriencj/python-spexy">Spexy</a> again. It remains an utterly insane body of
 work, which no clear-minded individual should approach with a straight
 face.</p>
 
 <!-- more -->
 
-
-<p>But&hellip; I&rsquo;m surprised how the me from 2007 thought some of the features
-through &ndash; especially taking into consideration the
-<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif">state of my brain</a> at the time. The module itself runs the input code
+<p>But… I’m surprised how the me from 2007 thought some of the features
+through – especially taking into consideration the
+<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif" title="Come with me on an adventure you'll never remember">state of my brain</a> at the time. The module itself runs the input code
 through distinct parsing and evaluation steps, which includes a macro
 expansion pass before moving on to specials. I get the idea that I may
 have intended to write parts of Spexy <strong>in</strong> Spexy once I got
@@ -38,60 +37,58 @@ have intended to write parts of Spexy <strong>in</strong> Spexy once I got
 inspiration (and giggling). When the dust settled, Spexy had gained
 support for <code>try/except</code> expressions.</p>
 
-<pre><code class="text output of spexy_try https://gist.github.com/obriencj/8610594 Gist">maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
+<p>```text output of spexy_try https://gist.github.com/obriencj/8610594 Gist
+maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
 The original spexy source is
------
+—–
 (defun division (x y)
   (let ((result None))
     (try
-      (setf result (/ x y))
+      (setf result (/ x y))</p>
 
-      ((ZeroDivisionError)
-        (println "division by zero!" x "/" y)
-        False)
-      (:else
-        (println "result is" result)
-        result)
-      (:finally
-        (println "executing finally clause")))))
------
-
-parses into tree
------
-['defun', 'division', ['x', 'y'], ['let', [['result', 'None']], ['try', ['setf', 'result', ['/', 'x', 'y']], [['ZeroDivisionError'], ['println', '"division by zero!"', 'x', '"/"', 'y'], 'False'], [':else', ['println', '"result is"', 'result'], 'result'], [':finally', ['println', '"executing finally clause"']]]]]
------
-
-processed into Python
------
-globals().__setitem__('division', (lambda x, y: ((lambda result: (lambda _lcls:(eval(compile('def try_block(try_clause,except_0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n','&lt;spexy&gt;','single'),globals(),_lcls), _lcls)[-1])({})['try_block']((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__('sys').stdout.writelines(map(str, ("division by zero!", " ", x, " ", "/", " ", y, '\n'))), False,)[-1]), (lambda : (__import__('sys').stdout.writelines(map(str, ("result is", " ", result[0], '\n'))), result[0],)[-1]), (lambda : __import__('sys').stdout.writelines(map(str, ("executing finally clause", '\n'))))))([None]))))
------
-
-division(1, 2)
-result is 0
-executing finally clause
-result: 0
-
-division(4, 2)
-result is 2
-executing finally clause
-result: 2
-
-division(2, 0)
-division by zero! 2 / 0
-executing finally clause
-result: False
-
-it works!
+<pre><code>  ((ZeroDivisionError)
+    (println "division by zero!" x "/" y)
+    False)
+  (:else
+    (println "result is" result)
+    result)
+  (:finally
+    (println "executing finally clause"))))) -----
 </code></pre>
 
-<p>It&rsquo;s pretty ugly. It&rsquo;s ugly pretty. Most importantly, it&rsquo;s satisfying
-the rules of Spexy. &ldquo;What rules,&rdquo; you ask? As I&rsquo;ve been toiling over
-this I&rsquo;ve remembered more about just why the thing exists. It&rsquo;s not a
-project &ndash; it&rsquo;s a puzzle! The inspiration was never &ldquo;I need a tool
-that will do&hellip;&rdquo; it was &ldquo;I wonder if I can&hellip;&rdquo; and from there sprung
+<h2 id="parses-into-tree">parses into tree</h2>
+<p>[‘defun’, ‘division’, [‘x’, ‘y’], [‘let’, [[‘result’, ‘None’]], [‘try’, [‘setf’, ‘result’, [’/’, ‘x’, ‘y’]], [[‘ZeroDivisionError’], [‘println’, ‘“division by zero!”’, ‘x’, ‘”/”’, ‘y’], ‘False’], [‘:else’, [‘println’, ‘“result is”’, ‘result’], ‘result’], [‘:finally’, [‘println’, ‘“executing finally clause”’]]]]]
+—–</p>
+
+<h2 id="processed-into-python">processed into Python</h2>
+<p>globals().<strong>setitem</strong>(‘division’, (lambda x, y: ((lambda result: (lambda <em>lcls:(eval(compile(‘def try_block(try_clause,except</em>0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n’,’<spexy>','single'),globals(),_lcls), _lcls)[-1])({})['try_block']((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__('sys').stdout.writelines(map(str, ("division by zero!", " ", x, " ", "/", " ", y, '\n'))), False,)[-1]), (lambda : (__import__('sys').stdout.writelines(map(str, ("result is", " ", result[0], '\n'))), result[0],)[-1]), (lambda : __import__('sys').stdout.writelines(map(str, ("executing finally clause", '\n'))))))([None]))))
+-----</spexy></p>
+
+<p>division(1, 2)
+result is 0
+executing finally clause
+result: 0</p>
+
+<p>division(4, 2)
+result is 2
+executing finally clause
+result: 2</p>
+
+<p>division(2, 0)
+division by zero! 2 / 0
+executing finally clause
+result: False</p>
+
+<p>it works!
+```</p>
+
+<p>It’s pretty ugly. It’s ugly pretty. Most importantly, it’s satisfying
+the rules of Spexy. “What rules,” you ask? As I’ve been toiling over
+this I’ve remembered more about just why the thing exists. It’s not a
+project – it’s a puzzle! The inspiration was never “I need a tool
+that will do…” it was “I wonder if I can…” and from there sprung
 up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#concept">rules</a>.</p>
 
-<p>&ldquo;Come with me on an adventure you&rsquo;ll never remember&rdquo;</p>
 ]]></content>
   </entry>
   
@@ -105,8 +102,8 @@ perfectly valid Python it emits</p>
 
 <!-- more -->
 
-
-<pre><code class="text spexy repl example https://gist.github.com/obriencj/8567348 Gist">[siege@maybe src]$ python spexy.py
+<p><code>text spexy repl example https://gist.github.com/obriencj/8567348 Gist
+[siege@maybe src]$ python spexy.py
 &gt;&gt;&gt;&gt; (defun make_pair ()
         (letrec ((value None)
                 (getter (lambda () value))
@@ -141,29 +138,36 @@ perfectly valid Python it emits</p>
 &gt;&gt;&gt;&gt; (getter)
 --&gt; getter()
 '919'
-</code></pre>
+</code></p>
 
-<pre><code class="text more spexy repl https://gist.github.com/obriencj/8609890 Gist">maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
+<p>```text more spexy repl https://gist.github.com/obriencj/8609890 Gist
+maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
 Python 2.7.6 (default, Nov 18 2013, 15:12:51)
 [GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
-&gt;&gt;&gt; from spexy import repl
-&gt;&gt;&gt; from datetime import datetime
-&gt;&gt;&gt; repl(globals())
-&gt;&gt;&gt;&gt; (let ((who "siege") (date 1999))
-       (letrec ((fmt "Hello %s, party like it is %i!")
+Type “help”, “copyright”, “credits” or “license” for more information.
+»&gt; from spexy import repl
+»&gt; from datetime import datetime
+»&gt; repl(globals())
+»» (let ((who “siege”) (date 1999))
+       (letrec ((fmt “Hello %s, party like it is %i!”)
                 (msg (% fmt (make-tuple who date))))
          (println msg)))
- --&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.__setitem__(0, "Hello %s, party like it is %i!"), msg.__setitem__(0, (fmt[0] % (who[0], date[0],))), __import__('sys').stdout.writelines(map(str, (msg[0], '\n'))),)[-1])([None], [None])))(["siege"], [1999]))
+ –&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.<strong>setitem</strong>(0, “Hello %s, party like it is %i!”), msg.<strong>setitem</strong>(0, (fmt[0] % (who[0], date[0],))), <strong>import</strong>(‘sys’).stdout.writelines(map(str, (msg[0], ‘\n’))),)[-1])([None], [None])))([“siege”], [1999]))
 Hello siege, party like it is 1999!
-&gt;&gt;&gt;&gt; (println "But..." "it isn't" 1999 "anymore, it's" (. (datetime.now) year))
- --&gt; __import__('sys').stdout.writelines(map(str, ("But...", " ", "it isn't", " ", 1999, " ", "anymore, it's", " ", datetime.now().year, '\n')))
-But... it isn't 1999 anymore, it's 2014
-&gt;&gt;&gt;&gt; (quit)
+»» (println “But…” “it isn’t” 1999 “anymore, it’s” (. (datetime.now) year))
+ –&gt; <strong>import</strong>(‘sys’).stdout.writelines(map(str, (“But…”, “ “, “it isn’t”, “ “, 1999, “ “, “anymore, it’s”, “ “, datetime.now().year, ‘\n’)))
+But… it isn’t 1999 anymore, it’s 2014
+»» (quit)</p>
 
-&gt;&gt;&gt; quit()
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <p>quit()
 maybe:python-spexy siege$
-</code></pre>
+```</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
 ]]></content>
   </entry>
   
@@ -173,35 +177,34 @@ maybe:python-spexy siege$
     <updated>2014-01-22T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
     <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
-Something I&rsquo;d forgotten. Something that is so bizarre I&rsquo;m not even
+Something I’d forgotten. Something that is so bizarre I’m not even
 sure what I was thinking when I hacked at it. Something I had to
-double check that I&rsquo;d actually written, because it was so foreign to
+double check that I’d actually written, because it was so foreign to
 me.</p>
 
 <!-- more -->
 
-
 <p>Then I noticed the date. Ah 2007, the Ambien era. When Space Lord
 Zolpidem guided me on battles through the multiverse on a nightly
-basis. I don&rsquo;t remember a whole lot from 2007. Wish I could say the
+basis. I don’t remember a whole lot from 2007. Wish I could say the
 same for 2008, but I digress.</p>
 
 <p>At some point in our adventures, SLZ and I apparently hacked together
-a LISP/Scheme-like python file encoding &ndash; &ldquo;spexy&rdquo;.</p>
+a LISP/Scheme-like python file encoding – “spexy”.</p>
 
-<p><em>Keep in mind, this isn&rsquo;t a scheme interpreter written in Python.</em> No
-no no, this decodes to Python. I think I&rsquo;m going to try and clean this
+<p><em>Keep in mind, this isn’t a scheme interpreter written in Python.</em> No
+no no, this decodes to Python. I think I’m going to try and clean this
 up and see how much sense it can be made to make.</p>
 
-<p>And then you can bet your ass I&rsquo;m going to pollute GitHub with it.</p>
+<p>And then you can bet your ass I’m going to pollute GitHub with it.</p>
 
 <p>Stay off drugs, kids.</p>
 
 <hr />
 
 <ul>
-<li>2014-01-23: it&rsquo;s up on GitHub now &ndash; <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
-<li>2014-02-03: originally posted to Tumblr, moved over here</li>
+  <li>2014-01-23: it’s up on GitHub now – <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
+  <li>2014-02-03: originally posted to Tumblr, moved over here</li>
 </ul>
 
 ]]></content>

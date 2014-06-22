@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: promises | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/promises/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-06-21T21:44:07-04:00</updated>
+  <updated>2014-06-21T22:05:31-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -19,12 +19,12 @@
     <updated>2014-04-26T12:35:18-04:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/04/26/surprise</id>
     <content type="html"><![CDATA[<p>My motorcycle is in the shop this morning. I ride a little <a href="http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx">TU250x</a>
-that I call &ldquo;Tux&rdquo;. I bought her for myself as a birthday present last
-year, and have put a little over 6000 miles on her since. She&rsquo;s a good
+that I call “Tux”. I bought her for myself as a birthday present last
+year, and have put a little over 6000 miles on her since. She’s a good
 bike, and I take a lot of pleasure in our rides together. I perform
-the majority of her maintenance myself &ndash; oil, chain, valves,
-electrical. But one thing I didn&rsquo;t want to do was replace and balance
-the tires, so I&rsquo;m paying the guys at <a href="http://www.team-powersports.com/">Team Powersports</a> to do it.</p>
+the majority of her maintenance myself – oil, chain, valves,
+electrical. But one thing I didn’t want to do was replace and balance
+the tires, so I’m paying the guys at <a href="http://www.team-powersports.com/">Team Powersports</a> to do it.</p>
 
 <p>While Tux is off getting new tires, my daughter and I are sitting on
 the back porch. She has been reading <a href="http://en.wikipedia.org/wiki/Rurouni_Kenshin">Rurouni Kenshin</a> for the first
@@ -33,25 +33,24 @@ time, and I have been working on the documentation for
 
 <!-- more -->
 
-
 <p>I recently discovered, much to my surprise, that promises has a
 user. Possibly more than one. This is crazy to me because of all my
-projects promises has the most direct competition. It&rsquo;s also one I
+projects promises has the most direct competition. It’s also one I
 decided not to publish on <a href="http://pypi.python.org/pypi/">PyPI</a> (for the very reason of the
 previously mentioned competing modules). It would appear that indeed
 the very act of publishing code publicly will draw <em>someone</em> to use
 it. I had maintained doubt about this rule, but I will have to take
 this new anecdote in stride.</p>
 
-<p>Oh dear. I hope that doesn&rsquo;t mean <a href="http://github.com/obriencj/python-spexy">Spexy</a> has users&hellip;</p>
+<p>Oh dear. I hope that doesn’t mean <a href="http://github.com/obriencj/python-spexy">Spexy</a> has users…</p>
 
-<p>This new-found user has turned out to be very useful. They&rsquo;ve already
+<p>This new-found user has turned out to be very useful. They’ve already
 <a href="https://github.com/obriencj/python-promises/issues/1">provided</a> excellent and insightful feedback, which in turn
 has blossomed into new features. I can only hope that my other
 projects will over time gather attention of similar quality.</p>
 
-<p>Perhaps I&rsquo;ll rethink promises a bit more. After I give it a good hard
-look I&rsquo;ll reconsider if maybe &ndash; just maybe &ndash; I ought to publish it
+<p>Perhaps I’ll rethink promises a bit more. After I give it a good hard
+look I’ll reconsider if maybe – just maybe – I ought to publish it
 to PyPI after all.</p>
 ]]></content>
   </entry>
@@ -61,9 +60,9 @@ to PyPI after all.</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/"/>
     <updated>2014-03-02T14:16:30-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s beautiful, this fine sunny Sunday. Zoe is outside playing with
-the neighbors and I&rsquo;m relaxing in the breeze. I&rsquo;m working on a bit of
-clean-up coding from yesterday&rsquo;s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
+    <content type="html"><![CDATA[<p>It’s beautiful, this fine sunny Sunday. Zoe is outside playing with
+the neighbors and I’m relaxing in the breeze. I’m working on a bit of
+clean-up coding from yesterday’s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
 I had finally gotten around to <a href="https://gist.github.com/obriencj/9298654">writing</a> a unit test
 harness for the XML-RPC multicall promise bits. I was so excited to
 have that working that I charged through writing tests and fixing bugs
@@ -72,20 +71,19 @@ it, my promises module was looking darn-near worthy of a 1.0</p>
 
 <!-- more -->
 
-
 <p>As I had done before with <a href="http://github.com/obriencj/python-brine">brine</a> I went ahead and set up <a href="https://travis-ci.org/obriencj/python-promises">travis.ci</a>
 and <a href="https://coveralls.io/r/obriencj/python-promises?branch=master">coveralls.io</a> hooks. I am still astounded (and grateful) that
-there&rsquo;s such infrastructure available gratis to the open source
+there’s such infrastructure available gratis to the open source
 community.</p>
 
-<p>I&rsquo;ve also started the more tedious task of going through the
+<p>I’ve also started the more tedious task of going through the
 docstrings and getting them into the format that <a href="https://github.com/numpy/numpydoc">numpydocs</a> and
 <a href="http://sphinx-doc.org/">sphinx</a> are expecting. I need to write up significantly more examples
 for <a href="http://obriencj.preoccupied.net/python-promises/">the documentation</a>. That can be what I work on in the evenings in
 bed, this week.</p>
 
-<p>I&rsquo;ll let the project sit for a bit, and see if anything else crops up
-that needs changing. But if all goes well, I think I&rsquo;ll be tagging
+<p>I’ll let the project sit for a bit, and see if anything else crops up
+that needs changing. But if all goes well, I think I’ll be tagging
 version 1.0.0 soon, and posting the module up on PyPI.</p>
 ]]></content>
   </entry>
