@@ -94,7 +94,7 @@ sibilant was meant to be &hellip;">
   
 
 
-<time datetime="2014-02-22T19:25:00-05:00" pubdate data-updated="true">Feb 22<span>nd</span>, 2014</time></p>
+<time datetime="2014-02-22T19:25:00-05:00" pubdate data-updated="true">Feb 22<sup>nd</sup>, 2014</time></p>
   </header>
   
   <p>Originally started in 2008 as a followup to the much-maligned <a href="https://github.com/obriencj/python-spexy">spexy</a>,
@@ -103,69 +103,73 @@ compiled to a <a href="https://python.org">Python</a> module. It fell by the way
 interferred in a big way.</p>
 
 <p>Spexy and Sibilant were both <a href="/blog/2014/01/22/spexy-oh-god-what-did-i-do/">re-discovered</a> in January of 2014, and
-I’ve been looking over them to see what– if anything– can be
+I&rsquo;ve been looking over them to see what&ndash; if anything&ndash; can be
 salvaged.</p>
 
-<p>I <a href="https://github.com/obriencj/python-sibilant">imported sibilant</a> to GitHub in its non-function state, and that’s
+<p>I <a href="https://github.com/obriencj/python-sibilant">imported sibilant</a> to GitHub in its non-function state, and that&rsquo;s
 the starting point for any future hacking.</p>
 
-<h2 id="sibilant-goals">Sibilant Goals</h2>
+<h2>Sibilant Goals</h2>
 
 <ul>
-  <li>Python 3</li>
-  <li>Scheme-like (LISP1, not LISP2)</li>
-  <li>REPL</li>
-  <li><code>import</code> support for sibilant source files
-    <ul>
-      <li>importing sibilant should enable the import features such that it
+<li>Python 3</li>
+<li>Scheme-like (LISP1, not LISP2)</li>
+<li>REPL</li>
+<li><code>import</code> support for sibilant source files
+
+<ul>
+<li>importing sibilant should enable the import features such that it
 will begin searching for <code>.pyscm</code> files on further import calls</li>
-      <li>the contents of a <code>.pyscm</code> file should be consumable from other
+<li>the contents of a <code>.pyscm</code> file should be consumable from other
 Python modules</li>
-      <li>should support compiling <code>.pyscm</code> into <code>.pyc</code></li>
-      <li><code>.pyscm</code> should be able to import native python modules as well as
+<li>should support compiling <code>.pyscm</code> into <code>.pyc</code></li>
+<li><code>.pyscm</code> should be able to import native python modules as well as
 other <code>.pyscm</code> modules</li>
-    </ul>
-  </li>
-  <li>should follow a continuation-passing style call conformity after
+</ul>
+</li>
+<li>should follow a continuation-passing style call conformity after
 being compiled</li>
-  <li>should support tail-call recursion optimization</li>
-  <li>should support <code>call/cc</code> (even across calls into native Python)</li>
-  <li>should support symbols as a type</li>
-  <li>should support cons cell style lists as a type</li>
-  <li>should support macros</li>
-  <li>should provide a way to write DSL in Python (arguably, this is The
+<li>should support tail-call recursion optimization</li>
+<li>should support <code>call/cc</code> (even across calls into native Python)</li>
+<li>should support symbols as a type</li>
+<li>should support cons cell style lists as a type</li>
+<li>should support macros</li>
+<li>should provide a way to write DSL in Python (arguably, this is The
 Point)</li>
-  <li>should support correctly printing traceback lines</li>
-  <li>should support the <code>with</code> managed interface from Python objects</li>
-  <li>should support generators</li>
-  <li>should support multimethods and CLOS-style class definitions
+<li>should support correctly printing traceback lines</li>
+<li>should support the <code>with</code> managed interface from Python objects</li>
+<li>should support generators</li>
+<li>should support multimethods and CLOS-style class definitions
 (dispatching to Pythonic classes? Maybe a metaclass?)</li>
 </ul>
 
-<h2 id="related">Related</h2>
 
-<h3 id="clojure">Clojure</h3>
+<h2>Related</h2>
+
+<h3>Clojure</h3>
+
 <p>There is already a serious and strong LISP that runs on Python, and it
-is <a href="http://clojure.org/">Clojure</a>. If anyone were to ask me, “should I use Sibilant?” I
+is <a href="http://clojure.org/">Clojure</a>. If anyone were to ask me, &ldquo;should I use Sibilant?&rdquo; I
 would tell them to look to <a href="https://github.com/halgari/clojure-py">Python Clojure</a> instead. Clojure has a real
 community around it, and it is a language that runs on Java as well as
 Python platforms.</p>
 
 <ul>
-  <li><a href="http://clojure.org/">clojure.org</a></li>
-  <li><a href="https://github.com/halgari/clojure-py">clojure-py</a> on GitHub</li>
+<li><a href="http://clojure.org/">clojure.org</a></li>
+<li><a href="https://github.com/halgari/clojure-py">clojure-py</a> on GitHub</li>
 </ul>
 
-<h3 id="sibilant-javascript">Sibilant Javascript</h3>
+
+<h3>Sibilant Javascript</h3>
 
 <p>There is also another project that has come into existence named
-“sibilant”. What with it being a dictionary word meaning loosely
-“speaks with a lisp” this is hardly surprising! The
+&ldquo;sibilant&rdquo;. What with it being a dictionary word meaning loosely
+&ldquo;speaks with a lisp&rdquo; this is hardly surprising! The
 <a href="https://github.com/jbr/sibilant">other sibilant</a> is a lisp that compiles to Javascript.</p>
 
 <ul>
-  <li><a href="http://sibilantjs.info/">sibilantjs.info</a></li>
-  <li><a href="https://github.com/jbr/sibilant">Javascript Sibilant</a> on GitHub</li>
+<li><a href="http://sibilantjs.info/">sibilantjs.info</a></li>
+<li><a href="https://github.com/jbr/sibilant">Javascript Sibilant</a> on GitHub</li>
 </ul>
 
 
@@ -209,9 +213,9 @@ Python platforms.</p>
   <p class="tags">
 <a style="font-size: 115%" href="/blog/tags/brine/">brine</a>
 <a style="font-size: 106%" href="/blog/tags/gist/">gist</a>
-<a style="font-size: 106%" href="/blog/tags/github/">github</a>
 <a style="font-size: 106%" href="/blog/tags/github-dot-io/">github.io</a>
 <a style="font-size: 115%" href="/blog/tags/hack/">hack</a>
+<a style="font-size: 106%" href="/blog/tags/ideas/">ideas</a>
 <a style="font-size: 106%" href="/blog/tags/jekyll/">jekyll</a>
 <a style="font-size: 115%" href="/blog/tags/lisp/">lisp</a>
 <a style="font-size: 106%" href="/blog/tags/promises/">promises</a>

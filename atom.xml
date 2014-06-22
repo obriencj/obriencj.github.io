@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-06-21T21:13:36-04:00</updated>
+  <updated>2014-06-21T21:40:07-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -18,12 +18,13 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/05/22/bindings-shed/"/>
     <updated>2014-05-22T00:18:33-04:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/05/22/bindings-shed</id>
-    <content type="html"><![CDATA[<p>I’ve removed a piece of myself, this morning.</p>
+    <content type="html"><![CDATA[<p>I&rsquo;ve removed a piece of myself, this morning.</p>
 
 <!-- more -->
 
+
 <p>Back in 1999, I had a dream that my tongue was pierced. Upon awakening
-I remembered that – for some unknown reason in the dream – this made
+I remembered that &ndash; for some unknown reason in the dream &ndash; this made
 me happy. On September 7th, 2001 I managed to scrape up enough courage
 and I paid a nice fellow at Blue Flame (a piercing and tattoo salon of
 which nothing now remains) to drive a hollow barb through my tongue.
@@ -40,32 +41,32 @@ behind a bakery in a theme park.</p>
 a Waffle House on the way home. My head resonated. It was unpleasant.
 I had to re-learn how to chew, somehow without flipping my tongue over.</p>
 
-<p>I’ve run into a lot of people who were very surprised to learn that I
+<p>I&rsquo;ve run into a lot of people who were very surprised to learn that I
 had it, as the years went by. I am such a painfully mundane person,
-it’s been a point of pride that there’s this secret hidden away.</p>
+it&rsquo;s been a point of pride that there&rsquo;s this secret hidden away.</p>
 
-<p>Lately, I’ve been very frustrated. In my agitation I’ve been clicking
-the jewelry around in my mouth, raking it across my teeth. I’m 35
+<p>Lately, I&rsquo;ve been very frustrated. In my agitation I&rsquo;ve been clicking
+the jewelry around in my mouth, raking it across my teeth. I&rsquo;m 35
 years old now, and my gums are taking a genuine beating from this
-thing. I’m getting older, as much as I don’t want to admit it. I may
+thing. I&rsquo;m getting older, as much as I don&rsquo;t want to admit it. I may
 have to fight with everyone older than me over the validity for such a
-statement, but I can feel it happening. I don’t want to crack my
-teeth, I don’t want to wear my gums down. 13 years of rubbing a bit of
+statement, but I can feel it happening. I don&rsquo;t want to crack my
+teeth, I don&rsquo;t want to wear my gums down. 13 years of rubbing a bit of
 metal against the insides of your mouth will do that.</p>
 
-<p>Tonight I’ve removed that tongue bar, and I do not believe I will be
+<p>Tonight I&rsquo;ve removed that tongue bar, and I do not believe I will be
 putting it back. I carried it through marriage, the birth of my
 daughter, an unwilling divorce, the death of my father, and a
-motorcycle accident that robbed me of a fingertip. But in the end it’s
-just a thing. I feel like I’m letting myself down by taking it out,
+motorcycle accident that robbed me of a fingertip. But in the end it&rsquo;s
+just a thing. I feel like I&rsquo;m letting myself down by taking it out,
 but it was hurting me. That can be said for a lot of the past, I
 suppose.</p>
 
-<p>It’s always such a fight, achieving legitimacy. Even your own friends
-take it from you when they have the chance, and I don’t think they can
+<p>It&rsquo;s always such a fight, achieving legitimacy. Even your own friends
+take it from you when they have the chance, and I don&rsquo;t think they can
 help it. That stupid bit of metal was holding me aloft, in my own
-mind. But I can’t keep at it, because I suppose I am worried that I
-will wear this weak body out slightly earlier than otherwise. It’s a
+mind. But I can&rsquo;t keep at it, because I suppose I am worried that I
+will wear this weak body out slightly earlier than otherwise. It&rsquo;s a
 mundane decision from a mundane person, and I am unhappy with myself,
 but I think it was the correct action.</p>
 
@@ -81,12 +82,12 @@ but I think it was the correct action.</p>
     <updated>2014-04-26T12:35:18-04:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/04/26/surprise</id>
     <content type="html"><![CDATA[<p>My motorcycle is in the shop this morning. I ride a little <a href="http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx">TU250x</a>
-that I call “Tux”. I bought her for myself as a birthday present last
-year, and have put a little over 6000 miles on her since. She’s a good
+that I call &ldquo;Tux&rdquo;. I bought her for myself as a birthday present last
+year, and have put a little over 6000 miles on her since. She&rsquo;s a good
 bike, and I take a lot of pleasure in our rides together. I perform
-the majority of her maintenance myself – oil, chain, valves,
-electrical. But one thing I didn’t want to do was replace and balance
-the tires, so I’m paying the guys at <a href="http://www.team-powersports.com/">Team Powersports</a> to do it.</p>
+the majority of her maintenance myself &ndash; oil, chain, valves,
+electrical. But one thing I didn&rsquo;t want to do was replace and balance
+the tires, so I&rsquo;m paying the guys at <a href="http://www.team-powersports.com/">Team Powersports</a> to do it.</p>
 
 <p>While Tux is off getting new tires, my daughter and I are sitting on
 the back porch. She has been reading <a href="http://en.wikipedia.org/wiki/Rurouni_Kenshin">Rurouni Kenshin</a> for the first
@@ -95,24 +96,25 @@ time, and I have been working on the documentation for
 
 <!-- more -->
 
+
 <p>I recently discovered, much to my surprise, that promises has a
 user. Possibly more than one. This is crazy to me because of all my
-projects promises has the most direct competition. It’s also one I
+projects promises has the most direct competition. It&rsquo;s also one I
 decided not to publish on <a href="http://pypi.python.org/pypi/">PyPI</a> (for the very reason of the
 previously mentioned competing modules). It would appear that indeed
 the very act of publishing code publicly will draw <em>someone</em> to use
 it. I had maintained doubt about this rule, but I will have to take
 this new anecdote in stride.</p>
 
-<p>Oh dear. I hope that doesn’t mean <a href="http://github.com/obriencj/python-spexy">Spexy</a> has users…</p>
+<p>Oh dear. I hope that doesn&rsquo;t mean <a href="http://github.com/obriencj/python-spexy">Spexy</a> has users&hellip;</p>
 
-<p>This new-found user has turned out to be very useful. They’ve already
+<p>This new-found user has turned out to be very useful. They&rsquo;ve already
 <a href="https://github.com/obriencj/python-promises/issues/1">provided</a> excellent and insightful feedback, which in turn
 has blossomed into new features. I can only hope that my other
 projects will over time gather attention of similar quality.</p>
 
-<p>Perhaps I’ll rethink promises a bit more. After I give it a good hard
-look I’ll reconsider if maybe – just maybe – I ought to publish it
+<p>Perhaps I&rsquo;ll rethink promises a bit more. After I give it a good hard
+look I&rsquo;ll reconsider if maybe &ndash; just maybe &ndash; I ought to publish it
 to PyPI after all.</p>
 ]]></content>
   </entry>
@@ -122,19 +124,19 @@ to PyPI after all.</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/"/>
     <updated>2014-04-03T18:52:24-04:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools</id>
-    <content type="html"><![CDATA[<p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I’ve been
+    <content type="html"><![CDATA[<p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I&rsquo;ve been
 distracted.</p>
 
-<p>My daughter is out of school on spring break, and I’ve taken leave
+<p>My daughter is out of school on spring break, and I&rsquo;ve taken leave
 from work so that we could hang out together. Of course this means
-that we’ve just been finding new ways to ignore each other as the week
-has gone by. We’ve certainly spent a lot of time at various parks and
-playgrounds, and we’ve played an awful lot of Minecraft together. But
-on the evenings we’ve also set up something approaching residency at
+that we&rsquo;ve just been finding new ways to ignore each other as the week
+has gone by. We&rsquo;ve certainly spent a lot of time at various parks and
+playgrounds, and we&rsquo;ve played an awful lot of Minecraft together. But
+on the evenings we&rsquo;ve also set up something approaching residency at
 our <a href="http://morningtimes-raleigh.com">favorite coffee shop</a>. She will sit and munch on chocolate chip
-cookies while watching videos and playing games on her ipad–
-oblivious to my presence– and I’ll find myself looking for something
-unimportant to half-heartedly hack on. It’s a pleasant and relaxing
+cookies while watching videos and playing games on her ipad&ndash;
+oblivious to my presence&ndash; and I&rsquo;ll find myself looking for something
+unimportant to half-heartedly hack on. It&rsquo;s a pleasant and relaxing
 situation, this modern bonding.</p>
 
 <p>And so it came to pass that I was looking over the <a href="http://github.com/obriencj/python-javatools">python-javatools</a>
@@ -142,9 +144,10 @@ project again.</p>
 
 <!-- more -->
 
-<h2 id="javatools">Javatools</h2>
 
-<p>I typically write my projects and tools in reverse– that is to say, I
+<h2>Javatools</h2>
+
+<p>I typically write my projects and tools in reverse&ndash; that is to say, I
 write them as if I had the API that I wanted, and then I create the
 library to fulfill that wish. In the end, I have a library and a tool
 that consumes it.</p>
@@ -156,52 +159,52 @@ harmless. I took a quick glance at the format specifications for Java
 class files, and indeed that information is trivial to fetch.</p>
 
 <p>Thus, organically, began the life of a tool whose purpose is to
-compare class binaries and discover the “meaningful” differences.</p>
+compare class binaries and discover the &ldquo;meaningful&rdquo; differences.</p>
 
-<h2 id="unit-tests">Unit tests</h2>
+<h2>Unit tests</h2>
 
-<p>This likely sounds mad, but I enjoy writing unit tests. They’re easy
+<p>This likely sounds mad, but I enjoy writing unit tests. They&rsquo;re easy
 to throw together without paying a whole lot of attention, and you
-aren’t likely to actively break something. Use tools like
+aren&rsquo;t likely to actively break something. Use tools like
 <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> and it becomes a game; trying to reach 100% <a href="https://docs.python.org/2/library/unittest.html">unittest</a>
 coverage for some little library that has a total of 20 users in the
 entire world.</p>
 
-<p>I started writing Javatools before I’d developed the habit of writing
-tests in parallel. Mind you, I “tested” the project frequently,
+<p>I started writing Javatools before I&rsquo;d developed the habit of writing
+tests in parallel. Mind you, I &ldquo;tested&rdquo; the project frequently,
 running it against all manner of samples from out in the wild. I kept
 a script in git whose sole job was to compare two versions of JBoss AS
-against one-another– that was my test case.</p>
+against one-another&ndash; that was my test case.</p>
 
 <p>Approaching actual test writing for this project seemed daunting at
-first– it meant I’d need to create data to test against, and that
+first&ndash; it meant I&rsquo;d need to create data to test against, and that
 meant writing Java code so that I could disassemble it again later and
 check that what my tooling reports is indeed what ought to be there.
-But that’s exactly what I’ve been doing this week in the coffee shop–
-creating sample classes that I could tear apart. I’ve found one bug in
+But that&rsquo;s exactly what I&rsquo;ve been doing this week in the coffee shop&ndash;
+creating sample classes that I could tear apart. I&rsquo;ve found one bug in
 javatools so far with this, so I even have something to show for it.</p>
 
-<h2 id="setuptools">Setuptools</h2>
+<h2>Setuptools</h2>
 
-<p>In order to more easily manage my unittests, I’ve migrated setup.py
+<p>In order to more easily manage my unittests, I&rsquo;ve migrated setup.py
 from the in-built <a href="https://docs.python.org/2/distutils/">distutils</a> module to <a href="http://pythonhosted.org/setuptools/">setuptools</a>. Setuptools has a
-few quirks, and I’ve had to make adjustments to accommodate those. For
+few quirks, and I&rsquo;ve had to make adjustments to accommodate those. For
 instance, renaming the <code>src</code> directory to <code>javatools</code>. In theory I
 will be able to simplify setup.py by moving the <code>pylint</code> command out
-into its own file, but I haven’t arrived at that point yet.</p>
+into its own file, but I haven&rsquo;t arrived at that point yet.</p>
 
 <p>Unfortunately, I still need to override the <code>build_py</code> command class
 to pre-compile my <a href="http://www.cheetahtemplate.org/">Cheetah</a> templates into python modules.</p>
 
-<p>Since this introduces a dependency for the project, I’ve kept these
+<p>Since this introduces a dependency for the project, I&rsquo;ve kept these
 changes (including the unittests) in a <a href="https://github.com/obriencj/python-javatools/tree/setuptools">separate branch</a> until I can
-ascertain that it’s not too much churn for the upcoming 1.4 release.</p>
+ascertain that it&rsquo;s not too much churn for the upcoming 1.4 release.</p>
 
 <p>Setuptools is widely-enough used that I sincerely doubt there will be
-any real issue with the switch. After a few more tests I’ll hopefully
+any real issue with the switch. After a few more tests I&rsquo;ll hopefully
 merge back to master and finally tag version 1.4 in git.</p>
 
-<p>And then I’ll have to go back to thinking about the compiler for
+<p>And then I&rsquo;ll have to go back to thinking about the compiler for
 sibilant.</p>
 ]]></content>
   </entry>
@@ -214,34 +217,37 @@ sibilant.</p>
     <content type="html"><![CDATA[<p>Spring should be arriving any moment now, and indeed there are hints
 of warmth and green coming soon. Those glimpses of a happy future are
 punctuated with an almost spiteful enthusiasm by incredibly gross
-weather. “Gross” is definitely the right word for it. The temperature
+weather. &ldquo;Gross&rdquo; is definitely the right word for it. The temperature
 will drop 30 degrees (F) overnight, and a harsh gusting wind will
 bring rain and occasionally sleet. The sky becomes dim and grey. You
-find yourself bundled up against it, wondering if the previous day’s
+find yourself bundled up against it, wondering if the previous day&rsquo;s
 open heavens and friendly sunshine were just part of a fever dream.</p>
 
 <!-- more -->
 
-<p>I’ve been spending more time than usual at my <a href="http://morningtimes-raleigh.com" title="The Morning Times, Raleigh">favorite coffee spot</a>
-and while there I’ve been (of course) hacking around. As some will
-know already, I’ve wanted for a while to write a proper LISP of my
+
+<p>I&rsquo;ve been spending more time than usual at my <a href="http://morningtimes-raleigh.com">favorite coffee spot</a>
+and while there I&rsquo;ve been (of course) hacking around. As some will
+know already, I&rsquo;ve wanted for a while to write a proper LISP of my
 own. I view it as an important exercise, and a bit of a milestone!
 There are so many implementations out there already, I am not so
 deluded as to think that mine will be of use except as a material
 lesson during the course of its creation. It is, to my mind, akin to a
-first novel. While composing a book ill suits me – I’m bereft of
-creative stories or unique views into real events – composing a
+first novel. While composing a book ill suits me &ndash; I&rsquo;m bereft of
+creative stories or unique views into real events &ndash; composing a
 compiler around what I consider to be an elegant and inspired computer
 language is right up my proverbial alley!</p>
 
+<p>&ldquo;The Morning Times, Raleigh&rdquo;</p>
+
 <p>But this path is not easily traversed. The routes my inadequate brain
 travels along are bumpy and often with poor visibility. In my personal
-hacks I don’t always know where I’m going, psychologically or
-programmatically, until I get there. I may indicate – as with a vague
-gesture – that I’m headed in so-and-so direction. Where the journey
+hacks I don&rsquo;t always know where I&rsquo;m going, psychologically or
+programmatically, until I get there. I may indicate &ndash; as with a vague
+gesture &ndash; that I&rsquo;m headed in so-and-so direction. Where the journey
 actually ends, who knows.</p>
 
-<p>In this particular venture, I’ve already found myself at a dead-end. A
+<p>In this particular venture, I&rsquo;ve already found myself at a dead-end. A
 LISP compiler must, by the very definition of things, be
 incremental. And I have painted myself into a corner, trying to be
 clever and converting the structure of the source code into an AST
@@ -251,39 +257,39 @@ depth) I cannot safely create an AST in such a fashion. I need to
 delay that step, and compile and execute the expression tree
 <em>in-place</em>, with the environment traversing along with the
 compiler. And so I must back track, a difficult lesson
-learned. There’s good reason that LISPs don’t use structures past
+learned. There&rsquo;s good reason that LISPs don&rsquo;t use structures past
 cons-lists, and now I see one of those reasons quite clearly.</p>
 
-<p>But let’s focus on the happy discoveries over the frustrating ones,
-today, yes? Let’s talk about continuations and trampolines!</p>
+<p>But let&rsquo;s focus on the happy discoveries over the frustrating ones,
+today, yes? Let&rsquo;s talk about continuations and trampolines!</p>
 
-<h2 id="teaching-phantoms">Teaching Phantoms</h2>
+<h2>Teaching Phantoms</h2>
 
 <p>Often, in order to consider things in their entirety in my own mind, I
 try to explain them as to an interested novice. I do this in the
 shower, or while staring off into space while my coffee grows cold. I
-dream up a situation – as many mad people do – where another person
+dream up a situation &ndash; as many mad people do &ndash; where another person
 exists that wants to learn something, and I must rise to the occasion
 to teach them.</p>
 
 <p>This mental habit has served me surprisingly well, though it may have
-contributed to my social failings. It’s hard to find love while
+contributed to my social failings. It&rsquo;s hard to find love while
 staring vacantly off into space.</p>
 
-<p>So let me pretend – in the interest of advancing this narrative –
+<p>So let me pretend &ndash; in the interest of advancing this narrative &ndash;
 that there is someone in need of teaching, so that I may be forced to
 organize my own thoughts enough to communicate them better to myself.
 Or put another way, let me pretend to be someone smarter, and you can
 pretend to be me.</p>
 
-<h2 id="return-of-the-continuation">Return of the Continuation</h2>
+<h2>Return of the Continuation</h2>
 
-<p>One thing that I’ve found profoundly exciting is the concept of the
+<p>One thing that I&rsquo;ve found profoundly exciting is the concept of the
 current continuation. Every expression of a program has one, hiding
 under the covers, invisible to the eye and editor. It is almost
 surprising, given the reclusive nature of the thing, to realize that
 most programming languages do in fact offer some view of this wild
-creature. It’s called often by a familar name, <code>return</code>, and you may
+creature. It&rsquo;s called often by a familar name, <code>return</code>, and you may
 well have taken it for granted throughout your years of programming.
 Or worse, having memorized a particular implementation of the concept,
 you may now be blinded to greater possibilities. A certain amount of
@@ -291,7 +297,7 @@ willing flexibility is required to proceed. Remember the wisdom of
 Yoda!</p>
 
 <p>The unassuming <code>return</code> is almost always disguised as a statement
-rather than an expression. <code>return</code> does double duty – it is both a
+rather than an expression. <code>return</code> does double duty &ndash; it is both a
 messenger, and a director. It will duly hand off a value, but it will
 also adjust the underlying program state such that execution can
 proceed and the program can eventually terminate.</p>
@@ -305,19 +311,19 @@ current scope!</p>
 
 <p>What in the world would that captive <code>return</code> be good for?</p>
 
-<p>If you’re polluted with an implementation-based understanding of
-<code>return</code> you’re probably vehemently thinking something like “it pops a
+<p>If you&rsquo;re polluted with an implementation-based understanding of
+<code>return</code> you&rsquo;re probably vehemently thinking something like &ldquo;it pops a
 frame off of the call stack! It places the passed value on the stack
-so that the caller can get to it! That’s what <code>return</code> does and what
-<code>return</code> must do! All other ideas are lies!” That’s certainly a
-possibility – in this case, a single instance of <code>return</code> works in
-all places. It is entirely side-effect driven. But… what if…</p>
+so that the caller can get to it! That&rsquo;s what <code>return</code> does and what
+<code>return</code> must do! All other ideas are lies!&rdquo; That&rsquo;s certainly a
+possibility &ndash; in this case, a single instance of <code>return</code> works in
+all places. It is entirely side-effect driven. But&hellip; what if&hellip;</p>
 
 <p>What if we made a small adjustment to the common implementation, and
 changed our definition of a call stack from a linear piece of memory
 to a singly-linked-list. Consider a chain, hanging from a hook,
 representing where the program is, and where it will go next. What if
-the action of <code>return</code> was less about “pop” and more about explicitly
+the action of <code>return</code> was less about &ldquo;pop&rdquo; and more about explicitly
 putting a particular link from that chain onto the hook. If that were
 the case, then each function would need its own <code>return</code>, created with
 that <em>specific</em> link held within its closure. If you somehow captured
@@ -325,15 +331,15 @@ that <code>return</code> function and stored it somewhere safe, then calling it
 again would result in the call chain being put back to hang on the
 hook exactly as it had been the first time that the now-captive
 <code>return</code> was called. All manner of side-effects may have occurred in
-the interim – values in various scopes may have changed, objects may
-have been mutated, output perhaps written to streams – but execution
+the interim &ndash; values in various scopes may have changed, objects may
+have been mutated, output perhaps written to streams &ndash; but execution
 picks up once again just where it had. The passage of time is not been
 undone, but the path we traverse <em>has</em>. Perhaps this go around a
 different condition is fulfilled and execution travels down a
 different path.</p>
 
-<p>When <code>return</code> can behave as such – when it can be captured – it is
-properly called the “reified continuation.” An implementation detail
+<p>When <code>return</code> can behave as such &ndash; when it can be captured &ndash; it is
+properly called the &ldquo;reified continuation.&rdquo; An implementation detail
 of the environment of the program, made available as part of that same
 program.</p>
 
@@ -341,7 +347,7 @@ program.</p>
 continuations. At any point in the program, I want the opportunity to
 ask for the continuation, and to do what I will with it.</p>
 
-<h2 id="call-conformity">Call Conformity</h2>
+<h2>Call Conformity</h2>
 
 <p>To this end, I have a powerful tool which can help me to make it
 happen. A variety of kung-fu known for convoluting the sanest of
@@ -349,34 +355,36 @@ minds. Continuation-passing-style.</p>
 
 <p>Using CPS, we never use the underlying <code>return</code> of the implementing
 language. Instead, every function we define must take an additional
-parameter – the continuation, sometimes named simply <code>k</code>. The idea is
+parameter &ndash; the continuation, sometimes named simply <code>k</code>. The idea is
 that the function <code>k</code> acts as a stand-in for <code>return</code>. When <code>k</code> is
 called, it is given a value, and the job of <code>k</code> is to execute the rest
 of the program.</p>
 
 <p>Consider the following incredibly simple function.</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-</pre></td><td class="code"><pre><code class="python"><span class="line"><span class="c"># return-style</span>
-</span><span class="line"><span class="k">def</span> <span class="nf">add_one_hundred</span><span class="p">(</span><span class="n">onto_bar</span><span class="p">):</span>
-</span><span class="line">    <span class="k">return</span> <span class="n">onto_bar</span> <span class="o">+</span> <span class="mi">100</span>
-</span><span class="line"><span class="k">print</span><span class="p">(</span><span class="n">add_one_hundred</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># return-style</span>
+</span><span class='line'><span class="k">def</span> <span class="nf">add_one_hundred</span><span class="p">(</span><span class="n">onto_bar</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">onto_bar</span> <span class="o">+</span> <span class="mi">100</span>
+</span><span class='line'><span class="k">print</span><span class="p">(</span><span class="n">add_one_hundred</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>Here we shall convert it to CPS</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-</pre></td><td class="code"><pre><code class="python"><span class="line"><span class="c"># continuation-passing-style</span>
-</span><span class="line"><span class="k">def</span> <span class="nf">add_one_hundred</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">onto_bar</span><span class="p">):</span>
-</span><span class="line">    <span class="n">k</span><span class="p">(</span><span class="n">onto_bar</span> <span class="o">+</span> <span class="mi">100</span><span class="p">)</span>
-</span><span class="line"><span class="n">add_one_hundred</span><span class="p">(</span><span class="k">print</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># continuation-passing-style</span>
+</span><span class='line'><span class="k">def</span> <span class="nf">add_one_hundred</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">onto_bar</span><span class="p">):</span>
+</span><span class='line'>    <span class="n">k</span><span class="p">(</span><span class="n">onto_bar</span> <span class="o">+</span> <span class="mi">100</span><span class="p">)</span>
+</span><span class='line'><span class="n">add_one_hundred</span><span class="p">(</span><span class="k">print</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>A wonderful side-effect of implementing a compiler which uses a
 continuation-passing call-conformity for all of its compiled
@@ -385,226 +393,229 @@ there</em>, you simply have to snag it.</p>
 
 <p>A less wonderful side-effect is that your more <em>traditional</em> call
 stack can become quite deep, to the point of over-flowing. The
-implementation language doesn’t necessarily know that you never intend
-to descend back out of the call stack – that your program is just one
+implementation language doesn&rsquo;t necessarily know that you never intend
+to descend back out of the call stack &ndash; that your program is just one
 call after another after another. It holds onto data you never wish to
 make use of.</p>
 
-<p>Thus, if you’re implementing a continuation-passing-style compiler on
-top of a language with a traditional stack management system, you’re
+<p>Thus, if you&rsquo;re implementing a continuation-passing-style compiler on
+top of a language with a traditional stack management system, you&rsquo;re
 likely going to exhaust its stack allocation.</p>
 
 <p>Unless, of course, you find a way to dump that call stack from time to
-time. You don’t need it after-all – your program only moves
-<em>forward</em>, never <em>backwards</em> now that it’s passing <code>k</code> along. You need
+time. You don&rsquo;t need it after-all &ndash; your program only moves
+<em>forward</em>, never <em>backwards</em> now that it&rsquo;s passing <code>k</code> along. You need
 a harness to assist you in doing this. And that is a trampoline.</p>
 
-<h2 id="a-trampoline">A Trampoline</h2>
+<h2>A Trampoline</h2>
 
-<p>If you’re never going to return, it might become imparative that you
-leave the past behind. It’ll bog you down, otherwise.</p>
+<p>If you&rsquo;re never going to return, it might become imparative that you
+leave the past behind. It&rsquo;ll bog you down, otherwise.</p>
 
-<p>Let’s contrive an example. Here we’ll use a recursive factorial
+<p>Let&rsquo;s contrive an example. Here we&rsquo;ll use a recursive factorial
 definition.</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-</pre></td><td class="code"><pre><code class="python"><span class="line"><span class="c"># recursive factorial definition</span>
-</span><span class="line"><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
-</span><span class="line">    <span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-</span><span class="line">        <span class="k">return</span> <span class="mi">1</span>
-</span><span class="line">    <span class="k">else</span><span class="p">:</span>
-</span><span class="line">        <span class="k">return</span> <span class="n">num</span> <span class="o">*</span> <span class="n">factorial</span><span class="p">(</span><span class="n">num</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-</span><span class="line">
-</span><span class="line"><span class="c"># prints 120</span>
-</span><span class="line"><span class="k">print</span><span class="p">(</span><span class="n">factorial</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># recursive factorial definition</span>
+</span><span class='line'><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span><span class='line'>        <span class="k">return</span> <span class="mi">1</span>
+</span><span class='line'>    <span class="k">else</span><span class="p">:</span>
+</span><span class='line'>        <span class="k">return</span> <span class="n">num</span> <span class="o">*</span> <span class="n">factorial</span><span class="p">(</span><span class="n">num</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="c"># prints 120</span>
+</span><span class='line'><span class="k">print</span><span class="p">(</span><span class="n">factorial</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>No problem. Now let’s convert that to CPS</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-</pre></td><td class="code"><pre><code class="python"><span class="line"><span class="c"># a continuation-passing-style recursive factorial</span>
-</span><span class="line"><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">cont</span><span class="p">,</span> <span class="n">num</span><span class="p">):</span>
-</span><span class="line">    <span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-</span><span class="line">        <span class="n">cont</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</span><span class="line">    <span class="k">else</span><span class="p">:</span>
-</span><span class="line">        <span class="n">k</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">cont</span><span class="p">(</span><span class="n">num</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
-</span><span class="line">        <span class="n">factorial</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">num</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-</span><span class="line">
-</span><span class="line"><span class="c"># also prints 120</span>
-</span><span class="line"><span class="n">factorial</span><span class="p">(</span><span class="k">print</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>No problem. Now let&rsquo;s convert that to CPS</p>
 
-<p>For large numbers, they’re both going to run up against the recursion
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># a continuation-passing-style recursive factorial</span>
+</span><span class='line'><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">cont</span><span class="p">,</span> <span class="n">num</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span><span class='line'>        <span class="n">cont</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">else</span><span class="p">:</span>
+</span><span class='line'>        <span class="n">k</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">cont</span><span class="p">(</span><span class="n">num</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
+</span><span class='line'>        <span class="n">factorial</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">num</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="c"># also prints 120</span>
+</span><span class='line'><span class="n">factorial</span><span class="p">(</span><span class="k">print</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>For large numbers, they&rsquo;re both going to run up against the recursion
 limit on Python (or stack space if you disable such limits). However,
-the CPS factorial doesn’t actually <em>need</em> the stack that it is
-consuming – it never returns! The value is accumulated deeper and
+the CPS factorial doesn&rsquo;t actually <em>need</em> the stack that it is
+consuming &ndash; it never returns! The value is accumulated deeper and
 deeper down a line of continuations.</p>
 
 <p>What follows is a rewrite of the CPS factorial that makes use of a
 trampoline backing the recursive calls. When the call stack becomes
 deeper than a certain limit, an exception is raised with the
 continutation captured as a parameter. The trampoline catches the
-exception, and calls that captive continuation. Python’s call stack at
+exception, and calls that captive continuation. Python&rsquo;s call stack at
 the time of the raised exception is simply discarded. The continuation
-was “the rest of the program” and the trampoline made sure that the
+was &ldquo;the rest of the program&rdquo; and the trampoline made sure that the
 program will be run to completion.</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>trampoline</span><a href="https://gist.github.com/obriencj/9555480">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-<span class="line-number">11</span>
-<span class="line-number">12</span>
-<span class="line-number">13</span>
-<span class="line-number">14</span>
-<span class="line-number">15</span>
-<span class="line-number">16</span>
-<span class="line-number">17</span>
-<span class="line-number">18</span>
-<span class="line-number">19</span>
-<span class="line-number">20</span>
-<span class="line-number">21</span>
-<span class="line-number">22</span>
-<span class="line-number">23</span>
-<span class="line-number">24</span>
-<span class="line-number">25</span>
-<span class="line-number">26</span>
-<span class="line-number">27</span>
-<span class="line-number">28</span>
-<span class="line-number">29</span>
-<span class="line-number">30</span>
-<span class="line-number">31</span>
-<span class="line-number">32</span>
-<span class="line-number">33</span>
-<span class="line-number">34</span>
-<span class="line-number">35</span>
-<span class="line-number">36</span>
-<span class="line-number">37</span>
-<span class="line-number">38</span>
-<span class="line-number">39</span>
-<span class="line-number">40</span>
-<span class="line-number">41</span>
-<span class="line-number">42</span>
-<span class="line-number">43</span>
-<span class="line-number">44</span>
-<span class="line-number">45</span>
-<span class="line-number">46</span>
-<span class="line-number">47</span>
-<span class="line-number">48</span>
-<span class="line-number">49</span>
-<span class="line-number">50</span>
-<span class="line-number">51</span>
-<span class="line-number">52</span>
-<span class="line-number">53</span>
-<span class="line-number">54</span>
-<span class="line-number">55</span>
-<span class="line-number">56</span>
-<span class="line-number">57</span>
-</pre></td><td class="code"><pre><code class="python"><span class="line"><span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">partial</span>
-</span><span class="line"><span class="kn">from</span> <span class="nn">inspect</span> <span class="kn">import</span> <span class="n">currentframe</span>
-</span><span class="line">
-</span><span class="line"><span class="kn">import</span> <span class="nn">sys</span>
-</span><span class="line">
-</span><span class="line">
-</span><span class="line"><span class="n">STACK_LIMIT</span> <span class="o">=</span> <span class="mi">64</span>
-</span><span class="line">
-</span><span class="line">
-</span><span class="line"><span class="k">class</span> <span class="nc">ContinueCall</span><span class="p">(</span><span class="ne">BaseException</span><span class="p">):</span>
-</span><span class="line">    <span class="k">pass</span>
-</span><span class="line">
-</span><span class="line">
-</span><span class="line"><span class="k">def</span> <span class="nf">countstack</span><span class="p">():</span>
-</span><span class="line">    <span class="c"># this is the slowest part, by far. There are better ways to</span>
-</span><span class="line">    <span class="c"># implement this metric, but they are signficantly more</span>
-</span><span class="line">    <span class="c"># involved. This is good enough for an example.</span>
-</span><span class="line">
-</span><span class="line">    <span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
-</span><span class="line">    <span class="n">frame</span> <span class="o">=</span> <span class="n">currentframe</span><span class="p">()</span>
-</span><span class="line">    <span class="k">while</span> <span class="n">frame</span><span class="p">:</span>
-</span><span class="line">        <span class="n">frame</span> <span class="o">=</span> <span class="n">frame</span><span class="o">.</span><span class="n">f_back</span>
-</span><span class="line">        <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>
-</span><span class="line">    <span class="k">return</span> <span class="n">counter</span>
-</span><span class="line">
-</span><span class="line">
-</span><span class="line"><span class="k">def</span> <span class="nf">bounce_call</span><span class="p">(</span><span class="n">work</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
-</span><span class="line">    <span class="c"># this could also be implemented without a stack check, and as</span>
-</span><span class="line">    <span class="c"># such could bounce every single call.</span>
-</span><span class="line">
-</span><span class="line">    <span class="k">if</span> <span class="n">countstack</span><span class="p">()</span> <span class="o">&gt;=</span> <span class="n">STACK_LIMIT</span><span class="p">:</span>
-</span><span class="line">        <span class="k">raise</span> <span class="n">ContinueCall</span><span class="p">(</span><span class="n">partial</span><span class="p">(</span><span class="n">work</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">))</span><span class="o">.</span><span class="n">with_traceback</span><span class="p">(</span><span class="bp">None</span><span class="p">)</span>
-</span><span class="line">    <span class="k">else</span><span class="p">:</span>
-</span><span class="line">        <span class="n">work</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
-</span><span class="line">
-</span><span class="line">
-</span><span class="line"><span class="k">def</span> <span class="nf">bouncy</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">final_cont</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
-</span><span class="line">    <span class="n">work</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">final_cont</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
-</span><span class="line">    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
-</span><span class="line">        <span class="k">try</span><span class="p">:</span>
-</span><span class="line">            <span class="n">work</span><span class="p">()</span>
-</span><span class="line">        <span class="k">except</span> <span class="n">ContinueCall</span> <span class="k">as</span> <span class="n">cc</span><span class="p">:</span>
-</span><span class="line">            <span class="n">work</span> <span class="o">=</span> <span class="n">cc</span><span class="o">.</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</span><span class="line">        <span class="k">else</span><span class="p">:</span>
-</span><span class="line">            <span class="k">break</span>
-</span><span class="line">
-</span><span class="line">
-</span><span class="line"><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">cont</span><span class="p">,</span> <span class="n">num</span><span class="p">):</span>
-</span><span class="line">    <span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-</span><span class="line">        <span class="n">bounce_call</span><span class="p">(</span><span class="n">cont</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-</span><span class="line">    <span class="k">else</span><span class="p">:</span>
-</span><span class="line">        <span class="n">k</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">bounce_call</span><span class="p">(</span><span class="n">cont</span><span class="p">,</span> <span class="n">num</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
-</span><span class="line">        <span class="n">bounce_call</span><span class="p">(</span><span class="n">factorial</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">num</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-</span><span class="line">
-</span><span class="line">
-</span><span class="line"><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
-</span><span class="line">    <span class="n">bouncy</span><span class="p">(</span><span class="n">factorial</span><span class="p">,</span> <span class="k">print</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<figure class='code'><figcaption><span>trampoline</span><a href='https://gist.github.com/obriencj/9555480'>Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">partial</span>
+</span><span class='line'><span class="kn">from</span> <span class="nn">inspect</span> <span class="kn">import</span> <span class="n">currentframe</span>
+</span><span class='line'>
+</span><span class='line'><span class="kn">import</span> <span class="nn">sys</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="n">STACK_LIMIT</span> <span class="o">=</span> <span class="mi">64</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">class</span> <span class="nc">ContinueCall</span><span class="p">(</span><span class="ne">BaseException</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">pass</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">countstack</span><span class="p">():</span>
+</span><span class='line'>    <span class="c"># this is the slowest part, by far. There are better ways to</span>
+</span><span class='line'>    <span class="c"># implement this metric, but they are signficantly more</span>
+</span><span class='line'>    <span class="c"># involved. This is good enough for an example.</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span class='line'>    <span class="n">frame</span> <span class="o">=</span> <span class="n">currentframe</span><span class="p">()</span>
+</span><span class='line'>    <span class="k">while</span> <span class="n">frame</span><span class="p">:</span>
+</span><span class='line'>        <span class="n">frame</span> <span class="o">=</span> <span class="n">frame</span><span class="o">.</span><span class="n">f_back</span>
+</span><span class='line'>        <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>
+</span><span class='line'>    <span class="k">return</span> <span class="n">counter</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">bounce_call</span><span class="p">(</span><span class="n">work</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+</span><span class='line'>    <span class="c"># this could also be implemented without a stack check, and as</span>
+</span><span class='line'>    <span class="c"># such could bounce every single call.</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">if</span> <span class="n">countstack</span><span class="p">()</span> <span class="o">&gt;=</span> <span class="n">STACK_LIMIT</span><span class="p">:</span>
+</span><span class='line'>        <span class="k">raise</span> <span class="n">ContinueCall</span><span class="p">(</span><span class="n">partial</span><span class="p">(</span><span class="n">work</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">))</span><span class="o">.</span><span class="n">with_traceback</span><span class="p">(</span><span class="bp">None</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">else</span><span class="p">:</span>
+</span><span class='line'>        <span class="n">work</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">bouncy</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">final_cont</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+</span><span class='line'>    <span class="n">work</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">final_cont</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+</span><span class='line'>        <span class="k">try</span><span class="p">:</span>
+</span><span class='line'>            <span class="n">work</span><span class="p">()</span>
+</span><span class='line'>        <span class="k">except</span> <span class="n">ContinueCall</span> <span class="k">as</span> <span class="n">cc</span><span class="p">:</span>
+</span><span class='line'>            <span class="n">work</span> <span class="o">=</span> <span class="n">cc</span><span class="o">.</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</span><span class='line'>        <span class="k">else</span><span class="p">:</span>
+</span><span class='line'>            <span class="k">break</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">cont</span><span class="p">,</span> <span class="n">num</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span><span class='line'>        <span class="n">bounce_call</span><span class="p">(</span><span class="n">cont</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>    <span class="k">else</span><span class="p">:</span>
+</span><span class='line'>        <span class="n">k</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">bounce_call</span><span class="p">(</span><span class="n">cont</span><span class="p">,</span> <span class="n">num</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
+</span><span class='line'>        <span class="n">bounce_call</span><span class="p">(</span><span class="n">factorial</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">num</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+</span><span class='line'>    <span class="n">bouncy</span><span class="p">(</span><span class="n">factorial</span><span class="p">,</span> <span class="k">print</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>Just before the end, any remainder Python call stack does indeed get
-traversed. But it is an unimportant side-effect at this point – we
-aren’t using it to pass a value back, we’re just letting Python return
+traversed. But it is an unimportant side-effect at this point &ndash; we
+aren&rsquo;t using it to pass a value back, we&rsquo;re just letting Python return
 to its normal behavior.</p>
 
-<h2 id="so-what-next">So What Next?</h2>
+<h2>So What Next?</h2>
 
-<p>If we can guarantee a trampoline (and of course we can, we’re writing
+<p>If we can guarantee a trampoline (and of course we can, we&rsquo;re writing
 the compiler and interpreter), then we can with relative safety make
 use of CPS in our generated executable. We must be consistent though
-– if we’re going to be throwing away the return stack, we need to be
-certain that we definitely haven’t emitted code that wants to use it!
+&ndash; if we&rsquo;re going to be throwing away the return stack, we need to be
+certain that we definitely haven&rsquo;t emitted code that wants to use it!
 This is the call-conformity. We must compile every expression into a
 series of steps, each of which has the conformity in its evaluation,
 that it takes a continuation and will (eventually) pass execution
 along to it with the result.</p>
 
-<p>In my next post, I will endeavor to communicate just how I’ve decided
+<p>In my next post, I will endeavor to communicate just how I&rsquo;ve decided
 to do such!</p>
 
 <hr />
 
-<p><em>Edited 2014-03-25 : explain the problems I’ve run into in sibilant
+<p><em>Edited 2014-03-25 : explain the problems I&rsquo;ve run into in sibilant
 with macros, thus clarifying the post title</em></p>
 ]]></content>
   </entry>
@@ -626,6 +637,7 @@ hazardous.</p>
 
 <!-- more -->
 
+
 <p>One possible application of such ridiculousness is in passing
 higher-order functions around over queues such that multiprocessing
 can execute them and pass the new function back to the controller. I
@@ -633,25 +645,27 @@ can envision a trampoline-like model that could cross processors or
 even machines. Of course that is remote code execution. And holy-shit
 is that ever a can of worms.</p>
 
-<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/" title="Phillip Jones on G+">good friend</a>, I could implement a signing
+<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/">good friend</a>, I could implement a signing
 step. When unpickling callable code it could be checked for a proper
 signature and an exception raised if something were amiss. It could
-use out-of-band key exchange or a certificate-based system… but I am
+use out-of-band key exchange or a certificate-based system&hellip; but I am
 torn as to whether I should be providing such a facility or if it
 properly ought to live in whatever transport layer a user comes up
 with. Should I rely on everyone else to secure their communications
 and to verify the messages being sent?  Or should I do the work to
 craft a verification step that is in-built?</p>
 
-<p>This is likely moot as I doubt anyone will ever use this – even I
-don’t actually have a use for it! The project only exists because I
-was once told <em>“you can’t pickle functions,”</em> and I thought, <em>“the
-hell I can’t!”</em> However, I feel that if I’ve made such a tool freely
+<p>This is likely moot as I doubt anyone will ever use this &ndash; even I
+don&rsquo;t actually have a use for it! The project only exists because I
+was once told <em>&ldquo;you can&rsquo;t pickle functions,&rdquo;</em> and I thought, <em>&ldquo;the
+hell I can&rsquo;t!&rdquo;</em> However, I feel that if I&rsquo;ve made such a tool freely
 available (and I have) I should also take some care that it can be
 used responsibly.</p>
 
+<p>&ldquo;Phillip Jones on G+&rdquo;</p>
+
 <p>There is a light-on-details <a href="http://sourceforge.net/projects/trustedpickle/">TrustedPickle</a> project, but I cannot help
-noticing it commits one of the major sins in cryptogrophy –
+noticing it commits one of the major sins in cryptogrophy &ndash;
 unnecessarily re-implementing things themselves. And there are no
 tests cases. And it was last updated in 2003.</p>
 
@@ -660,13 +674,12 @@ creates and attaches a cryptographic signature seems to be useful
 enough to warrant some attention. Connecting that to a Queue
 implementation that performs the sign/verify steps transparently would
 be simple enough. This may become another entry for my
-<a href="http://obriencj.preoccupied.net/projects/ideas">ideas</a> page…</p>
+<a href="http://obriencj.preoccupied.net/projects/ideas">ideas</a> page&hellip;</p>
 
 <hr />
 
 <p><em>Note: I <a href="https://plus.google.com/114793537781613459114/posts/gY8zXQjefEJ">posted</a> about this topic on G+ as well. I should probably
-have written it up here first… oh well, next time</em></p>
-
+have written it up here first&hellip; oh well, next time</em></p>
 ]]></content>
   </entry>
   
@@ -675,9 +688,9 @@ have written it up here first… oh well, next time</em></p>
     <link href="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/"/>
     <updated>2014-03-02T14:16:30-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises</id>
-    <content type="html"><![CDATA[<p>It’s beautiful, this fine sunny Sunday. Zoe is outside playing with
-the neighbors and I’m relaxing in the breeze. I’m working on a bit of
-clean-up coding from yesterday’s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
+    <content type="html"><![CDATA[<p>It&rsquo;s beautiful, this fine sunny Sunday. Zoe is outside playing with
+the neighbors and I&rsquo;m relaxing in the breeze. I&rsquo;m working on a bit of
+clean-up coding from yesterday&rsquo;s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
 I had finally gotten around to <a href="https://gist.github.com/obriencj/9298654">writing</a> a unit test
 harness for the XML-RPC multicall promise bits. I was so excited to
 have that working that I charged through writing tests and fixing bugs
@@ -686,19 +699,20 @@ it, my promises module was looking darn-near worthy of a 1.0</p>
 
 <!-- more -->
 
+
 <p>As I had done before with <a href="http://github.com/obriencj/python-brine">brine</a> I went ahead and set up <a href="https://travis-ci.org/obriencj/python-promises">travis.ci</a>
 and <a href="https://coveralls.io/r/obriencj/python-promises?branch=master">coveralls.io</a> hooks. I am still astounded (and grateful) that
-there’s such infrastructure available gratis to the open source
+there&rsquo;s such infrastructure available gratis to the open source
 community.</p>
 
-<p>I’ve also started the more tedious task of going through the
+<p>I&rsquo;ve also started the more tedious task of going through the
 docstrings and getting them into the format that <a href="https://github.com/numpy/numpydoc">numpydocs</a> and
 <a href="http://sphinx-doc.org/">sphinx</a> are expecting. I need to write up significantly more examples
 for <a href="http://obriencj.preoccupied.net/python-promises/">the documentation</a>. That can be what I work on in the evenings in
 bed, this week.</p>
 
-<p>I’ll let the project sit for a bit, and see if anything else crops up
-that needs changing. But if all goes well, I think I’ll be tagging
+<p>I&rsquo;ll let the project sit for a bit, and see if anything else crops up
+that needs changing. But if all goes well, I think I&rsquo;ll be tagging
 version 1.0.0 soon, and posting the module up on PyPI.</p>
 ]]></content>
   </entry>
@@ -708,21 +722,24 @@ version 1.0.0 soon, and posting the module up on PyPI.</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/02/09/python/"/>
     <updated>2014-02-09T22:20:51-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/02/09/python</id>
-    <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/" title="The Morning Times">coffee shop</a>, trying to determine how
+    <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/">coffee shop</a>, trying to determine how
 I wanted to generate the API documentation for <a href="http://github.com/obriencj/python-brine">brine</a>.</p>
 
 <!-- more -->
 
+
 <p>Of course there is no doc utility provided as part of Python proper.
-There’s <code>pydoc</code> for the command-line, but nothing that will extract
+There&rsquo;s <code>pydoc</code> for the command-line, but nothing that will extract
 static html for easy reference online, etc. Other tools have spun into
-being to fill this void – and each project must pick their favorite
+being to fill this void &ndash; and each project must pick their favorite
 when it comes time to ship docs.</p>
 
-<h2 id="enter-the-contenders">Enter the contenders</h2>
+<p>&ldquo;The Morning Times&rdquo;</p>
+
+<h2>Enter the contenders</h2>
 
 <p>I began with <a href="http://epydoc.sourceforge.net/">epydoc</a>. It was easy enough to setup, but I ran afoul
-with some odd behavior almost immediately – it insisted on
+with some odd behavior almost immediately &ndash; it insisted on
 documenting the <code>abc.ABCMeta</code> class as though it were a part of my
 project. I wasted almost an hour trying to make the <code>--external-api</code>
 options work to link to the <code>abc</code> module in its proper place, but to
@@ -731,25 +748,30 @@ no avail. On top of this, I noticed annoyingly that the
 never made it into a release, though it was committed in 2008!</p>
 
 <p>Next up was <a href="http://pdoc.burntsushi.net/pdoc">pdoc</a>. pdoc is gloriously simple, designed to be a
-zero-configuration utility. In this it exceeds; it’s basically a
-static HTML version of the <code>pydoc</code> output. My issue was that I didn’t
+zero-configuration utility. In this it exceeds; it&rsquo;s basically a
+static HTML version of the <code>pydoc</code> output. My issue was that I didn&rsquo;t
 see a way to embed more documentation (examples, explanations, etc) in
 the output without putting it into the docstring of the main module.
 Indeed the pdoc project page is itself generated by pdoc, with its
 lengthy expository body embedded entirely in one enormous docstring
-<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.  I also couldn’t get it to filter out the <code>_cellwork</code> utility
+<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.  I also couldn&rsquo;t get it to filter out the <code>_cellwork</code> utility
 module while still loading the barrel module. Frustratingly it was
 either all submodules or no submodules.</p>
+
+<pre><code>and I can get behind that to some extent. But I think there are
+limits to just how much text you can sensibly cram into a
+docstring.
+</code></pre>
 
 <p>Finally I took a look at <a href="http://sphinx-doc.org/">Sphinx</a>. pdoc and Sphinx are in essence
 polar opposites. Pdoc will generate the API page for a module, and do
 nothing else. Sphinx will do just about anything at all as part of the
-documentation generation – API page creation is just one of its many
+documentation generation &ndash; API page creation is just one of its many
 extensions. Above all, Sphinx is a <a href="http://docutils.sourceforge.net/rst.html">reST</a> (reStructuredText)
 processor.  As a massive convenience Sphinx offers a <code>sphinx-apidoc</code>
 <a href="http://sphinx-doc.org/invocation.html#invocation-apidoc">quickstart</a> that will generate the base setup for building API
 pages. It took only a little while before I had nice looking docs
-being created. A bit more hacking and I’d added targets to convert my
+being created. A bit more hacking and I&rsquo;d added targets to convert my
 existing <code>README.md</code> into an <code>overview.rst</code> for inclusion into my
 blossoming doc tree.</p>
 
@@ -758,34 +780,33 @@ tried, it was the only one that got me to where I wanted to go.  After
 just a bit of quality coffee time I had the expository prose and the
 correct subset of modules presented nicely.</p>
 
-<h2 id="hosting-the-docs">Hosting the docs</h2>
+<h2>Hosting the docs</h2>
 
-<p><a href="http://github.io/" title="GitHub Pages">GitHub Pages</a> (neé github.io) offers gratis per-project
-hosting.  Simply <a href="https://help.github.com/articles/creating-project-pages-manually">create</a> a <code>gh-pages</code> branch in your project’s
+<p><a href="http://github.io/">GitHub Pages</a> (neé github.io) offers gratis per-project
+hosting.  Simply <a href="https://help.github.com/articles/creating-project-pages-manually">create</a> a <code>gh-pages</code> branch in your project&rsquo;s
 repository; anything pushed on that branch will show up at your
-<a href="http://obriencj.preoccupied.net/python-brine/">project’s URL</a>. This blog is hosted on GitHub Pages, so it
+<a href="http://obriencj.preoccupied.net/python-brine/">project&rsquo;s URL</a>. This blog is hosted on GitHub Pages, so it
 seems sensible to host the docs for my projects here as well.</p>
 
-<h2 id="easy-mode">Easy mode</h2>
+<p>&ldquo;GitHub Pages&rdquo;</p>
+
+<h2>Easy mode</h2>
 
 <p>The previously mentioned <code>sphinx-apidoc</code> <a href="http://sphinx-doc.org/invocation.html#invocation-apidoc">quickstart</a> provided me with
 a Makefile.  I hacked together a <code>deploy</code> target for it that operates
 very similarly <a href="http://octopress.org/docs/deploying/github/">to the one in Octopress</a>. To whit, it
 generates the documentation in the format of my choosing (<code>dirhmtl</code> in
 this case) and then pushes it into the <code>gh-pages</code> branch of my
-repository. From there it’s served up for the world to see. You can
+repository. From there it&rsquo;s served up for the world to see. You can
 see my revisions <a href="https://github.com/obriencj/python-brine/blob/master/docs/Makefile">here</a>.</p>
-
 <div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>I believe this is working as designed from the pdoc philosophy,
-and I can get behind that to some extent. But I think there are
-limits to just how much text you can sensibly cram into a
-docstring.<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I believe this is working as designed from the pdoc philosophy,<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
 </div>
+
 ]]></content>
   </entry>
   
@@ -802,9 +823,10 @@ me. Whipped up the unit tests to cover the new changes. Blam, <a href="https://g
 
 <!-- more -->
 
-<h2 id="late-night-not-so-hacking">Late Night Not-so-hacking</h2>
 
-<p>Last night, I’d decided to pay a visit to an old haunt of mine – the
+<h2>Late Night Not-so-hacking</h2>
+
+<p>Last night, I&rsquo;d decided to pay a visit to an old haunt of mine &ndash; the
 <a href="http://ambassadorcinemas.com/joomla/index.php?option=com_content&amp;task=view&amp;id=207">Rialto Theatre</a>. Thinking to just lounge around amidst the noise of
 that cult classic the <a href="http://lickitlips.com/">Rocky Horror Picture Show</a> and maybe poke
 around a bit at either <a href="https://github.com/obriencj/python-brine/">brine</a> or <a href="https://github.com/obriencj/python-spexy/">spexy</a>. No serious work, just
@@ -812,7 +834,7 @@ sitting in the sea of sound and riding the distraction.</p>
 
 <p>It proved too distracting.</p>
 
-<p>Mind you, I’ve had success with this in the past. There are nights
+<p>Mind you, I&rsquo;ve had success with this in the past. There are nights
 where hanging in the lobby gets you just enough volume to make you pay
 attention to the things in front of you. My friend <a href="https://plus.google.com/+MikeMcLean/">Mike</a> has made me
 dwell more consciously on this phenomenon, where before I rode through
@@ -820,15 +842,15 @@ it unawares.</p>
 
 <p>But last night, there was simply too much going on. Too many people
 that I wanted to pay attention to. I started thinking about approaching
-the problems with barrel, and moments later I’d lose all focus. So I
+the problems with barrel, and moments later I&rsquo;d lose all focus. So I
 packed it in, bailed-out, and head home.</p>
 
-<p>And this is why I don’t feel bad for sleeping in until 11am and
+<p>And this is why I don&rsquo;t feel bad for sleeping in until 11am and
 subsequently staying there working on my changes in peace and quiet.</p>
 
-<p>But this post isn’t about my sleep schedule.</p>
+<p>But this post isn&rsquo;t about my sleep schedule.</p>
 
-<h2 id="bacon-amp-eggs">Bacon &amp; Eggs</h2>
+<h2>Bacon &amp; Eggs</h2>
 
 <p>Today I am going to share with you the secrets of the lazy bastard
 version of bacon and eggs. And toast. And coffee.</p>
@@ -836,44 +858,53 @@ version of bacon and eggs. And toast. And coffee.</p>
 <p>You will require the following:</p>
 
 <ul>
-  <li>a stove</li>
-  <li>coffee maker</li>
-  <li>instant coffee <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></li>
-  <li>a coffee mug <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
-  <li>a toaster</li>
-  <li>two slices of bread</li>
-  <li>a fork</li>
-  <li>a frying pan</li>
-  <li>half&amp;half</li>
-  <li>two eggs</li>
-  <li>two or three slices of bacon</li>
-  <li>a clean paper towel</li>
-  <li>a jar of horrors <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></li>
+<li>a stove</li>
+<li>coffee maker</li>
+<li>instant coffee <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></li>
+<li>a coffee mug <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
+<li>a toaster</li>
+<li>two slices of bread</li>
+<li>a fork</li>
+<li>a frying pan</li>
+<li>half&amp;half</li>
+<li>two eggs</li>
+<li>two or three slices of bacon</li>
+<li>a clean paper towel</li>
+<li>a jar of horrors <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></li>
 </ul>
 
-<p>There’s no butter on that list. Because all my butter is spoiled, and
+
+<p>There&rsquo;s no butter on that list. Because all my butter is spoiled, and
 even when I buy butter, I forget to use it and it spoils. Other people
 bring me butter sometimes, and then they cook. When they leave, they
 leave the butter. And then the butter spoils. So I never bother trying
 to cook with butter.</p>
 
+<pre><code>to make a "proper" breakfast, so go do that instead.
+
+straight from the carafe, the mug is optional.
+
+and don't care [how bad it gets]. If you're on city sewer, you'll
+need the jar.
+</code></pre>
+
 <p>Begin by starting the coffee. If all else goes well, it will be done
 by the time everything else is. If everything else goes to hell, well
-at least you’ll have the coffee.</p>
+at least you&rsquo;ll have the coffee.</p>
 
-<p>Next grab your frying pan. If it’s dirty from yesterday’s breakfast,
+<p>Next grab your frying pan. If it&rsquo;s dirty from yesterday&rsquo;s breakfast,
 clean it off under running water. If for some reason you have a clean
-pan, give it a quick rinse anyway. Don’t bother to dry it off.</p>
+pan, give it a quick rinse anyway. Don&rsquo;t bother to dry it off.</p>
 
 <p>Switch on the eye, and set the damp frying pan on it. While it heats
-up, listen for the sizzle of water to let you know it’s actually doing
+up, listen for the sizzle of water to let you know it&rsquo;s actually doing
 something. This is the perfect time to fight with the <a href="http://michaelkelly.artofeurope.com/orb1.htm">cling-film</a> you
-keep the bacon in. Once you’ve obtained the (two-to-three slices of)
+keep the bacon in. Once you&rsquo;ve obtained the (two-to-three slices of)
 bacon from its shimmering coccoon, toss them into the pan. Lovingly
 re-wrap the remainder and put away in the fridge.</p>
 
 <p>Employ the fork on the bacon. Get it arranged, press it down. Play
-with it, whatever. I don’t know how to describe the act of cooking
+with it, whatever. I don&rsquo;t know how to describe the act of cooking
 bacon, just make something up. Eventually the individual strips will
 have shrunk to what looks like the right size and the right color.
 When you feel happy with how things are coming along, pluck them from
@@ -881,14 +912,14 @@ the pan and drop them onto the paper towel. The towel will soak up the
 burning hot grease while you continue work on the next step. Switch
 off the stove eye.</p>
 
-<p>Pour the grease from the pan into the jar of horrors. Be careful, it’s
+<p>Pour the grease from the pan into the jar of horrors. Be careful, it&rsquo;s
 bad if you screw this step up. A hot grease spill will ruin your
 morning like nothing else. If you do not have a jar of horrors, you
 can create one by taking an empty pickle jar and pouring hot bacon
 grease into it.</p>
 
 <p>Set the pan aside somewhere stable. There will be a bit of grease left
-coating it, and that’s just fine.</p>
+coating it, and that&rsquo;s just fine.</p>
 
 <p>Get the slices of bread, and put them into the toaster. Put the
 remaining bread away. These scant moments give the pan a moment to
@@ -911,38 +942,31 @@ the toast into the pan. Pour the coffee into the mug.</p>
 
 <p>You can now consume your delicious breakfast directly from the pan,
 using the same fork you cooked it with. Consider the rest of the day
-as you stare out the kitchen window – should you go downtown, or
-maybe post in your blog? When you’ve finished, scrape any leftovers
+as you stare out the kitchen window &ndash; should you go downtown, or
+maybe post in your blog? When you&rsquo;ve finished, scrape any leftovers
 into the trash or nearby dog <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup>, and toss the pan and fork into the
 sink where they can remain until you want breakfast again tomorrow.</p>
 
 <p>It should be noted that I have an electric, flat-top stove. If you
 have an electric coil-type stove, or a gas stove, then the timing on
-these instructions may be wildly altered. If so, you’re on your own,
+these instructions may be wildly altered. If so, you&rsquo;re on your own,
 godspeed.</p>
 
-<p>Now I think I’ll go <a href="http://morningtimes-raleigh.com/">downtown</a>.</p>
-
+<p>Now I think I&rsquo;ll go <a href="http://morningtimes-raleigh.com/">downtown</a>.</p>
 <div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>If you grind your own coffee or whatever, then you have the time
-to make a “proper” breakfast, so go do that instead.<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>If you are the sort of person who opts to drink the coffee
-straight from the carafe, the mug is optional.<a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>The jar of horrors is optional for those who have a septic tank
-and don’t care <a href="http://www.youtube.com/watch?v=40SveAvKq_k">how bad it gets</a>. If you’re on city sewer, you’ll
-need the jar.<a href="#fnref:3" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:4">
-      <p>I don’t have a dog, but in my imagination they’d love this part<a href="#fnref:4" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
+<hr/>
+<ol>
+<li id="fn:1">
+<p>If you grind your own coffee or whatever, then you have the time<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>If you are the sort of person who opts to drink the coffee<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>The jar of horrors is optional for those who have a septic tank<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>I don&rsquo;t have a dog, but in my imagination they&rsquo;d love this part<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+</ol>
 </div>
+
 ]]></content>
   </entry>
   
@@ -951,66 +975,73 @@ need the jar.<a href="#fnref:3" rel="reference">&#8617;</a></p>
     <link href="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/"/>
     <updated>2014-02-06T22:16:40-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine</id>
-    <content type="html"><![CDATA[<p>I’ve been very happy spending my evenings working with a small project
-entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
+    <content type="html"><![CDATA[<p>I&rsquo;ve been very happy spending my evenings working with a small project
+entitled <a href="https://github.com/obriencj/python-brine">python-brine</a>. The code is relatively straight-forward, the
 functionality and goals are well-defined. Put simply, brine allows you
 to pickle actual python code. For a significantly more in-depth
 explanation, click the above link and peruse the README.</p>
 
+<p>&ldquo;Advanced function pickling for Python&rdquo;</p>
+
+<p>&ldquo;Overview of python-brine&rdquo;</p>
+
 <!-- more -->
 
+
 <p>Brine was originally written back in 2008. It had been written as an
-“I-wonder” rather than an “I-need” and as such it never saw use except
+&ldquo;I-wonder&rdquo; rather than an &ldquo;I-need&rdquo; and as such it never saw use except
 in its own hackish example scripts. Thus from October of 2008 until
 January of 2014 is sat forgotten.</p>
 
 <p>And then I found it again, and decided it merited resucitation.</p>
 
-<h2 id="get-it-moved">Get it moved</h2>
+<h2>Get it moved</h2>
 
 <p>The very first thing I did was import it to github. It had been living
-on code.google.com for all those years… with only one commit.</p>
+on code.google.com for all those years&hellip; with only one commit.</p>
 
 <p>Before code.google, it had been in a CVS (remember that?) repository
 on a machine which has long since disappeared. So all history for
 brine prior to that snapshot in October of 2008 is gone. A lesson in
 the value of a distributed system like git.</p>
 
-<h2 id="get-it-tested">Get it tested</h2>
+<h2>Get it tested</h2>
 
-<p>Next I took all of five minutes to “port” it from <a href="http://docs.python.org/2/distutils/">distutils</a> to
+<p>Next I took all of five minutes to &ldquo;port&rdquo; it from <a href="http://docs.python.org/2/distutils/">distutils</a> to
 <a href="http://pythonhosted.org/setuptools/">setuptools</a>. I had to shuffle a few files around, but in the end it
-built and the “test” scripts (more like examples) let me confirm that
+built and the &ldquo;test&rdquo; scripts (more like examples) let me confirm that
 it still worked.</p>
 
-<p>In the last few years one of the things that I’ve discovered that I
+<p>In the last few years one of the things that I&rsquo;ve discovered that I
 enjoy doing is writing unit tests and getting to 100% code coverage.
 As sad as it may sounds, yes I actually have been doing that for
-fun. It’s very much like a game. The tasks are clearly defined,
-there’s a simple attainable goal of a perfect score. Right up my
+fun. It&rsquo;s very much like a game. The tasks are clearly defined,
+there&rsquo;s a simple attainable goal of a perfect score. Right up my
 alley!</p>
 
-<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html" title="unittest &mdash; Unit testing framework">unittest</a>
+<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html">unittest</a>
 cases.</p>
 
 <p>Those tests came in handy when I started actively hacking again on the
-code itself. I’d resolved to add the remaining missing features, clean
-things up, document it – to really polish this little project up
+code itself. I&rsquo;d resolved to add the remaining missing features, clean
+things up, document it &ndash; to really polish this little project up
 before setting it on a shelf again. And of course as I tinkered I
 broke it in weird and unexpected ways. But my unit tests were there to
 catch me in my errors before I strayed too far.</p>
 
 <p>And so more tests got written, and old code got untangled.</p>
 
-<p>Thank goodness for <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> – incredibly easy to use, with
+<p>Thank goodness for <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> &ndash; incredibly easy to use, with
 detailed reporting. I was able to definitively throw out legacy
 methods in some cases, while in others I expanded upon my unit tests
-until in no time at all I’d reached the much vaunted 100% coverage.</p>
+until in no time at all I&rsquo;d reached the much vaunted 100% coverage.</p>
 
-<h2 id="fill-in-the-blanks">Fill in the blanks</h2>
+<p>&ldquo;unittest &mdash; Unit testing framework&rdquo;</p>
 
-<p>The TODO is rapidly shrinking. Tonight I added support – including
-unit tests – for wrapping <code>functools.partial</code> instances.</p>
+<h2>Fill in the blanks</h2>
+
+<p>The TODO is rapidly shrinking. Tonight I added support &ndash; including
+unit tests &ndash; for wrapping <code>functools.partial</code> instances.</p>
 
 <p>I also want to add support for unbound instance methods and class
 methods. Should be trivial.</p>
@@ -1018,18 +1049,18 @@ methods. Should be trivial.</p>
 <p>The only large change I want to make involves a tweak to the timing on
 when a barrel brines its contents. Currently the values are brined
 immediately, which is too early. It needs to wait until just before
-pickling, to ensure that mutable values haven’t changed.</p>
+pickling, to ensure that mutable values haven&rsquo;t changed.</p>
 
 <p>I should look at generating proper HTML documentation. There is almost
 certainly something that is the de-facto standard for such a task, I
 only need to discover it.</p>
 
-<p>But after that… I think I can call it a wrap. I’ll let it sit for a
-week to make sure that I didn’t forget anything. Maybe read over it
-once or twice. And then I’ll call it 1.0.0, tag it, and post it to
+<p>But after that&hellip; I think I can call it a wrap. I&rsquo;ll let it sit for a
+week to make sure that I didn&rsquo;t forget anything. Maybe read over it
+once or twice. And then I&rsquo;ll call it 1.0.0, tag it, and post it to
 PyPI.</p>
 
-<p>And maybe in another five years I’ll find a reason to pick it up
+<p>And maybe in another five years I&rsquo;ll find a reason to pick it up
 again!</p>
 ]]></content>
   </entry>
@@ -1039,30 +1070,38 @@ again!</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
-    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
-I’m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
+    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/">JekyllBootstrap</a> was turning out, so now
+I&rsquo;m playing around with <a href="http://octopress.org/">Octopress</a>.</p>
 
 <!-- more -->
 
-<p>It’s taken me a little over a week to get this looking something like
+
+<p>It&rsquo;s taken me a little over a week to get this looking something like
 an actual blog. I have no idea why the default layout is so nutty
 (huge fonts, etc).</p>
 
-<p>I’m using the <a href="https://github.com/robbyedwards/octopress-tag-pages">tag-pages</a> and <a href="https://github.com/robbyedwards/octopress-tag-cloud">tag-cloud</a> plugins. I’m a little bit
-baffled as to why post tagging behavior wasn’t included with Octopress
+<p>I&rsquo;m using the <a href="https://github.com/robbyedwards/octopress-tag-pages">tag-pages</a> and <a href="https://github.com/robbyedwards/octopress-tag-cloud">tag-cloud</a> plugins. I&rsquo;m a little bit
+baffled as to why post tagging behavior wasn&rsquo;t included with Octopress
 as a baseline feature.</p>
 
-<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/" title="Gist Tag">gist plugin</a>, but it’s currently rendering code
-blocks <a href="https://github.com/imathis/octopress/issues/847" title="GitHub gist changes break gist plugin formatting #847">terribly wrong</a>, so I’m reduced to inserting the
+<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/">gist plugin</a>, but it&rsquo;s currently rendering code
+blocks <a href="https://github.com/imathis/octopress/issues/847">terribly wrong</a>, so I&rsquo;m reduced to inserting the
 gists directly in any posts I write. This of course has its pros and
 cons. I am not reliant on a bit of javascript and the gist site itself
 to display my snippets, but I am also no longer receiving live updates
 if I make any changes.</p>
 
-<p>I’ve imported my scant few <a href="http://obriencj.tumblr.com">Tumblr</a> posts, and have gone through the
+<p>I&rsquo;ve imported my scant few <a href="http://obriencj.tumblr.com">Tumblr</a> posts, and have gone through the
 tweaks to make them work in this blog. I believe that I shall now
-abandon Tumblr in favor of posting here…</p>
+abandon Tumblr in favor of posting here&hellip;</p>
 
+<p>&ldquo;The Quickest Way to Blog on GitHub Pages&rdquo;</p>
+
+<p>&ldquo;A blogging framework for hackers&rdquo;</p>
+
+<p>&ldquo;Gist Tag&rdquo;</p>
+
+<p>&ldquo;GitHub gist changes break gist plugin formatting #847&rdquo;</p>
 ]]></content>
   </entry>
   
@@ -1074,7 +1113,7 @@ abandon Tumblr in favor of posting here…</p>
     <content type="html"><![CDATA[<p>I started to write up a <a href="http://obriencj.preoccupied.net/projects/ideas">TODO/Idea</a> list as a page, and now
 I am overwhelmed by how many things there are that I wanted to work
 on. And I know that there are more than what I could think to list at
-this moment…</p>
+this moment&hellip;</p>
 ]]></content>
   </entry>
   
@@ -1083,25 +1122,29 @@ this moment…</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
     <updated>2014-01-25T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
-    <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
-in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">Jekyll</a> on
-<a href="https://pages.github.com" title="GitHub Pages">github.io</a>. I’m swimming in the posibilities.</p>
+    <content type="html"><![CDATA[<p>I&rsquo;ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
+in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/">Jekyll</a> on
+<a href="https://pages.github.com">github.io</a>. I&rsquo;m swimming in the posibilities.</p>
 
 <!-- more -->
 
-<p>Is this more convenient or better than the <a href="http://obriencj.tumblr.com">Tumblr</a> I’d been
-maintaining?  I’m not sure. I know these pages get to take advantage
-of the CDN. That’s a bonus. I also know that I have direct access to
-the full history and content of all of my posts immediately – also a
+
+<p>Is this more convenient or better than the <a href="http://obriencj.tumblr.com">Tumblr</a> I&rsquo;d been
+maintaining?  I&rsquo;m not sure. I know these pages get to take advantage
+of the CDN. That&rsquo;s a bonus. I also know that I have direct access to
+the full history and content of all of my posts immediately &ndash; also a
 bonus.</p>
 
-<p>But I am not very happy with the theming right now. I’ve had to make a
+<p>But I am not very happy with the theming right now. I&rsquo;ve had to make a
 number of changes to what should have been a functioning theme (but
-which wasn’t). Do I want to get invested in layout design as part of
+which wasn&rsquo;t). Do I want to get invested in layout design as part of
 this? Not really, no. But it may be worth the effort.</p>
 
 <p>Things to consider on a lazy and cold Sunday.</p>
 
+<p>&ldquo;The Quickest Way to Blog on GitHub Pages&rdquo;</p>
+
+<p>&ldquo;GitHub Pages&rdquo;</p>
 ]]></content>
   </entry>
   
@@ -1110,16 +1153,17 @@ this? Not really, no. But it may be worth the effort.</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/"/>
     <updated>2014-01-25T00:00:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try</id>
-    <content type="html"><![CDATA[<p>Because it’s Friday night and I have nothing else going on, I’ve been
+    <content type="html"><![CDATA[<p>Because it&rsquo;s Friday night and I have nothing else going on, I&rsquo;ve been
 hacking away at <a href="https://github.com/obriencj/python-spexy">Spexy</a> again. It remains an utterly insane body of
 work, which no clear-minded individual should approach with a straight
 face.</p>
 
 <!-- more -->
 
-<p>But… I’m surprised how the me from 2007 thought some of the features
-through – especially taking into consideration the
-<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif" title="Come with me on an adventure you'll never remember">state of my brain</a> at the time. The module itself runs the input code
+
+<p>But&hellip; I&rsquo;m surprised how the me from 2007 thought some of the features
+through &ndash; especially taking into consideration the
+<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif">state of my brain</a> at the time. The module itself runs the input code
 through distinct parsing and evaluation steps, which includes a macro
 expansion pass before moving on to specials. I get the idea that I may
 have intended to write parts of Spexy <strong>in</strong> Spexy once I got
@@ -1129,103 +1173,105 @@ have intended to write parts of Spexy <strong>in</strong> Spexy once I got
 inspiration (and giggling). When the dust settled, Spexy had gained
 support for <code>try/except</code> expressions.</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>output of spexy_try</span><a href="https://gist.github.com/obriencj/8610594">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-<span class="line-number">11</span>
-<span class="line-number">12</span>
-<span class="line-number">13</span>
-<span class="line-number">14</span>
-<span class="line-number">15</span>
-<span class="line-number">16</span>
-<span class="line-number">17</span>
-<span class="line-number">18</span>
-<span class="line-number">19</span>
-<span class="line-number">20</span>
-<span class="line-number">21</span>
-<span class="line-number">22</span>
-<span class="line-number">23</span>
-<span class="line-number">24</span>
-<span class="line-number">25</span>
-<span class="line-number">26</span>
-<span class="line-number">27</span>
-<span class="line-number">28</span>
-<span class="line-number">29</span>
-<span class="line-number">30</span>
-<span class="line-number">31</span>
-<span class="line-number">32</span>
-<span class="line-number">33</span>
-<span class="line-number">34</span>
-<span class="line-number">35</span>
-<span class="line-number">36</span>
-<span class="line-number">37</span>
-<span class="line-number">38</span>
-<span class="line-number">39</span>
-<span class="line-number">40</span>
-<span class="line-number">41</span>
-<span class="line-number">42</span>
-<span class="line-number">43</span>
-<span class="line-number">44</span>
-</pre></td><td class="code"><pre><code class="text"><span class="line">maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
-</span><span class="line">The original spexy source is
-</span><span class="line">-----
-</span><span class="line">(defun division (x y)
-</span><span class="line">  (let ((result None))
-</span><span class="line">    (try
-</span><span class="line">      (setf result (/ x y))
-</span><span class="line">
-</span><span class="line">      ((ZeroDivisionError)
-</span><span class="line">        (println &quot;division by zero!&quot; x &quot;/&quot; y)
-</span><span class="line">        False)
-</span><span class="line">      (:else
-</span><span class="line">        (println &quot;result is&quot; result)
-</span><span class="line">        result)
-</span><span class="line">      (:finally
-</span><span class="line">        (println &quot;executing finally clause&quot;)))))
-</span><span class="line">-----
-</span><span class="line">
-</span><span class="line">parses into tree
-</span><span class="line">-----
-</span><span class="line">[&#39;defun&#39;, &#39;division&#39;, [&#39;x&#39;, &#39;y&#39;], [&#39;let&#39;, [[&#39;result&#39;, &#39;None&#39;]], [&#39;try&#39;, [&#39;setf&#39;, &#39;result&#39;, [&#39;/&#39;, &#39;x&#39;, &#39;y&#39;]], [[&#39;ZeroDivisionError&#39;], [&#39;println&#39;, &#39;&quot;division by zero!&quot;&#39;, &#39;x&#39;, &#39;&quot;/&quot;&#39;, &#39;y&#39;], &#39;False&#39;], [&#39;:else&#39;, [&#39;println&#39;, &#39;&quot;result is&quot;&#39;, &#39;result&#39;], &#39;result&#39;], [&#39;:finally&#39;, [&#39;println&#39;, &#39;&quot;executing finally clause&quot;&#39;]]]]]
-</span><span class="line">-----
-</span><span class="line">
-</span><span class="line">processed into Python
-</span><span class="line">-----
-</span><span class="line">globals().__setitem__(&#39;division&#39;, (lambda x, y: ((lambda result: (lambda _lcls:(eval(compile(&#39;def try_block(try_clause,except_0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n&#39;,&#39;&lt;spexy&gt;&#39;,&#39;single&#39;),globals(),_lcls), _lcls)[-1])({})[&#39;try_block&#39;]((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;division by zero!&quot;, &quot; &quot;, x, &quot; &quot;, &quot;/&quot;, &quot; &quot;, y, &#39;\n&#39;))), False,)[-1]), (lambda : (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;result is&quot;, &quot; &quot;, result[0], &#39;\n&#39;))), result[0],)[-1]), (lambda : __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;executing finally clause&quot;, &#39;\n&#39;))))))([None]))))
-</span><span class="line">-----
-</span><span class="line">
-</span><span class="line">division(1, 2)
-</span><span class="line">result is 0
-</span><span class="line">executing finally clause
-</span><span class="line">result: 0
-</span><span class="line">
-</span><span class="line">division(4, 2)
-</span><span class="line">result is 2
-</span><span class="line">executing finally clause
-</span><span class="line">result: 2
-</span><span class="line">
-</span><span class="line">division(2, 0)
-</span><span class="line">division by zero! 2 / 0
-</span><span class="line">executing finally clause
-</span><span class="line">result: False
-</span><span class="line">
-</span><span class="line">it works!
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<figure class='code'><figcaption><span>output of spexy_try</span><a href='https://gist.github.com/obriencj/8610594'>Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
+</span><span class='line'>The original spexy source is
+</span><span class='line'>-----
+</span><span class='line'>(defun division (x y)
+</span><span class='line'>  (let ((result None))
+</span><span class='line'>    (try
+</span><span class='line'>      (setf result (/ x y))
+</span><span class='line'>
+</span><span class='line'>      ((ZeroDivisionError)
+</span><span class='line'>        (println &quot;division by zero!&quot; x &quot;/&quot; y)
+</span><span class='line'>        False)
+</span><span class='line'>      (:else
+</span><span class='line'>        (println &quot;result is&quot; result)
+</span><span class='line'>        result)
+</span><span class='line'>      (:finally
+</span><span class='line'>        (println &quot;executing finally clause&quot;)))))
+</span><span class='line'>-----
+</span><span class='line'>
+</span><span class='line'>parses into tree
+</span><span class='line'>-----
+</span><span class='line'>[&#39;defun&#39;, &#39;division&#39;, [&#39;x&#39;, &#39;y&#39;], [&#39;let&#39;, [[&#39;result&#39;, &#39;None&#39;]], [&#39;try&#39;, [&#39;setf&#39;, &#39;result&#39;, [&#39;/&#39;, &#39;x&#39;, &#39;y&#39;]], [[&#39;ZeroDivisionError&#39;], [&#39;println&#39;, &#39;&quot;division by zero!&quot;&#39;, &#39;x&#39;, &#39;&quot;/&quot;&#39;, &#39;y&#39;], &#39;False&#39;], [&#39;:else&#39;, [&#39;println&#39;, &#39;&quot;result is&quot;&#39;, &#39;result&#39;], &#39;result&#39;], [&#39;:finally&#39;, [&#39;println&#39;, &#39;&quot;executing finally clause&quot;&#39;]]]]]
+</span><span class='line'>-----
+</span><span class='line'>
+</span><span class='line'>processed into Python
+</span><span class='line'>-----
+</span><span class='line'>globals().__setitem__(&#39;division&#39;, (lambda x, y: ((lambda result: (lambda _lcls:(eval(compile(&#39;def try_block(try_clause,except_0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n&#39;,&#39;&lt;spexy&gt;&#39;,&#39;single&#39;),globals(),_lcls), _lcls)[-1])({})[&#39;try_block&#39;]((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;division by zero!&quot;, &quot; &quot;, x, &quot; &quot;, &quot;/&quot;, &quot; &quot;, y, &#39;\n&#39;))), False,)[-1]), (lambda : (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;result is&quot;, &quot; &quot;, result[0], &#39;\n&#39;))), result[0],)[-1]), (lambda : __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;executing finally clause&quot;, &#39;\n&#39;))))))([None]))))
+</span><span class='line'>-----
+</span><span class='line'>
+</span><span class='line'>division(1, 2)
+</span><span class='line'>result is 0
+</span><span class='line'>executing finally clause
+</span><span class='line'>result: 0
+</span><span class='line'>
+</span><span class='line'>division(4, 2)
+</span><span class='line'>result is 2
+</span><span class='line'>executing finally clause
+</span><span class='line'>result: 2
+</span><span class='line'>
+</span><span class='line'>division(2, 0)
+</span><span class='line'>division by zero! 2 / 0
+</span><span class='line'>executing finally clause
+</span><span class='line'>result: False
+</span><span class='line'>
+</span><span class='line'>it works!
+</span></code></pre></td></tr></table></div></figure>
 
-<p>It’s pretty ugly. It’s ugly pretty. Most importantly, it’s satisfying
-the rules of Spexy. “What rules,” you ask? As I’ve been toiling over
-this I’ve remembered more about just why the thing exists. It’s not a
-project – it’s a puzzle! The inspiration was never “I need a tool
-that will do…” it was “I wonder if I can…” and from there sprung
+
+<p>It&rsquo;s pretty ugly. It&rsquo;s ugly pretty. Most importantly, it&rsquo;s satisfying
+the rules of Spexy. &ldquo;What rules,&rdquo; you ask? As I&rsquo;ve been toiling over
+this I&rsquo;ve remembered more about just why the thing exists. It&rsquo;s not a
+project &ndash; it&rsquo;s a puzzle! The inspiration was never &ldquo;I need a tool
+that will do&hellip;&rdquo; it was &ldquo;I wonder if I can&hellip;&rdquo; and from there sprung
 up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#concept">rules</a>.</p>
 
+<p>&ldquo;Come with me on an adventure you&rsquo;ll never remember&rdquo;</p>
 ]]></content>
   </entry>
   
@@ -1239,119 +1285,126 @@ perfectly valid Python it emits</p>
 
 <!-- more -->
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>spexy repl example</span><a href="https://gist.github.com/obriencj/8567348">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-<span class="line-number">11</span>
-<span class="line-number">12</span>
-<span class="line-number">13</span>
-<span class="line-number">14</span>
-<span class="line-number">15</span>
-<span class="line-number">16</span>
-<span class="line-number">17</span>
-<span class="line-number">18</span>
-<span class="line-number">19</span>
-<span class="line-number">20</span>
-<span class="line-number">21</span>
-<span class="line-number">22</span>
-<span class="line-number">23</span>
-<span class="line-number">24</span>
-<span class="line-number">25</span>
-<span class="line-number">26</span>
-<span class="line-number">27</span>
-<span class="line-number">28</span>
-<span class="line-number">29</span>
-<span class="line-number">30</span>
-<span class="line-number">31</span>
-<span class="line-number">32</span>
-<span class="line-number">33</span>
-<span class="line-number">34</span>
-<span class="line-number">35</span>
-</pre></td><td class="code"><pre><code class="text"><span class="line">[siege@maybe src]$ python spexy.py
-</span><span class="line">&gt;&gt;&gt;&gt; (defun make_pair ()
-</span><span class="line">        (letrec ((value None)
-</span><span class="line">                (getter (lambda () value))
-</span><span class="line">                (setter (lambda (v) (setf value v))))
-</span><span class="line">            (make-list getter setter)))
-</span><span class="line">--&gt; globals().__setitem__(&#39;make_pair&#39;, (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
-</span><span class="line">&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
-</span><span class="line">        (define getter (getf gs 0))
-</span><span class="line">        (define setter (getf gs 1)))
-</span><span class="line">--&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__(&#39;getter&#39;, gs[0].__getitem__(0)), globals().__setitem__(&#39;setter&#39;, gs[0].__getitem__(1)),)[-1])([None]))
-</span><span class="line">&gt;&gt;&gt;&gt; (getter)
-</span><span class="line">--&gt; getter()
-</span><span class="line">&gt;&gt;&gt;&gt; getter
-</span><span class="line">--&gt; getter
-</span><span class="line">&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
-</span><span class="line">&gt;&gt;&gt;&gt; setter
-</span><span class="line">--&gt; setter
-</span><span class="line">&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
-</span><span class="line">&gt;&gt;&gt;&gt; (setter)
-</span><span class="line">--&gt; setter()
-</span><span class="line">## &lt;lambda&gt;() takes exactly 1 argument (0 given)
-</span><span class="line">&gt;&gt;&gt;&gt; (setter &quot;hello world&quot;)
-</span><span class="line">--&gt; setter(&quot;hello world&quot;)
-</span><span class="line">&gt;&gt;&gt;&gt; (getter)
-</span><span class="line">--&gt; getter()
-</span><span class="line">&#39;hello world&#39;
-</span><span class="line">&gt;&gt;&gt;&gt; (getter)
-</span><span class="line">--&gt; getter()
-</span><span class="line">&#39;hello world&#39;
-</span><span class="line">&gt;&gt;&gt;&gt; (setter &quot;919&quot;)
-</span><span class="line">--&gt; setter(&quot;919&quot;)
-</span><span class="line">&gt;&gt;&gt;&gt; (getter)
-</span><span class="line">--&gt; getter()
-</span><span class="line">&#39;919&#39;
-</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>more spexy repl</span><a href="https://gist.github.com/obriencj/8609890">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-<span class="line-number">11</span>
-<span class="line-number">12</span>
-<span class="line-number">13</span>
-<span class="line-number">14</span>
-<span class="line-number">15</span>
-<span class="line-number">16</span>
-<span class="line-number">17</span>
-<span class="line-number">18</span>
-<span class="line-number">19</span>
-<span class="line-number">20</span>
-</pre></td><td class="code"><pre><code class="text"><span class="line">maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
-</span><span class="line">Python 2.7.6 (default, Nov 18 2013, 15:12:51)
-</span><span class="line">[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
-</span><span class="line">Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-</span><span class="line">&gt;&gt;&gt; from spexy import repl
-</span><span class="line">&gt;&gt;&gt; from datetime import datetime
-</span><span class="line">&gt;&gt;&gt; repl(globals())
-</span><span class="line">&gt;&gt;&gt;&gt; (let ((who &quot;siege&quot;) (date 1999))
-</span><span class="line">       (letrec ((fmt &quot;Hello %s, party like it is %i!&quot;)
-</span><span class="line">                (msg (% fmt (make-tuple who date))))
-</span><span class="line">         (println msg)))
-</span><span class="line"> --&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.__setitem__(0, &quot;Hello %s, party like it is %i!&quot;), msg.__setitem__(0, (fmt[0] % (who[0], date[0],))), __import__(&#39;sys&#39;).stdout.writelines(map(str, (msg[0], &#39;\n&#39;))),)[-1])([None], [None])))([&quot;siege&quot;], [1999]))
-</span><span class="line">Hello siege, party like it is 1999!
-</span><span class="line">&gt;&gt;&gt;&gt; (println &quot;But...&quot; &quot;it isn&#39;t&quot; 1999 &quot;anymore, it&#39;s&quot; (. (datetime.now) year))
-</span><span class="line"> --&gt; __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;But...&quot;, &quot; &quot;, &quot;it isn&#39;t&quot;, &quot; &quot;, 1999, &quot; &quot;, &quot;anymore, it&#39;s&quot;, &quot; &quot;, datetime.now().year, &#39;\n&#39;)))
-</span><span class="line">But... it isn&#39;t 1999 anymore, it&#39;s 2014
-</span><span class="line">&gt;&gt;&gt;&gt; (quit)
-</span><span class="line">
-</span><span class="line">&gt;&gt;&gt; quit()
-</span><span class="line">maybe:python-spexy siege$
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+
+<figure class='code'><figcaption><span>spexy repl example</span><a href='https://gist.github.com/obriencj/8567348'>Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>[siege@maybe src]$ python spexy.py
+</span><span class='line'>&gt;&gt;&gt;&gt; (defun make_pair ()
+</span><span class='line'>        (letrec ((value None)
+</span><span class='line'>                (getter (lambda () value))
+</span><span class='line'>                (setter (lambda (v) (setf value v))))
+</span><span class='line'>            (make-list getter setter)))
+</span><span class='line'>--&gt; globals().__setitem__(&#39;make_pair&#39;, (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
+</span><span class='line'>&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
+</span><span class='line'>        (define getter (getf gs 0))
+</span><span class='line'>        (define setter (getf gs 1)))
+</span><span class='line'>--&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__(&#39;getter&#39;, gs[0].__getitem__(0)), globals().__setitem__(&#39;setter&#39;, gs[0].__getitem__(1)),)[-1])([None]))
+</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
+</span><span class='line'>--&gt; getter()
+</span><span class='line'>&gt;&gt;&gt;&gt; getter
+</span><span class='line'>--&gt; getter
+</span><span class='line'>&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
+</span><span class='line'>&gt;&gt;&gt;&gt; setter
+</span><span class='line'>--&gt; setter
+</span><span class='line'>&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
+</span><span class='line'>&gt;&gt;&gt;&gt; (setter)
+</span><span class='line'>--&gt; setter()
+</span><span class='line'>## &lt;lambda&gt;() takes exactly 1 argument (0 given)
+</span><span class='line'>&gt;&gt;&gt;&gt; (setter &quot;hello world&quot;)
+</span><span class='line'>--&gt; setter(&quot;hello world&quot;)
+</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
+</span><span class='line'>--&gt; getter()
+</span><span class='line'>&#39;hello world&#39;
+</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
+</span><span class='line'>--&gt; getter()
+</span><span class='line'>&#39;hello world&#39;
+</span><span class='line'>&gt;&gt;&gt;&gt; (setter &quot;919&quot;)
+</span><span class='line'>--&gt; setter(&quot;919&quot;)
+</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
+</span><span class='line'>--&gt; getter()
+</span><span class='line'>&#39;919&#39;
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>more spexy repl</span><a href='https://gist.github.com/obriencj/8609890'>Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
+</span><span class='line'>Python 2.7.6 (default, Nov 18 2013, 15:12:51)
+</span><span class='line'>[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
+</span><span class='line'>Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+</span><span class='line'>&gt;&gt;&gt; from spexy import repl
+</span><span class='line'>&gt;&gt;&gt; from datetime import datetime
+</span><span class='line'>&gt;&gt;&gt; repl(globals())
+</span><span class='line'>&gt;&gt;&gt;&gt; (let ((who &quot;siege&quot;) (date 1999))
+</span><span class='line'>       (letrec ((fmt &quot;Hello %s, party like it is %i!&quot;)
+</span><span class='line'>                (msg (% fmt (make-tuple who date))))
+</span><span class='line'>         (println msg)))
+</span><span class='line'> --&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.__setitem__(0, &quot;Hello %s, party like it is %i!&quot;), msg.__setitem__(0, (fmt[0] % (who[0], date[0],))), __import__(&#39;sys&#39;).stdout.writelines(map(str, (msg[0], &#39;\n&#39;))),)[-1])([None], [None])))([&quot;siege&quot;], [1999]))
+</span><span class='line'>Hello siege, party like it is 1999!
+</span><span class='line'>&gt;&gt;&gt;&gt; (println &quot;But...&quot; &quot;it isn&#39;t&quot; 1999 &quot;anymore, it&#39;s&quot; (. (datetime.now) year))
+</span><span class='line'> --&gt; __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;But...&quot;, &quot; &quot;, &quot;it isn&#39;t&quot;, &quot; &quot;, 1999, &quot; &quot;, &quot;anymore, it&#39;s&quot;, &quot; &quot;, datetime.now().year, &#39;\n&#39;)))
+</span><span class='line'>But... it isn&#39;t 1999 anymore, it&#39;s 2014
+</span><span class='line'>&gt;&gt;&gt;&gt; (quit)
+</span><span class='line'>
+</span><span class='line'>&gt;&gt;&gt; quit()
+</span><span class='line'>maybe:python-spexy siege$
+</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
   </entry>
   
@@ -1361,34 +1414,35 @@ perfectly valid Python it emits</p>
     <updated>2014-01-22T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
     <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
-Something I’d forgotten. Something that is so bizarre I’m not even
+Something I&rsquo;d forgotten. Something that is so bizarre I&rsquo;m not even
 sure what I was thinking when I hacked at it. Something I had to
-double check that I’d actually written, because it was so foreign to
+double check that I&rsquo;d actually written, because it was so foreign to
 me.</p>
 
 <!-- more -->
 
+
 <p>Then I noticed the date. Ah 2007, the Ambien era. When Space Lord
 Zolpidem guided me on battles through the multiverse on a nightly
-basis. I don’t remember a whole lot from 2007. Wish I could say the
+basis. I don&rsquo;t remember a whole lot from 2007. Wish I could say the
 same for 2008, but I digress.</p>
 
 <p>At some point in our adventures, SLZ and I apparently hacked together
-a LISP/Scheme-like python file encoding – “spexy”.</p>
+a LISP/Scheme-like python file encoding &ndash; &ldquo;spexy&rdquo;.</p>
 
-<p><em>Keep in mind, this isn’t a scheme interpreter written in Python.</em> No
-no no, this decodes to Python. I think I’m going to try and clean this
+<p><em>Keep in mind, this isn&rsquo;t a scheme interpreter written in Python.</em> No
+no no, this decodes to Python. I think I&rsquo;m going to try and clean this
 up and see how much sense it can be made to make.</p>
 
-<p>And then you can bet your ass I’m going to pollute GitHub with it.</p>
+<p>And then you can bet your ass I&rsquo;m going to pollute GitHub with it.</p>
 
 <p>Stay off drugs, kids.</p>
 
 <hr />
 
 <ul>
-  <li>2014-01-23: it’s up on GitHub now – <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
-  <li>2014-02-03: originally posted to Tumblr, moved over here</li>
+<li>2014-01-23: it&rsquo;s up on GitHub now &ndash; <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
+<li>2014-02-03: originally posted to Tumblr, moved over here</li>
 </ul>
 
 ]]></content>

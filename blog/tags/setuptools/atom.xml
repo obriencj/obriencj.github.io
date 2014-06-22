@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: setuptools | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/setuptools/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-06-21T21:13:36-04:00</updated>
+  <updated>2014-06-21T21:40:07-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -18,19 +18,19 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/"/>
     <updated>2014-04-03T18:52:24-04:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools</id>
-    <content type="html"><![CDATA[<p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I’ve been
+    <content type="html"><![CDATA[<p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I&rsquo;ve been
 distracted.</p>
 
-<p>My daughter is out of school on spring break, and I’ve taken leave
+<p>My daughter is out of school on spring break, and I&rsquo;ve taken leave
 from work so that we could hang out together. Of course this means
-that we’ve just been finding new ways to ignore each other as the week
-has gone by. We’ve certainly spent a lot of time at various parks and
-playgrounds, and we’ve played an awful lot of Minecraft together. But
-on the evenings we’ve also set up something approaching residency at
+that we&rsquo;ve just been finding new ways to ignore each other as the week
+has gone by. We&rsquo;ve certainly spent a lot of time at various parks and
+playgrounds, and we&rsquo;ve played an awful lot of Minecraft together. But
+on the evenings we&rsquo;ve also set up something approaching residency at
 our <a href="http://morningtimes-raleigh.com">favorite coffee shop</a>. She will sit and munch on chocolate chip
-cookies while watching videos and playing games on her ipad–
-oblivious to my presence– and I’ll find myself looking for something
-unimportant to half-heartedly hack on. It’s a pleasant and relaxing
+cookies while watching videos and playing games on her ipad&ndash;
+oblivious to my presence&ndash; and I&rsquo;ll find myself looking for something
+unimportant to half-heartedly hack on. It&rsquo;s a pleasant and relaxing
 situation, this modern bonding.</p>
 
 <p>And so it came to pass that I was looking over the <a href="http://github.com/obriencj/python-javatools">python-javatools</a>
@@ -38,9 +38,10 @@ project again.</p>
 
 <!-- more -->
 
-<h2 id="javatools">Javatools</h2>
 
-<p>I typically write my projects and tools in reverse– that is to say, I
+<h2>Javatools</h2>
+
+<p>I typically write my projects and tools in reverse&ndash; that is to say, I
 write them as if I had the API that I wanted, and then I create the
 library to fulfill that wish. In the end, I have a library and a tool
 that consumes it.</p>
@@ -52,52 +53,52 @@ harmless. I took a quick glance at the format specifications for Java
 class files, and indeed that information is trivial to fetch.</p>
 
 <p>Thus, organically, began the life of a tool whose purpose is to
-compare class binaries and discover the “meaningful” differences.</p>
+compare class binaries and discover the &ldquo;meaningful&rdquo; differences.</p>
 
-<h2 id="unit-tests">Unit tests</h2>
+<h2>Unit tests</h2>
 
-<p>This likely sounds mad, but I enjoy writing unit tests. They’re easy
+<p>This likely sounds mad, but I enjoy writing unit tests. They&rsquo;re easy
 to throw together without paying a whole lot of attention, and you
-aren’t likely to actively break something. Use tools like
+aren&rsquo;t likely to actively break something. Use tools like
 <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> and it becomes a game; trying to reach 100% <a href="https://docs.python.org/2/library/unittest.html">unittest</a>
 coverage for some little library that has a total of 20 users in the
 entire world.</p>
 
-<p>I started writing Javatools before I’d developed the habit of writing
-tests in parallel. Mind you, I “tested” the project frequently,
+<p>I started writing Javatools before I&rsquo;d developed the habit of writing
+tests in parallel. Mind you, I &ldquo;tested&rdquo; the project frequently,
 running it against all manner of samples from out in the wild. I kept
 a script in git whose sole job was to compare two versions of JBoss AS
-against one-another– that was my test case.</p>
+against one-another&ndash; that was my test case.</p>
 
 <p>Approaching actual test writing for this project seemed daunting at
-first– it meant I’d need to create data to test against, and that
+first&ndash; it meant I&rsquo;d need to create data to test against, and that
 meant writing Java code so that I could disassemble it again later and
 check that what my tooling reports is indeed what ought to be there.
-But that’s exactly what I’ve been doing this week in the coffee shop–
-creating sample classes that I could tear apart. I’ve found one bug in
+But that&rsquo;s exactly what I&rsquo;ve been doing this week in the coffee shop&ndash;
+creating sample classes that I could tear apart. I&rsquo;ve found one bug in
 javatools so far with this, so I even have something to show for it.</p>
 
-<h2 id="setuptools">Setuptools</h2>
+<h2>Setuptools</h2>
 
-<p>In order to more easily manage my unittests, I’ve migrated setup.py
+<p>In order to more easily manage my unittests, I&rsquo;ve migrated setup.py
 from the in-built <a href="https://docs.python.org/2/distutils/">distutils</a> module to <a href="http://pythonhosted.org/setuptools/">setuptools</a>. Setuptools has a
-few quirks, and I’ve had to make adjustments to accommodate those. For
+few quirks, and I&rsquo;ve had to make adjustments to accommodate those. For
 instance, renaming the <code>src</code> directory to <code>javatools</code>. In theory I
 will be able to simplify setup.py by moving the <code>pylint</code> command out
-into its own file, but I haven’t arrived at that point yet.</p>
+into its own file, but I haven&rsquo;t arrived at that point yet.</p>
 
 <p>Unfortunately, I still need to override the <code>build_py</code> command class
 to pre-compile my <a href="http://www.cheetahtemplate.org/">Cheetah</a> templates into python modules.</p>
 
-<p>Since this introduces a dependency for the project, I’ve kept these
+<p>Since this introduces a dependency for the project, I&rsquo;ve kept these
 changes (including the unittests) in a <a href="https://github.com/obriencj/python-javatools/tree/setuptools">separate branch</a> until I can
-ascertain that it’s not too much churn for the upcoming 1.4 release.</p>
+ascertain that it&rsquo;s not too much churn for the upcoming 1.4 release.</p>
 
 <p>Setuptools is widely-enough used that I sincerely doubt there will be
-any real issue with the switch. After a few more tests I’ll hopefully
+any real issue with the switch. After a few more tests I&rsquo;ll hopefully
 merge back to master and finally tag version 1.4 in git.</p>
 
-<p>And then I’ll have to go back to thinking about the compiler for
+<p>And then I&rsquo;ll have to go back to thinking about the compiler for
 sibilant.</p>
 ]]></content>
   </entry>
