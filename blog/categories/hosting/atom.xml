@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Hosting | obriencj]]></title>
-  <link href="http://obriencj.github.io/blog/categories/hosting/atom.xml" rel="self"/>
-  <link href="http://obriencj.github.io/"/>
-  <updated>2014-06-21T14:08:43-04:00</updated>
-  <id>http://obriencj.github.io/</id>
+  <link href="http://obriencj.preoccupied.net/blog/categories/hosting/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2014-06-21T21:13:36-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Python, Sphinx, and GitHUB]]></title>
-    <link href="http://obriencj.github.io/blog/2014/02/09/python/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/02/09/python/"/>
     <updated>2014-02-09T22:20:51-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/02/09/python</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/02/09/python</id>
     <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/" title="The Morning Times">coffee shop</a>, trying to determine how
 I wanted to generate the API documentation for <a href="http://github.com/obriencj/python-brine">brine</a>.</p>
 
@@ -101,9 +101,9 @@ docstring.<a href="#fnref:1" rel="reference">&#8617;</a></p>
   
   <entry>
     <title type="html"><![CDATA[Well How About Octopress Instead?]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/28/well-how-about-octopress-instead/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/28/well-how-about-octopress-instead</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
     <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
 I’m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
 
@@ -133,9 +133,9 @@ abandon Tumblr in favor of posting here…</p>
   
   <entry>
     <title type="html"><![CDATA[Making Use of Jekyll on github.io]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
     <updated>2014-01-25T00:01:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
     <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
 in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">Jekyll</a> on
 <a href="https://pages.github.com" title="GitHub Pages">github.io</a>. I’m swimming in the posibilities.</p>
@@ -160,9 +160,9 @@ this? Not really, no. But it may be worth the effort.</p>
   
   <entry>
     <title type="html"><![CDATA[Celebrating Three Years of an Unused Tumblr]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/"/>
     <updated>2014-01-21T00:01:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr</id>
     <content type="html"><![CDATA[<p>Tumblr let me know that this blog turned three today. It wanted me to post a picture of a cupcake, but I've spared myself that indignity.</p>
 <p>I'm reminded that I really haven't been keeping on with my resolution to document more of what I work on. I wonder if "blog more" is the dork version of "go to the gym" resolutions.</p>
 

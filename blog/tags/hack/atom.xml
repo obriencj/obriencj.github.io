@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: hack | obriencj]]></title>
-  <link href="http://obriencj.github.io/blog/tags/hack/atom.xml" rel="self"/>
-  <link href="http://obriencj.github.io/"/>
-  <updated>2014-06-21T14:08:43-04:00</updated>
-  <id>http://obriencj.github.io/</id>
+  <link href="http://obriencj.preoccupied.net/blog/tags/hack/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2014-06-21T21:13:36-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[gist - output of spexy_try]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/25/gist-output-of-spexy-try/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/"/>
     <updated>2014-01-25T00:00:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/25/gist-output-of-spexy-try</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try</id>
     <content type="html"><![CDATA[<p>Because it’s Friday night and I have nothing else going on, I’ve been
 hacking away at <a href="https://github.com/obriencj/python-spexy">Spexy</a> again. It remains an utterly insane body of
 work, which no clear-minded individual should approach with a straight
@@ -94,9 +94,9 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
   
   <entry>
     <title type="html"><![CDATA[gist - spexy repl example]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/22/gist-spexy-repl-example/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/"/>
     <updated>2014-01-22T00:02:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/22/gist-spexy-repl-example</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example</id>
     <content type="html"><![CDATA[<p>For those with strong stomachs I present an example of <a href="https://github.com/obriencj/python-spexy">Spexy</a>, and the
 perfectly valid Python it emits</p>
 
@@ -173,9 +173,9 @@ maybe:python-spexy siege$
   
   <entry>
     <title type="html"><![CDATA[Spexy? Oh god what did I do...]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
     <updated>2014-01-22T00:01:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
     <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
 Something I’d forgotten. Something that is so bizarre I’m not even
 sure what I was thinking when I hacked at it. Something I had to

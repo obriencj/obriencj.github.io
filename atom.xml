@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[obriencj]]></title>
-  <link href="http://obriencj.github.io/atom.xml" rel="self"/>
-  <link href="http://obriencj.github.io/"/>
-  <updated>2014-06-21T14:08:43-04:00</updated>
-  <id>http://obriencj.github.io/</id>
+  <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2014-06-21T21:13:36-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bindings Shed]]></title>
-    <link href="http://obriencj.github.io/blog/2014/05/22/bindings-shed/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/05/22/bindings-shed/"/>
     <updated>2014-05-22T00:18:33-04:00</updated>
-    <id>http://obriencj.github.io/blog/2014/05/22/bindings-shed</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/05/22/bindings-shed</id>
     <content type="html"><![CDATA[<p>I’ve removed a piece of myself, this morning.</p>
 
 <!-- more -->
@@ -77,9 +77,9 @@ but I think it was the correct action.</p>
   
   <entry>
     <title type="html"><![CDATA[Surprise, There Are Users]]></title>
-    <link href="http://obriencj.github.io/blog/2014/04/26/surprise/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/04/26/surprise/"/>
     <updated>2014-04-26T12:35:18-04:00</updated>
-    <id>http://obriencj.github.io/blog/2014/04/26/surprise</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/04/26/surprise</id>
     <content type="html"><![CDATA[<p>My motorcycle is in the shop this morning. I ride a little <a href="http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx">TU250x</a>
 that I call “Tux”. I bought her for myself as a birthday present last
 year, and have put a little over 6000 miles on her since. She’s a good
@@ -119,9 +119,9 @@ to PyPI after all.</p>
   
   <entry>
     <title type="html"><![CDATA[Javatools to Setuptools]]></title>
-    <link href="http://obriencj.github.io/blog/2014/04/03/javatools-to-setuptools/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/"/>
     <updated>2014-04-03T18:52:24-04:00</updated>
-    <id>http://obriencj.github.io/blog/2014/04/03/javatools-to-setuptools</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools</id>
     <content type="html"><![CDATA[<p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I’ve been
 distracted.</p>
 
@@ -208,9 +208,9 @@ sibilant.</p>
   
   <entry>
     <title type="html"><![CDATA[Weather and Backtracking]]></title>
-    <link href="http://obriencj.github.io/blog/2014/03/24/weather-and-backtracking/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking/"/>
     <updated>2014-03-24T00:05:53-04:00</updated>
-    <id>http://obriencj.github.io/blog/2014/03/24/weather-and-backtracking</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking</id>
     <content type="html"><![CDATA[<p>Spring should be arriving any moment now, and indeed there are hints
 of warmth and green coming soon. Those glimpses of a happy future are
 punctuated with an almost spiteful enthusiasm by incredibly gross
@@ -611,9 +611,9 @@ with macros, thus clarifying the post title</em></p>
   
   <entry>
     <title type="html"><![CDATA[Brine on the Wire]]></title>
-    <link href="http://obriencj.github.io/blog/2014/03/05/brine-on-the-wire/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/"/>
     <updated>2014-03-05T13:00:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/03/05/brine-on-the-wire</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire</id>
     <content type="html"><![CDATA[<p>I realized while hacking on the test cases for the <a href="http://github.com/obriencj/python-promises">promises</a>
 multiprocess module that it would be really useful if I could easily
 pass along anonymous functions. So I threw together a new
@@ -660,7 +660,7 @@ creates and attaches a cryptographic signature seems to be useful
 enough to warrant some attention. Connecting that to a Queue
 implementation that performs the sign/verify steps transparently would
 be simple enough. This may become another entry for my
-<a href="http://obriencj.github.io/projects/ideas">ideas</a> page…</p>
+<a href="http://obriencj.preoccupied.net/projects/ideas">ideas</a> page…</p>
 
 <hr />
 
@@ -672,9 +672,9 @@ have written it up here first… oh well, next time</em></p>
   
   <entry>
     <title type="html"><![CDATA[Delivering on Promises]]></title>
-    <link href="http://obriencj.github.io/blog/2014/03/02/delivering-on-promises/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/"/>
     <updated>2014-03-02T14:16:30-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/03/02/delivering-on-promises</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises</id>
     <content type="html"><![CDATA[<p>It’s beautiful, this fine sunny Sunday. Zoe is outside playing with
 the neighbors and I’m relaxing in the breeze. I’m working on a bit of
 clean-up coding from yesterday’s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
@@ -705,9 +705,9 @@ version 1.0.0 soon, and posting the module up on PyPI.</p>
   
   <entry>
     <title type="html"><![CDATA[Python, Sphinx, and GitHUB]]></title>
-    <link href="http://obriencj.github.io/blog/2014/02/09/python/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/02/09/python/"/>
     <updated>2014-02-09T22:20:51-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/02/09/python</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/02/09/python</id>
     <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/" title="The Morning Times">coffee shop</a>, trying to determine how
 I wanted to generate the API documentation for <a href="http://github.com/obriencj/python-brine">brine</a>.</p>
 
@@ -791,9 +791,9 @@ docstring.<a href="#fnref:1" rel="reference">&#8617;</a></p>
   
   <entry>
     <title type="html"><![CDATA[Eggs and Bacon]]></title>
-    <link href="http://obriencj.github.io/blog/2014/02/08/eggs-and-bacon/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon/"/>
     <updated>2014-02-08T13:00:04-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/02/08/eggs-and-bacon</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon</id>
     <content type="html"><![CDATA[<p>Let me tell you about breakfast.</p>
 
 <p>I woke up this morning, and immediately started hacking on <a href="https://github.com/obriencj/python-brine/">brine</a>,
@@ -948,9 +948,9 @@ need the jar.<a href="#fnref:3" rel="reference">&#8617;</a></p>
   
   <entry>
     <title type="html"><![CDATA[Barrels of Brine]]></title>
-    <link href="http://obriencj.github.io/blog/2014/02/06/barrels-of-brine/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/"/>
     <updated>2014-02-06T22:16:40-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/02/06/barrels-of-brine</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine</id>
     <content type="html"><![CDATA[<p>I’ve been very happy spending my evenings working with a small project
 entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
 functionality and goals are well-defined. Put simply, brine allows you
@@ -1036,9 +1036,9 @@ again!</p>
   
   <entry>
     <title type="html"><![CDATA[Well How About Octopress Instead?]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/28/well-how-about-octopress-instead/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/28/well-how-about-octopress-instead</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
     <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
 I’m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
 
@@ -1068,10 +1068,10 @@ abandon Tumblr in favor of posting here…</p>
   
   <entry>
     <title type="html"><![CDATA[I Wrote Up My Todo List]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/26/i-wrote-up-my-todo-list/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/"/>
     <updated>2014-01-26T00:01:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/26/i-wrote-up-my-todo-list</id>
-    <content type="html"><![CDATA[<p>I started to write up a <a href="http://obriencj.github.io/projects/ideas">TODO/Idea</a> list as a page, and now
+    <id>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list</id>
+    <content type="html"><![CDATA[<p>I started to write up a <a href="http://obriencj.preoccupied.net/projects/ideas">TODO/Idea</a> list as a page, and now
 I am overwhelmed by how many things there are that I wanted to work
 on. And I know that there are more than what I could think to list at
 this moment…</p>
@@ -1080,9 +1080,9 @@ this moment…</p>
   
   <entry>
     <title type="html"><![CDATA[Making Use of Jekyll on github.io]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
     <updated>2014-01-25T00:01:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
     <content type="html"><![CDATA[<p>I’ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
 in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">Jekyll</a> on
 <a href="https://pages.github.com" title="GitHub Pages">github.io</a>. I’m swimming in the posibilities.</p>
@@ -1107,9 +1107,9 @@ this? Not really, no. But it may be worth the effort.</p>
   
   <entry>
     <title type="html"><![CDATA[Gist - Output of Spexy_try]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/25/gist-output-of-spexy-try/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/"/>
     <updated>2014-01-25T00:00:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/25/gist-output-of-spexy-try</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try</id>
     <content type="html"><![CDATA[<p>Because it’s Friday night and I have nothing else going on, I’ve been
 hacking away at <a href="https://github.com/obriencj/python-spexy">Spexy</a> again. It remains an utterly insane body of
 work, which no clear-minded individual should approach with a straight
@@ -1231,9 +1231,9 @@ up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#
   
   <entry>
     <title type="html"><![CDATA[Gist - Spexy Repl Example]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/22/gist-spexy-repl-example/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/"/>
     <updated>2014-01-22T00:02:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/22/gist-spexy-repl-example</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example</id>
     <content type="html"><![CDATA[<p>For those with strong stomachs I present an example of <a href="https://github.com/obriencj/python-spexy">Spexy</a>, and the
 perfectly valid Python it emits</p>
 
@@ -1357,9 +1357,9 @@ perfectly valid Python it emits</p>
   
   <entry>
     <title type="html"><![CDATA[Spexy? Oh God What Did I Do...]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
     <updated>2014-01-22T00:01:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
     <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
 Something I’d forgotten. Something that is so bizarre I’m not even
 sure what I was thinking when I hacked at it. Something I had to
@@ -1396,9 +1396,9 @@ up and see how much sense it can be made to make.</p>
   
   <entry>
     <title type="html"><![CDATA[Celebrating Three Years of an Unused Tumblr]]></title>
-    <link href="http://obriencj.github.io/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/"/>
     <updated>2014-01-21T00:01:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr</id>
     <content type="html"><![CDATA[<p>Tumblr let me know that this blog turned three today. It wanted me to post a picture of a cupcake, but I&#8217;ve spared myself that indignity.</p>
 <p>I&#8217;m reminded that I really haven&#8217;t been keeping on with my resolution to document more of what I work on. I wonder if &#8220;blog more&#8221; is the dork version of &#8220;go to the gym&#8221; resolutions.</p>
 

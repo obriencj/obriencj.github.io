@@ -2,112 +2,116 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://obriencj.github.io/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/
+            http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/
         </loc>
         <lastmod>2014-06-21T13:55:25-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/01/22/spexy-oh-god-what-did-i-do/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/</loc>
         <lastmod>2014-06-21T13:55:25-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/01/22/gist-spexy-repl-example/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/</loc>
         <lastmod>2014-06-21T13:55:25-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/01/25/gist-output-of-spexy-try/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/</loc>
         <lastmod>2014-06-21T13:55:25-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/01/25/making-use-of-jekyll-on-gihubio/</loc>
+        <loc>
+            http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/
+        </loc>
         <lastmod>2014-06-21T13:55:25-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/01/26/i-wrote-up-my-todo-list/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/</loc>
         <lastmod>2014-06-21T13:55:24-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/01/28/well-how-about-octopress-instead/</loc>
+        <loc>
+            http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/
+        </loc>
         <lastmod>2014-06-21T13:55:25-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/02/06/barrels-of-brine/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/</loc>
         <lastmod>2014-06-21T13:55:25-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/02/08/eggs-and-bacon/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon/</loc>
         <lastmod>2014-06-21T13:55:27-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/02/09/python/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/02/09/python/</loc>
         <lastmod>2014-06-21T13:55:29-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/03/02/delivering-on-promises/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/</loc>
         <lastmod>2014-06-21T13:55:27-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/03/05/brine-on-the-wire/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/</loc>
         <lastmod>2014-06-21T13:55:27-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/03/24/weather-and-backtracking/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking/</loc>
         <lastmod>2014-06-21T13:55:28-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/04/03/javatools-to-setuptools/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/</loc>
         <lastmod>2014-06-21T13:55:28-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/04/26/surprise/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/04/26/surprise/</loc>
         <lastmod>2014-06-21T13:55:29-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/2014/05/22/bindings-shed/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/2014/05/22/bindings-shed/</loc>
         <lastmod>2014-06-21T13:55:29-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/about/contact/</loc>
+        <loc>http://obriencj.preoccupied.net/about/contact/</loc>
         <lastmod>2014-06-21T13:55:26-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/about/</loc>
+        <loc>http://obriencj.preoccupied.net/about/</loc>
         <lastmod>2014-06-21T13:55:26-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/about/support/</loc>
+        <loc>http://obriencj.preoccupied.net/about/support/</loc>
         <lastmod>2014-06-21T13:55:26-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/archives/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/archives/</loc>
         <lastmod>2014-06-21T13:55:29-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/blog/tags/</loc>
+        <loc>http://obriencj.preoccupied.net/blog/tags/</loc>
         <lastmod>2014-06-21T13:55:26-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/gpg/52829C5C.asc</loc>
+        <loc>http://obriencj.preoccupied.net/gpg/52829C5C.asc</loc>
         <lastmod>2014-06-21T13:54:38-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/</loc>
+        <loc>http://obriencj.preoccupied.net/</loc>
         <lastmod>2014-06-21T13:55:29-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/projects/ideas/</loc>
+        <loc>http://obriencj.preoccupied.net/projects/ideas/</loc>
         <lastmod>2014-06-21T13:55:27-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/projects/ideas/sibilant/</loc>
+        <loc>http://obriencj.preoccupied.net/projects/ideas/sibilant/</loc>
         <lastmod>2014-06-21T13:55:27-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/projects/</loc>
+        <loc>http://obriencj.preoccupied.net/projects/</loc>
         <lastmod>2014-06-21T13:55:26-04:00</lastmod>
     </url>
     <url>
-        <loc>http://obriencj.github.io/robots.txt</loc>
+        <loc>http://obriencj.preoccupied.net/robots.txt</loc>
         <lastmod>2014-06-21T13:54:38-04:00</lastmod>
     </url>
 </urlset>

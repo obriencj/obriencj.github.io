@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Projects | obriencj]]></title>
-  <link href="http://obriencj.github.io/blog/categories/projects/atom.xml" rel="self"/>
-  <link href="http://obriencj.github.io/"/>
-  <updated>2014-06-21T14:08:43-04:00</updated>
-  <id>http://obriencj.github.io/</id>
+  <link href="http://obriencj.preoccupied.net/blog/categories/projects/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2014-06-21T21:13:36-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Surprise, There Are Users]]></title>
-    <link href="http://obriencj.github.io/blog/2014/04/26/surprise/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/04/26/surprise/"/>
     <updated>2014-04-26T12:35:18-04:00</updated>
-    <id>http://obriencj.github.io/blog/2014/04/26/surprise</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/04/26/surprise</id>
     <content type="html"><![CDATA[<p>My motorcycle is in the shop this morning. I ride a little <a href="http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx">TU250x</a>
 that I call “Tux”. I bought her for myself as a birthday present last
 year, and have put a little over 6000 miles on her since. She’s a good
@@ -57,9 +57,9 @@ to PyPI after all.</p>
   
   <entry>
     <title type="html"><![CDATA[Javatools to Setuptools]]></title>
-    <link href="http://obriencj.github.io/blog/2014/04/03/javatools-to-setuptools/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/"/>
     <updated>2014-04-03T18:52:24-04:00</updated>
-    <id>http://obriencj.github.io/blog/2014/04/03/javatools-to-setuptools</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools</id>
     <content type="html"><![CDATA[<p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I’ve been
 distracted.</p>
 
@@ -146,9 +146,9 @@ sibilant.</p>
   
   <entry>
     <title type="html"><![CDATA[Weather and Backtracking]]></title>
-    <link href="http://obriencj.github.io/blog/2014/03/24/weather-and-backtracking/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking/"/>
     <updated>2014-03-24T00:05:53-04:00</updated>
-    <id>http://obriencj.github.io/blog/2014/03/24/weather-and-backtracking</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking</id>
     <content type="html"><![CDATA[<p>Spring should be arriving any moment now, and indeed there are hints
 of warmth and green coming soon. Those glimpses of a happy future are
 punctuated with an almost spiteful enthusiasm by incredibly gross
@@ -465,9 +465,9 @@ with macros, thus clarifying the post title</em></p>
   
   <entry>
     <title type="html"><![CDATA[Brine on the Wire]]></title>
-    <link href="http://obriencj.github.io/blog/2014/03/05/brine-on-the-wire/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/"/>
     <updated>2014-03-05T13:00:00-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/03/05/brine-on-the-wire</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire</id>
     <content type="html"><![CDATA[<p>I realized while hacking on the test cases for the <a href="http://github.com/obriencj/python-promises">promises</a>
 multiprocess module that it would be really useful if I could easily
 pass along anonymous functions. So I threw together a new
@@ -526,9 +526,9 @@ have written it up here first… oh well, next time</em></p>
   
   <entry>
     <title type="html"><![CDATA[Delivering on Promises]]></title>
-    <link href="http://obriencj.github.io/blog/2014/03/02/delivering-on-promises/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/"/>
     <updated>2014-03-02T14:16:30-05:00</updated>
-    <id>http://obriencj.github.io/blog/2014/03/02/delivering-on-promises</id>
+    <id>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises</id>
     <content type="html"><![CDATA[<p>It’s beautiful, this fine sunny Sunday. Zoe is outside playing with
 the neighbors and I’m relaxing in the breeze. I’m working on a bit of
 clean-up coding from yesterday’s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
