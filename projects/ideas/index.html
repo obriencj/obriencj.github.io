@@ -27,8 +27,8 @@
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
   <script type="text/javascript">
@@ -60,7 +60,7 @@
   
 </ul>
   
-<form action="http://google.com/search" method="get">
+<form action="https://www.google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:obriencj.preoccupied.net" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
@@ -93,122 +93,130 @@
   
 
 
-<time datetime="2014-01-01T00:00:00-05:00" pubdate data-updated="true">Jan 1<span>st</span>, 2014</time></p>
+<time datetime="2014-01-01T00:00:00-05:00" pubdate data-updated="true">Jan 1<sup>st</sup>, 2014</time></p>
   </header>
   
-  <p>There are so many things that I’d like to work on or play around with
+  <p>There are so many things that I&rsquo;d like to work on or play around with
 as time permits. My interests and focus are as mercurial as my
 personality.</p>
 
 <p><em>these are in no meaningful order</em></p>
 
-<h2 id="mudblock">mudblock</h2>
+<h2>mudblock</h2>
+
 <p><strong>custom voxel adventure/simulation game</strong></p>
 
-<p>I started playing around in OpenGL a few years ago, using PyGame. I’d
+<p>I started playing around in OpenGL a few years ago, using PyGame. I&rsquo;d
 really like to combine that work with some of the minecraft server
 ideas I have and turn it into an actual, real game.</p>
 
-<p>However, I’m also driven to make mudblock a simple and strong
+<p>However, I&rsquo;m also driven to make mudblock a simple and strong
 engine. Basically, I saw minecraft and have been bothered by it ever
-since. Missing chunks, bandwidth consumption, lag… there are all
+since. Missing chunks, bandwidth consumption, lag&hellip; there are all
 these little nigglets that I have which are all concerned with how the
 game and server deals with its data. I want to start from a solid base
 of how the world data is distributed (replicated?), then move on to
-how the event model can be cleaned up. Then we’ll see if I can’t mix
-in a “proper” physics engine (ODE).</p>
+how the event model can be cleaned up. Then we&rsquo;ll see if I can&rsquo;t mix
+in a &ldquo;proper&rdquo; physics engine (ODE).</p>
 
-<p>It’s a pipe-dream… but it’s the game I want to play. Maybe minecraft
+<p>It&rsquo;s a pipe-dream&hellip; but it&rsquo;s the game I want to play. Maybe minecraft
 will evolve more as time goes by and it will fill this space for me,
 but I still could end up hacking on it just because I flipping love
 reinventing things from my own perspective.</p>
 
-<h2 id="whoseaura">whoseaura</h2>
+<h2>whoseaura</h2>
+
 <p><strong>world of warcraft addon</strong></p>
 
 <p>I need to clean up the whoseaura addon. Ever since they introduced the
-consolidated buffs I’ve been annoyed that the tooltips don’t show. I’d
+consolidated buffs I&rsquo;ve been annoyed that the tooltips don&rsquo;t show. I&rsquo;d
 like to see who <em>can</em> provide a consolidated buff, if one is missing.
-And if it’s not missing, I’d like to see who is providing it.
-Currently the tooltip index doesn’t match up with the UnitAura index,
-so it’s never getting the right caster. Bothersome!</p>
+And if it&rsquo;s not missing, I&rsquo;d like to see who is providing it.
+Currently the tooltip index doesn&rsquo;t match up with the UnitAura index,
+so it&rsquo;s never getting the right caster. Bothersome!</p>
 
-<h2 id="sibilant">sibilant</h2>
+<h2>sibilant</h2>
+
 <p><strong>lisp dialect that compiles to python</strong></p>
 
-<p>I imported this a few days ago from an old CVS checkout. It’s
-currently living in GitHub in a non-working state. I’d love to get my
+<p>I imported this a few days ago from an old CVS checkout. It&rsquo;s
+currently living in GitHub in a non-working state. I&rsquo;d love to get my
 brain wrapped around this and really get it working.</p>
 
 <p><a href="/projects/ideas/sibilant/">More on sibilant</a></p>
 
-<h2 id="python-callcc">python call/cc</h2>
+<h2>python call/cc</h2>
+
 <p><strong>reified continuations in python</strong></p>
 
-<p>I’ve been meaning to look into this for years now, but I never get
+<p>I&rsquo;ve been meaning to look into this for years now, but I never get
 around to it. Depending on how the Python stack is constructed and
 implemented, it just might be possible to reify and capture the
-continuation at a point in execution… and then call it again later!</p>
+continuation at a point in execution&hellip; and then call it again later!</p>
 
 <p>It seems like such a glorious hack, I really need to devote the time
 to it.</p>
 
-<h2 id="jekyll-bootstrap-theme">jekyll bootstrap theme</h2>
+<h2>jekyll bootstrap theme</h2>
+
 <p><strong>because this site is currently weird</strong></p>
 
-<p>I’m using the Twitter JB theme right now, and it’s been a real
-bastard. There are all sorts of weird spots where things aren’t
-variables (but they ought to be) so I’ve already had to modify
-it. Like the copyright… it was hardcoded to 2012. And the tagline
+<p>I&rsquo;m using the Twitter JB theme right now, and it&rsquo;s been a real
+bastard. There are all sorts of weird spots where things aren&rsquo;t
+variables (but they ought to be) so I&rsquo;ve already had to modify
+it. Like the copyright&hellip; it was hardcoded to 2012. And the tagline
 field was never used, each page just statically displayed the text
-“Page Tagline”.</p>
+&ldquo;Page Tagline&rdquo;.</p>
 
 <p>Well I want to set up a front page that shows my most recent 3 blog
-entries (that aren’t tagged with “personal”), merges in my most recent
-Twitter posts, and then jumps to a brief “About” page.</p>
+entries (that aren&rsquo;t tagged with &ldquo;personal&rdquo;), merges in my most recent
+Twitter posts, and then jumps to a brief &ldquo;About&rdquo; page.</p>
 
 <p>I want to create a second rss feed, and filter the default one. The
-default should omit any of the “personal” posts just like the front
+default should omit any of the &ldquo;personal&rdquo; posts just like the front
 page does. The second rss feed can include the whole collection.</p>
 
 <p>I want pages to support tags, not just posts. When I look at the tags
-view, I want any static pages that I’ve written up to be listed as
+view, I want any static pages that I&rsquo;ve written up to be listed as
 well!</p>
 
-<p>I’m considering discarding the “categories” concept entirely, and just
+<p>I&rsquo;m considering discarding the &ldquo;categories&rdquo; concept entirely, and just
 going with tags all the way. I think if I need to namespace things,
-I’ll just make them sub-pages and use that as my organization method.</p>
+I&rsquo;ll just make them sub-pages and use that as my organization method.</p>
 
-<h2 id="workspace-on-github">workspace on GitHub</h2>
+<h2>workspace on GitHub</h2>
+
 <p><strong>a meta git repo</strong></p>
 
-<p>Since I’ve got devel directories on a number of different machines, I
+<p>Since I&rsquo;ve got devel directories on a number of different machines, I
 wondered if it might not be a good idea to setup some sort of
-“workspace” concept, which was itself stored in git. The idea being
+&ldquo;workspace&rdquo; concept, which was itself stored in git. The idea being
 that I could sync the workspace repo, and it would do some magic to
-automatically create all the other repos I use (perhaps with –bare by
+automatically create all the other repos I use (perhaps with &mdash;bare by
 default). This would get me a common layout across the three machines
 I commonly use, and would make it easy to get setup on a new machine
 as well. Maybe there is already something that does this?</p>
 
-<h2 id="move-off-of-tumblr">move off of tumblr</h2>
+<h2>move off of tumblr</h2>
+
 <p><strong>control freak</strong></p>
 
-<p>I think once I’ve got the theme working on this site, as well as the
+<p>I think once I&rsquo;ve got the theme working on this site, as well as the
 various rss feeds, etc (and mobile?) I should drop my tumblr and move
 it all over here. I really like the idea of how re-hostable Jekyll
-is… if github decides to go evil tomorrow evening, I could change
+is&hellip; if github decides to go evil tomorrow evening, I could change
 DNS and set up my own repo hosting and stand up a webserver that hosts
-the exact same content. I do not like being beholden to Tumblr…</p>
+the exact same content. I do not like being beholden to Tumblr&hellip;</p>
 
-<h2 id="meanwhile">meanwhile</h2>
+<h2>meanwhile</h2>
+
 <p><strong>lotus sametime library</strong></p>
 
-<p>I’ve not worked on the meanwhile project since 2006 or 2007. After I
-left IBM, it just became less and less of a priority since I wasn’t
+<p>I&rsquo;ve not worked on the meanwhile project since 2006 or 2007. After I
+left IBM, it just became less and less of a priority since I wasn&rsquo;t
 faced with having to use a Sametime server on a daily basis.</p>
 
-<p>Before I effectively abandoned the only project I’ve ever owned that
+<p>Before I effectively abandoned the only project I&rsquo;ve ever owned that
 had actual users, I had been working on a meanwhile2 concept.
 GObject-based services, re-thought-out message structures, and a
 significantly more development friendly set of headers and
@@ -216,57 +224,61 @@ functions. And Python bindings! Glorious Python bindings!</p>
 
 <p>It would be very interesting to sit down with the current state of the
 Sametime protocol (I know that the Sametime devs abuse and misuse
-Sametime… the flipping thing has feature negotiation built-in and
-they don’t actually use it, what’s that about?) and see if I can’t get
-up to feature parity. I’m sure the few remaining users would love
-that! And I’m certain the Sametime team at IBM would not! Win-win!</p>
+Sametime&hellip; the flipping thing has feature negotiation built-in and
+they don&rsquo;t actually use it, what&rsquo;s that about?) and see if I can&rsquo;t get
+up to feature parity. I&rsquo;m sure the few remaining users would love
+that! And I&rsquo;m certain the Sametime team at IBM would not! Win-win!</p>
 
-<p>Also, and this one is a big one… I’ve always wanted to write a proxy
+<p>Also, and this one is a big one&hellip; I&rsquo;ve always wanted to write a proxy
 from Sametime to XMPP. As in, a tool to allow an established Sametime
 user installation to seamlessly migrate off of Lotus and onto a Jabber
 server. Users could begin migrating to different clients, but the
 stubborn ones could continue using their Sametime client with the
 proxy. That would be quite a thing.</p>
 
-<h2 id="home-message-bus">home message bus</h2>
+<h2>home message bus</h2>
+
 <p><strong>personal internet of things</strong></p>
 
 <p>I really want to set up an AMQ server at home, and start having all my
 different machines and devices start talking to it. There are so many
 different notifications that I am interested in (temperature, weather,
 chat, mail, doorbell, electricity consumption, mailbox, motion
-detectors, landline phone, network status, my coffee pot…)</p>
+detectors, landline phone, network status, my coffee pot&hellip;)</p>
 
 <p>I want to observe and log EVERYTHING.</p>
 
-<p>And encrypt the everloving shit out of it, because it’s my data and
-nobody else’s!</p>
+<p>And encrypt the everloving shit out of it, because it&rsquo;s my data and
+nobody else&rsquo;s!</p>
 
-<h2 id="migrate-preoccupiednet-mail-to-google-apps">migrate preoccupied.net mail to google apps</h2>
-<p><strong>because I’m a lazy admin</strong></p>
+<h2>migrate preoccupied.net mail to google apps</h2>
+
+<p><strong>because I&rsquo;m a lazy admin</strong></p>
 
 <p>I am tired of maintaining the firewall list and software updates for
-my mail server. Especially since I’m just <code>.forward</code>-ing all my mail
-to my gmail account anyway! Let’s cut out the middleman. If I ever
-need to move back to self-hosting, I can. But right now I don’t want
+my mail server. Especially since I&rsquo;m just <code>.forward</code>-ing all my mail
+to my gmail account anyway! Let&rsquo;s cut out the middleman. If I ever
+need to move back to self-hosting, I can. But right now I don&rsquo;t want
 to do it anymore.</p>
 
-<p>I’d also consider collapsing the number of rackspace images I had, if
+<p>I&rsquo;d also consider collapsing the number of rackspace images I had, if
 this were to happen. The cost savings of fewer images and reduced
 bandwidth consumption may just offset the monthly cost of two or three
 google account users, while at the same time providing the benefit of
 not having to spend time on admin duties for the mail server. Sheesh.</p>
 
-<h2 id="go-pro-on-my-tux">go-pro on my tux</h2>
-<p><strong>the tu250x I’m currently dating</strong></p>
+<h2>go-pro on my tux</h2>
 
-<p>I’ve been interested in playing around with ride-recording. Just a
+<p><strong>the tu250x I&rsquo;m currently dating</strong></p>
+
+<p>I&rsquo;ve been interested in playing around with ride-recording. Just a
 go-pro mount and iMovie, basically. Seems like a simple setup to
 manage, but I have to invest real dollars in the hardware. Perhaps
 come spring this will seem more viable.</p>
 
-<h2 id="triple-tree-leather-guard">triple-tree leather guard</h2>
-<p><strong>what’s better than a tux wrapped in leather</strong></p>
+<h2>triple-tree leather guard</h2>
+
+<p><strong>what&rsquo;s better than a tux wrapped in leather</strong></p>
 
 <p>also it would be neat if I could put together some kind of cover or
 wrap for the top of the tripple-tree on the tux. Something that
@@ -314,9 +326,9 @@ from scraping things up.</p>
   <p class="tags">
 <a style="font-size: 115%" href="/blog/tags/brine/">brine</a>
 <a style="font-size: 106%" href="/blog/tags/gist/">gist</a>
-<a style="font-size: 106%" href="/blog/tags/github/">github</a>
 <a style="font-size: 106%" href="/blog/tags/github-dot-io/">github.io</a>
 <a style="font-size: 115%" href="/blog/tags/hack/">hack</a>
+<a style="font-size: 106%" href="/blog/tags/ideas/">ideas</a>
 <a style="font-size: 106%" href="/blog/tags/jekyll/">jekyll</a>
 <a style="font-size: 115%" href="/blog/tags/lisp/">lisp</a>
 <a style="font-size: 106%" href="/blog/tags/promises/">promises</a>
@@ -337,11 +349,8 @@ from scraping things up.</p>
 
 </section>
 <section>
-  <h1>Author</h1>
-  <p>A generally nice guy, who just wants to hack for fun. Proud
-  father. Motorcycle rider. Currently emplyed with Red Hat as a
-  Release Engineer. </p>
-  <p><a href="https://plus.google.com/+ChristopherOBrien/?rel=author">Christopher O'Brien on G+</a></p>
+  <h1>About Me</h1>
+  <p>A little something about me.</p>
 </section>
 
 <section class="googleplus googleplus-hidden">

@@ -9,9 +9,8 @@
   <meta name="author" content="Christopher O'Brien">
 
   
-  <meta name="description" content="I was supposed to write about sibilant, but of course I’ve been
-distracted. My daughter is out of school on spring break, and I’ve taken leave
-from &hellip;">
+  <meta name="description" content="I was supposed to write about sibilant, but of course I&rsquo;ve been
+distracted. My daughter is out of school on spring break, and I&rsquo;ve taken &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -29,8 +28,8 @@ from &hellip;">
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
   <script type="text/javascript">
@@ -62,7 +61,7 @@ from &hellip;">
   
 </ul>
   
-<form action="http://google.com/search" method="get">
+<form action="https://www.google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:obriencj.preoccupied.net" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
@@ -99,26 +98,27 @@ from &hellip;">
   
 
 
-<time datetime="2014-04-03T18:52:24-04:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2014</time>
+
+	<time datetime="2014-04-03T18:52:24-04:00" pubdate data-updated="true">Apr 3<sup>rd</sup>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I’ve been
+<div class="entry-content"><p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I&rsquo;ve been
 distracted.</p>
 
-<p>My daughter is out of school on spring break, and I’ve taken leave
+<p>My daughter is out of school on spring break, and I&rsquo;ve taken leave
 from work so that we could hang out together. Of course this means
-that we’ve just been finding new ways to ignore each other as the week
-has gone by. We’ve certainly spent a lot of time at various parks and
-playgrounds, and we’ve played an awful lot of Minecraft together. But
-on the evenings we’ve also set up something approaching residency at
+that we&rsquo;ve just been finding new ways to ignore each other as the week
+has gone by. We&rsquo;ve certainly spent a lot of time at various parks and
+playgrounds, and we&rsquo;ve played an awful lot of Minecraft together. But
+on the evenings we&rsquo;ve also set up something approaching residency at
 our <a href="http://morningtimes-raleigh.com">favorite coffee shop</a>. She will sit and munch on chocolate chip
-cookies while watching videos and playing games on her ipad–
-oblivious to my presence– and I’ll find myself looking for something
-unimportant to half-heartedly hack on. It’s a pleasant and relaxing
+cookies while watching videos and playing games on her ipad&mdash;
+oblivious to my presence&mdash; and I&rsquo;ll find myself looking for something
+unimportant to half-heartedly hack on. It&rsquo;s a pleasant and relaxing
 situation, this modern bonding.</p>
 
 <p>And so it came to pass that I was looking over the <a href="http://github.com/obriencj/python-javatools">python-javatools</a>
@@ -126,9 +126,10 @@ project again.</p>
 
 <!-- more -->
 
-<h2 id="javatools">Javatools</h2>
 
-<p>I typically write my projects and tools in reverse– that is to say, I
+<h2>Javatools</h2>
+
+<p>I typically write my projects and tools in reverse&mdash; that is to say, I
 write them as if I had the API that I wanted, and then I create the
 library to fulfill that wish. In the end, I have a library and a tool
 that consumes it.</p>
@@ -140,52 +141,52 @@ harmless. I took a quick glance at the format specifications for Java
 class files, and indeed that information is trivial to fetch.</p>
 
 <p>Thus, organically, began the life of a tool whose purpose is to
-compare class binaries and discover the “meaningful” differences.</p>
+compare class binaries and discover the &ldquo;meaningful&rdquo; differences.</p>
 
-<h2 id="unit-tests">Unit tests</h2>
+<h2>Unit tests</h2>
 
-<p>This likely sounds mad, but I enjoy writing unit tests. They’re easy
+<p>This likely sounds mad, but I enjoy writing unit tests. They&rsquo;re easy
 to throw together without paying a whole lot of attention, and you
-aren’t likely to actively break something. Use tools like
+aren&rsquo;t likely to actively break something. Use tools like
 <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> and it becomes a game; trying to reach 100% <a href="https://docs.python.org/2/library/unittest.html">unittest</a>
 coverage for some little library that has a total of 20 users in the
 entire world.</p>
 
-<p>I started writing Javatools before I’d developed the habit of writing
-tests in parallel. Mind you, I “tested” the project frequently,
+<p>I started writing Javatools before I&rsquo;d developed the habit of writing
+tests in parallel. Mind you, I &ldquo;tested&rdquo; the project frequently,
 running it against all manner of samples from out in the wild. I kept
 a script in git whose sole job was to compare two versions of JBoss AS
-against one-another– that was my test case.</p>
+against one-another&mdash; that was my test case.</p>
 
 <p>Approaching actual test writing for this project seemed daunting at
-first– it meant I’d need to create data to test against, and that
+first&mdash; it meant I&rsquo;d need to create data to test against, and that
 meant writing Java code so that I could disassemble it again later and
 check that what my tooling reports is indeed what ought to be there.
-But that’s exactly what I’ve been doing this week in the coffee shop–
-creating sample classes that I could tear apart. I’ve found one bug in
+But that&rsquo;s exactly what I&rsquo;ve been doing this week in the coffee shop&mdash;
+creating sample classes that I could tear apart. I&rsquo;ve found one bug in
 javatools so far with this, so I even have something to show for it.</p>
 
-<h2 id="setuptools">Setuptools</h2>
+<h2>Setuptools</h2>
 
-<p>In order to more easily manage my unittests, I’ve migrated setup.py
+<p>In order to more easily manage my unittests, I&rsquo;ve migrated setup.py
 from the in-built <a href="https://docs.python.org/2/distutils/">distutils</a> module to <a href="http://pythonhosted.org/setuptools/">setuptools</a>. Setuptools has a
-few quirks, and I’ve had to make adjustments to accommodate those. For
+few quirks, and I&rsquo;ve had to make adjustments to accommodate those. For
 instance, renaming the <code>src</code> directory to <code>javatools</code>. In theory I
 will be able to simplify setup.py by moving the <code>pylint</code> command out
-into its own file, but I haven’t arrived at that point yet.</p>
+into its own file, but I haven&rsquo;t arrived at that point yet.</p>
 
 <p>Unfortunately, I still need to override the <code>build_py</code> command class
 to pre-compile my <a href="http://www.cheetahtemplate.org/">Cheetah</a> templates into python modules.</p>
 
-<p>Since this introduces a dependency for the project, I’ve kept these
+<p>Since this introduces a dependency for the project, I&rsquo;ve kept these
 changes (including the unittests) in a <a href="https://github.com/obriencj/python-javatools/tree/setuptools">separate branch</a> until I can
-ascertain that it’s not too much churn for the upcoming 1.4 release.</p>
+ascertain that it&rsquo;s not too much churn for the upcoming 1.4 release.</p>
 
 <p>Setuptools is widely-enough used that I sincerely doubt there will be
-any real issue with the switch. After a few more tests I’ll hopefully
+any real issue with the switch. After a few more tests I&rsquo;ll hopefully
 merge back to master and finally tag version 1.4 in git.</p>
 
-<p>And then I’ll have to go back to thinking about the compiler for
+<p>And then I&rsquo;ll have to go back to thinking about the compiler for
 sibilant.</p>
 </div>
 
@@ -209,7 +210,7 @@ sibilant.</p>
   
 
 
-<time datetime="2014-04-03T18:52:24-04:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2014</time>
+<time datetime="2014-04-03T18:52:24-04:00" pubdate data-updated="true">Apr 3<sup>rd</sup>, 2014</time>
       
 
 <span class="categories">
@@ -289,9 +290,9 @@ sibilant.</p>
   <p class="tags">
 <a style="font-size: 115%" href="/blog/tags/brine/">brine</a>
 <a style="font-size: 106%" href="/blog/tags/gist/">gist</a>
-<a style="font-size: 106%" href="/blog/tags/github/">github</a>
 <a style="font-size: 106%" href="/blog/tags/github-dot-io/">github.io</a>
 <a style="font-size: 115%" href="/blog/tags/hack/">hack</a>
+<a style="font-size: 106%" href="/blog/tags/ideas/">ideas</a>
 <a style="font-size: 106%" href="/blog/tags/jekyll/">jekyll</a>
 <a style="font-size: 115%" href="/blog/tags/lisp/">lisp</a>
 <a style="font-size: 106%" href="/blog/tags/promises/">promises</a>
@@ -312,11 +313,8 @@ sibilant.</p>
 
 </section>
 <section>
-  <h1>Author</h1>
-  <p>A generally nice guy, who just wants to hack for fun. Proud
-  father. Motorcycle rider. Currently emplyed with Red Hat as a
-  Release Engineer. </p>
-  <p><a href="https://plus.google.com/+ChristopherOBrien/?rel=author">Christopher O'Brien on G+</a></p>
+  <h1>About Me</h1>
+  <p>A little something about me.</p>
 </section>
 
 <section class="googleplus googleplus-hidden">

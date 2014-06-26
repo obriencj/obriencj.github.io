@@ -38,8 +38,8 @@ perfectly valid Python it emits spexy repl exampleGist1
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
   <script type="text/javascript">
@@ -71,7 +71,7 @@ perfectly valid Python it emits spexy repl exampleGist1
   
 </ul>
   
-<form action="http://google.com/search" method="get">
+<form action="https://www.google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:obriencj.preoccupied.net" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
@@ -110,7 +110,8 @@ perfectly valid Python it emits spexy repl exampleGist1
 
 
   
-<time datetime="2014-01-24T00:02:00-05:00" class="updated">Updated Jan 24<span>th</span>, 2014</time>
+
+	<time datetime="2014-01-24T00:02:00-05:00" class="updated">Updated Jan 24<sup>th</sup>, 2014</time>
         
       </p>
     
@@ -122,119 +123,126 @@ perfectly valid Python it emits</p>
 
 <!-- more -->
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>spexy repl example</span><a href="https://gist.github.com/obriencj/8567348">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-<span class="line-number">11</span>
-<span class="line-number">12</span>
-<span class="line-number">13</span>
-<span class="line-number">14</span>
-<span class="line-number">15</span>
-<span class="line-number">16</span>
-<span class="line-number">17</span>
-<span class="line-number">18</span>
-<span class="line-number">19</span>
-<span class="line-number">20</span>
-<span class="line-number">21</span>
-<span class="line-number">22</span>
-<span class="line-number">23</span>
-<span class="line-number">24</span>
-<span class="line-number">25</span>
-<span class="line-number">26</span>
-<span class="line-number">27</span>
-<span class="line-number">28</span>
-<span class="line-number">29</span>
-<span class="line-number">30</span>
-<span class="line-number">31</span>
-<span class="line-number">32</span>
-<span class="line-number">33</span>
-<span class="line-number">34</span>
-<span class="line-number">35</span>
-</pre></td><td class="code"><pre><code class="text"><span class="line">[siege@maybe src]$ python spexy.py
-</span><span class="line">&gt;&gt;&gt;&gt; (defun make_pair ()
-</span><span class="line">        (letrec ((value None)
-</span><span class="line">                (getter (lambda () value))
-</span><span class="line">                (setter (lambda (v) (setf value v))))
-</span><span class="line">            (make-list getter setter)))
-</span><span class="line">--&gt; globals().__setitem__(&#39;make_pair&#39;, (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
-</span><span class="line">&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
-</span><span class="line">        (define getter (getf gs 0))
-</span><span class="line">        (define setter (getf gs 1)))
-</span><span class="line">--&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__(&#39;getter&#39;, gs[0].__getitem__(0)), globals().__setitem__(&#39;setter&#39;, gs[0].__getitem__(1)),)[-1])([None]))
-</span><span class="line">&gt;&gt;&gt;&gt; (getter)
-</span><span class="line">--&gt; getter()
-</span><span class="line">&gt;&gt;&gt;&gt; getter
-</span><span class="line">--&gt; getter
-</span><span class="line">&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
-</span><span class="line">&gt;&gt;&gt;&gt; setter
-</span><span class="line">--&gt; setter
-</span><span class="line">&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
-</span><span class="line">&gt;&gt;&gt;&gt; (setter)
-</span><span class="line">--&gt; setter()
-</span><span class="line">## &lt;lambda&gt;() takes exactly 1 argument (0 given)
-</span><span class="line">&gt;&gt;&gt;&gt; (setter &quot;hello world&quot;)
-</span><span class="line">--&gt; setter(&quot;hello world&quot;)
-</span><span class="line">&gt;&gt;&gt;&gt; (getter)
-</span><span class="line">--&gt; getter()
-</span><span class="line">&#39;hello world&#39;
-</span><span class="line">&gt;&gt;&gt;&gt; (getter)
-</span><span class="line">--&gt; getter()
-</span><span class="line">&#39;hello world&#39;
-</span><span class="line">&gt;&gt;&gt;&gt; (setter &quot;919&quot;)
-</span><span class="line">--&gt; setter(&quot;919&quot;)
-</span><span class="line">&gt;&gt;&gt;&gt; (getter)
-</span><span class="line">--&gt; getter()
-</span><span class="line">&#39;919&#39;
-</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>more spexy repl</span><a href="https://gist.github.com/obriencj/8609890">Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-<span class="line-number">11</span>
-<span class="line-number">12</span>
-<span class="line-number">13</span>
-<span class="line-number">14</span>
-<span class="line-number">15</span>
-<span class="line-number">16</span>
-<span class="line-number">17</span>
-<span class="line-number">18</span>
-<span class="line-number">19</span>
-<span class="line-number">20</span>
-</pre></td><td class="code"><pre><code class="text"><span class="line">maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
-</span><span class="line">Python 2.7.6 (default, Nov 18 2013, 15:12:51)
-</span><span class="line">[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
-</span><span class="line">Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-</span><span class="line">&gt;&gt;&gt; from spexy import repl
-</span><span class="line">&gt;&gt;&gt; from datetime import datetime
-</span><span class="line">&gt;&gt;&gt; repl(globals())
-</span><span class="line">&gt;&gt;&gt;&gt; (let ((who &quot;siege&quot;) (date 1999))
-</span><span class="line">       (letrec ((fmt &quot;Hello %s, party like it is %i!&quot;)
-</span><span class="line">                (msg (% fmt (make-tuple who date))))
-</span><span class="line">         (println msg)))
-</span><span class="line"> --&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.__setitem__(0, &quot;Hello %s, party like it is %i!&quot;), msg.__setitem__(0, (fmt[0] % (who[0], date[0],))), __import__(&#39;sys&#39;).stdout.writelines(map(str, (msg[0], &#39;\n&#39;))),)[-1])([None], [None])))([&quot;siege&quot;], [1999]))
-</span><span class="line">Hello siege, party like it is 1999!
-</span><span class="line">&gt;&gt;&gt;&gt; (println &quot;But...&quot; &quot;it isn&#39;t&quot; 1999 &quot;anymore, it&#39;s&quot; (. (datetime.now) year))
-</span><span class="line"> --&gt; __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;But...&quot;, &quot; &quot;, &quot;it isn&#39;t&quot;, &quot; &quot;, 1999, &quot; &quot;, &quot;anymore, it&#39;s&quot;, &quot; &quot;, datetime.now().year, &#39;\n&#39;)))
-</span><span class="line">But... it isn&#39;t 1999 anymore, it&#39;s 2014
-</span><span class="line">&gt;&gt;&gt;&gt; (quit)
-</span><span class="line">
-</span><span class="line">&gt;&gt;&gt; quit()
-</span><span class="line">maybe:python-spexy siege$
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+
+<figure class='code'><figcaption><span>spexy repl example</span><a href='https://gist.github.com/obriencj/8567348'>Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>[siege@maybe src]$ python spexy.py
+</span><span class='line'>&gt;&gt;&gt;&gt; (defun make_pair ()
+</span><span class='line'>        (letrec ((value None)
+</span><span class='line'>                (getter (lambda () value))
+</span><span class='line'>                (setter (lambda (v) (setf value v))))
+</span><span class='line'>            (make-list getter setter)))
+</span><span class='line'>--&gt; globals().__setitem__(&#39;make_pair&#39;, (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
+</span><span class='line'>&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
+</span><span class='line'>        (define getter (getf gs 0))
+</span><span class='line'>        (define setter (getf gs 1)))
+</span><span class='line'>--&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__(&#39;getter&#39;, gs[0].__getitem__(0)), globals().__setitem__(&#39;setter&#39;, gs[0].__getitem__(1)),)[-1])([None]))
+</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
+</span><span class='line'>--&gt; getter()
+</span><span class='line'>&gt;&gt;&gt;&gt; getter
+</span><span class='line'>--&gt; getter
+</span><span class='line'>&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
+</span><span class='line'>&gt;&gt;&gt;&gt; setter
+</span><span class='line'>--&gt; setter
+</span><span class='line'>&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
+</span><span class='line'>&gt;&gt;&gt;&gt; (setter)
+</span><span class='line'>--&gt; setter()
+</span><span class='line'>## &lt;lambda&gt;() takes exactly 1 argument (0 given)
+</span><span class='line'>&gt;&gt;&gt;&gt; (setter &quot;hello world&quot;)
+</span><span class='line'>--&gt; setter(&quot;hello world&quot;)
+</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
+</span><span class='line'>--&gt; getter()
+</span><span class='line'>&#39;hello world&#39;
+</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
+</span><span class='line'>--&gt; getter()
+</span><span class='line'>&#39;hello world&#39;
+</span><span class='line'>&gt;&gt;&gt;&gt; (setter &quot;919&quot;)
+</span><span class='line'>--&gt; setter(&quot;919&quot;)
+</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
+</span><span class='line'>--&gt; getter()
+</span><span class='line'>&#39;919&#39;
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>more spexy repl</span><a href='https://gist.github.com/obriencj/8609890'>Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
+</span><span class='line'>Python 2.7.6 (default, Nov 18 2013, 15:12:51)
+</span><span class='line'>[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
+</span><span class='line'>Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+</span><span class='line'>&gt;&gt;&gt; from spexy import repl
+</span><span class='line'>&gt;&gt;&gt; from datetime import datetime
+</span><span class='line'>&gt;&gt;&gt; repl(globals())
+</span><span class='line'>&gt;&gt;&gt;&gt; (let ((who &quot;siege&quot;) (date 1999))
+</span><span class='line'>       (letrec ((fmt &quot;Hello %s, party like it is %i!&quot;)
+</span><span class='line'>                (msg (% fmt (make-tuple who date))))
+</span><span class='line'>         (println msg)))
+</span><span class='line'> --&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.__setitem__(0, &quot;Hello %s, party like it is %i!&quot;), msg.__setitem__(0, (fmt[0] % (who[0], date[0],))), __import__(&#39;sys&#39;).stdout.writelines(map(str, (msg[0], &#39;\n&#39;))),)[-1])([None], [None])))([&quot;siege&quot;], [1999]))
+</span><span class='line'>Hello siege, party like it is 1999!
+</span><span class='line'>&gt;&gt;&gt;&gt; (println &quot;But...&quot; &quot;it isn&#39;t&quot; 1999 &quot;anymore, it&#39;s&quot; (. (datetime.now) year))
+</span><span class='line'> --&gt; __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;But...&quot;, &quot; &quot;, &quot;it isn&#39;t&quot;, &quot; &quot;, 1999, &quot; &quot;, &quot;anymore, it&#39;s&quot;, &quot; &quot;, datetime.now().year, &#39;\n&#39;)))
+</span><span class='line'>But... it isn&#39;t 1999 anymore, it&#39;s 2014
+</span><span class='line'>&gt;&gt;&gt;&gt; (quit)
+</span><span class='line'>
+</span><span class='line'>&gt;&gt;&gt; quit()
+</span><span class='line'>maybe:python-spexy siege$
+</span></code></pre></td></tr></table></div></figure>
+
 </div>
 
 
@@ -259,7 +267,7 @@ perfectly valid Python it emits</p>
 
 
   
-<time datetime="2014-01-24T00:02:00-05:00" class="updated">Updated Jan 24<span>th</span>, 2014</time>
+<time datetime="2014-01-24T00:02:00-05:00" class="updated">Updated Jan 24<sup>th</sup>, 2014</time>
       
 
 <span class="categories">
@@ -339,9 +347,9 @@ perfectly valid Python it emits</p>
   <p class="tags">
 <a style="font-size: 115%" href="/blog/tags/brine/">brine</a>
 <a style="font-size: 106%" href="/blog/tags/gist/">gist</a>
-<a style="font-size: 106%" href="/blog/tags/github/">github</a>
 <a style="font-size: 106%" href="/blog/tags/github-dot-io/">github.io</a>
 <a style="font-size: 115%" href="/blog/tags/hack/">hack</a>
+<a style="font-size: 106%" href="/blog/tags/ideas/">ideas</a>
 <a style="font-size: 106%" href="/blog/tags/jekyll/">jekyll</a>
 <a style="font-size: 115%" href="/blog/tags/lisp/">lisp</a>
 <a style="font-size: 106%" href="/blog/tags/promises/">promises</a>
@@ -362,11 +370,8 @@ perfectly valid Python it emits</p>
 
 </section>
 <section>
-  <h1>Author</h1>
-  <p>A generally nice guy, who just wants to hack for fun. Proud
-  father. Motorcycle rider. Currently emplyed with Red Hat as a
-  Release Engineer. </p>
-  <p><a href="https://plus.google.com/+ChristopherOBrien/?rel=author">Christopher O'Brien on G+</a></p>
+  <h1>About Me</h1>
+  <p>A little something about me.</p>
 </section>
 
 <section class="googleplus googleplus-hidden">

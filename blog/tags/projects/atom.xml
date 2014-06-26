@@ -4,11 +4,11 @@
   <title><![CDATA[Tag: projects | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/projects/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-06-21T22:05:31-04:00</updated>
+  <updated>2014-06-26T12:13:11-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
-    
+    <email><![CDATA[obriencj@preoccupied.net]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<p>I started to write up a <a href="/projects/ideas">TODO/Idea</a> list as a page, and now
 I am overwhelmed by how many things there are that I wanted to work
 on. And I know that there are more than what I could think to list at
-this moment…</p>
+this moment&hellip;</p>
 ]]></content>
   </entry>
   

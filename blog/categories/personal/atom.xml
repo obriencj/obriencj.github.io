@@ -4,11 +4,11 @@
   <title><![CDATA[Category: Personal | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-06-21T22:05:31-04:00</updated>
+  <updated>2014-06-26T12:13:11-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
-    
+    <email><![CDATA[obriencj@preoccupied.net]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -18,12 +18,13 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/05/22/bindings-shed/"/>
     <updated>2014-05-22T00:18:33-04:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/05/22/bindings-shed</id>
-    <content type="html"><![CDATA[<p>I’ve removed a piece of myself, this morning.</p>
+    <content type="html"><![CDATA[<p>I&rsquo;ve removed a piece of myself, this morning.</p>
 
 <!-- more -->
 
+
 <p>Back in 1999, I had a dream that my tongue was pierced. Upon awakening
-I remembered that – for some unknown reason in the dream – this made
+I remembered that &mdash; for some unknown reason in the dream &mdash; this made
 me happy. On September 7th, 2001 I managed to scrape up enough courage
 and I paid a nice fellow at Blue Flame (a piercing and tattoo salon of
 which nothing now remains) to drive a hollow barb through my tongue.
@@ -40,32 +41,32 @@ behind a bakery in a theme park.</p>
 a Waffle House on the way home. My head resonated. It was unpleasant.
 I had to re-learn how to chew, somehow without flipping my tongue over.</p>
 
-<p>I’ve run into a lot of people who were very surprised to learn that I
+<p>I&rsquo;ve run into a lot of people who were very surprised to learn that I
 had it, as the years went by. I am such a painfully mundane person,
-it’s been a point of pride that there’s this secret hidden away.</p>
+it&rsquo;s been a point of pride that there&rsquo;s this secret hidden away.</p>
 
-<p>Lately, I’ve been very frustrated. In my agitation I’ve been clicking
-the jewelry around in my mouth, raking it across my teeth. I’m 35
+<p>Lately, I&rsquo;ve been very frustrated. In my agitation I&rsquo;ve been clicking
+the jewelry around in my mouth, raking it across my teeth. I&rsquo;m 35
 years old now, and my gums are taking a genuine beating from this
-thing. I’m getting older, as much as I don’t want to admit it. I may
+thing. I&rsquo;m getting older, as much as I don&rsquo;t want to admit it. I may
 have to fight with everyone older than me over the validity for such a
-statement, but I can feel it happening. I don’t want to crack my
-teeth, I don’t want to wear my gums down. 13 years of rubbing a bit of
+statement, but I can feel it happening. I don&rsquo;t want to crack my
+teeth, I don&rsquo;t want to wear my gums down. 13 years of rubbing a bit of
 metal against the insides of your mouth will do that.</p>
 
-<p>Tonight I’ve removed that tongue bar, and I do not believe I will be
+<p>Tonight I&rsquo;ve removed that tongue bar, and I do not believe I will be
 putting it back. I carried it through marriage, the birth of my
 daughter, an unwilling divorce, the death of my father, and a
-motorcycle accident that robbed me of a fingertip. But in the end it’s
-just a thing. I feel like I’m letting myself down by taking it out,
+motorcycle accident that robbed me of a fingertip. But in the end it&rsquo;s
+just a thing. I feel like I&rsquo;m letting myself down by taking it out,
 but it was hurting me. That can be said for a lot of the past, I
 suppose.</p>
 
-<p>It’s always such a fight, achieving legitimacy. Even your own friends
-take it from you when they have the chance, and I don’t think they can
+<p>It&rsquo;s always such a fight, achieving legitimacy. Even your own friends
+take it from you when they have the chance, and I don&rsquo;t think they can
 help it. That stupid bit of metal was holding me aloft, in my own
-mind. But I can’t keep at it, because I suppose I am worried that I
-will wear this weak body out slightly earlier than otherwise. It’s a
+mind. But I can&rsquo;t keep at it, because I suppose I am worried that I
+will wear this weak body out slightly earlier than otherwise. It&rsquo;s a
 mundane decision from a mundane person, and I am unhappy with myself,
 but I think it was the correct action.</p>
 
@@ -88,9 +89,10 @@ me. Whipped up the unit tests to cover the new changes. Blam, <a href="https://g
 
 <!-- more -->
 
-<h2 id="late-night-not-so-hacking">Late Night Not-so-hacking</h2>
 
-<p>Last night, I’d decided to pay a visit to an old haunt of mine – the
+<h2>Late Night Not-so-hacking</h2>
+
+<p>Last night, I&rsquo;d decided to pay a visit to an old haunt of mine &mdash; the
 <a href="http://ambassadorcinemas.com/joomla/index.php?option=com_content&amp;task=view&amp;id=207">Rialto Theatre</a>. Thinking to just lounge around amidst the noise of
 that cult classic the <a href="http://lickitlips.com/">Rocky Horror Picture Show</a> and maybe poke
 around a bit at either <a href="https://github.com/obriencj/python-brine/">brine</a> or <a href="https://github.com/obriencj/python-spexy/">spexy</a>. No serious work, just
@@ -98,7 +100,7 @@ sitting in the sea of sound and riding the distraction.</p>
 
 <p>It proved too distracting.</p>
 
-<p>Mind you, I’ve had success with this in the past. There are nights
+<p>Mind you, I&rsquo;ve had success with this in the past. There are nights
 where hanging in the lobby gets you just enough volume to make you pay
 attention to the things in front of you. My friend <a href="https://plus.google.com/+MikeMcLean/">Mike</a> has made me
 dwell more consciously on this phenomenon, where before I rode through
@@ -106,15 +108,15 @@ it unawares.</p>
 
 <p>But last night, there was simply too much going on. Too many people
 that I wanted to pay attention to. I started thinking about approaching
-the problems with barrel, and moments later I’d lose all focus. So I
+the problems with barrel, and moments later I&rsquo;d lose all focus. So I
 packed it in, bailed-out, and head home.</p>
 
-<p>And this is why I don’t feel bad for sleeping in until 11am and
+<p>And this is why I don&rsquo;t feel bad for sleeping in until 11am and
 subsequently staying there working on my changes in peace and quiet.</p>
 
-<p>But this post isn’t about my sleep schedule.</p>
+<p>But this post isn&rsquo;t about my sleep schedule.</p>
 
-<h2 id="bacon-amp-eggs">Bacon &amp; Eggs</h2>
+<h2>Bacon &amp; Eggs</h2>
 
 <p>Today I am going to share with you the secrets of the lazy bastard
 version of bacon and eggs. And toast. And coffee.</p>
@@ -122,44 +124,53 @@ version of bacon and eggs. And toast. And coffee.</p>
 <p>You will require the following:</p>
 
 <ul>
-  <li>a stove</li>
-  <li>coffee maker</li>
-  <li>instant coffee <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></li>
-  <li>a coffee mug <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
-  <li>a toaster</li>
-  <li>two slices of bread</li>
-  <li>a fork</li>
-  <li>a frying pan</li>
-  <li>half&amp;half</li>
-  <li>two eggs</li>
-  <li>two or three slices of bacon</li>
-  <li>a clean paper towel</li>
-  <li>a jar of horrors <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></li>
+<li>a stove</li>
+<li>coffee maker</li>
+<li>instant coffee <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></li>
+<li>a coffee mug <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
+<li>a toaster</li>
+<li>two slices of bread</li>
+<li>a fork</li>
+<li>a frying pan</li>
+<li>half&amp;half</li>
+<li>two eggs</li>
+<li>two or three slices of bacon</li>
+<li>a clean paper towel</li>
+<li>a jar of horrors <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></li>
 </ul>
 
-<p>There’s no butter on that list. Because all my butter is spoiled, and
+
+<p>There&rsquo;s no butter on that list. Because all my butter is spoiled, and
 even when I buy butter, I forget to use it and it spoils. Other people
 bring me butter sometimes, and then they cook. When they leave, they
 leave the butter. And then the butter spoils. So I never bother trying
 to cook with butter.</p>
 
+<pre><code>to make a "proper" breakfast, so go do that instead.
+
+straight from the carafe, the mug is optional.
+
+and don't care [how bad it gets]. If you're on city sewer, you'll
+need the jar.
+</code></pre>
+
 <p>Begin by starting the coffee. If all else goes well, it will be done
 by the time everything else is. If everything else goes to hell, well
-at least you’ll have the coffee.</p>
+at least you&rsquo;ll have the coffee.</p>
 
-<p>Next grab your frying pan. If it’s dirty from yesterday’s breakfast,
+<p>Next grab your frying pan. If it&rsquo;s dirty from yesterday&rsquo;s breakfast,
 clean it off under running water. If for some reason you have a clean
-pan, give it a quick rinse anyway. Don’t bother to dry it off.</p>
+pan, give it a quick rinse anyway. Don&rsquo;t bother to dry it off.</p>
 
 <p>Switch on the eye, and set the damp frying pan on it. While it heats
-up, listen for the sizzle of water to let you know it’s actually doing
+up, listen for the sizzle of water to let you know it&rsquo;s actually doing
 something. This is the perfect time to fight with the <a href="http://michaelkelly.artofeurope.com/orb1.htm">cling-film</a> you
-keep the bacon in. Once you’ve obtained the (two-to-three slices of)
+keep the bacon in. Once you&rsquo;ve obtained the (two-to-three slices of)
 bacon from its shimmering coccoon, toss them into the pan. Lovingly
 re-wrap the remainder and put away in the fridge.</p>
 
 <p>Employ the fork on the bacon. Get it arranged, press it down. Play
-with it, whatever. I don’t know how to describe the act of cooking
+with it, whatever. I don&rsquo;t know how to describe the act of cooking
 bacon, just make something up. Eventually the individual strips will
 have shrunk to what looks like the right size and the right color.
 When you feel happy with how things are coming along, pluck them from
@@ -167,14 +178,14 @@ the pan and drop them onto the paper towel. The towel will soak up the
 burning hot grease while you continue work on the next step. Switch
 off the stove eye.</p>
 
-<p>Pour the grease from the pan into the jar of horrors. Be careful, it’s
+<p>Pour the grease from the pan into the jar of horrors. Be careful, it&rsquo;s
 bad if you screw this step up. A hot grease spill will ruin your
 morning like nothing else. If you do not have a jar of horrors, you
 can create one by taking an empty pickle jar and pouring hot bacon
 grease into it.</p>
 
 <p>Set the pan aside somewhere stable. There will be a bit of grease left
-coating it, and that’s just fine.</p>
+coating it, and that&rsquo;s just fine.</p>
 
 <p>Get the slices of bread, and put them into the toaster. Put the
 remaining bread away. These scant moments give the pan a moment to
@@ -197,38 +208,31 @@ the toast into the pan. Pour the coffee into the mug.</p>
 
 <p>You can now consume your delicious breakfast directly from the pan,
 using the same fork you cooked it with. Consider the rest of the day
-as you stare out the kitchen window – should you go downtown, or
-maybe post in your blog? When you’ve finished, scrape any leftovers
+as you stare out the kitchen window &mdash; should you go downtown, or
+maybe post in your blog? When you&rsquo;ve finished, scrape any leftovers
 into the trash or nearby dog <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup>, and toss the pan and fork into the
 sink where they can remain until you want breakfast again tomorrow.</p>
 
 <p>It should be noted that I have an electric, flat-top stove. If you
 have an electric coil-type stove, or a gas stove, then the timing on
-these instructions may be wildly altered. If so, you’re on your own,
+these instructions may be wildly altered. If so, you&rsquo;re on your own,
 godspeed.</p>
 
-<p>Now I think I’ll go <a href="http://morningtimes-raleigh.com/">downtown</a>.</p>
-
+<p>Now I think I&rsquo;ll go <a href="http://morningtimes-raleigh.com/">downtown</a>.</p>
 <div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>If you grind your own coffee or whatever, then you have the time
-to make a “proper” breakfast, so go do that instead.<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>If you are the sort of person who opts to drink the coffee
-straight from the carafe, the mug is optional.<a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>The jar of horrors is optional for those who have a septic tank
-and don’t care <a href="http://www.youtube.com/watch?v=40SveAvKq_k">how bad it gets</a>. If you’re on city sewer, you’ll
-need the jar.<a href="#fnref:3" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:4">
-      <p>I don’t have a dog, but in my imagination they’d love this part<a href="#fnref:4" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
+<hr/>
+<ol>
+<li id="fn:1">
+<p>If you grind your own coffee or whatever, then you have the time<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>If you are the sort of person who opts to drink the coffee<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>The jar of horrors is optional for those who have a septic tank<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>I don&rsquo;t have a dog, but in my imagination they&rsquo;d love this part<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+</ol>
 </div>
+
 ]]></content>
   </entry>
   

@@ -29,8 +29,8 @@ pass along anonymous &hellip;">
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
   <script type="text/javascript">
@@ -62,7 +62,7 @@ pass along anonymous &hellip;">
   
 </ul>
   
-<form action="http://google.com/search" method="get">
+<form action="https://www.google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:obriencj.preoccupied.net" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
@@ -99,7 +99,8 @@ pass along anonymous &hellip;">
   
 
 
-<time datetime="2014-03-05T13:00:00-05:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+
+	<time datetime="2014-03-05T13:00:00-05:00" pubdate data-updated="true">Mar 5<sup>th</sup>, 2014</time>
         
       </p>
     
@@ -118,6 +119,7 @@ hazardous.</p>
 
 <!-- more -->
 
+
 <p>One possible application of such ridiculousness is in passing
 higher-order functions around over queues such that multiprocessing
 can execute them and pass the new function back to the controller. I
@@ -125,25 +127,27 @@ can envision a trampoline-like model that could cross processors or
 even machines. Of course that is remote code execution. And holy-shit
 is that ever a can of worms.</p>
 
-<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/" title="Phillip Jones on G+">good friend</a>, I could implement a signing
+<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/">good friend</a>, I could implement a signing
 step. When unpickling callable code it could be checked for a proper
 signature and an exception raised if something were amiss. It could
-use out-of-band key exchange or a certificate-based system… but I am
+use out-of-band key exchange or a certificate-based system&hellip; but I am
 torn as to whether I should be providing such a facility or if it
 properly ought to live in whatever transport layer a user comes up
 with. Should I rely on everyone else to secure their communications
 and to verify the messages being sent?  Or should I do the work to
 craft a verification step that is in-built?</p>
 
-<p>This is likely moot as I doubt anyone will ever use this – even I
-don’t actually have a use for it! The project only exists because I
-was once told <em>“you can’t pickle functions,”</em> and I thought, <em>“the
-hell I can’t!”</em> However, I feel that if I’ve made such a tool freely
+<p>This is likely moot as I doubt anyone will ever use this &mdash; even I
+don&rsquo;t actually have a use for it! The project only exists because I
+was once told <em>&ldquo;you can&rsquo;t pickle functions,&rdquo;</em> and I thought, <em>&ldquo;the
+hell I can&rsquo;t!&rdquo;</em> However, I feel that if I&rsquo;ve made such a tool freely
 available (and I have) I should also take some care that it can be
 used responsibly.</p>
 
+<p>&ldquo;Phillip Jones on G+&rdquo;</p>
+
 <p>There is a light-on-details <a href="http://sourceforge.net/projects/trustedpickle/">TrustedPickle</a> project, but I cannot help
-noticing it commits one of the major sins in cryptogrophy –
+noticing it commits one of the major sins in cryptogrophy &mdash;
 unnecessarily re-implementing things themselves. And there are no
 tests cases. And it was last updated in 2003.</p>
 
@@ -152,13 +156,12 @@ creates and attaches a cryptographic signature seems to be useful
 enough to warrant some attention. Connecting that to a Queue
 implementation that performs the sign/verify steps transparently would
 be simple enough. This may become another entry for my
-<a href="/projects/ideas">ideas</a> page…</p>
+<a href="/projects/ideas">ideas</a> page&hellip;</p>
 
 <hr />
 
 <p><em>Note: I <a href="https://plus.google.com/114793537781613459114/posts/gY8zXQjefEJ">posted</a> about this topic on G+ as well. I should probably
-have written it up here first… oh well, next time</em></p>
-
+have written it up here first&hellip; oh well, next time</em></p>
 </div>
 
 
@@ -181,7 +184,7 @@ have written it up here first… oh well, next time</em></p>
   
 
 
-<time datetime="2014-03-05T13:00:00-05:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+<time datetime="2014-03-05T13:00:00-05:00" pubdate data-updated="true">Mar 5<sup>th</sup>, 2014</time>
       
 
 <span class="categories">
@@ -261,9 +264,9 @@ have written it up here first… oh well, next time</em></p>
   <p class="tags">
 <a style="font-size: 115%" href="/blog/tags/brine/">brine</a>
 <a style="font-size: 106%" href="/blog/tags/gist/">gist</a>
-<a style="font-size: 106%" href="/blog/tags/github/">github</a>
 <a style="font-size: 106%" href="/blog/tags/github-dot-io/">github.io</a>
 <a style="font-size: 115%" href="/blog/tags/hack/">hack</a>
+<a style="font-size: 106%" href="/blog/tags/ideas/">ideas</a>
 <a style="font-size: 106%" href="/blog/tags/jekyll/">jekyll</a>
 <a style="font-size: 115%" href="/blog/tags/lisp/">lisp</a>
 <a style="font-size: 106%" href="/blog/tags/promises/">promises</a>
@@ -284,11 +287,8 @@ have written it up here first… oh well, next time</em></p>
 
 </section>
 <section>
-  <h1>Author</h1>
-  <p>A generally nice guy, who just wants to hack for fun. Proud
-  father. Motorcycle rider. Currently emplyed with Red Hat as a
-  Release Engineer. </p>
-  <p><a href="https://plus.google.com/+ChristopherOBrien/?rel=author">Christopher O'Brien on G+</a></p>
+  <h1>About Me</h1>
+  <p>A little something about me.</p>
 </section>
 
 <section class="googleplus googleplus-hidden">

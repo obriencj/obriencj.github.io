@@ -9,7 +9,7 @@
   <meta name="author" content="Christopher O'Brien">
 
   
-  <meta name="description" content="I’ve been very happy spending my evenings working with a small project
+  <meta name="description" content="I&rsquo;ve been very happy spending my evenings working with a small project
 entitled python-brine. The code is relatively straight-forward, the &hellip;">
   
 
@@ -28,8 +28,8 @@ entitled python-brine. The code is relatively straight-forward, the &hellip;">
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
   <script type="text/javascript">
@@ -61,7 +61,7 @@ entitled python-brine. The code is relatively straight-forward, the &hellip;">
   
 </ul>
   
-<form action="http://google.com/search" method="get">
+<form action="https://www.google.com/search" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:obriencj.preoccupied.net" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
@@ -100,73 +100,81 @@ entitled python-brine. The code is relatively straight-forward, the &hellip;">
 
 
   
-<time datetime="2014-02-07T16:30:00-05:00" class="updated">Updated Feb 7<span>th</span>, 2014</time>
+
+	<time datetime="2014-02-07T16:30:00-05:00" class="updated">Updated Feb 7<sup>th</sup>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I’ve been very happy spending my evenings working with a small project
-entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
+<div class="entry-content"><p>I&rsquo;ve been very happy spending my evenings working with a small project
+entitled <a href="https://github.com/obriencj/python-brine">python-brine</a>. The code is relatively straight-forward, the
 functionality and goals are well-defined. Put simply, brine allows you
 to pickle actual python code. For a significantly more in-depth
 explanation, click the above link and peruse the README.</p>
 
+<p>&ldquo;Advanced function pickling for Python&rdquo;</p>
+
+<p>&ldquo;Overview of python-brine&rdquo;</p>
+
 <!-- more -->
 
+
 <p>Brine was originally written back in 2008. It had been written as an
-“I-wonder” rather than an “I-need” and as such it never saw use except
+&ldquo;I-wonder&rdquo; rather than an &ldquo;I-need&rdquo; and as such it never saw use except
 in its own hackish example scripts. Thus from October of 2008 until
 January of 2014 is sat forgotten.</p>
 
 <p>And then I found it again, and decided it merited resucitation.</p>
 
-<h2 id="get-it-moved">Get it moved</h2>
+<h2>Get it moved</h2>
 
 <p>The very first thing I did was import it to github. It had been living
-on code.google.com for all those years… with only one commit.</p>
+on code.google.com for all those years&hellip; with only one commit.</p>
 
 <p>Before code.google, it had been in a CVS (remember that?) repository
 on a machine which has long since disappeared. So all history for
 brine prior to that snapshot in October of 2008 is gone. A lesson in
 the value of a distributed system like git.</p>
 
-<h2 id="get-it-tested">Get it tested</h2>
+<h2>Get it tested</h2>
 
-<p>Next I took all of five minutes to “port” it from <a href="http://docs.python.org/2/distutils/">distutils</a> to
+<p>Next I took all of five minutes to &ldquo;port&rdquo; it from <a href="http://docs.python.org/2/distutils/">distutils</a> to
 <a href="http://pythonhosted.org/setuptools/">setuptools</a>. I had to shuffle a few files around, but in the end it
-built and the “test” scripts (more like examples) let me confirm that
+built and the &ldquo;test&rdquo; scripts (more like examples) let me confirm that
 it still worked.</p>
 
-<p>In the last few years one of the things that I’ve discovered that I
+<p>In the last few years one of the things that I&rsquo;ve discovered that I
 enjoy doing is writing unit tests and getting to 100% code coverage.
 As sad as it may sounds, yes I actually have been doing that for
-fun. It’s very much like a game. The tasks are clearly defined,
-there’s a simple attainable goal of a perfect score. Right up my
+fun. It&rsquo;s very much like a game. The tasks are clearly defined,
+there&rsquo;s a simple attainable goal of a perfect score. Right up my
 alley!</p>
 
-<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html" title="unittest &mdash; Unit testing framework">unittest</a>
+<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html">unittest</a>
 cases.</p>
 
 <p>Those tests came in handy when I started actively hacking again on the
-code itself. I’d resolved to add the remaining missing features, clean
-things up, document it – to really polish this little project up
+code itself. I&rsquo;d resolved to add the remaining missing features, clean
+things up, document it &mdash; to really polish this little project up
 before setting it on a shelf again. And of course as I tinkered I
 broke it in weird and unexpected ways. But my unit tests were there to
 catch me in my errors before I strayed too far.</p>
 
 <p>And so more tests got written, and old code got untangled.</p>
 
-<p>Thank goodness for <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> – incredibly easy to use, with
+<p>Thank goodness for <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> &mdash; incredibly easy to use, with
 detailed reporting. I was able to definitively throw out legacy
 methods in some cases, while in others I expanded upon my unit tests
-until in no time at all I’d reached the much vaunted 100% coverage.</p>
+until in no time at all I&rsquo;d reached the much vaunted 100% coverage.</p>
 
-<h2 id="fill-in-the-blanks">Fill in the blanks</h2>
+<p>&ldquo;unittest &mdash; Unit testing framework&rdquo;</p>
 
-<p>The TODO is rapidly shrinking. Tonight I added support – including
-unit tests – for wrapping <code>functools.partial</code> instances.</p>
+<h2>Fill in the blanks</h2>
+
+<p>The TODO is rapidly shrinking. Tonight I added support &mdash; including
+unit tests &mdash; for wrapping <code>functools.partial</code> instances.</p>
 
 <p>I also want to add support for unbound instance methods and class
 methods. Should be trivial.</p>
@@ -174,18 +182,18 @@ methods. Should be trivial.</p>
 <p>The only large change I want to make involves a tweak to the timing on
 when a barrel brines its contents. Currently the values are brined
 immediately, which is too early. It needs to wait until just before
-pickling, to ensure that mutable values haven’t changed.</p>
+pickling, to ensure that mutable values haven&rsquo;t changed.</p>
 
 <p>I should look at generating proper HTML documentation. There is almost
 certainly something that is the de-facto standard for such a task, I
 only need to discover it.</p>
 
-<p>But after that… I think I can call it a wrap. I’ll let it sit for a
-week to make sure that I didn’t forget anything. Maybe read over it
-once or twice. And then I’ll call it 1.0.0, tag it, and post it to
+<p>But after that&hellip; I think I can call it a wrap. I&rsquo;ll let it sit for a
+week to make sure that I didn&rsquo;t forget anything. Maybe read over it
+once or twice. And then I&rsquo;ll call it 1.0.0, tag it, and post it to
 PyPI.</p>
 
-<p>And maybe in another five years I’ll find a reason to pick it up
+<p>And maybe in another five years I&rsquo;ll find a reason to pick it up
 again!</p>
 </div>
 
@@ -211,7 +219,7 @@ again!</p>
 
 
   
-<time datetime="2014-02-07T16:30:00-05:00" class="updated">Updated Feb 7<span>th</span>, 2014</time>
+<time datetime="2014-02-07T16:30:00-05:00" class="updated">Updated Feb 7<sup>th</sup>, 2014</time>
       
 
 <span class="categories">
@@ -291,9 +299,9 @@ again!</p>
   <p class="tags">
 <a style="font-size: 115%" href="/blog/tags/brine/">brine</a>
 <a style="font-size: 106%" href="/blog/tags/gist/">gist</a>
-<a style="font-size: 106%" href="/blog/tags/github/">github</a>
 <a style="font-size: 106%" href="/blog/tags/github-dot-io/">github.io</a>
 <a style="font-size: 115%" href="/blog/tags/hack/">hack</a>
+<a style="font-size: 106%" href="/blog/tags/ideas/">ideas</a>
 <a style="font-size: 106%" href="/blog/tags/jekyll/">jekyll</a>
 <a style="font-size: 115%" href="/blog/tags/lisp/">lisp</a>
 <a style="font-size: 106%" href="/blog/tags/promises/">promises</a>
@@ -314,11 +322,8 @@ again!</p>
 
 </section>
 <section>
-  <h1>Author</h1>
-  <p>A generally nice guy, who just wants to hack for fun. Proud
-  father. Motorcycle rider. Currently emplyed with Red Hat as a
-  Release Engineer. </p>
-  <p><a href="https://plus.google.com/+ChristopherOBrien/?rel=author">Christopher O'Brien on G+</a></p>
+  <h1>About Me</h1>
+  <p>A little something about me.</p>
 </section>
 
 <section class="googleplus googleplus-hidden">

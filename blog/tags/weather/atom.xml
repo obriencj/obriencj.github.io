@@ -4,11 +4,11 @@
   <title><![CDATA[Tag: weather | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/weather/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-06-21T22:05:31-04:00</updated>
+  <updated>2014-06-26T12:13:11-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
-    
+    <email><![CDATA[obriencj@preoccupied.net]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -21,34 +21,37 @@
     <content type="html"><![CDATA[<p>Spring should be arriving any moment now, and indeed there are hints
 of warmth and green coming soon. Those glimpses of a happy future are
 punctuated with an almost spiteful enthusiasm by incredibly gross
-weather. “Gross” is definitely the right word for it. The temperature
+weather. &ldquo;Gross&rdquo; is definitely the right word for it. The temperature
 will drop 30 degrees (F) overnight, and a harsh gusting wind will
 bring rain and occasionally sleet. The sky becomes dim and grey. You
-find yourself bundled up against it, wondering if the previous day’s
+find yourself bundled up against it, wondering if the previous day&rsquo;s
 open heavens and friendly sunshine were just part of a fever dream.</p>
 
 <!-- more -->
 
-<p>I’ve been spending more time than usual at my <a href="http://morningtimes-raleigh.com" title="The Morning Times, Raleigh">favorite coffee spot</a>
-and while there I’ve been (of course) hacking around. As some will
-know already, I’ve wanted for a while to write a proper LISP of my
+
+<p>I&rsquo;ve been spending more time than usual at my <a href="http://morningtimes-raleigh.com">favorite coffee spot</a>
+and while there I&rsquo;ve been (of course) hacking around. As some will
+know already, I&rsquo;ve wanted for a while to write a proper LISP of my
 own. I view it as an important exercise, and a bit of a milestone!
 There are so many implementations out there already, I am not so
 deluded as to think that mine will be of use except as a material
 lesson during the course of its creation. It is, to my mind, akin to a
-first novel. While composing a book ill suits me – I’m bereft of
-creative stories or unique views into real events – composing a
+first novel. While composing a book ill suits me &mdash; I&rsquo;m bereft of
+creative stories or unique views into real events &mdash; composing a
 compiler around what I consider to be an elegant and inspired computer
 language is right up my proverbial alley!</p>
 
+<p>&ldquo;The Morning Times, Raleigh&rdquo;</p>
+
 <p>But this path is not easily traversed. The routes my inadequate brain
 travels along are bumpy and often with poor visibility. In my personal
-hacks I don’t always know where I’m going, psychologically or
-programmatically, until I get there. I may indicate – as with a vague
-gesture – that I’m headed in so-and-so direction. Where the journey
+hacks I don&rsquo;t always know where I&rsquo;m going, psychologically or
+programmatically, until I get there. I may indicate &mdash; as with a vague
+gesture &mdash; that I&rsquo;m headed in so-and-so direction. Where the journey
 actually ends, who knows.</p>
 
-<p>In this particular venture, I’ve already found myself at a dead-end. A
+<p>In this particular venture, I&rsquo;ve already found myself at a dead-end. A
 LISP compiler must, by the very definition of things, be
 incremental. And I have painted myself into a corner, trying to be
 clever and converting the structure of the source code into an AST
@@ -58,39 +61,39 @@ depth) I cannot safely create an AST in such a fashion. I need to
 delay that step, and compile and execute the expression tree
 <em>in-place</em>, with the environment traversing along with the
 compiler. And so I must back track, a difficult lesson
-learned. There’s good reason that LISPs don’t use structures past
+learned. There&rsquo;s good reason that LISPs don&rsquo;t use structures past
 cons-lists, and now I see one of those reasons quite clearly.</p>
 
-<p>But let’s focus on the happy discoveries over the frustrating ones,
-today, yes? Let’s talk about continuations and trampolines!</p>
+<p>But let&rsquo;s focus on the happy discoveries over the frustrating ones,
+today, yes? Let&rsquo;s talk about continuations and trampolines!</p>
 
-<h2 id="teaching-phantoms">Teaching Phantoms</h2>
+<h2>Teaching Phantoms</h2>
 
 <p>Often, in order to consider things in their entirety in my own mind, I
 try to explain them as to an interested novice. I do this in the
 shower, or while staring off into space while my coffee grows cold. I
-dream up a situation – as many mad people do – where another person
+dream up a situation &mdash; as many mad people do &mdash; where another person
 exists that wants to learn something, and I must rise to the occasion
 to teach them.</p>
 
 <p>This mental habit has served me surprisingly well, though it may have
-contributed to my social failings. It’s hard to find love while
+contributed to my social failings. It&rsquo;s hard to find love while
 staring vacantly off into space.</p>
 
-<p>So let me pretend – in the interest of advancing this narrative –
+<p>So let me pretend &mdash; in the interest of advancing this narrative &mdash;
 that there is someone in need of teaching, so that I may be forced to
 organize my own thoughts enough to communicate them better to myself.
 Or put another way, let me pretend to be someone smarter, and you can
 pretend to be me.</p>
 
-<h2 id="return-of-the-continuation">Return of the Continuation</h2>
+<h2>Return of the Continuation</h2>
 
-<p>One thing that I’ve found profoundly exciting is the concept of the
+<p>One thing that I&rsquo;ve found profoundly exciting is the concept of the
 current continuation. Every expression of a program has one, hiding
 under the covers, invisible to the eye and editor. It is almost
 surprising, given the reclusive nature of the thing, to realize that
 most programming languages do in fact offer some view of this wild
-creature. It’s called often by a familar name, <code>return</code>, and you may
+creature. It&rsquo;s called often by a familar name, <code>return</code>, and you may
 well have taken it for granted throughout your years of programming.
 Or worse, having memorized a particular implementation of the concept,
 you may now be blinded to greater possibilities. A certain amount of
@@ -98,7 +101,7 @@ willing flexibility is required to proceed. Remember the wisdom of
 Yoda!</p>
 
 <p>The unassuming <code>return</code> is almost always disguised as a statement
-rather than an expression. <code>return</code> does double duty – it is both a
+rather than an expression. <code>return</code> does double duty &mdash; it is both a
 messenger, and a director. It will duly hand off a value, but it will
 also adjust the underlying program state such that execution can
 proceed and the program can eventually terminate.</p>
@@ -112,19 +115,19 @@ current scope!</p>
 
 <p>What in the world would that captive <code>return</code> be good for?</p>
 
-<p>If you’re polluted with an implementation-based understanding of
-<code>return</code> you’re probably vehemently thinking something like “it pops a
+<p>If you&rsquo;re polluted with an implementation-based understanding of
+<code>return</code> you&rsquo;re probably vehemently thinking something like &ldquo;it pops a
 frame off of the call stack! It places the passed value on the stack
-so that the caller can get to it! That’s what <code>return</code> does and what
-<code>return</code> must do! All other ideas are lies!” That’s certainly a
-possibility – in this case, a single instance of <code>return</code> works in
-all places. It is entirely side-effect driven. But… what if…</p>
+so that the caller can get to it! That&rsquo;s what <code>return</code> does and what
+<code>return</code> must do! All other ideas are lies!&rdquo; That&rsquo;s certainly a
+possibility &mdash; in this case, a single instance of <code>return</code> works in
+all places. It is entirely side-effect driven. But&hellip; what if&hellip;</p>
 
 <p>What if we made a small adjustment to the common implementation, and
 changed our definition of a call stack from a linear piece of memory
 to a singly-linked-list. Consider a chain, hanging from a hook,
 representing where the program is, and where it will go next. What if
-the action of <code>return</code> was less about “pop” and more about explicitly
+the action of <code>return</code> was less about &ldquo;pop&rdquo; and more about explicitly
 putting a particular link from that chain onto the hook. If that were
 the case, then each function would need its own <code>return</code>, created with
 that <em>specific</em> link held within its closure. If you somehow captured
@@ -132,15 +135,15 @@ that <code>return</code> function and stored it somewhere safe, then calling it
 again would result in the call chain being put back to hang on the
 hook exactly as it had been the first time that the now-captive
 <code>return</code> was called. All manner of side-effects may have occurred in
-the interim – values in various scopes may have changed, objects may
-have been mutated, output perhaps written to streams – but execution
+the interim &mdash; values in various scopes may have changed, objects may
+have been mutated, output perhaps written to streams &mdash; but execution
 picks up once again just where it had. The passage of time is not been
 undone, but the path we traverse <em>has</em>. Perhaps this go around a
 different condition is fulfilled and execution travels down a
 different path.</p>
 
-<p>When <code>return</code> can behave as such – when it can be captured – it is
-properly called the “reified continuation.” An implementation detail
+<p>When <code>return</code> can behave as such &mdash; when it can be captured &mdash; it is
+properly called the &ldquo;reified continuation.&rdquo; An implementation detail
 of the environment of the program, made available as part of that same
 program.</p>
 
@@ -148,7 +151,7 @@ program.</p>
 continuations. At any point in the program, I want the opportunity to
 ask for the continuation, and to do what I will with it.</p>
 
-<h2 id="call-conformity">Call Conformity</h2>
+<h2>Call Conformity</h2>
 
 <p>To this end, I have a powerful tool which can help me to make it
 happen. A variety of kung-fu known for convoluting the sanest of
@@ -156,28 +159,38 @@ minds. Continuation-passing-style.</p>
 
 <p>Using CPS, we never use the underlying <code>return</code> of the implementing
 language. Instead, every function we define must take an additional
-parameter – the continuation, sometimes named simply <code>k</code>. The idea is
+parameter &mdash; the continuation, sometimes named simply <code>k</code>. The idea is
 that the function <code>k</code> acts as a stand-in for <code>return</code>. When <code>k</code> is
 called, it is given a value, and the job of <code>k</code> is to execute the rest
 of the program.</p>
 
 <p>Consider the following incredibly simple function.</p>
 
-<p><code>python
-# return-style
-def add_one_hundred(onto_bar):
-    return onto_bar + 100
-print(add_one_hundred(5))
-</code></p>
+<p>```python</p>
+
+<h1>return-style</h1>
+
+<p>def add_one_hundred(onto_bar):</p>
+
+<pre><code>return onto_bar + 100
+</code></pre>
+
+<p>print(add_one_hundred(5))
+```</p>
 
 <p>Here we shall convert it to CPS</p>
 
-<p><code>python
-# continuation-passing-style
-def add_one_hundred(k, onto_bar):
-    k(onto_bar + 100)
-add_one_hundred(print, 5)
-</code></p>
+<p>```python</p>
+
+<h1>continuation-passing-style</h1>
+
+<p>def add_one_hundred(k, onto_bar):</p>
+
+<pre><code>k(onto_bar + 100)
+</code></pre>
+
+<p>add_one_hundred(print, 5)
+```</p>
 
 <p>A wonderful side-effect of implementing a compiler which uses a
 continuation-passing call-conformity for all of its compiled
@@ -186,71 +199,81 @@ there</em>, you simply have to snag it.</p>
 
 <p>A less wonderful side-effect is that your more <em>traditional</em> call
 stack can become quite deep, to the point of over-flowing. The
-implementation language doesn’t necessarily know that you never intend
-to descend back out of the call stack – that your program is just one
+implementation language doesn&rsquo;t necessarily know that you never intend
+to descend back out of the call stack &mdash; that your program is just one
 call after another after another. It holds onto data you never wish to
 make use of.</p>
 
-<p>Thus, if you’re implementing a continuation-passing-style compiler on
-top of a language with a traditional stack management system, you’re
+<p>Thus, if you&rsquo;re implementing a continuation-passing-style compiler on
+top of a language with a traditional stack management system, you&rsquo;re
 likely going to exhaust its stack allocation.</p>
 
 <p>Unless, of course, you find a way to dump that call stack from time to
-time. You don’t need it after-all – your program only moves
-<em>forward</em>, never <em>backwards</em> now that it’s passing <code>k</code> along. You need
+time. You don&rsquo;t need it after-all &mdash; your program only moves
+<em>forward</em>, never <em>backwards</em> now that it&rsquo;s passing <code>k</code> along. You need
 a harness to assist you in doing this. And that is a trampoline.</p>
 
-<h2 id="a-trampoline">A Trampoline</h2>
+<h2>A Trampoline</h2>
 
-<p>If you’re never going to return, it might become imparative that you
-leave the past behind. It’ll bog you down, otherwise.</p>
+<p>If you&rsquo;re never going to return, it might become imparative that you
+leave the past behind. It&rsquo;ll bog you down, otherwise.</p>
 
-<p>Let’s contrive an example. Here we’ll use a recursive factorial
+<p>Let&rsquo;s contrive an example. Here we&rsquo;ll use a recursive factorial
 definition.</p>
 
-<p>```python
-# recursive factorial definition
-def factorial(num):
-    if num == 0 or num == 1:
-        return 1
-    else:
-        return num * factorial(num - 1)</p>
+<p>```python</p>
 
-<h1 id="prints-120">prints 120</h1>
+<h1>recursive factorial definition</h1>
+
+<p>def factorial(num):</p>
+
+<pre><code>if num == 0 or num == 1:
+    return 1
+else:
+    return num * factorial(num - 1)
+</code></pre>
+
+<h1>prints 120</h1>
+
 <p>print(factorial(5))
 ```</p>
 
-<p>No problem. Now let’s convert that to CPS</p>
+<p>No problem. Now let&rsquo;s convert that to CPS</p>
 
-<p>```python
-# a continuation-passing-style recursive factorial
-def factorial(cont, num):
-    if num == 0 or num == 1:
-        cont(1)
-    else:
-        k = lambda x: cont(num * x)
-        factorial(k, num - 1)</p>
+<p>```python</p>
 
-<h1 id="also-prints-120">also prints 120</h1>
+<h1>a continuation-passing-style recursive factorial</h1>
+
+<p>def factorial(cont, num):</p>
+
+<pre><code>if num == 0 or num == 1:
+    cont(1)
+else:
+    k = lambda x: cont(num * x)
+    factorial(k, num - 1)
+</code></pre>
+
+<h1>also prints 120</h1>
+
 <p>factorial(print, 5)
 ```</p>
 
-<p>For large numbers, they’re both going to run up against the recursion
+<p>For large numbers, they&rsquo;re both going to run up against the recursion
 limit on Python (or stack space if you disable such limits). However,
-the CPS factorial doesn’t actually <em>need</em> the stack that it is
-consuming – it never returns! The value is accumulated deeper and
+the CPS factorial doesn&rsquo;t actually <em>need</em> the stack that it is
+consuming &mdash; it never returns! The value is accumulated deeper and
 deeper down a line of continuations.</p>
 
 <p>What follows is a rewrite of the CPS factorial that makes use of a
 trampoline backing the recursive calls. When the call stack becomes
 deeper than a certain limit, an exception is raised with the
 continutation captured as a parameter. The trampoline catches the
-exception, and calls that captive continuation. Python’s call stack at
+exception, and calls that captive continuation. Python&rsquo;s call stack at
 the time of the raised exception is simply discarded. The continuation
-was “the rest of the program” and the trampoline made sure that the
+was &ldquo;the rest of the program&rdquo; and the trampoline made sure that the
 program will be run to completion.</p>
 
-<p>```python trampoline https://gist.github.com/obriencj/9555480 Gist
+<p>```python trampoline <a href="https://gist.github.com/obriencj/9555480">https://gist.github.com/obriencj/9555480</a> Gist
 from functools import partial
 from inspect import currentframe</p>
 
@@ -258,15 +281,18 @@ from inspect import currentframe</p>
 
 <p>STACK_LIMIT = 64</p>
 
-<p>class ContinueCall(BaseException):
-    pass</p>
+<p>class ContinueCall(BaseException):</p>
 
-<p>def countstack():
-    # this is the slowest part, by far. There are better ways to
-    # implement this metric, but they are signficantly more
-    # involved. This is good enough for an example.</p>
+<pre><code>pass
+</code></pre>
 
-<pre><code>counter = 0
+<p>def countstack():</p>
+
+<pre><code># this is the slowest part, by far. There are better ways to
+# implement this metric, but they are signficantly more
+# involved. This is good enough for an example.
+
+counter = 0
 frame = currentframe()
 while frame:
     frame = frame.f_back
@@ -274,60 +300,68 @@ while frame:
 return counter
 </code></pre>
 
-<p>def bounce_call(work, *args):
-    # this could also be implemented without a stack check, and as
-    # such could bounce every single call.</p>
+<p>def bounce_call(work, *args):</p>
 
-<pre><code>if countstack() &gt;= STACK_LIMIT:
+<pre><code># this could also be implemented without a stack check, and as
+# such could bounce every single call.
+
+if countstack() &gt;= STACK_LIMIT:
     raise ContinueCall(partial(work, *args)).with_traceback(None)
 else:
     work(*args)
 </code></pre>
 
-<p>def bouncy(func, final_cont, *args):
-    work = partial(func, final_cont, *args)
-    while True:
-        try:
-            work()
-        except ContinueCall as cc:
-            work = cc.args[0]
-        else:
-            break</p>
+<p>def bouncy(func, final_cont, *args):</p>
 
-<p>def factorial(cont, num):
-    if num == 0 or num == 1:
-        bounce_call(cont, 1)
+<pre><code>work = partial(func, final_cont, *args)
+while True:
+    try:
+        work()
+    except ContinueCall as cc:
+        work = cc.args[0]
     else:
-        k = lambda x: bounce_call(cont, num * x)
-        bounce_call(factorial, k, num - 1)</p>
+        break
+</code></pre>
 
-<p>def main(value):
-    bouncy(factorial, print, value)
-```</p>
+<p>def factorial(cont, num):</p>
+
+<pre><code>if num == 0 or num == 1:
+    bounce_call(cont, 1)
+else:
+    k = lambda x: bounce_call(cont, num * x)
+    bounce_call(factorial, k, num - 1)
+</code></pre>
+
+<p>def main(value):</p>
+
+<pre><code>bouncy(factorial, print, value)
+</code></pre>
+
+<p>```</p>
 
 <p>Just before the end, any remainder Python call stack does indeed get
-traversed. But it is an unimportant side-effect at this point – we
-aren’t using it to pass a value back, we’re just letting Python return
+traversed. But it is an unimportant side-effect at this point &mdash; we
+aren&rsquo;t using it to pass a value back, we&rsquo;re just letting Python return
 to its normal behavior.</p>
 
-<h2 id="so-what-next">So What Next?</h2>
+<h2>So What Next?</h2>
 
-<p>If we can guarantee a trampoline (and of course we can, we’re writing
+<p>If we can guarantee a trampoline (and of course we can, we&rsquo;re writing
 the compiler and interpreter), then we can with relative safety make
 use of CPS in our generated executable. We must be consistent though
-– if we’re going to be throwing away the return stack, we need to be
-certain that we definitely haven’t emitted code that wants to use it!
+&mdash; if we&rsquo;re going to be throwing away the return stack, we need to be
+certain that we definitely haven&rsquo;t emitted code that wants to use it!
 This is the call-conformity. We must compile every expression into a
 series of steps, each of which has the conformity in its evaluation,
 that it takes a continuation and will (eventually) pass execution
 along to it with the result.</p>
 
-<p>In my next post, I will endeavor to communicate just how I’ve decided
+<p>In my next post, I will endeavor to communicate just how I&rsquo;ve decided
 to do such!</p>
 
 <hr />
 
-<p><em>Edited 2014-03-25 : explain the problems I’ve run into in sibilant
+<p><em>Edited 2014-03-25 : explain the problems I&rsquo;ve run into in sibilant
 with macros, thus clarifying the post title</em></p>
 ]]></content>
   </entry>
