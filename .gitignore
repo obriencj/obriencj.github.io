@@ -11,4 +11,7 @@ source/_stash
 source/stylesheets/screen.css
 vendor
 node_modules
+*~
+#*
+*.tmp
 Gemfile.lock
