@@ -1,2 +1,102 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+// have to override this very specifically
+#content .blog-index article h1 {
+    font-size: 1.8em;
+}
+
+.entry-title {
+    font-size: 1.8em;
+    /* background-color: blue; */
+}
+
+.entry-content {
+    font-size: 1.0em;
+    /* background-color: red; */
+}
+
+article {
+    padding-top: 1em;
+}
+
+article > header {
+    padding-top: 2.0em;
+    margin-bottom: 0.5em;
+}
+
+article > footer {
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+h1.entry-title small {
+    font-size: 0.5em;
+    color: grey;
+}
+
+
+/* general */
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+span.tags:before {
+    content: "\2022";
+    display: inline-block;
+    padding: 0.4em 0.2em;
+}
+
+div.footnotes {
+    background: $img-border top left repeat-x;
+    width: 100%;
+    padding-top: 1em;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+/* tag cloud behavior */
+
+div.tag-cloud {
+    padding: 0.1em;
+    margin: 0;
+    background-color: white;
+}
+
+div.tag-cloud p {
+    width: 100%;
+    margin: 0.1em 0;
+    padding: 0.1em 0;
+    text-align: justify;
+}
+
+div.tag-cloud a {
+    margin: 0.1em;
+    text-decoration: none;
+}
+
+
+/* For embedded code snippets */
+
+.gist div {
+    margin: 0 0 0;
+}
+
+.gist-file {
+    font-family: Menlo, Monaco, 'Andale Mono', 'lucidia console', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.gist div.line, .gist span.line-number {
+    height: 20px;
+}
+
+.gist-meta, .gist-data {
+    width: 789px;
+}
