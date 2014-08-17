@@ -10,7 +10,7 @@ tags:
 
 ---
 
-# About the TU250x
+## About the TU250x
 
 The Suzuki TU250x is a 249cc EFI UJM, produced in Japan and imported
 for sale in the United States from 2009 to 2015. The bi-yearly updates
@@ -24,30 +24,71 @@ the Japanese market is the ST250.
 The ST250 is available in a standard model and an "E-Type" model. The
 standard model is what is rebranded as the TU250x in the American
 market. The E-Type is the fancier version, with a two-tone trimline, a
-kick starter, and a decompression lever on the cylinder head cover.
+kickstarter, and a decompression lever on the cylinder head cover.
 
 
-# What's Missing for the Kick Start
+## What's Missing for the Kickstart
 
-The omission of the kick start feature on the TU250x is accomplished
-partly by the expedient method of just not including the parts, and by
+The omission of the kickstart feature on the TU250x is accomplished
+partly by the expedient of simply not including the parts, and by
 plugging up the hole in the clutch cover. However, there is one
-important piece which is altered rather than left out: the drive shaft.
+important piece which is altered rather than left out: the drive
+shaft.
 
 On the ST250 E-Type, the drive shaft has an elongated tail which
 projects out of the crank case. It is onto this nub that the idler
 gear would be set. The TU250x/ST250 shaft is too short.
 
-In order to add a kick start to the base ST250 or the TU250x, one must
+[{% img right https://lh5.googleusercontent.com/-aQUgBJFKUYo/U-ED4ZS6eFI/AAAAAAAAQJQ/JbZq09IWNFg/s400/DSC00104.JPG 300 400 "Original TU250x drive shaft (top), ST250 E-Type (middle), 1982 SP250 (bottom)" %}](https://picasaweb.google.com/lh/photo/q2aAk1HCEVCOYQI9xLCnXI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+For reference here is the original TU250x drive shaft (top), the ST250
+E-Type (middle), and the 1982 SP250 (bottom). Note that the older
+SP250 shaft does include the longer tail end to support the idler
+gear, but that the sprocket end is shorter (possibly due to the
+SP250's narrower frame).
+
+## Kickstart Parts
+
+In order to add a kickstart to the base ST250 or the TU250x, one must
 aquire:
 
 - kickstart assembly
+- idler gear
+- oil seal
 - kickstart lever
 - elongated driveshaft
-- idler gear
+
+The internal pieces of the actual kickstart assembly are identical to
+those from an older incarnation of the ST250's engine, the 1982
+SP250. These assemblies can frequently be [found on eBay][ks-ebay] for
+under $50 USD, although the completeness of parts can be hit or miss.
+
+[ks-ebay]: http://search.ebay.com/SP250+kick+start__W0QQsacat6028
+
+The idler gear (and its washer and circlip) can sometimes be had on
+eBay as well (sometimes as part of the auction for the kickstart
+assembly mentioned above). This gear is considered to be part of the
+transmission in any of the Suzuki part list breakdowns.
+
+The elongated driveshaft which is necessary for mounting the idler
+gear does not appear in any prior US models. The part number for the
+correct elongated driveshaft is `24130-38310`.
+
+You will need to find a new oil seal and the correct kickstart
+lever. The oil seal is available in the US, but the lever is not. The
+part number for the correct kickstart lever is `26300-28D00`.
+
+Note that the 1983 SP250's lever sweeps in a different arc than the
+ST250's, which will very likely be an issue as the folded lever fits
+close to the motorcycle's frame. It would most probably would strike
+the frame or pegs, but I have not physically verified this.
+
+I had a good experience in obtaining the Japan-only parts from
+[Samurider.com], and I highly recommend going to them first. Simply
+give them the part numbers referenced above and they will email you
+with a quote.
 
 
-# What's Missing for the Decomp
+## What's Missing for the Decomp
 
 The decompression lever is part of the cylinder head assembly,
 specifically on the cylinder head cover. Apart from the small shaft
@@ -63,34 +104,7 @@ In order to add a decompression lever, one must acquire:
   the cylinder head)
 
 
-# Kickstart Parts
-
-Many of the internal parts of the actual kickstart assembly are
-identical to those from an older incarnation of the ST250's engine,
-the 1982 SP250. These assemblies can frequently be found on eBay for
-under $50, although it can be hit and miss for completeness.
-
-You will need to find a new oil seal and the correct kick-start
-lever. The oil seal is available in the US, but the lever is not. The
-part number for the correct kick-start lever is `26300-28D00`.
-
-Note that the 1983 SP250's lever sweeps in a different arc than the
-ST250's, which will very likely be an issue as the folded lever fits
-close to the motorcycle's frame. It would most probably would strike
-the frame or pegs, but I have not physically verified this.
-
-The idler gear (and its washer and circlip) can sometimes be had on
-eBay as well (sometimes as part of the auction for the kickstart
-assembly mentioned above). However, the elongated driveshaft which is
-necessary for mounting the idler gear does not appear in any prior
-models. The part number for the correct elongated driveshaft is
-`24130-38310`.
-
-I had a good experience in obtaining the hard-to-find parts from
-[Samurider.com], and I highly recommend going to them first.
-
-
-# Prerequisites
+## Prerequisites
 
 Before you even consider this modification, make sure you have the
 time, space, and tools to bring it to completion. I was able to keep
@@ -102,7 +116,7 @@ step-by-step disassembly and re-assembly instructions, as well as the
 correct torque values for all bolts and screws.
 
 
-## Required Tools
+### Required Tools
 
 Rear stand
 : rear wheel removal, and keeping the bike steady
@@ -139,7 +153,7 @@ Circlip Pliers
  to retain their gears.
 
 
-## Optional Tools
+### Optional Tools
 
 Slide hammer/bearing puller
 : I personally found one bearing that needed to be replaced. Removing
@@ -170,7 +184,7 @@ Neoprene gloves
   you'll be doing the work in short spurts.
 
 
-## Required Consumables
+### Required Consumables
 
 Assembly lube
 : Any part that touches metal needs assembly lube. This stuff adheres
@@ -186,8 +200,13 @@ Liquid gasket 1512
 Lithium grease
 : Oil seals and frame bearings will want clean grease
 
+Gasket set
+: You'll need to replace the gaskets for the clutch cover, generator
+  cover, cylinder, and cylinder head during the tear-down and rebuild
+  process.
 
-## Optional Consumables
+
+### Optional Consumables
 
 WD-40
 : For cleaning components prior to re-lubbing them
@@ -211,7 +230,7 @@ Oven cleaner
   grease will help to remove it.
 
 
-# Remove the engine
+## Remove the engine
 
 Remove the front sprocket. Remove the muffler. Remove the oxygen
 sensor. Remove the exhaust pipe. Remove the starter motor. Remove the
@@ -255,7 +274,7 @@ If all goes well, you can now lug around the 70 lbs of filthy and
 unweidly engine to your workspace.
 
 
-# Disassemble According to Service Manual
+## Disassemble According to Service Manual
 
 There are a number of steps in the service manual that are geared more
 towards a full teardown. Since we are only interested in getting into
@@ -266,7 +285,7 @@ valves.
 
 Everything on the clutch-cover side of the engine must be removed,
 since that's the side of the crank case that you'll be sliding off and
-attaching the kick-start assembly to. Take special care with the
+attaching the kickstart assembly to. Take special care with the
 mechanism of the gear shift assembly. Once freed of the gear selector
 drum, the spring-loaded pawls will eject themselves. Be prepared to
 grab and baggie them for later. Double check that you have both pawls,
@@ -280,12 +299,11 @@ that the counter-balance weight itself had to be maneuvered around the
 crank. Be very patient.
 
 
-# Replace driveshaft
+## Replace driveshaft
 
 Using your circlip pliers, disassemble the driveshaft portion of the
 transmission. Lube up the longer ST250 driveshaft, and assemble the
 gears onto it.
-
 
 If you find that some of the shafts are very tight, I recommend
 bagging the assembly in question and sticking it in the freezer for a
