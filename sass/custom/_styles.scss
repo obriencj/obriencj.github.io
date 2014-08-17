@@ -35,6 +35,21 @@ h1.entry-title small {
     color: grey;
 }
 
+article p, article h1, article h2, article h3, article h4 {
+    clear: both;
+}
+
+dl {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 0.5em;
+}
+
 
 /* general */
 
