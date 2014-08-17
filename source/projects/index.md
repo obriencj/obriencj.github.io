@@ -22,14 +22,11 @@ the mess. It gives an excellent perspective.
 * [obriencj on Gist][gist]
 * [obriencj on Google Code][gcode]
 
-[github]: https://github.com/obriencj
-"Christopher O'Brien on GitHub"
+[github]: https://github.com/obriencj "Christopher O'Brien on GitHub"
 
-[gist]: https://gist.github.com/obriencj
-"Christopher O'Brien on Gist"
+[gist]: https://gist.github.com/obriencj "Christopher O'Brien on Gist"
 
-[gcode]: https://code.google.com/p/obriencj
-"Projects on Google Code"
+[gcode]: https://code.google.com/p/obriencj "Projects on Google Code"
 
 
 ## Project Ideas
@@ -75,11 +72,9 @@ on the [minecraft.preoccupied.net][mc.p.n] (which is currently offline).
 * [bukkit-want] Adds convenient names and aliases for giving items to
   players, including packs of multiple items.
 
-[Bukkit]: http://bukkit.org
-"Open Source Minecraft server wrapper"
+[Bukkit]: http://bukkit.org "Open Source Minecraft server wrapper"
 
-[mc.p.n]: http://tumblr.preoccupied.net
-"The Preoccupied Bukkit"
+[mc.p.n]: http://tumblr.preoccupied.net "The Preoccupied Bukkit"
 
 [bukkit-utils]: http://github.com/obriencj/bukkit-utils
 [bukkit-worlds]: http://github.com/obriencj/bukkit-worlds
