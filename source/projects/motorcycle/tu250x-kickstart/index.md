@@ -561,6 +561,8 @@ weekend of riding, you'll get the feel for it!
 
 Congratulations, ride safe, and have fun!
 
+If you liked my terrible pictures, here's [the entire album](https://picasaweb.google.com/114793537781613459114/TU250xKickstart?authuser=0&authkey=Gv1sRgCNfes67A1oXvdg&feat=directlink)
+
 
 ## Change Log
 
