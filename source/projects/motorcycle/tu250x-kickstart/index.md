@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "TU250x Kickstart"
-date: 2014-07-27 14:39
+date: 2014-08-19 17:00
 comments: false
 categoy: projects
 tags:
@@ -62,7 +62,7 @@ be set. On the TU250X, ST250, and ST250XK8 the shaft is too short to
 mount the gear (though oddly it retains a groove for the retaining
 clip).
 
-[{% img right https://lh5.googleusercontent.com/-aQUgBJFKUYo/U-ED4ZS6eFI/AAAAAAAAQJQ/JbZq09IWNFg/s400/DSC00104.JPG 300 400 "Original TU250X drive shaft (top), ST250XK4 (middle), SP250 (bottom)" %}](https://picasaweb.google.com/lh/photo/q2aAk1HCEVCOYQI9xLCnXI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh5.googleusercontent.com/-aQUgBJFKUYo/U-ED4ZS6eFI/AAAAAAAAQJQ/JbZq09IWNFg/s400/DSC00104.JPG 300 400 Original TU250X drive shaft (top), ST250XK4 (middle), SP250 (bottom) %}](https://picasaweb.google.com/lh/photo/q2aAk1HCEVCOYQI9xLCnXI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 For reference here is the original TU250X drive shaft (top), the
 ST250XK4 (middle), and the SP250 (bottom). Note that the older SP250
 shaft does include the longer tail end to support the idler gear, but
@@ -121,10 +121,17 @@ In order to add a decompression lever, one must acquire:
 - supporting cylinder head cover (normally only sold as a unit with
   the cylinder head)
 
+I weight roughly 170 lbs. in boots and gear. I am able, without any
+existing skill in the matter, to kick start a TU250X without the
+assistance of a decompression lever. At this time, I did not seek out
+that necessary parts to add this feature, though I may consider it at
+a future time just for completeness. When that happens, I will update
+this guide to include those additional steps.
+
 
 ## Prerequisites
 
-[{%img right https://lh4.googleusercontent.com/-DYZi_7U5DLE/U9-1HWJX7qI/AAAAAAAAQIQ/5kWaBP3Df9A/s400/IMG_2831.JPG 300 400 "My workspace before the work" %}](https://picasaweb.google.com/lh/photo/9ptAtoagKKli0c74VNV7po90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{%img right https://lh4.googleusercontent.com/-DYZi_7U5DLE/U9-1HWJX7qI/AAAAAAAAQIQ/5kWaBP3Df9A/s400/IMG_2831.JPG 300 400 My workspace before the work %}](https://picasaweb.google.com/lh/photo/9ptAtoagKKli0c74VNV7po90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 Before you even consider this modification, make sure you have the
 time, space, and tools to bring it to completion. I was able to keep
 the engine work constrained to a 3' x 5' table, with tools on a nearby
@@ -136,9 +143,14 @@ cheaper elsewhere, that's great! If you want to buy it from Amazon
 though, please use these links. It won't cost you more, but I'll get a
 penny in my tip jar for having referred you.
 
+[{% img right https://lh3.googleusercontent.com/-J3XlYj4ZvbI/U_OlzxnkQeI/AAAAAAAAQVU/gTCHxhL1fwU/s400/DSC00115.JPG 300 400 Manuel, relay instructions %}](https://picasaweb.google.com/lh/photo/hdiGnXv1VstAfb4W7UGMjo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 You will require a copy of the TU250X Service Manual, which has
 step-by-step disassembly and re-assembly instructions, as well as the
-correct torque values for all bolts and screws.
+correct torque values for all bolts and screws. I recommend reading
+the engine disassembly and reassembly sections multiple times in
+advance, so that you have a clear idea of what you'll be doing well
+before starting the work. Even afterwards, keep it nearby as it's best
+to double check your work against it as you progress.
 
 
 ### Required Parts <a name="required-parts"></a>
@@ -175,11 +187,11 @@ transmission assemblies where relevant.
 
 Kickstart Assembly
 : - SP250 - [Parts Outlaw](http://www.partsoutlaw.com/oemparts/a/suz/50d3b37cf870021958f260e0/kick-starter), [Motosport](http://www.motosport.com/dirtbike/oem-parts/SUZUKI/1982/SP250/KICK-STARTER), [Bike Bandit](http://www.bikebandit.com/oem-parts/1982-suzuki-sp250/o/m147964#sch261712)
-  - ST250XK4 - [Photo](https://picasaweb.google.com/lh/photo/xHQCNHHU1UkEYfXiG0tLdY90Bmq-8q5KVhdpQ6O0Fv4?feat=directlink)
+  - ST250XK4 - [Blurry Photo](https://picasaweb.google.com/lh/photo/PGoV9BXZhq7uMkJRDV6nfY90Bmq-8q5KVhdpQ6O0Fv4?feat=directlink)
 Transmission Assembly
 : - TU250X - [Parts Outlaw](http://www.partsoutlaw.com/oemparts/a/suz/506b6676f8700235b8769728/transmission), [Motosport](http://www.motosport.com/cruiser/oem-parts/SUZUKI/2009/TU250/TRANSMISSION), [Bike Bandit](http://www.bikebandit.com/oem-parts/2009-suzuki-tu250x/o/m19102#sch650206)
   - SP250 - [Parts Outlaw](http://www.partsoutlaw.com/oemparts/a/suz/50d3b37bf870021958f260de/transmission), [Motosport](http://www.motosport.com/dirtbike/oem-parts/SUZUKI/1982/SP250/TRANSMISSION), [Bike Bandit](http://www.bikebandit.com/oem-parts/1982-suzuki-sp250/o/m147964#sch262966)
-  - ST250XK4 - [Photo](https://picasaweb.google.com/lh/photo/f1KNXG8Br5rBnUkd-tO8qY90Bmq-8q5KVhdpQ6O0Fv4?feat=directlink)
+  - ST250XK4 - [Blurry Photo 1](https://picasaweb.google.com/lh/photo/50HbKbEbenPOjo2YdOyJ-I90Bmq-8q5KVhdpQ6O0Fv4?feat=directlink), [Blurry Photo 2](https://picasaweb.google.com/lh/photo/Jw63RQ20AJZvBBe4KgeRwI90Bmq-8q5KVhdpQ6O0Fv4?feat=directlink)
 Gaskets
 : - TU250X - [Parts Outlaw](http://www.partsoutlaw.com/oemparts/a/suz/506b663df8700235b8769717/gasket-set), [Motosport](http://www.motosport.com/cruiser/oem-parts/SUZUKI/2009/TU250/GASKET-SET), [Bike Bandit](http://www.bikebandit.com/oem-parts/2009-suzuki-tu250x/o/m19102#sch650221)
 
@@ -233,6 +245,11 @@ Rotor holder
   possible to get around using it as the rotor bolt has significantly
   more torque on it than many of the other bolts you'll be dealing
   with
+
+Bar clamps
+: Good for temporarily holding the case halves together when you are
+in the process of digging out the baggie of case bolts. Four small
+ones is enough.
 
 Brass brush
 : For cleaning mating surfaces and removing gasket bits. Brass is soft
@@ -338,8 +355,12 @@ rush it and try not to lose your temper or your grip on the
 precariously balanced engine. More than any other aspect, this
 activity benefits from an assistant.
 
+[{% img right https://lh5.googleusercontent.com/-XD4a1Lebuvg/U9-1GpdX8rI/AAAAAAAAQII/_u3Ups5NFOA/s400/IMG_2838.JPG 300 400 I never did get into yoga %}](https://picasaweb.google.com/lh/photo/0N7z0AulW8uOVf1qNPTOBI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 If all goes well, you can now lug around the 70 lbs of filthy and
-unweidly engine to your workspace.
+unweidly engine to your workspace. Again, I recommend at least a 3' by
+5' table to perform this work on, and optionally some sort of durable
+tablecloth or pad to deal with the mess. I, for example, finally got
+some use out of a yoga mat I've had sitting around.
 
 
 ## Disassemble According to Service Manual
@@ -359,6 +380,7 @@ drum, the spring-loaded pawls will eject themselves. Be prepared to
 grab and baggie them for later. Double check that you have both pawls,
 both pins, and both springs in the set.
 
+[{% img right https://lh5.googleusercontent.com/-Y-LE9Zvvy9Y/U9-1ALGlewI/AAAAAAAAQHA/gFDyuAq-mXI/s400/DSC00090.JPG 300 400 Eventually you'll get to see all this %}](https://picasaweb.google.com/lh/photo/w0rdKtfj6uOomyyn_SYxPY90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 When separating the case halves with the case splitting tool, remember
 that the case needs to come off straight or not at all. In my
 particular situation, the counter-balance shaft was very tight in its
@@ -369,12 +391,179 @@ crank. Be very patient.
 
 ## Replace driveshaft
 
-Using your circlip pliers, disassemble the driveshaft portion of the
-transmission. Lube up the longer ST250 driveshaft, and assemble the
-gears onto it.
+Pull the rails out of the gearshift forks, and then remove the
+gearshift drum. This should free up the countershaft and driveshaft of
+the transmission for removal. They will come out exactly straight and
+as a pair or not at all. You may find it helps to tap the driveshaft's
+sprocket mount with a rubber mallet to get things moving. Once again,
+the keyword here is patience.
 
-If you find that some of the shafts are very tight, I recommend
-bagging the assembly in question and sticking it in the freezer for a
-few hours. This will cause a minute amount of metal shringkage, which
-is just enough to make the shafts not bind when you attempt
-re-assembly.
+This is a good time to verify that all of your bearings are turning
+freely. They should spin easily with just a light flick of your
+fingertip. In my case, I found that the countershaft bearing on the
+left case half (where the clutch actuator flipper sits) was resistant
+to turning, so had to pull and replace it. You'll need a slide hammer
+and blind bearing puller in this case -- see the optional tools
+section above.
+
+At this point you can disassemble the driveshaft portion of the
+transmission. Smear assembly lube onto the longer ST250XK4 driveshaft,
+and assemble the original gears onto it. Pay careful attention to the
+orientation of your gears and the width of the washers. Refer to your
+service manual to double-check.
+
+
+## Install Kickstart Shaft
+
+The kickstart shaft mounts through the right side of the crank case,
+just above the hole for the shift lever rod.
+
+Grease the kickstart shaft, and install smaller sliding gear onto the
+shaft. Take care to line up the small dots that are impressed upon the
+shaft and the gear. Follow them with the tension spring and its large
+washer. The shaft can then be slid through the case where we will
+continue on the other side. Note that in this picture the gear guide
+and stopper are already installed -- I found it easier to install
+those parts after the next step.
+
+From the inside face of the right crank case, attach the return spring
+to the case and through the hole in the kickstart shaft. Set the
+spring guide into the spring with the angular end facing out. If the
+curved end is left facing out, the spring may escape the guide.
+Install the circlip to retain the guide. At this point, there should
+not be any tension on the return spring.
+
+Temporarily attach the kickstart lever onto the kickstart shaft,
+pointing towards roughly 3 o'clock. With your left hand, rotate the
+shaft counter clock wise, which will put tension onto the return
+spring and rotating the sliding gear's guide into its correct "home"
+position. At this point, hold the lever in place and attach the
+stopper and guide plates by bolting it to the crank case. You can then
+slowly relax your hold on the lever, allowing the sliding gear to meet
+the guide plate and stop itself against the stopper plate.
+
+[{% img https://lh6.googleusercontent.com/-JmoNKjYxQtA/U9-07OZu08I/AAAAAAAAQGA/JvL8p-2-PPo/s400/DSC00099.JPG 300 400 Sliding gear, guide, and stopper %}](https://picasaweb.google.com/lh/photo/RG9bm_BiNfZfcnO0Ecn9ZI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img https://lh5.googleusercontent.com/-GUab07WGukU/U9-08AupG_I/AAAAAAAAQJc/fkMISI9NODs/s400/DSC00098.JPG 300 400 Return spring, guide, and circlip %}](https://picasaweb.google.com/lh/photo/-I6Ag3DLMJvMPw9fBd3ZX490Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img https://lh5.googleusercontent.com/-qIIJSCnXm9o/U9-09kVffoI/AAAAAAAAQJY/CqEBy6sYhQI/s400/DSC00096.JPG 300 400 Temporarily attached kickstart lever for testing of action %}](https://picasaweb.google.com/lh/photo/H9mygTEKmkTzEw0TfsNmNI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+
+I found this method to be significantly easier to manage than
+attaching the guide and stopper plates first and attempting to put a
+quarter turn onto the return spring with pliers before installing the
+return spring guide. I hope that it saves you some frustration as
+well.
+
+Verify that the shaft rotates cleanly, with the sliding gear moving
+into and out of an engaged position and with the shaft returning and
+stopping at the home position. If everything works, remove one of the
+plate bolts, apply a drop of 1333 thread lock, and replace it. Then
+repeat with the other bolt.
+
+
+## Close Up the Crank Case
+
+You can now re-assemble the crank-case contents as per the service
+manual. If you find that some of the shafts are very tight, I
+recommend bagging the assembly in question and sticking it in the
+freezer for a few hours. This will cause a minute amount of metal
+shringkage, which is often just enough to make the shafts not bind
+when you attempt re-assembly. As I'd mentioned earlier, the
+counter-balance was a tough fit when warm, but when cold I was able to
+get the case halves together without an issue. This is important,
+because you only have so much time to fiddle with getting the halves
+back together again after you've applied the liquid gasket.
+
+Double check that everything is in place, that everything rotates as
+it should, that the crank and counter-balancer dots line up.
+
+Apply a thin and even bead of liquid gasket to the surfaces indicated
+in the service manual and carefully join your case halves
+together. Once again, it goes on straight or not at all. As soon as
+you have the case surfaces mated, clamp them together and start
+replacing the case bolts.
+
+
+## Install Idler and Complete Kickstart
+
+While your seal is setting up, you can install that idler gear onto
+the newly elongated nub of your drive shaft. Lube up and slide on the
+gear, the spacer, and attach the circlip. Check that it spins freely
+and doesn't wobble.
+
+Moving on to the kickstart shaft, you can now install a circlip and
+washer, then the larger part of the kickstart gear pair. It should
+mesh with the idler. Another washer then a final circlip to hold it in
+place.
+
+[{% img right https://lh6.googleusercontent.com/-qFm5fIP1_RE/U-bTuD3ruVI/AAAAAAAAQRI/4pW-mM-4RlM/s400/DSC00107.JPG 300 400 The kickstart gearing and the idler %}](https://picasaweb.google.com/lh/photo/uB3PCxyKzsWEiwHgYbDJgI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+The idler and kickstart gear should spin freely, without encountering
+the ratcheting teeth of the sliding kickstart gear that is held away
+by the guide plate. When the kickstart shaft is turned counter clock
+wise, the sliding gear will leave the guide plate and will slide out
+to engage with the teeth of the kickstart gear, in turn driving the
+idler.
+
+Now is a good time to take a flat-faced drift and knock the kickstart
+plug out of the clutch-cover and replace it with the proper oil
+seal. The plug is in there pretty well, so smack it firmly. The oil
+seal can be placed with only finger pressure and some patience, but
+make sure it is seated all the way. The opening through which you can
+see the tensioning spring should face into the engine, not out.
+
+
+## Put It All Back Where You Found It
+
+[{% img right https://lh6.googleusercontent.com/-BYUj-zbgVIY/U-bTiURa1qI/AAAAAAAAQRM/o7STp0zRpGQ/s400/DSC00109.JPG 300 400 Just the covers and I'm all set %}](https://picasaweb.google.com/lh/photo/OgIWZoqqVKWHHBVugmHDwo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+If this all moves smoothly, then you're in the clear to complete the
+re-assembly process. Follow the service guide, and everything should
+fit together. Make sure all your mating surfaces are clean before
+placing gaskets -- I had a real bastard of a time with the clutch
+cover gasket, and it took a lot of CRC gasket remover and elbow grease
+with a plastic razor before I could call it ready. But all that work
+sure beats having an oil leak later.
+
+After remounting the engine, it's time to reconnect the cables,
+resinstall the rear wheel, the chain, the front-sprocket, and
+everything else you removed in the first place.
+
+If you wanted to remove your PAIR valve, this is the perfect
+opportunity, but I'll provide more details on that later.
+
+Put in a new oil filter, replace the shift neutral stopper, oil pan,
+and drain plug, and fill her up with clean oil. Double check all of
+your mounting bolts and available case bolts for their proper
+torque. Check that while you were doing this, no oil has been pouring
+out of the engine.
+
+Slide on the kickstart lever, and bolt it securely in place.
+
+
+## Start That TU
+
+Look over everything once more. What did you forget? I always forget
+something, and this is the time to remember it!
+
+Try the electric start first, and [holler like a madman][itsalive]
+when it fires up. Calm your neighbors, reassuring them that you aren't
+hurt, you're just very happy. Shut off the engine, and attempt to kick
+your TU into life!
+
+[{% img right https://lh5.googleusercontent.com/-biB2fge8ggs/U_O0w3eeknI/AAAAAAAAQW8/FWXSxqP8n3k/s400/DSC00134.JPG 300 400 Looks like it belongs there %}](https://picasaweb.google.com/lh/photo/CslIDY1A2HFlkUd0CIa8Vo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[It may take you a while to get the hang of it][kickvideo], but don't
+be discouraged. The fuel pump will sporadically start whenever you
+turn the engine even slightly, just ignore it and give the lever a
+good strong kick back and down. I find it helps to grab the rear brake
+lever along with the clutch, and push back on the bars a bit. After a
+weekend of riding, you'll get the feel for it!
+
+[itsalive]: https://www.youtube.com/watch?v=0VkrUG3OrPc
+
+[kickvideo]: https://www.youtube.com/watch?v=g_86y2nkG1A
+
+Congratulations, ride safe, and have fun!
+
+
+## Change Log
+
+- 2014-08-19 Initial published revision. Need to add Amazon links for
+  the various tools and consumables.
+- 2014-07-27 Draft layout
