@@ -9,8 +9,9 @@
   <meta name="author" content="Christopher O'Brien">
 
   
-  <meta name="description" content="It&rsquo;s beautiful, this fine sunny Sunday. Zoe is outside playing with
-the neighbors and I&rsquo;m relaxing in the breeze. I&rsquo;m working on a &hellip;">
+  <meta name="description" content="I realized while hacking on the test cases for the promises
+multiprocess module that it would be really useful if I could easily
+pass along anonymous &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +80,56 @@ the neighbors and I&rsquo;m relaxing in the breeze. I&rsquo;m working on a &hell
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/05/brine-on-the-wire/">Brine on the Wire</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+	<time datetime="2014-03-05T13:00:00-05:00" pubdate data-updated="true">Mar 5<sup>th</sup>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I realized while hacking on the test cases for the <a href="http://github.com/obriencj/python-promises">promises</a>
+multiprocess module that it would be really useful if I could easily
+pass along anonymous functions. So I threw together a new
+<a href="http://obriencj.preoccupied.net/python-brine/queues/">queues module</a> for <a href="http://github.com/obriencj/python-brine">brine</a> that provides some <a href="http://docs.python.org/2/library/multiprocessing.html#multiprocessing.Queue">Queue</a> subclasses
+which automatically brine/unbrine any passed work.</p>
+
+<p>This got me to thinking about the potential for sending code between
+processes, or even between machines. Certainly powerful, but also
+hazardous.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/03/05/brine-on-the-wire/">continue &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
@@ -272,51 +323,6 @@ explanation, click the above link and peruse the README.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/28/well-how-about-octopress-instead/">Well How About Octopress Instead?</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-	<time datetime="2014-02-06T20:29:00-05:00" class="updated">Updated Feb 6<sup>th</sup>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/">JekyllBootstrap</a> was turning out, so now
-I&rsquo;m playing around with <a href="http://octopress.org/">Octopress</a>.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/01/28/well-how-about-octopress-instead/">continue &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/3">&larr; Older</a>
@@ -334,6 +340,10 @@ I&rsquo;m playing around with <a href="http://octopress.org/">Octopress</a>.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/08/19/the-tu250x-kickstart-guide/">The TU250x Kickstart Guide</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/05/22/bindings-shed/">Bindings Shed</a>
       </li>
     
@@ -349,10 +359,6 @@ I&rsquo;m playing around with <a href="http://octopress.org/">Octopress</a>.</p>
         <a href="/blog/2014/03/24/weather-and-backtracking/">Weather and Backtracking</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2014/03/05/brine-on-the-wire/">Brine on the Wire</a>
-      </li>
-    
   </ul>
 </section>
 <section>
@@ -361,12 +367,12 @@ I&rsquo;m playing around with <a href="http://octopress.org/">Octopress</a>.</p>
   <div class="tag-cloud">
   <p class="tags">
 <a style="font-size: 115%" href="/blog/tags/brine/">brine</a>
-<a style="font-size: 106%" href="/blog/tags/gist/">gist</a>
 <a style="font-size: 106%" href="/blog/tags/github-dot-io/">github.io</a>
 <a style="font-size: 115%" href="/blog/tags/hack/">hack</a>
 <a style="font-size: 106%" href="/blog/tags/ideas/">ideas</a>
 <a style="font-size: 106%" href="/blog/tags/jekyll/">jekyll</a>
 <a style="font-size: 115%" href="/blog/tags/lisp/">lisp</a>
+<a style="font-size: 106%" href="/blog/tags/motorcycle/">motorcycle</a>
 <a style="font-size: 106%" href="/blog/tags/promises/">promises</a>
 <a style="font-size: 140%" href="/blog/tags/python/">python</a>
 <a style="font-size: 115%" href="/blog/tags/spexy/">spexy</a>
