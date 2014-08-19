@@ -128,8 +128,8 @@ own. I view it as an important exercise, and a bit of a milestone!
 There are so many implementations out there already, I am not so
 deluded as to think that mine will be of use except as a material
 lesson during the course of its creation. It is, to my mind, akin to a
-first novel. While composing a book ill suits me &mdash; I&rsquo;m bereft of
-creative stories or unique views into real events &mdash; composing a
+first novel. While composing a book ill suits me &ndash; I&rsquo;m bereft of
+creative stories or unique views into real events &ndash; composing a
 compiler around what I consider to be an elegant and inspired computer
 language is right up my proverbial alley!</p>
 
@@ -138,8 +138,8 @@ language is right up my proverbial alley!</p>
 <p>But this path is not easily traversed. The routes my inadequate brain
 travels along are bumpy and often with poor visibility. In my personal
 hacks I don&rsquo;t always know where I&rsquo;m going, psychologically or
-programmatically, until I get there. I may indicate &mdash; as with a vague
-gesture &mdash; that I&rsquo;m headed in so-and-so direction. Where the journey
+programmatically, until I get there. I may indicate &ndash; as with a vague
+gesture &ndash; that I&rsquo;m headed in so-and-so direction. Where the journey
 actually ends, who knows.</p>
 
 <p>In this particular venture, I&rsquo;ve already found myself at a dead-end. A
@@ -163,7 +163,7 @@ today, yes? Let&rsquo;s talk about continuations and trampolines!</p>
 <p>Often, in order to consider things in their entirety in my own mind, I
 try to explain them as to an interested novice. I do this in the
 shower, or while staring off into space while my coffee grows cold. I
-dream up a situation &mdash; as many mad people do &mdash; where another person
+dream up a situation &ndash; as many mad people do &ndash; where another person
 exists that wants to learn something, and I must rise to the occasion
 to teach them.</p>
 
@@ -171,7 +171,7 @@ to teach them.</p>
 contributed to my social failings. It&rsquo;s hard to find love while
 staring vacantly off into space.</p>
 
-<p>So let me pretend &mdash; in the interest of advancing this narrative &mdash;
+<p>So let me pretend &ndash; in the interest of advancing this narrative &ndash;
 that there is someone in need of teaching, so that I may be forced to
 organize my own thoughts enough to communicate them better to myself.
 Or put another way, let me pretend to be someone smarter, and you can
@@ -192,7 +192,7 @@ willing flexibility is required to proceed. Remember the wisdom of
 Yoda!</p>
 
 <p>The unassuming <code>return</code> is almost always disguised as a statement
-rather than an expression. <code>return</code> does double duty &mdash; it is both a
+rather than an expression. <code>return</code> does double duty &ndash; it is both a
 messenger, and a director. It will duly hand off a value, but it will
 also adjust the underlying program state such that execution can
 proceed and the program can eventually terminate.</p>
@@ -211,7 +211,7 @@ current scope!</p>
 frame off of the call stack! It places the passed value on the stack
 so that the caller can get to it! That&rsquo;s what <code>return</code> does and what
 <code>return</code> must do! All other ideas are lies!&rdquo; That&rsquo;s certainly a
-possibility &mdash; in this case, a single instance of <code>return</code> works in
+possibility &ndash; in this case, a single instance of <code>return</code> works in
 all places. It is entirely side-effect driven. But&hellip; what if&hellip;</p>
 
 <p>What if we made a small adjustment to the common implementation, and
@@ -226,14 +226,14 @@ that <code>return</code> function and stored it somewhere safe, then calling it
 again would result in the call chain being put back to hang on the
 hook exactly as it had been the first time that the now-captive
 <code>return</code> was called. All manner of side-effects may have occurred in
-the interim &mdash; values in various scopes may have changed, objects may
-have been mutated, output perhaps written to streams &mdash; but execution
+the interim &ndash; values in various scopes may have changed, objects may
+have been mutated, output perhaps written to streams &ndash; but execution
 picks up once again just where it had. The passage of time is not been
 undone, but the path we traverse <em>has</em>. Perhaps this go around a
 different condition is fulfilled and execution travels down a
 different path.</p>
 
-<p>When <code>return</code> can behave as such &mdash; when it can be captured &mdash; it is
+<p>When <code>return</code> can behave as such &ndash; when it can be captured &ndash; it is
 properly called the &ldquo;reified continuation.&rdquo; An implementation detail
 of the environment of the program, made available as part of that same
 program.</p>
@@ -250,7 +250,7 @@ minds. Continuation-passing-style.</p>
 
 <p>Using CPS, we never use the underlying <code>return</code> of the implementing
 language. Instead, every function we define must take an additional
-parameter &mdash; the continuation, sometimes named simply <code>k</code>. The idea is
+parameter &ndash; the continuation, sometimes named simply <code>k</code>. The idea is
 that the function <code>k</code> acts as a stand-in for <code>return</code>. When <code>k</code> is
 called, it is given a value, and the job of <code>k</code> is to execute the rest
 of the program.</p>
@@ -289,7 +289,7 @@ there</em>, you simply have to snag it.</p>
 <p>A less wonderful side-effect is that your more <em>traditional</em> call
 stack can become quite deep, to the point of over-flowing. The
 implementation language doesn&rsquo;t necessarily know that you never intend
-to descend back out of the call stack &mdash; that your program is just one
+to descend back out of the call stack &ndash; that your program is just one
 call after another after another. It holds onto data you never wish to
 make use of.</p>
 
@@ -298,7 +298,7 @@ top of a language with a traditional stack management system, you&rsquo;re
 likely going to exhaust its stack allocation.</p>
 
 <p>Unless, of course, you find a way to dump that call stack from time to
-time. You don&rsquo;t need it after-all &mdash; your program only moves
+time. You don&rsquo;t need it after-all &ndash; your program only moves
 <em>forward</em>, never <em>backwards</em> now that it&rsquo;s passing <code>k</code> along. You need
 a harness to assist you in doing this. And that is a trampoline.</p>
 
@@ -359,7 +359,7 @@ definition.</p>
 <p>For large numbers, they&rsquo;re both going to run up against the recursion
 limit on Python (or stack space if you disable such limits). However,
 the CPS factorial doesn&rsquo;t actually <em>need</em> the stack that it is
-consuming &mdash; it never returns! The value is accumulated deeper and
+consuming &ndash; it never returns! The value is accumulated deeper and
 deeper down a line of continuations.</p>
 
 <p>What follows is a rewrite of the CPS factorial that makes use of a
@@ -489,7 +489,7 @@ program will be run to completion.</p>
 
 
 <p>Just before the end, any remainder Python call stack does indeed get
-traversed. But it is an unimportant side-effect at this point &mdash; we
+traversed. But it is an unimportant side-effect at this point &ndash; we
 aren&rsquo;t using it to pass a value back, we&rsquo;re just letting Python return
 to its normal behavior.</p>
 
@@ -498,7 +498,7 @@ to its normal behavior.</p>
 <p>If we can guarantee a trampoline (and of course we can, we&rsquo;re writing
 the compiler and interpreter), then we can with relative safety make
 use of CPS in our generated executable. We must be consistent though
-&mdash; if we&rsquo;re going to be throwing away the return stack, we need to be
+&ndash; if we&rsquo;re going to be throwing away the return stack, we need to be
 certain that we definitely haven&rsquo;t emitted code that wants to use it!
 This is the call-conformity. We must compile every expression into a
 series of steps, each of which has the conformity in its evaluation,

@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: jekyll | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/jekyll/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-11T10:48:11-04:00</updated>
+  <updated>2014-08-19T16:49:49-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -68,7 +68,7 @@ in <code>~/public_html</code> and have moved into the space age with <a href="ht
 <p>Is this more convenient or better than the <a href="http://obriencj.tumblr.com">Tumblr</a> I&rsquo;d been
 maintaining?  I&rsquo;m not sure. I know these pages get to take advantage
 of the CDN. That&rsquo;s a bonus. I also know that I have direct access to
-the full history and content of all of my posts immediately &mdash; also a
+the full history and content of all of my posts immediately &ndash; also a
 bonus.</p>
 
 <p>But I am not very happy with the theming right now. I&rsquo;ve had to make a

@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: hack | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/hack/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-11T10:48:11-04:00</updated>
+  <updated>2014-08-19T16:49:49-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -27,7 +27,7 @@ face.</p>
 
 
 <p>But&hellip; I&rsquo;m surprised how the me from 2007 thought some of the features
-through &mdash; especially taking into consideration the
+through &ndash; especially taking into consideration the
 <a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif">state of my brain</a> at the time. The module itself runs the input code
 through distinct parsing and evaluation steps, which includes a macro
 expansion pass before moving on to specials. I get the idea that I may
@@ -38,59 +38,56 @@ have intended to write parts of Spexy <strong>in</strong> Spexy once I got
 inspiration (and giggling). When the dust settled, Spexy had gained
 support for <code>try/except</code> expressions.</p>
 
-<p>```text output of spexy_try <a href="https://gist.github.com/obriencj/8610594">https://gist.github.com/obriencj/8610594</a> Gist
-maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py</p>
+<pre><code class="text output of spexy_try https://gist.github.com/obriencj/8610594 Gist">maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
+The original spexy source is
+-----
+(defun division (x y)
+  (let ((result None))
+    (try
+      (setf result (/ x y))
 
-<h2>The original spexy source is</h2>
+      ((ZeroDivisionError)
+        (println "division by zero!" x "/" y)
+        False)
+      (:else
+        (println "result is" result)
+        result)
+      (:finally
+        (println "executing finally clause")))))
+-----
 
-<p>(defun division (x y)
-  (let ((result None))</p>
+parses into tree
+-----
+['defun', 'division', ['x', 'y'], ['let', [['result', 'None']], ['try', ['setf', 'result', ['/', 'x', 'y']], [['ZeroDivisionError'], ['println', '"division by zero!"', 'x', '"/"', 'y'], 'False'], [':else', ['println', '"result is"', 'result'], 'result'], [':finally', ['println', '"executing finally clause"']]]]]
+-----
 
-<pre><code>(try
-  (setf result (/ x y))
+processed into Python
+-----
+globals().__setitem__('division', (lambda x, y: ((lambda result: (lambda _lcls:(eval(compile('def try_block(try_clause,except_0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n','&lt;spexy&gt;','single'),globals(),_lcls), _lcls)[-1])({})['try_block']((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__('sys').stdout.writelines(map(str, ("division by zero!", " ", x, " ", "/", " ", y, '\n'))), False,)[-1]), (lambda : (__import__('sys').stdout.writelines(map(str, ("result is", " ", result[0], '\n'))), result[0],)[-1]), (lambda : __import__('sys').stdout.writelines(map(str, ("executing finally clause", '\n'))))))([None]))))
+-----
 
-  ((ZeroDivisionError)
-    (println "division by zero!" x "/" y)
-    False)
-  (:else
-    (println "result is" result)
-    result)
-  (:finally
-    (println "executing finally clause")))))
-</code></pre>
-
-<hr />
-
-<h2>parses into tree</h2>
-
-<h2>[&lsquo;defun&rsquo;, &lsquo;division&rsquo;, [&lsquo;x&rsquo;, &lsquo;y&rsquo;], [&lsquo;let&rsquo;, [[&lsquo;result&rsquo;, &lsquo;None&rsquo;]], [&lsquo;try&rsquo;, [&lsquo;setf&rsquo;, &lsquo;result&rsquo;, [&lsquo;/&rsquo;, &lsquo;x&rsquo;, &lsquo;y&rsquo;]], [[&lsquo;ZeroDivisionError&rsquo;], [&lsquo;println&rsquo;, &lsquo;&ldquo;division by zero!&rdquo;&rsquo;, &lsquo;x&rsquo;, &lsquo;&ldquo;/&rdquo;&rsquo;, &lsquo;y&rsquo;], &lsquo;False&rsquo;], [&lsquo;:else&rsquo;, [&lsquo;println&rsquo;, &lsquo;&ldquo;result is&rdquo;&rsquo;, &lsquo;result&rsquo;], &lsquo;result&rsquo;], [&lsquo;:finally&rsquo;, [&lsquo;println&rsquo;, &lsquo;&ldquo;executing finally clause&rdquo;&rsquo;]]]]]</h2>
-
-<h2>processed into Python</h2>
-
-<h2>globals().<strong>setitem</strong>(&lsquo;division&rsquo;, (lambda x, y: ((lambda result: (lambda <em>lcls:(eval(compile(&lsquo;def try_block(try_clause,except_0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n&rsquo;,&lsquo;<spexy>&rsquo;,&lsquo;single&rsquo;),globals(),</em>lcls), _lcls)[-1])({})<a href="(lambda%20:%20result.__setitem__(0,%20(x%20/%20y">&lsquo;try_block&rsquo;</a>)),(lambda exc_type, exc_val, exc_tb: (<strong>import</strong>(&lsquo;sys&rsquo;).stdout.writelines(map(str, (&ldquo;division by zero!&rdquo;, &ldquo; &rdquo;, x, &ldquo; &rdquo;, &ldquo;/&rdquo;, &ldquo; &rdquo;, y, &lsquo;\n&rsquo;))), False,)[-1]), (lambda : (<strong>import</strong>(&lsquo;sys&rsquo;).stdout.writelines(map(str, (&ldquo;result is&rdquo;, &ldquo; &rdquo;, result[0], &lsquo;\n&rsquo;))), result[0],)[-1]), (lambda : <strong>import</strong>(&lsquo;sys&rsquo;).stdout.writelines(map(str, (&ldquo;executing finally clause&rdquo;, &lsquo;\n&rsquo;))))))([None]))))</h2>
-
-<p>division(1, 2)
+division(1, 2)
 result is 0
 executing finally clause
-result: 0</p>
+result: 0
 
-<p>division(4, 2)
+division(4, 2)
 result is 2
 executing finally clause
-result: 2</p>
+result: 2
 
-<p>division(2, 0)
+division(2, 0)
 division by zero! 2 / 0
 executing finally clause
-result: False</p>
+result: False
 
-<p>it works!
-```</p>
+it works!
+</code></pre>
 
 <p>It&rsquo;s pretty ugly. It&rsquo;s ugly pretty. Most importantly, it&rsquo;s satisfying
 the rules of Spexy. &ldquo;What rules,&rdquo; you ask? As I&rsquo;ve been toiling over
 this I&rsquo;ve remembered more about just why the thing exists. It&rsquo;s not a
-project &mdash; it&rsquo;s a puzzle! The inspiration was never &ldquo;I need a tool
+project &ndash; it&rsquo;s a puzzle! The inspiration was never &ldquo;I need a tool
 that will do&hellip;&rdquo; it was &ldquo;I wonder if I can&hellip;&rdquo; and from there sprung
 up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#concept">rules</a>.</p>
 
@@ -109,80 +106,64 @@ perfectly valid Python it emits</p>
 <!-- more -->
 
 
-<p>```text spexy repl example <a href="https://gist.github.com/obriencj/8567348">https://gist.github.com/obriencj/8567348</a> Gist
-[siege@maybe src]$ python spexy.py</p>
-
-<blockquote><blockquote><blockquote><blockquote><p>(defun make_pair ()</p>
-
-<pre><code>    (letrec ((value None)
-            (getter (lambda () value))
-            (setter (lambda (v) (setf value v))))
-        (make-list getter setter)))
+<pre><code class="text spexy repl example https://gist.github.com/obriencj/8567348 Gist">[siege@maybe src]$ python spexy.py
+&gt;&gt;&gt;&gt; (defun make_pair ()
+        (letrec ((value None)
+                (getter (lambda () value))
+                (setter (lambda (v) (setf value v))))
+            (make-list getter setter)))
+--&gt; globals().__setitem__('make_pair', (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
+&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
+        (define getter (getf gs 0))
+        (define setter (getf gs 1)))
+--&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__('getter', gs[0].__getitem__(0)), globals().__setitem__('setter', gs[0].__getitem__(1)),)[-1])([None]))
+&gt;&gt;&gt;&gt; (getter)
+--&gt; getter()
+&gt;&gt;&gt;&gt; getter
+--&gt; getter
+&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
+&gt;&gt;&gt;&gt; setter
+--&gt; setter
+&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
+&gt;&gt;&gt;&gt; (setter)
+--&gt; setter()
+## &lt;lambda&gt;() takes exactly 1 argument (0 given)
+&gt;&gt;&gt;&gt; (setter "hello world")
+--&gt; setter("hello world")
+&gt;&gt;&gt;&gt; (getter)
+--&gt; getter()
+'hello world'
+&gt;&gt;&gt;&gt; (getter)
+--&gt; getter()
+'hello world'
+&gt;&gt;&gt;&gt; (setter "919")
+--&gt; setter("919")
+&gt;&gt;&gt;&gt; (getter)
+--&gt; getter()
+'919'
 </code></pre>
 
-<p>&mdash;> globals().<strong>setitem</strong>(&lsquo;make_pair&rsquo;, (lambda : ((lambda value, getter, setter: ((value.<strong>setitem</strong>(0, None), getter.<strong>setitem</strong>(0, (lambda : value[0])), setter.<strong>setitem</strong>(0, (lambda v: value.<strong>setitem</strong>(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
-(letrec ((gs (make_pair)))</p>
-
-<pre><code>    (define getter (getf gs 0))
-    (define setter (getf gs 1)))
-</code></pre>
-
-<p>&mdash;> ((lambda gs: (gs.<strong>setitem</strong>(0, make_pair()), globals().<strong>setitem</strong>(&lsquo;getter&rsquo;, gs[0].<strong>getitem</strong>(0)), globals().<strong>setitem</strong>(&lsquo;setter&rsquo;, gs[0].<strong>getitem</strong>(1)),)[-1])([None]))
-(getter)
-&mdash;> getter()
-getter
-&mdash;> getter
-<function <lambda> at 0xb76c0df4>
-setter
-&mdash;> setter
-<function <lambda> at 0xb76c0e2c>
-(setter)
-&mdash;> setter()</p>
-
-<h2><lambda>() takes exactly 1 argument (0 given)</h2>
-
-<p>(setter &ldquo;hello world&rdquo;)
-&mdash;> setter(&ldquo;hello world&rdquo;)
-(getter)
-&mdash;> getter()
-&lsquo;hello world&rsquo;
-(getter)
-&mdash;> getter()
-&lsquo;hello world&rsquo;
-(setter &ldquo;919&rdquo;)
-&mdash;> setter(&ldquo;919&rdquo;)
-(getter)
-&mdash;> getter()
-&lsquo;919&rsquo;
-```</p></blockquote></blockquote></blockquote></blockquote>
-
-<p>```text more spexy repl <a href="https://gist.github.com/obriencj/8609890">https://gist.github.com/obriencj/8609890</a> Gist
-maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
+<pre><code class="text more spexy repl https://gist.github.com/obriencj/8609890 Gist">maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
 Python 2.7.6 (default, Nov 18 2013, 15:12:51)
 [GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
-Type &ldquo;help&rdquo;, &ldquo;copyright&rdquo;, &ldquo;credits&rdquo; or &ldquo;license&rdquo; for more information.</p>
-
-<blockquote><blockquote><blockquote><p>from spexy import repl
-from datetime import datetime
-repl(globals())</p>
-
-<blockquote><p>(let ((who &ldquo;siege&rdquo;) (date 1999))</p>
-
-<pre><code>   (letrec ((fmt "Hello %s, party like it is %i!")
-            (msg (% fmt (make-tuple who date))))
-     (println msg)))
-</code></pre>
-
-<p> &mdash;> ((lambda who, date: ((lambda fmt, msg: (fmt.<strong>setitem</strong>(0, &ldquo;Hello %s, party like it is %i!&rdquo;), msg.<strong>setitem</strong>(0, (fmt[0] % (who[0], date[0],))), <strong>import</strong>(&lsquo;sys&rsquo;).stdout.writelines(map(str, (msg[0], &lsquo;\n&rsquo;))),)[-1])([None], [None])))([&ldquo;siege&rdquo;], [1999]))
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; from spexy import repl
+&gt;&gt;&gt; from datetime import datetime
+&gt;&gt;&gt; repl(globals())
+&gt;&gt;&gt;&gt; (let ((who "siege") (date 1999))
+       (letrec ((fmt "Hello %s, party like it is %i!")
+                (msg (% fmt (make-tuple who date))))
+         (println msg)))
+ --&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.__setitem__(0, "Hello %s, party like it is %i!"), msg.__setitem__(0, (fmt[0] % (who[0], date[0],))), __import__('sys').stdout.writelines(map(str, (msg[0], '\n'))),)[-1])([None], [None])))(["siege"], [1999]))
 Hello siege, party like it is 1999!
-(println &ldquo;But&hellip;&rdquo; &ldquo;it isn&rsquo;t&rdquo; 1999 &ldquo;anymore, it&rsquo;s&rdquo; (. (datetime.now) year))
- &mdash;> <strong>import</strong>(&lsquo;sys&rsquo;).stdout.writelines(map(str, (&ldquo;But&hellip;&rdquo;, &ldquo; &rdquo;, &ldquo;it isn&rsquo;t&rdquo;, &ldquo; &rdquo;, 1999, &ldquo; &rdquo;, &ldquo;anymore, it&rsquo;s&rdquo;, &ldquo; &rdquo;, datetime.now().year, &lsquo;\n&rsquo;)))
-But&hellip; it isn&rsquo;t 1999 anymore, it&rsquo;s 2014
-(quit)</p></blockquote>
+&gt;&gt;&gt;&gt; (println "But..." "it isn't" 1999 "anymore, it's" (. (datetime.now) year))
+ --&gt; __import__('sys').stdout.writelines(map(str, ("But...", " ", "it isn't", " ", 1999, " ", "anymore, it's", " ", datetime.now().year, '\n')))
+But... it isn't 1999 anymore, it's 2014
+&gt;&gt;&gt;&gt; (quit)
 
-<p>quit()
+&gt;&gt;&gt; quit()
 maybe:python-spexy siege$
-```</p></blockquote></blockquote></blockquote>
+</code></pre>
 ]]></content>
   </entry>
   
@@ -206,7 +187,7 @@ basis. I don&rsquo;t remember a whole lot from 2007. Wish I could say the
 same for 2008, but I digress.</p>
 
 <p>At some point in our adventures, SLZ and I apparently hacked together
-a LISP/Scheme-like python file encoding &mdash; &ldquo;spexy&rdquo;.</p>
+a LISP/Scheme-like python file encoding &ndash; &ldquo;spexy&rdquo;.</p>
 
 <p><em>Keep in mind, this isn&rsquo;t a scheme interpreter written in Python.</em> No
 no no, this decodes to Python. I think I&rsquo;m going to try and clean this
@@ -219,7 +200,7 @@ up and see how much sense it can be made to make.</p>
 <hr />
 
 <ul>
-<li>2014-01-23: it&rsquo;s up on GitHub now &mdash; <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
+<li>2014-01-23: it&rsquo;s up on GitHub now &ndash; <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
 <li>2014-02-03: originally posted to Tumblr, moved over here</li>
 </ul>
 

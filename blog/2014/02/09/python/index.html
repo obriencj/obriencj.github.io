@@ -117,7 +117,7 @@ I wanted to generate the API documentation for <a href="http://github.com/obrien
 <p>Of course there is no doc utility provided as part of Python proper.
 There&rsquo;s <code>pydoc</code> for the command-line, but nothing that will extract
 static html for easy reference online, etc. Other tools have spun into
-being to fill this void &mdash; and each project must pick their favorite
+being to fill this void &ndash; and each project must pick their favorite
 when it comes time to ship docs.</p>
 
 <p>&ldquo;The Morning Times&rdquo;</p>
@@ -125,7 +125,7 @@ when it comes time to ship docs.</p>
 <h2>Enter the contenders</h2>
 
 <p>I began with <a href="http://epydoc.sourceforge.net/">epydoc</a>. It was easy enough to setup, but I ran afoul
-with some odd behavior almost immediately &mdash; it insisted on
+with some odd behavior almost immediately &ndash; it insisted on
 documenting the <code>abc.ABCMeta</code> class as though it were a part of my
 project. I wasted almost an hour trying to make the <code>--external-api</code>
 options work to link to the <code>abc</code> module in its proper place, but to
@@ -152,7 +152,7 @@ docstring.
 <p>Finally I took a look at <a href="http://sphinx-doc.org/">Sphinx</a>. pdoc and Sphinx are in essence
 polar opposites. Pdoc will generate the API page for a module, and do
 nothing else. Sphinx will do just about anything at all as part of the
-documentation generation &mdash; API page creation is just one of its many
+documentation generation &ndash; API page creation is just one of its many
 extensions. Above all, Sphinx is a <a href="http://docutils.sourceforge.net/rst.html">reST</a> (reStructuredText)
 processor.  As a massive convenience Sphinx offers a <code>sphinx-apidoc</code>
 <a href="http://sphinx-doc.org/invocation.html#invocation-apidoc">quickstart</a> that will generate the base setup for building API

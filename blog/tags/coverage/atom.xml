@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: coverage | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/coverage/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-11T10:48:11-04:00</updated>
+  <updated>2014-08-19T16:49:49-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -67,14 +67,14 @@ cases.</p>
 
 <p>Those tests came in handy when I started actively hacking again on the
 code itself. I&rsquo;d resolved to add the remaining missing features, clean
-things up, document it &mdash; to really polish this little project up
+things up, document it &ndash; to really polish this little project up
 before setting it on a shelf again. And of course as I tinkered I
 broke it in weird and unexpected ways. But my unit tests were there to
 catch me in my errors before I strayed too far.</p>
 
 <p>And so more tests got written, and old code got untangled.</p>
 
-<p>Thank goodness for <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> &mdash; incredibly easy to use, with
+<p>Thank goodness for <a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> &ndash; incredibly easy to use, with
 detailed reporting. I was able to definitively throw out legacy
 methods in some cases, while in others I expanded upon my unit tests
 until in no time at all I&rsquo;d reached the much vaunted 100% coverage.</p>
@@ -83,8 +83,8 @@ until in no time at all I&rsquo;d reached the much vaunted 100% coverage.</p>
 
 <h2>Fill in the blanks</h2>
 
-<p>The TODO is rapidly shrinking. Tonight I added support &mdash; including
-unit tests &mdash; for wrapping <code>functools.partial</code> instances.</p>
+<p>The TODO is rapidly shrinking. Tonight I added support &ndash; including
+unit tests &ndash; for wrapping <code>functools.partial</code> instances.</p>
 
 <p>I also want to add support for unbound instance methods and class
 methods. Should be trivial.</p>

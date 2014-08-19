@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: weather | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/weather/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-11T10:48:11-04:00</updated>
+  <updated>2014-08-19T16:49:49-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -37,8 +37,8 @@ own. I view it as an important exercise, and a bit of a milestone!
 There are so many implementations out there already, I am not so
 deluded as to think that mine will be of use except as a material
 lesson during the course of its creation. It is, to my mind, akin to a
-first novel. While composing a book ill suits me &mdash; I&rsquo;m bereft of
-creative stories or unique views into real events &mdash; composing a
+first novel. While composing a book ill suits me &ndash; I&rsquo;m bereft of
+creative stories or unique views into real events &ndash; composing a
 compiler around what I consider to be an elegant and inspired computer
 language is right up my proverbial alley!</p>
 
@@ -47,8 +47,8 @@ language is right up my proverbial alley!</p>
 <p>But this path is not easily traversed. The routes my inadequate brain
 travels along are bumpy and often with poor visibility. In my personal
 hacks I don&rsquo;t always know where I&rsquo;m going, psychologically or
-programmatically, until I get there. I may indicate &mdash; as with a vague
-gesture &mdash; that I&rsquo;m headed in so-and-so direction. Where the journey
+programmatically, until I get there. I may indicate &ndash; as with a vague
+gesture &ndash; that I&rsquo;m headed in so-and-so direction. Where the journey
 actually ends, who knows.</p>
 
 <p>In this particular venture, I&rsquo;ve already found myself at a dead-end. A
@@ -72,7 +72,7 @@ today, yes? Let&rsquo;s talk about continuations and trampolines!</p>
 <p>Often, in order to consider things in their entirety in my own mind, I
 try to explain them as to an interested novice. I do this in the
 shower, or while staring off into space while my coffee grows cold. I
-dream up a situation &mdash; as many mad people do &mdash; where another person
+dream up a situation &ndash; as many mad people do &ndash; where another person
 exists that wants to learn something, and I must rise to the occasion
 to teach them.</p>
 
@@ -80,7 +80,7 @@ to teach them.</p>
 contributed to my social failings. It&rsquo;s hard to find love while
 staring vacantly off into space.</p>
 
-<p>So let me pretend &mdash; in the interest of advancing this narrative &mdash;
+<p>So let me pretend &ndash; in the interest of advancing this narrative &ndash;
 that there is someone in need of teaching, so that I may be forced to
 organize my own thoughts enough to communicate them better to myself.
 Or put another way, let me pretend to be someone smarter, and you can
@@ -101,7 +101,7 @@ willing flexibility is required to proceed. Remember the wisdom of
 Yoda!</p>
 
 <p>The unassuming <code>return</code> is almost always disguised as a statement
-rather than an expression. <code>return</code> does double duty &mdash; it is both a
+rather than an expression. <code>return</code> does double duty &ndash; it is both a
 messenger, and a director. It will duly hand off a value, but it will
 also adjust the underlying program state such that execution can
 proceed and the program can eventually terminate.</p>
@@ -120,7 +120,7 @@ current scope!</p>
 frame off of the call stack! It places the passed value on the stack
 so that the caller can get to it! That&rsquo;s what <code>return</code> does and what
 <code>return</code> must do! All other ideas are lies!&rdquo; That&rsquo;s certainly a
-possibility &mdash; in this case, a single instance of <code>return</code> works in
+possibility &ndash; in this case, a single instance of <code>return</code> works in
 all places. It is entirely side-effect driven. But&hellip; what if&hellip;</p>
 
 <p>What if we made a small adjustment to the common implementation, and
@@ -135,14 +135,14 @@ that <code>return</code> function and stored it somewhere safe, then calling it
 again would result in the call chain being put back to hang on the
 hook exactly as it had been the first time that the now-captive
 <code>return</code> was called. All manner of side-effects may have occurred in
-the interim &mdash; values in various scopes may have changed, objects may
-have been mutated, output perhaps written to streams &mdash; but execution
+the interim &ndash; values in various scopes may have changed, objects may
+have been mutated, output perhaps written to streams &ndash; but execution
 picks up once again just where it had. The passage of time is not been
 undone, but the path we traverse <em>has</em>. Perhaps this go around a
 different condition is fulfilled and execution travels down a
 different path.</p>
 
-<p>When <code>return</code> can behave as such &mdash; when it can be captured &mdash; it is
+<p>When <code>return</code> can behave as such &ndash; when it can be captured &ndash; it is
 properly called the &ldquo;reified continuation.&rdquo; An implementation detail
 of the environment of the program, made available as part of that same
 program.</p>
@@ -159,38 +159,26 @@ minds. Continuation-passing-style.</p>
 
 <p>Using CPS, we never use the underlying <code>return</code> of the implementing
 language. Instead, every function we define must take an additional
-parameter &mdash; the continuation, sometimes named simply <code>k</code>. The idea is
+parameter &ndash; the continuation, sometimes named simply <code>k</code>. The idea is
 that the function <code>k</code> acts as a stand-in for <code>return</code>. When <code>k</code> is
 called, it is given a value, and the job of <code>k</code> is to execute the rest
 of the program.</p>
 
 <p>Consider the following incredibly simple function.</p>
 
-<p>```python</p>
-
-<h1>return-style</h1>
-
-<p>def add_one_hundred(onto_bar):</p>
-
-<pre><code>return onto_bar + 100
+<pre><code class="python"># return-style
+def add_one_hundred(onto_bar):
+    return onto_bar + 100
+print(add_one_hundred(5))
 </code></pre>
-
-<p>print(add_one_hundred(5))
-```</p>
 
 <p>Here we shall convert it to CPS</p>
 
-<p>```python</p>
-
-<h1>continuation-passing-style</h1>
-
-<p>def add_one_hundred(k, onto_bar):</p>
-
-<pre><code>k(onto_bar + 100)
+<pre><code class="python"># continuation-passing-style
+def add_one_hundred(k, onto_bar):
+    k(onto_bar + 100)
+add_one_hundred(print, 5)
 </code></pre>
-
-<p>add_one_hundred(print, 5)
-```</p>
 
 <p>A wonderful side-effect of implementing a compiler which uses a
 continuation-passing call-conformity for all of its compiled
@@ -200,7 +188,7 @@ there</em>, you simply have to snag it.</p>
 <p>A less wonderful side-effect is that your more <em>traditional</em> call
 stack can become quite deep, to the point of over-flowing. The
 implementation language doesn&rsquo;t necessarily know that you never intend
-to descend back out of the call stack &mdash; that your program is just one
+to descend back out of the call stack &ndash; that your program is just one
 call after another after another. It holds onto data you never wish to
 make use of.</p>
 
@@ -209,7 +197,7 @@ top of a language with a traditional stack management system, you&rsquo;re
 likely going to exhaust its stack allocation.</p>
 
 <p>Unless, of course, you find a way to dump that call stack from time to
-time. You don&rsquo;t need it after-all &mdash; your program only moves
+time. You don&rsquo;t need it after-all &ndash; your program only moves
 <em>forward</em>, never <em>backwards</em> now that it&rsquo;s passing <code>k</code> along. You need
 a harness to assist you in doing this. And that is a trampoline.</p>
 
@@ -221,47 +209,35 @@ leave the past behind. It&rsquo;ll bog you down, otherwise.</p>
 <p>Let&rsquo;s contrive an example. Here we&rsquo;ll use a recursive factorial
 definition.</p>
 
-<p>```python</p>
+<pre><code class="python"># recursive factorial definition
+def factorial(num):
+    if num == 0 or num == 1:
+        return 1
+    else:
+        return num * factorial(num - 1)
 
-<h1>recursive factorial definition</h1>
-
-<p>def factorial(num):</p>
-
-<pre><code>if num == 0 or num == 1:
-    return 1
-else:
-    return num * factorial(num - 1)
+# prints 120
+print(factorial(5))
 </code></pre>
-
-<h1>prints 120</h1>
-
-<p>print(factorial(5))
-```</p>
 
 <p>No problem. Now let&rsquo;s convert that to CPS</p>
 
-<p>```python</p>
+<pre><code class="python"># a continuation-passing-style recursive factorial
+def factorial(cont, num):
+    if num == 0 or num == 1:
+        cont(1)
+    else:
+        k = lambda x: cont(num * x)
+        factorial(k, num - 1)
 
-<h1>a continuation-passing-style recursive factorial</h1>
-
-<p>def factorial(cont, num):</p>
-
-<pre><code>if num == 0 or num == 1:
-    cont(1)
-else:
-    k = lambda x: cont(num * x)
-    factorial(k, num - 1)
+# also prints 120
+factorial(print, 5)
 </code></pre>
-
-<h1>also prints 120</h1>
-
-<p>factorial(print, 5)
-```</p>
 
 <p>For large numbers, they&rsquo;re both going to run up against the recursion
 limit on Python (or stack space if you disable such limits). However,
 the CPS factorial doesn&rsquo;t actually <em>need</em> the stack that it is
-consuming &mdash; it never returns! The value is accumulated deeper and
+consuming &ndash; it never returns! The value is accumulated deeper and
 deeper down a line of continuations.</p>
 
 <p>What follows is a rewrite of the CPS factorial that makes use of a
@@ -273,74 +249,67 @@ the time of the raised exception is simply discarded. The continuation
 was &ldquo;the rest of the program&rdquo; and the trampoline made sure that the
 program will be run to completion.</p>
 
-<p>```python trampoline <a href="https://gist.github.com/obriencj/9555480">https://gist.github.com/obriencj/9555480</a> Gist
-from functools import partial
-from inspect import currentframe</p>
+<pre><code class="python trampoline https://gist.github.com/obriencj/9555480 Gist">from functools import partial
+from inspect import currentframe
 
-<p>import sys</p>
+import sys
 
-<p>STACK_LIMIT = 64</p>
 
-<p>class ContinueCall(BaseException):</p>
+STACK_LIMIT = 64
 
-<pre><code>pass
-</code></pre>
 
-<p>def countstack():</p>
+class ContinueCall(BaseException):
+    pass
 
-<pre><code># this is the slowest part, by far. There are better ways to
-# implement this metric, but they are signficantly more
-# involved. This is good enough for an example.
 
-counter = 0
-frame = currentframe()
-while frame:
-    frame = frame.f_back
-    counter += 1
-return counter
-</code></pre>
+def countstack():
+    # this is the slowest part, by far. There are better ways to
+    # implement this metric, but they are signficantly more
+    # involved. This is good enough for an example.
 
-<p>def bounce_call(work, *args):</p>
+    counter = 0
+    frame = currentframe()
+    while frame:
+        frame = frame.f_back
+        counter += 1
+    return counter
 
-<pre><code># this could also be implemented without a stack check, and as
-# such could bounce every single call.
 
-if countstack() &gt;= STACK_LIMIT:
-    raise ContinueCall(partial(work, *args)).with_traceback(None)
-else:
-    work(*args)
-</code></pre>
+def bounce_call(work, *args):
+    # this could also be implemented without a stack check, and as
+    # such could bounce every single call.
 
-<p>def bouncy(func, final_cont, *args):</p>
-
-<pre><code>work = partial(func, final_cont, *args)
-while True:
-    try:
-        work()
-    except ContinueCall as cc:
-        work = cc.args[0]
+    if countstack() &gt;= STACK_LIMIT:
+        raise ContinueCall(partial(work, *args)).with_traceback(None)
     else:
-        break
+        work(*args)
+
+
+def bouncy(func, final_cont, *args):
+    work = partial(func, final_cont, *args)
+    while True:
+        try:
+            work()
+        except ContinueCall as cc:
+            work = cc.args[0]
+        else:
+            break
+
+
+def factorial(cont, num):
+    if num == 0 or num == 1:
+        bounce_call(cont, 1)
+    else:
+        k = lambda x: bounce_call(cont, num * x)
+        bounce_call(factorial, k, num - 1)
+
+
+def main(value):
+    bouncy(factorial, print, value)
 </code></pre>
-
-<p>def factorial(cont, num):</p>
-
-<pre><code>if num == 0 or num == 1:
-    bounce_call(cont, 1)
-else:
-    k = lambda x: bounce_call(cont, num * x)
-    bounce_call(factorial, k, num - 1)
-</code></pre>
-
-<p>def main(value):</p>
-
-<pre><code>bouncy(factorial, print, value)
-</code></pre>
-
-<p>```</p>
 
 <p>Just before the end, any remainder Python call stack does indeed get
-traversed. But it is an unimportant side-effect at this point &mdash; we
+traversed. But it is an unimportant side-effect at this point &ndash; we
 aren&rsquo;t using it to pass a value back, we&rsquo;re just letting Python return
 to its normal behavior.</p>
 
@@ -349,7 +318,7 @@ to its normal behavior.</p>
 <p>If we can guarantee a trampoline (and of course we can, we&rsquo;re writing
 the compiler and interpreter), then we can with relative safety make
 use of CPS in our generated executable. We must be consistent though
-&mdash; if we&rsquo;re going to be throwing away the return stack, we need to be
+&ndash; if we&rsquo;re going to be throwing away the return stack, we need to be
 certain that we definitely haven&rsquo;t emitted code that wants to use it!
 This is the call-conformity. We must compile every expression into a
 series of steps, each of which has the conformity in its evaluation,
