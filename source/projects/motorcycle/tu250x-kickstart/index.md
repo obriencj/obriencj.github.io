@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "TU250x Kickstart"
-date: 2014-08-19 17:00
+date: 2014-08-19 19:00
+updated: 2014-08-25 19:00
 comments: false
 categoy: projects
 tags:
