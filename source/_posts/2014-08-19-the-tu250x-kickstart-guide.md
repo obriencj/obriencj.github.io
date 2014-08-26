@@ -13,7 +13,7 @@ ref: http://obriencj.preoccupied.net/projects/motorcycle/tu250x-kickstart/
 
 ---
 
-[{% img right https://lh3.googleusercontent.com/-fSGZZbIGdes/U_O0qNy7CzI/AAAAAAAAQW0/lAdoqNhv_i4/s288/DSC00135.jpg 288 216 %}](https://picasaweb.google.com/lh/photo/FNaKvuUKZWJIQsF4Q-ffZI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh3.googleusercontent.com/-fSGZZbIGdes/U_O0qNy7CzI/AAAAAAAAQW0/lAdoqNhv_i4/s288/DSC00135.jpg 216 288 %}](https://picasaweb.google.com/lh/photo/FNaKvuUKZWJIQsF4Q-ffZI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 I've finally written up and vastly expanded upon the information I
 originally had been posting in the "[Kickstart for the TU?][thread]"
 thread on [tu250riders.com][forum]. It almost certainly will go
