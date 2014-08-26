@@ -1,15 +1,16 @@
 ---
 layout: post
 title: "The TU250x Kickstart Guide"
+description: "Guide to installing a kickstart on a TU250x"
+keywords: "TU250x, kickstart, kick-start, guide, howto, motorcycle"
 date: 2014-08-19 16:50:57 -0400
 updated: 2014-08-25 19:00
 comments: true
-categories:
-  - projects
+category: projects
 tags:
   - tu250x
   - motorcycle
-ref: http://obriencj.preoccupied.net/projects/motorcycle/tu250x-kickstart/
+url: http://obriencj.preoccupied.net/projects/motorcycle/tu250x-kickstart/
 
 ---
 
