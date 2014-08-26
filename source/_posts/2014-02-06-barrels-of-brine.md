@@ -20,11 +20,9 @@ functionality and goals are well-defined. Put simply, brine allows you
 to pickle actual python code. For a significantly more in-depth
 explanation, click the above link and peruse the README.
 
-[python-brine]: https://github.com/obriencj/python-brine
-"Advanced function pickling for Python"
+[python-brine]: https://github.com/obriencj/python-brine "Advanced function pickling for Python"
 
-[readme]: https://github.com/obriencj/python-brine#overview-of-python-brine
-"Overview of python-brine"
+[readme]: https://github.com/obriencj/python-brine#overview-of-python-brine "Overview of python-brine"
 
 <!-- more -->
 
@@ -82,8 +80,7 @@ until in no time at all I'd reached the much vaunted 100% coverage.
 
 [setuptools]: http://pythonhosted.org/setuptools/
 
-[unittest]: http://docs.python.org/2/library/unittest.html
-"unittest &mdash; Unit testing framework"
+[unittest]: http://docs.python.org/2/library/unittest.html "unittest &mdash; Unit testing framework"
 
 [coverage.py]: http://nedbatchelder.com/code/coverage/
 

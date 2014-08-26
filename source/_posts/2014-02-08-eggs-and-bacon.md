@@ -85,15 +85,11 @@ bring me butter sometimes, and then they cook. When they leave, they
 leave the butter. And then the butter spoils. So I never bother trying
 to cook with butter.
 
-[^1]: If you grind your own coffee or whatever, then you have the time
-    to make a "proper" breakfast, so go do that instead.
+[^1]: If you grind your own coffee or whatever, then you have the time to make a "proper" breakfast, so go do that instead.
 
-[^2]: If you are the sort of person who opts to drink the coffee
-	straight from the carafe, the mug is optional.
+[^2]: If you are the sort of person who opts to drink the coffee straight from the carafe, the mug is optional.
 
-[^3]: The jar of horrors is optional for those who have a septic tank
-    and don't care [how bad it gets]. If you're on city sewer, you'll
-    need the jar.
+[^3]: The jar of horrors is optional for those who have a septic tank and don't care [how bad it gets]. If you're on city sewer, you'll need the jar.
 
 [how bad it gets]: http://www.youtube.com/watch?v=40SveAvKq_k
 

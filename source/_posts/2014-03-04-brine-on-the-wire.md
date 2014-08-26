@@ -53,8 +53,7 @@ hell I can't!"_ However, I feel that if I've made such a tool freely
 available (and I have) I should also take some care that it can be
 used responsibly.
 
-[good friend]: https://plus.google.com/+PhillipJones/
-"Phillip Jones on G+"
+[good friend]: https://plus.google.com/+PhillipJones/ "Phillip Jones on G+"
 
 There is a light-on-details [TrustedPickle] project, but I cannot help
 noticing it commits one of the major sins in cryptogrophy --
