@@ -12,41 +12,43 @@ tags:
 
 ## About the TU250x
 
-The Suzuki TU250x is a 249cc EFI UJM, produced in Japan and imported
-for sale in the United States from 2009 to 2015. The bi-yearly updates
-of the US version have thus far been limited to trimline changes.
+The [Suzuki TU250x][TU250x] is a 249cc EFI UJM, produced in Japan and
+imported for sale in the United States from 2009 to 2015. The
+bi-yearly updates of the US version have thus far been limited to
+trimline changes.
 
 Outside of the US, the bike has a wider audience and has been
 available longer; originally as a carburated, 4-valve format with more
 varients and options. The closest direct kin to the modern TU250X in
 the Japanese market is the ST250.
 
-The ST250 is available in a standard model and an "E-Type" model. The
-standard model is what is rebranded as the TU250X in the American
-market. The E-Type is the fancier version, with a two-tone trimline,
-and prior to 2008 a kickstarter and a decompression lever on the
-cylinder head cover. The kickstart feature was dropped from the E-Type
-line in 2008. Interestingly, the 2008 E-Type appears to be the basis
-for the 2009 TU250X (ie: the "fast red one").
+The ST250 was available in a standard model and an "E-Type" model. The
+E-Type is the fancier version, with a two-tone trimline, and prior to
+2008 a kickstarter and a decompression lever on the cylinder head
+cover. The kickstart feature was dropped from the E-Type line in 2008,
+along with a switch to fuel injection. Interestingly, the 2008 E-Type
+appears to be the basis for the 2009 TU250X (ie: the "fast red one").
 
 I will use the following conventions when referring to models for the
 rest of this document:
 
-TU250X
-: 2009 or later TU250x
+SP250
+: 1982 or 1983 SP250 dual sport, carburated 4 valve, with kickstart
 
 ST250
-: 2004 or later ST250, normal type
+: 2004 or later ST250, carburated 4 valve, no kickstart
 
 ST250XK4
-: 2004 through 2007 ST250 E-Type
+: 2004 through 2007 ST250 E-Type, carburated 4 valve, with
+kickstart
 
 ST250XK8
-: 2008 or later ST250 E-Type
+: 2008 or later ST250 E-Type, EFI 2 valve, no kickstart
 
-SP250
-: 1982 or 1983 SP250 dual sport
+TU250X
+: 2009 or later TU250x, EFI 2 valve, no kickstart
 
+[TU250x]: http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx
 
 ## What's Missing for the Kickstart
 
@@ -121,12 +123,13 @@ In order to add a decompression lever, one must acquire:
 - supporting cylinder head cover (normally only sold as a unit with
   the cylinder head)
 
-I weight roughly 170 lbs. in boots and gear. I am able, without any
-existing skill in the matter, to kick start a TU250X without the
-assistance of a decompression lever. At this time, I did not seek out
-that necessary parts to add this feature, though I may consider it at
-a future time just for completeness. When that happens, I will update
-this guide to include those additional steps.
+I weigh in at roughly 170 lbs with boots and gear and I am able --
+without any prior skill in the matter -- to kick start my modified
+TU250X without the assistance of a decompression lever. At this time I
+have not sought out the necessary parts to add this feature. I may
+consider doing so in the future just for the sake of completeness.
+When/If that happens, I will update this guide to include the
+additional steps.
 
 
 ## Prerequisites
@@ -137,21 +140,22 @@ time, space, and tools to bring it to completion. I was able to keep
 the engine work constrained to a 3' x 5' table, with tools on a nearby
 bench. Any smaller workspace may prove problematic.
 
-In the tools and consumables sections that follow, I include an
+In the tools and consumables sections that follow I include an
 associate link to Amazon where applicable. If you can find the tool
 cheaper elsewhere, that's great! If you want to buy it from Amazon
 though, please use these links. It won't cost you more, but I'll get a
 penny in my tip jar for having referred you.
 
 [{% img right https://lh3.googleusercontent.com/-J3XlYj4ZvbI/U_OlzxnkQeI/AAAAAAAAQVU/gTCHxhL1fwU/s400/DSC00115.JPG 300 400 Manuel, relay instructions %}](https://picasaweb.google.com/lh/photo/hdiGnXv1VstAfb4W7UGMjo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
-You will require a copy of the TU250X Service Manual, which has
-step-by-step disassembly and re-assembly instructions, as well as the
-correct torque values for all bolts and screws. I recommend reading
-the engine disassembly and reassembly sections multiple times in
-advance, so that you have a clear idea of what you'll be doing well
+You will require a copy of the [TU250X Service Manual][Manual], which
+has step-by-step disassembly and re-assembly instructions, as well as
+the correct torque values for all bolts and screws. I recommend
+reading the engine disassembly and reassembly sections multiple times
+in advance, so that you have a clear idea of what you'll be doing well
 before starting the work. Even afterwards, keep it nearby as it's best
 to double check your work against it as you progress.
 
+[Manual]: http://www.gearhead.com/suzuki-99500-32160-03e.html#/s/SUZ//99500-32160-03E/1
 
 ### Required Parts <a name="required-parts"></a>
 
@@ -171,11 +175,13 @@ Kickstart assembly
   - `01500-08203` (*2) Bolt
   - `09283-20031` Oil seal
   - `26300-28D00` Kickstart lever assembly (includes rubber and securing bolt)
+
 Transmission assembly
 : - `24130-38310` Drive shaft
   - `26260-38200` Idler gear
   - `09181-17130` Spacer
   - `08331-3117A` Circlip
+
 Gasket set
 :  - `11482-38212` Clutch cover gasket
    - `11483-37D11` Generator cover gasket
@@ -188,10 +194,12 @@ transmission assemblies where relevant.
 Kickstart Assembly
 : - SP250 - [Parts Outlaw](http://www.partsoutlaw.com/oemparts/a/suz/50d3b37cf870021958f260e0/kick-starter), [Motosport](http://www.motosport.com/dirtbike/oem-parts/SUZUKI/1982/SP250/KICK-STARTER), [Bike Bandit](http://www.bikebandit.com/oem-parts/1982-suzuki-sp250/o/m147964#sch261712)
   - ST250XK4 - [Blurry Photo](https://picasaweb.google.com/lh/photo/PGoV9BXZhq7uMkJRDV6nfY90Bmq-8q5KVhdpQ6O0Fv4?feat=directlink)
+
 Transmission Assembly
 : - TU250X - [Parts Outlaw](http://www.partsoutlaw.com/oemparts/a/suz/506b6676f8700235b8769728/transmission), [Motosport](http://www.motosport.com/cruiser/oem-parts/SUZUKI/2009/TU250/TRANSMISSION), [Bike Bandit](http://www.bikebandit.com/oem-parts/2009-suzuki-tu250x/o/m19102#sch650206)
   - SP250 - [Parts Outlaw](http://www.partsoutlaw.com/oemparts/a/suz/50d3b37bf870021958f260de/transmission), [Motosport](http://www.motosport.com/dirtbike/oem-parts/SUZUKI/1982/SP250/TRANSMISSION), [Bike Bandit](http://www.bikebandit.com/oem-parts/1982-suzuki-sp250/o/m147964#sch262966)
   - ST250XK4 - [Blurry Photo 1](https://picasaweb.google.com/lh/photo/50HbKbEbenPOjo2YdOyJ-I90Bmq-8q5KVhdpQ6O0Fv4?feat=directlink), [Blurry Photo 2](https://picasaweb.google.com/lh/photo/Jw63RQ20AJZvBBe4KgeRwI90Bmq-8q5KVhdpQ6O0Fv4?feat=directlink)
+
 Gaskets
 : - TU250X - [Parts Outlaw](http://www.partsoutlaw.com/oemparts/a/suz/506b663df8700235b8769717/gasket-set), [Motosport](http://www.motosport.com/cruiser/oem-parts/SUZUKI/2009/TU250/GASKET-SET), [Bike Bandit](http://www.bikebandit.com/oem-parts/2009-suzuki-tu250x/o/m19102#sch650221)
 
@@ -199,27 +207,31 @@ Gaskets
 ### Required Tools
 
 Rear stand
-: rear wheel removal, and keeping the bike steady
+: For rear wheel removal, and as an aide in keeping the bike steady.
 
 Pneumatic jack
-: for engine removal, etc
+: To aide in engine removal and replacement. I didn't use a jack
+  specific to motorcycles, so I needed to use a piece of wood to
+  provide a relatively soft, flat surface between the jack and engine.
 
 Torque wrench
-: adjustable to at least 100 N/m for this project
+: It will need to be adjustable to at least 100 N/m for this project.
 
 Breaker bar
-: A lot of tough bolts, you'll need the leverage
+: A lot of tough bolts, you'll need the leverage.
 
 Impact driver
-: for the four shift mechanism screws, which have threadlock holding
-them in place.
+: In order to remove the four shift mechanism screws, which have
+  threadlock holding them in place.  - <a href="http://www.amazon.com/gp/product/B0002NYDRG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0002NYDRG&linkCode=as2&tag=obrieisapileo-20&linkId=LZYHQQRHXJERGEPZ">Lisle 29200 3/8" Hand Impact Tool Set</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B0002NYDRG" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Case splitter
-: this will pull the case halves apart by bolting into the right side
-of the case and then applying a lot of pressure onto the crank shaft.
+: This will pull the case halves apart. It functions by bolting into
+  the right side of the case and then applying a lot of pressure onto
+  the crank shaft.  - <a href="http://www.amazon.com/gp/product/B0039L9PSU/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0039L9PSU&linkCode=as2&tag=obrieisapileo-20&linkId=PDDNX7DVDIB5K2A7">Tusk Crankcase Splitter/Separator</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B0039L9PSU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Clutch holder
-: holds the clutch assembly in place while assembling portions of it
+: Acts as a handle so you can hold the primary driven assembly in
+  place.  - <a href="http://www.amazon.com/gp/product/B0039LEZFS/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0039LEZFS&linkCode=as2&tag=obrieisapileo-20&linkId=L7DGPB6IBBOGJKQM">Tusk Clutch Holding Tool</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B0039LEZFS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Metric sockets
 : 8mm, 9mm, 10mm, 12mm, 14mm, 17mm, 19mm, 24mm, 30mm
@@ -238,7 +250,7 @@ Circlip Pliers
 Slide hammer/bearing puller
 : I personally found one bearing that needed to be replaced. Removing
   a bearing without a slide hammer and blind bearing puller approaches
-  impossible. You may not need this, if all your bearings spin freely.
+  impossible. You may not need this, if all your bearings spin freely.  - <a href="http://www.amazon.com/gp/product/B00G1RXHKQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00G1RXHKQ&linkCode=as2&tag=obrieisapileo-20&linkId=OHZTKFOQRS3UCXLB">9pc Blind Hole Slide Hammer Pilot Bearing Internal External Remover Puller Set</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B00G1RXHKQ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Rotor holder
 : This is a specialty Suzuki tool specific for this task, but it's
@@ -248,8 +260,8 @@ Rotor holder
 
 Bar clamps
 : Good for temporarily holding the case halves together when you are
-in the process of digging out the baggie of case bolts. Four small
-ones is enough.
+  in the process of digging out the baggie of case bolts. Four small
+  ones is enough.
 
 Brass brush
 : For cleaning mating surfaces and removing gasket bits. Brass is soft
@@ -258,7 +270,7 @@ Brass brush
 Platic razor/scraper
 : For cutting away the side cover gaskets that inevitably adhere
   themselves to the covers. Do not use regular razor blades, you run a
-  high risk of damaging mating surfaces and causing an oil leak.
+  high risk of damaging mating surfaces and causing an oil leak.  - <a href="http://www.amazon.com/gp/product/B0086X6SIQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0086X6SIQ&linkCode=as2&tag=obrieisapileo-20&linkId=MBU27HFBO347QD42">Neiko 4-Piece Composite Scraper Set</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B0086X6SIQ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Leather work gloves
 : The machined surfaces of the case are often sharp, and while you are
@@ -266,7 +278,7 @@ Leather work gloves
 
 Neoprene gloves
 : Makes cleaning up for the night a lot easier. Especially useful if
-  you'll be doing the work in short spurts.
+  you'll be doing the work in short spurts.  - <a href="http://www.amazon.com/gp/product/B002XXO60M/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002XXO60M&linkCode=as2&tag=obrieisapileo-20&linkId=CTCDKBYB6V5ZL3Z3">SAS Safety 66518 Raven Powder-Free Disposable Black Nitrile 6 Mil Gloves, Large, 100 Gloves by Weight</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B002XXO60M" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 ### Required Consumables
@@ -274,21 +286,25 @@ Neoprene gloves
 Assembly lube
 : Any part that touches metal needs assembly lube. This stuff adheres
   like a gel, but will dissolve in the engine oil once everything is
-  back together again. Lube liberally.
+  back together again. Lube liberally.  - <a href="http://www.amazon.com/gp/product/B000M8RYUE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000M8RYUE&linkCode=as2&tag=obrieisapileo-20&linkId=IPEYCRJFVVZHSFS6">CRC SL3331 Extreme Pressure Engine Assembly Lube, 10 Wt Oz</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000M8RYUE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Liquid gasket 1512
 : The case halves are machined to have a very tight mating
   surface. Liquid gasket is applied in a very thin bead along the
   specified surfaces (see your Service Guide) immediately prior to
-  joining the case back together.
+  joining the case back together.  - <a href="http://www.amazon.com/gp/product/B00D3QUU8U/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00D3QUU8U&linkCode=as2&tag=obrieisapileo-20&linkId=APYKB2TUW7WBG4SZ">THREE BOND GASKET MAKER GRAY 8.8 OZ TB1215</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B00D3QUU8U" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Lithium grease
-: Oil seals and frame bearings will want clean grease
+: Oil seals and frame bearings will want clean grease. - <a href="http://www.amazon.com/gp/product/B00BGSE2CW/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00BGSE2CW&linkCode=as2&tag=obrieisapileo-20&linkId=SB3B5NREWRCLNMMB">Liquid Wrench GR014 White Lithium Grease - 8 oz.</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B00BGSE2CW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+Thread lock
+: Required for the reassembly process, you really don't want your cam
+  nuts coming undone.  - <a href="http://www.amazon.com/gp/product/B000UKMBES/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000UKMBES&linkCode=as2&tag=obrieisapileo-20&linkId=6PUIOK35FYYVATU2">THREE BOND INT'L, INC. THREAD LOCK-MED/10ML 1333BT001</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000UKMBES" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Gasket set
 : You'll need to replace the gaskets for the clutch cover, generator
   cover, cylinder, and cylinder head during the tear-down and rebuild
-  process.
+  process. See previous section for part numbers.
 
 
 ### Optional Consumables
@@ -299,7 +315,7 @@ WD-40
 Gasket remover
 : Wasting time on tough gasket remnants sucks, just
   spray this on them and peel them off like a potato skin with the
-  platic razor
+  platic razor.  - <a href="http://www.amazon.com/gp/product/B000M8IE6W/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000M8IE6W&linkCode=as2&tag=obrieisapileo-20&linkId=J6S3JWLIKSMVFTJO">CRC 05021 Technician Grade Gasket Remover - 12 Wt Oz.</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000M8IE6W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Gallon baggies
 : Put every assembly and various groups of screws in their own bags
@@ -317,18 +333,21 @@ Oven cleaner
 
 ## Remove the engine
 
-Remove the front sprocket. Remove the muffler. Remove the oxygen
-sensor. Remove the exhaust pipe. Remove the starter motor. Remove the
-side covers, seats, and gas tank. Remove the PAIR valve. Disconnect
-the throttle body from the cylinder head.
+To begin with, you'll be removing the easily accessible parts.  Remove
+the side covers, seats, and gas tank. Remove the front sprocket.
+Remove the muffler, the oxygen sensor, and the exhaust header. Remove
+the starter motor. Remove the PAIR valve. Disconnect the throttle body
+from the cylinder head.
 
-Unplug the generator, neutral detector, and temperature
-sensor. Disentangle those generator and neutral lines from the frame;
-they will be coming out with the engine.
+Unplug the generator, neutral detector, and temperature sensor
+cables. Disentangle those generator and neutral wires from the frame;
+they will be coming out with the engine and you don't want them
+catching on anything while you're focused on getting the engine out of
+the frame itself.
 
-Drain the engine oil. Remove the oil pan and the shift detente. This
-gives you a nice flat bottom of the engine to deal with, free from
-bolts.
+Drain the engine of its oil. Remove the oil pan and the shift detente
+from the bottom of the engine. This should give you a nice flat base
+to deal with, free from bolts.
 
 Set the bike up on the rear stand. Note, I do this after all the
 easily accessible bits prior, especially the muffler -- my rearstand
@@ -345,9 +364,9 @@ hiding underneath the swingarm frame bolt.
 
 Remove the nut from the swingarm bolt, and use the rear axle bolt
 (which is conveniently the same size) to begin pushing the swingarm
-bolt out. This part is tricky, you want to get to the point where both
+bolt out. This part is tricky. You want to get to the point where both
 bolts are holding one side of the swingarm to the frame, but where
-neither are holding the engine.
+neither are preventing the engine from coming out.
 
 Slowly, and very carefully, move the engine forward out of the frame
 and downward. This will take a lot of finesse and fidgeting, do not
@@ -387,6 +406,12 @@ particular situation, the counter-balance shaft was very tight in its
 bearing, and came up with the case rather than falling out. This meant
 that the counter-balance weight itself had to be maneuvered around the
 crank. Be very patient.
+
+After separating, you'll need to clean off the old gasket
+material. The case gasket is a rubber substance which comes off easily
+with the sharp plastic scrapers. Take care that gasket remnants do not
+fall into the engine bearings, etc. You don't want tiny bits of rubber
+interfering with your engine after you've got everything re-assembled.
 
 
 ## Replace driveshaft
@@ -478,8 +503,15 @@ it should, that the crank and counter-balancer dots line up.
 Apply a thin and even bead of liquid gasket to the surfaces indicated
 in the service manual and carefully join your case halves
 together. Once again, it goes on straight or not at all. As soon as
-you have the case surfaces mated, clamp them together and start
-replacing the case bolts.
+you have the case surfaces mated, clamp them tightly together and start
+replacing all thirteen case bolts.
+
+The case bolts are a variety of lengths. An easy rule of thumb to
+determine that you're using the right length bolt in a particular hole
+is to simply check that it has a between 1 and 2 cm sticking out if
+you insert it without turning. If you can insert it flush, it's
+obviously too short of a bolt; if it only slides in a bit and leaves
+more than 2cm sticking out, then it's too long.
 
 
 ## Install Idler and Complete Kickstart
@@ -502,31 +534,39 @@ wise, the sliding gear will leave the guide plate and will slide out
 to engage with the teeth of the kickstart gear, in turn driving the
 idler.
 
-Now is a good time to take a flat-faced drift and knock the kickstart
-plug out of the clutch-cover and replace it with the proper oil
-seal. The plug is in there pretty well, so smack it firmly. The oil
-seal can be placed with only finger pressure and some patience, but
-make sure it is seated all the way. The opening through which you can
-see the tensioning spring should face into the engine, not out.
+Now is a good time to take a flat-faced drift or old screwdriver and
+knock the kickstart plug out of the clutch-cover and replace it with
+the proper oil seal. The plug is in there pretty well, so smack it
+firmly from the inside of the case, dead center on the plug
+itself. Take care not to accidentally gouge your cover. Once the plug
+pops out, the oil seal can be placed with only finger pressure and
+some patience. The opening through which you can see the tensioning
+spring should face into the engine, not out. Make sure it fully
+seated, and lube it up with some lithium grease.
 
 
 ## Put It All Back Where You Found It
 
 [{% img right https://lh6.googleusercontent.com/-BYUj-zbgVIY/U-bTiURa1qI/AAAAAAAAQRM/o7STp0zRpGQ/s400/DSC00109.JPG 300 400 Just the covers and I'm all set %}](https://picasaweb.google.com/lh/photo/OgIWZoqqVKWHHBVugmHDwo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
-If this all moves smoothly, then you're in the clear to complete the
+If this all goes smoothly, then you're in the clear to complete the
 re-assembly process. Follow the service guide, and everything should
 fit together. Make sure all your mating surfaces are clean before
-placing gaskets -- I had a real bastard of a time with the clutch
-cover gasket, and it took a lot of CRC gasket remover and elbow grease
-with a plastic razor before I could call it ready. But all that work
-sure beats having an oil leak later.
+placing new gaskets. I had a real bastard of a time removing the old
+clutch cover gasket chunks, and it took a lot of CRC gasket remover
+and elbow grease with a plastic razor before I could call it
+ready. But all that work sure beats having an oil leak later.
 
-After remounting the engine, it's time to reconnect the cables,
+Remount the engine by lifting it slowly with the pneumatic jack, and
+turning and guiding it into place. I focused first on getting the
+swingarm mounts lined up, and drove home that bolt before trying to
+line up any others.
+
+After the engine is secure, it's time to reconnect the cables,
 resinstall the rear wheel, the chain, the front-sprocket, and
 everything else you removed in the first place.
 
 If you wanted to remove your PAIR valve, this is the perfect
-opportunity, but I'll provide more details on that later.
+opportunity, but I'll provide more details on that in a later post.
 
 Put in a new oil filter, replace the shift neutral stopper, oil pan,
 and drain plug, and fill her up with clean oil. Double check all of
@@ -566,6 +606,8 @@ If you liked my terrible pictures, here's [the entire album](https://picasaweb.g
 
 ## Change Log
 
+- 2014-08-25 Re-read and found all sorts of terrible wording and bad
+  grammar. Added some product links, with more to come later.
 - 2014-08-19 Initial published revision. Need to add Amazon links for
   the various tools and consumables.
 - 2014-07-27 Draft layout
