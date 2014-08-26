@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "TU250x Kickstart"
+description: "Guide to installing a kickster on a TU250x"
+keywords: "TU250x, kickstart, kick-start, guide, howto, motorcycle"
 date: 2014-08-19 19:00
 updated: 2014-08-25 19:00
 comments: false
