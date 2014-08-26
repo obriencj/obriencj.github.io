@@ -11,12 +11,17 @@ tags:
 
 ---
 
-## About the TU250x
+## About the Suzuki TU250x
 
-The [Suzuki TU250x][TU250x] is a 249cc EFI UJM, produced in Japan and
+[{% img right https://lh4.googleusercontent.com/-qGJxKz9OrLE/U_O03dorEzI/AAAAAAAAQXE/RDNooywvohk/s400/DSC00132.JPG 400 300 My TU250x, "tux" %}](https://picasaweb.google.com/lh/photo/mr5UEDcdjgIvcdwXa09C5490Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+The [Suzuki TU250x] is a 249cc EFI [UJM], produced in Japan and
 imported for sale in the United States from 2009 to 2015. The
 bi-yearly updates of the US version have thus far been limited to
 trimline changes.
+
+[Suzuki TU250x]: http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx
+
+[UJM]: http://en.wikipedia.org/wiki/Universal_Japanese_motorcycle
 
 Outside of the US, the bike has a wider audience and has been
 available longer; originally as a carburated, 4-valve format with more
@@ -49,8 +54,6 @@ ST250XK8
 TU250X
 : 2009 or later TU250x, EFI 2 valve, no kickstart
 
-[TU250x]: http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx
-
 ## What's Missing for the Kickstart
 
 The omission of the kickstart feature on the TU250X is accomplished
@@ -65,7 +68,7 @@ be set. On the TU250X, ST250, and ST250XK8 the shaft is too short to
 mount the gear (though oddly it retains a groove for the retaining
 clip).
 
-[{% img right https://lh5.googleusercontent.com/-aQUgBJFKUYo/U-ED4ZS6eFI/AAAAAAAAQJQ/JbZq09IWNFg/s400/DSC00104.JPG 300 400 Original TU250X drive shaft (top), ST250XK4 (middle), SP250 (bottom) %}](https://picasaweb.google.com/lh/photo/q2aAk1HCEVCOYQI9xLCnXI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh5.googleusercontent.com/-aQUgBJFKUYo/U-ED4ZS6eFI/AAAAAAAAQJQ/JbZq09IWNFg/s400/DSC00104.JPG 400 300 Original TU250X drive shaft (top), ST250XK4 (middle), SP250 (bottom) %}](https://picasaweb.google.com/lh/photo/q2aAk1HCEVCOYQI9xLCnXI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 For reference here is the original TU250X drive shaft (top), the
 ST250XK4 (middle), and the SP250 (bottom). Note that the older SP250
 shaft does include the longer tail end to support the idler gear, but
@@ -75,7 +78,7 @@ frame).
 
 ## Getting Kickstart Parts
 
-[{% img right https://lh6.googleusercontent.com/-w1OpUyias3c/U9-1H7YPhDI/AAAAAAAAQIY/E9sJpv37D9o/s400/IMG_2816.JPG 300 400 Parts waiting to be installed }](https://picasaweb.google.com/lh/photo/GP8b38orKfEidb3ih70qOo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh6.googleusercontent.com/-w1OpUyias3c/U9-1H7YPhDI/AAAAAAAAQIY/E9sJpv37D9o/s400/IMG_2816.JPG 400 300 Parts waiting to be installed %}](https://picasaweb.google.com/lh/photo/GP8b38orKfEidb3ih70qOo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 The internal pieces of the actual kickstart assembly are identical to
 those from an older incarnation of the this family of engine: the
 SP250. These assemblies can frequently be [found on eBay][ks-ebay] for
@@ -136,7 +139,7 @@ additional steps.
 
 ## Prerequisites
 
-[{%img right https://lh4.googleusercontent.com/-DYZi_7U5DLE/U9-1HWJX7qI/AAAAAAAAQIQ/5kWaBP3Df9A/s400/IMG_2831.JPG 300 400 My workspace before the work %}](https://picasaweb.google.com/lh/photo/9ptAtoagKKli0c74VNV7po90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{%img right https://lh4.googleusercontent.com/-DYZi_7U5DLE/U9-1HWJX7qI/AAAAAAAAQIQ/5kWaBP3Df9A/s400/IMG_2831.JPG 400 300 My workspace before the work %}](https://picasaweb.google.com/lh/photo/9ptAtoagKKli0c74VNV7po90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 Before you even consider this modification, make sure you have the
 time, space, and tools to bring it to completion. I was able to keep
 the engine work constrained to a 3' x 5' table, with tools on a nearby
@@ -148,7 +151,7 @@ cheaper elsewhere, that's great! If you want to buy it from Amazon
 though, please use these links. It won't cost you more, but I'll get a
 penny in my tip jar for having referred you.
 
-[{% img right https://lh3.googleusercontent.com/-J3XlYj4ZvbI/U_OlzxnkQeI/AAAAAAAAQVU/gTCHxhL1fwU/s400/DSC00115.JPG 300 400 Manuel, relay instructions %}](https://picasaweb.google.com/lh/photo/hdiGnXv1VstAfb4W7UGMjo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh3.googleusercontent.com/-J3XlYj4ZvbI/U_OlzxnkQeI/AAAAAAAAQVU/gTCHxhL1fwU/s400/DSC00115.JPG 400 300 Manuel, relay instructions %}](https://picasaweb.google.com/lh/photo/hdiGnXv1VstAfb4W7UGMjo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 You will require a copy of the [TU250X Service Manual][Manual], which
 has step-by-step disassembly and re-assembly instructions, as well as
 the correct torque values for all bolts and screws. I recommend
@@ -376,7 +379,7 @@ rush it and try not to lose your temper or your grip on the
 precariously balanced engine. More than any other aspect, this
 activity benefits from an assistant.
 
-[{% img right https://lh5.googleusercontent.com/-XD4a1Lebuvg/U9-1GpdX8rI/AAAAAAAAQII/_u3Ups5NFOA/s400/IMG_2838.JPG 300 400 I never did get into yoga %}](https://picasaweb.google.com/lh/photo/0N7z0AulW8uOVf1qNPTOBI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh5.googleusercontent.com/-XD4a1Lebuvg/U9-1GpdX8rI/AAAAAAAAQII/_u3Ups5NFOA/s400/IMG_2838.JPG 400 300 I never did get into yoga %}](https://picasaweb.google.com/lh/photo/0N7z0AulW8uOVf1qNPTOBI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 If all goes well, you can now lug around the 70 lbs of filthy and
 unweidly engine to your workspace. Again, I recommend at least a 3' by
 5' table to perform this work on, and optionally some sort of durable
@@ -401,7 +404,7 @@ drum, the spring-loaded pawls will eject themselves. Be prepared to
 grab and baggie them for later. Double check that you have both pawls,
 both pins, and both springs in the set.
 
-[{% img right https://lh5.googleusercontent.com/-Y-LE9Zvvy9Y/U9-1ALGlewI/AAAAAAAAQHA/gFDyuAq-mXI/s400/DSC00090.JPG 300 400 Eventually you'll get to see all this %}](https://picasaweb.google.com/lh/photo/w0rdKtfj6uOomyyn_SYxPY90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh5.googleusercontent.com/-Y-LE9Zvvy9Y/U9-1ALGlewI/AAAAAAAAQHA/gFDyuAq-mXI/s400/DSC00090.JPG 400 300 Eventually you'll get to see all this %}](https://picasaweb.google.com/lh/photo/w0rdKtfj6uOomyyn_SYxPY90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 When separating the case halves with the case splitting tool, remember
 that the case needs to come off straight or not at all. In my
 particular situation, the counter-balance shaft was very tight in its
@@ -453,6 +456,7 @@ continue on the other side. Note that in this picture the gear guide
 and stopper are already installed -- I found it easier to install
 those parts after the next step.
 
+[{% img right https://lh5.googleusercontent.com/-GUab07WGukU/U9-08AupG_I/AAAAAAAAQJc/fkMISI9NODs/s400/DSC00098.JPG 400 300 Return spring, guide, and circlip %}](https://picasaweb.google.com/lh/photo/-I6Ag3DLMJvMPw9fBd3ZX490Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 From the inside face of the right crank case, attach the return spring
 to the case and through the hole in the kickstart shaft. Set the
 spring guide into the spring with the angular end facing out. If the
@@ -460,6 +464,7 @@ curved end is left facing out, the spring may escape the guide.
 Install the circlip to retain the guide. At this point, there should
 not be any tension on the return spring.
 
+[{% img right https://lh5.googleusercontent.com/-qIIJSCnXm9o/U9-09kVffoI/AAAAAAAAQJY/CqEBy6sYhQI/s400/DSC00096.JPG 400 300 Temporarily attached kickstart lever for testing of action %}](https://picasaweb.google.com/lh/photo/H9mygTEKmkTzEw0TfsNmNI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 Temporarily attach the kickstart lever onto the kickstart shaft,
 pointing towards roughly 3 o'clock. With your left hand, rotate the
 shaft counter clock wise, which will put tension onto the return
@@ -469,16 +474,13 @@ stopper and guide plates by bolting it to the crank case. You can then
 slowly relax your hold on the lever, allowing the sliding gear to meet
 the guide plate and stop itself against the stopper plate.
 
-[{% img https://lh6.googleusercontent.com/-JmoNKjYxQtA/U9-07OZu08I/AAAAAAAAQGA/JvL8p-2-PPo/s400/DSC00099.JPG 300 400 Sliding gear, guide, and stopper %}](https://picasaweb.google.com/lh/photo/RG9bm_BiNfZfcnO0Ecn9ZI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
-[{% img https://lh5.googleusercontent.com/-GUab07WGukU/U9-08AupG_I/AAAAAAAAQJc/fkMISI9NODs/s400/DSC00098.JPG 300 400 Return spring, guide, and circlip %}](https://picasaweb.google.com/lh/photo/-I6Ag3DLMJvMPw9fBd3ZX490Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
-[{% img https://lh5.googleusercontent.com/-qIIJSCnXm9o/U9-09kVffoI/AAAAAAAAQJY/CqEBy6sYhQI/s400/DSC00096.JPG 300 400 Temporarily attached kickstart lever for testing of action %}](https://picasaweb.google.com/lh/photo/H9mygTEKmkTzEw0TfsNmNI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
-
 I found this method to be significantly easier to manage than
 attaching the guide and stopper plates first and attempting to put a
 quarter turn onto the return spring with pliers before installing the
 return spring guide. I hope that it saves you some frustration as
 well.
 
+[{% img right https://lh6.googleusercontent.com/-JmoNKjYxQtA/U9-07OZu08I/AAAAAAAAQGA/JvL8p-2-PPo/s400/DSC00099.JPG 400 300 Sliding gear, guide, and stopper %}](https://picasaweb.google.com/lh/photo/RG9bm_BiNfZfcnO0Ecn9ZI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 Verify that the shaft rotates cleanly, with the sliding gear moving
 into and out of an engaged position and with the shaft returning and
 stopping at the home position. If everything works, remove one of the
@@ -528,7 +530,7 @@ washer, then the larger part of the kickstart gear pair. It should
 mesh with the idler. Another washer then a final circlip to hold it in
 place.
 
-[{% img right https://lh6.googleusercontent.com/-qFm5fIP1_RE/U-bTuD3ruVI/AAAAAAAAQRI/4pW-mM-4RlM/s400/DSC00107.JPG 300 400 The kickstart gearing and the idler %}](https://picasaweb.google.com/lh/photo/uB3PCxyKzsWEiwHgYbDJgI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh6.googleusercontent.com/-qFm5fIP1_RE/U-bTuD3ruVI/AAAAAAAAQRI/4pW-mM-4RlM/s400/DSC00107.JPG 400 300 The kickstart gearing and the idler %}](https://picasaweb.google.com/lh/photo/uB3PCxyKzsWEiwHgYbDJgI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 The idler and kickstart gear should spin freely, without encountering
 the ratcheting teeth of the sliding kickstart gear that is held away
 by the guide plate. When the kickstart shaft is turned counter clock
@@ -549,7 +551,7 @@ seated, and lube it up with some lithium grease.
 
 ## Put It All Back Where You Found It
 
-[{% img right https://lh6.googleusercontent.com/-BYUj-zbgVIY/U-bTiURa1qI/AAAAAAAAQRM/o7STp0zRpGQ/s400/DSC00109.JPG 300 400 Just the covers and I'm all set %}](https://picasaweb.google.com/lh/photo/OgIWZoqqVKWHHBVugmHDwo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh6.googleusercontent.com/-BYUj-zbgVIY/U-bTiURa1qI/AAAAAAAAQRM/o7STp0zRpGQ/s400/DSC00109.JPG 400 300 Just the covers and I'm all set %}](https://picasaweb.google.com/lh/photo/OgIWZoqqVKWHHBVugmHDwo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 If this all goes smoothly, then you're in the clear to complete the
 re-assembly process. Follow the service guide, and everything should
 fit together. Make sure all your mating surfaces are clean before
@@ -589,7 +591,7 @@ when it fires up. Calm your neighbors, reassuring them that you aren't
 hurt, you're just very happy. Shut off the engine, and attempt to kick
 your TU into life!
 
-[{% img right https://lh5.googleusercontent.com/-biB2fge8ggs/U_O0w3eeknI/AAAAAAAAQW8/FWXSxqP8n3k/s400/DSC00134.JPG 300 400 Looks like it belongs there %}](https://picasaweb.google.com/lh/photo/CslIDY1A2HFlkUd0CIa8Vo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
+[{% img right https://lh5.googleusercontent.com/-biB2fge8ggs/U_O0w3eeknI/AAAAAAAAQW8/FWXSxqP8n3k/s400/DSC00134.JPG 400 300 Looks like it belongs there %}](https://picasaweb.google.com/lh/photo/CslIDY1A2HFlkUd0CIa8Vo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 [It may take you a while to get the hang of it][kickvideo], but don't
 be discouraged. The fuel pump will sporadically start whenever you
 turn the engine even slightly, just ignore it and give the lever a
