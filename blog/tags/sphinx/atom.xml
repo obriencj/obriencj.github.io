@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: sphinx | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/sphinx/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-26T10:21:06-04:00</updated>
+  <updated>2014-08-26T15:14:00-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -18,7 +18,7 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/02/09/python/"/>
     <updated>2014-02-09T22:20:51-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/02/09/python</id>
-    <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/">coffee shop</a>, trying to determine how
+    <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/" title="The Morning Times">coffee shop</a>, trying to determine how
 I wanted to generate the API documentation for <a href="http://github.com/obriencj/python-brine">brine</a>.</p>
 
 <!-- more -->
@@ -29,8 +29,6 @@ There&rsquo;s <code>pydoc</code> for the command-line, but nothing that will ext
 static html for easy reference online, etc. Other tools have spun into
 being to fill this void &ndash; and each project must pick their favorite
 when it comes time to ship docs.</p>
-
-<p>&ldquo;The Morning Times&rdquo;</p>
 
 <h2>Enter the contenders</h2>
 
@@ -54,11 +52,6 @@ lengthy expository body embedded entirely in one enormous docstring
 module while still loading the barrel module. Frustratingly it was
 either all submodules or no submodules.</p>
 
-<pre><code>and I can get behind that to some extent. But I think there are
-limits to just how much text you can sensibly cram into a
-docstring.
-</code></pre>
-
 <p>Finally I took a look at <a href="http://sphinx-doc.org/">Sphinx</a>. pdoc and Sphinx are in essence
 polar opposites. Pdoc will generate the API page for a module, and do
 nothing else. Sphinx will do just about anything at all as part of the
@@ -78,13 +71,11 @@ correct subset of modules presented nicely.</p>
 
 <h2>Hosting the docs</h2>
 
-<p><a href="http://github.io/">GitHub Pages</a> (neé github.io) offers gratis per-project
+<p><a href="http://github.io/" title="GitHub Pages">GitHub Pages</a> (neé github.io) offers gratis per-project
 hosting.  Simply <a href="https://help.github.com/articles/creating-project-pages-manually">create</a> a <code>gh-pages</code> branch in your project&rsquo;s
 repository; anything pushed on that branch will show up at your
 <a href="http://obriencj.preoccupied.net/python-brine/">project&rsquo;s URL</a>. This blog is hosted on GitHub Pages, so it
 seems sensible to host the docs for my projects here as well.</p>
-
-<p>&ldquo;GitHub Pages&rdquo;</p>
 
 <h2>Easy mode</h2>
 
@@ -99,7 +90,7 @@ see my revisions <a href="https://github.com/obriencj/python-brine/blob/master/d
 <hr/>
 <ol>
 <li id="fn:1">
-<p>I believe this is working as designed from the pdoc philosophy,<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<p>I believe this is working as designed from the pdoc philosophy, and I can get behind that to some extent. But I think there are limits to just how much text you can sensibly cram into a docstring.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
 

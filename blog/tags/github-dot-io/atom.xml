@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: github.io | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/github-dot-io/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-26T10:21:06-04:00</updated>
+  <updated>2014-08-26T15:14:00-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -18,8 +18,8 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
-    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/">JekyllBootstrap</a> was turning out, so now
-I&rsquo;m playing around with <a href="http://octopress.org/">Octopress</a>.</p>
+    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
+I&rsquo;m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
 
 <!-- more -->
 
@@ -32,8 +32,8 @@ an actual blog. I have no idea why the default layout is so nutty
 baffled as to why post tagging behavior wasn&rsquo;t included with Octopress
 as a baseline feature.</p>
 
-<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/">gist plugin</a>, but it&rsquo;s currently rendering code
-blocks <a href="https://github.com/imathis/octopress/issues/847">terribly wrong</a>, so I&rsquo;m reduced to inserting the
+<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/" title="Gist Tag">gist plugin</a>, but it&rsquo;s currently rendering code
+blocks <a href="https://github.com/imathis/octopress/issues/847" title="GitHub gist changes break gist plugin formatting #847">terribly wrong</a>, so I&rsquo;m reduced to inserting the
 gists directly in any posts I write. This of course has its pros and
 cons. I am not reliant on a bit of javascript and the gist site itself
 to display my snippets, but I am also no longer receiving live updates
@@ -42,14 +42,6 @@ if I make any changes.</p>
 <p>I&rsquo;ve imported my scant few <a href="http://obriencj.tumblr.com">Tumblr</a> posts, and have gone through the
 tweaks to make them work in this blog. I believe that I shall now
 abandon Tumblr in favor of posting here&hellip;</p>
-
-<p>&ldquo;The Quickest Way to Blog on GitHub Pages&rdquo;</p>
-
-<p>&ldquo;A blogging framework for hackers&rdquo;</p>
-
-<p>&ldquo;Gist Tag&rdquo;</p>
-
-<p>&ldquo;GitHub gist changes break gist plugin formatting #847&rdquo;</p>
 ]]></content>
   </entry>
   
@@ -59,8 +51,8 @@ abandon Tumblr in favor of posting here&hellip;</p>
     <updated>2014-01-25T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
-in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/">Jekyll</a> on
-<a href="https://pages.github.com">github.io</a>. I&rsquo;m swimming in the posibilities.</p>
+in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">Jekyll</a> on
+<a href="https://pages.github.com" title="GitHub Pages">github.io</a>. I&rsquo;m swimming in the posibilities.</p>
 
 <!-- more -->
 
@@ -77,10 +69,6 @@ which wasn&rsquo;t). Do I want to get invested in layout design as part of
 this? Not really, no. But it may be worth the effort.</p>
 
 <p>Things to consider on a lazy and cold Sunday.</p>
-
-<p>&ldquo;The Quickest Way to Blog on GitHub Pages&rdquo;</p>
-
-<p>&ldquo;GitHub Pages&rdquo;</p>
 ]]></content>
   </entry>
   

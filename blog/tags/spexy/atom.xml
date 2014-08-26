@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: spexy | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/spexy/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-26T10:21:06-04:00</updated>
+  <updated>2014-08-26T15:14:00-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -28,7 +28,7 @@ face.</p>
 
 <p>But&hellip; I&rsquo;m surprised how the me from 2007 thought some of the features
 through &ndash; especially taking into consideration the
-<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif">state of my brain</a> at the time. The module itself runs the input code
+<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif" title="Come with me on an adventure you'll never remember">state of my brain</a> at the time. The module itself runs the input code
 through distinct parsing and evaluation steps, which includes a macro
 expansion pass before moving on to specials. I get the idea that I may
 have intended to write parts of Spexy <strong>in</strong> Spexy once I got
@@ -90,8 +90,6 @@ this I&rsquo;ve remembered more about just why the thing exists. It&rsquo;s not 
 project &ndash; it&rsquo;s a puzzle! The inspiration was never &ldquo;I need a tool
 that will do&hellip;&rdquo; it was &ldquo;I wonder if I can&hellip;&rdquo; and from there sprung
 up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#concept">rules</a>.</p>
-
-<p>&ldquo;Come with me on an adventure you&rsquo;ll never remember&rdquo;</p>
 ]]></content>
   </entry>
   

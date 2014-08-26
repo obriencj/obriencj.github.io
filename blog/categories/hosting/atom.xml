@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hosting | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/categories/hosting/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-26T10:21:06-04:00</updated>
+  <updated>2014-08-26T15:14:00-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -18,7 +18,7 @@
     <link href="http://obriencj.preoccupied.net/blog/2014/02/09/python/"/>
     <updated>2014-02-09T22:20:51-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/02/09/python</id>
-    <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/">coffee shop</a>, trying to determine how
+    <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/" title="The Morning Times">coffee shop</a>, trying to determine how
 I wanted to generate the API documentation for <a href="http://github.com/obriencj/python-brine">brine</a>.</p>
 
 <!-- more -->
@@ -29,8 +29,6 @@ There&rsquo;s <code>pydoc</code> for the command-line, but nothing that will ext
 static html for easy reference online, etc. Other tools have spun into
 being to fill this void &ndash; and each project must pick their favorite
 when it comes time to ship docs.</p>
-
-<p>&ldquo;The Morning Times&rdquo;</p>
 
 <h2>Enter the contenders</h2>
 
@@ -54,11 +52,6 @@ lengthy expository body embedded entirely in one enormous docstring
 module while still loading the barrel module. Frustratingly it was
 either all submodules or no submodules.</p>
 
-<pre><code>and I can get behind that to some extent. But I think there are
-limits to just how much text you can sensibly cram into a
-docstring.
-</code></pre>
-
 <p>Finally I took a look at <a href="http://sphinx-doc.org/">Sphinx</a>. pdoc and Sphinx are in essence
 polar opposites. Pdoc will generate the API page for a module, and do
 nothing else. Sphinx will do just about anything at all as part of the
@@ -78,13 +71,11 @@ correct subset of modules presented nicely.</p>
 
 <h2>Hosting the docs</h2>
 
-<p><a href="http://github.io/">GitHub Pages</a> (neé github.io) offers gratis per-project
+<p><a href="http://github.io/" title="GitHub Pages">GitHub Pages</a> (neé github.io) offers gratis per-project
 hosting.  Simply <a href="https://help.github.com/articles/creating-project-pages-manually">create</a> a <code>gh-pages</code> branch in your project&rsquo;s
 repository; anything pushed on that branch will show up at your
 <a href="http://obriencj.preoccupied.net/python-brine/">project&rsquo;s URL</a>. This blog is hosted on GitHub Pages, so it
 seems sensible to host the docs for my projects here as well.</p>
-
-<p>&ldquo;GitHub Pages&rdquo;</p>
 
 <h2>Easy mode</h2>
 
@@ -99,7 +90,7 @@ see my revisions <a href="https://github.com/obriencj/python-brine/blob/master/d
 <hr/>
 <ol>
 <li id="fn:1">
-<p>I believe this is working as designed from the pdoc philosophy,<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<p>I believe this is working as designed from the pdoc philosophy, and I can get behind that to some extent. But I think there are limits to just how much text you can sensibly cram into a docstring.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
 
@@ -111,8 +102,8 @@ see my revisions <a href="https://github.com/obriencj/python-brine/blob/master/d
     <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
-    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/">JekyllBootstrap</a> was turning out, so now
-I&rsquo;m playing around with <a href="http://octopress.org/">Octopress</a>.</p>
+    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
+I&rsquo;m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
 
 <!-- more -->
 
@@ -125,8 +116,8 @@ an actual blog. I have no idea why the default layout is so nutty
 baffled as to why post tagging behavior wasn&rsquo;t included with Octopress
 as a baseline feature.</p>
 
-<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/">gist plugin</a>, but it&rsquo;s currently rendering code
-blocks <a href="https://github.com/imathis/octopress/issues/847">terribly wrong</a>, so I&rsquo;m reduced to inserting the
+<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/" title="Gist Tag">gist plugin</a>, but it&rsquo;s currently rendering code
+blocks <a href="https://github.com/imathis/octopress/issues/847" title="GitHub gist changes break gist plugin formatting #847">terribly wrong</a>, so I&rsquo;m reduced to inserting the
 gists directly in any posts I write. This of course has its pros and
 cons. I am not reliant on a bit of javascript and the gist site itself
 to display my snippets, but I am also no longer receiving live updates
@@ -135,14 +126,6 @@ if I make any changes.</p>
 <p>I&rsquo;ve imported my scant few <a href="http://obriencj.tumblr.com">Tumblr</a> posts, and have gone through the
 tweaks to make them work in this blog. I believe that I shall now
 abandon Tumblr in favor of posting here&hellip;</p>
-
-<p>&ldquo;The Quickest Way to Blog on GitHub Pages&rdquo;</p>
-
-<p>&ldquo;A blogging framework for hackers&rdquo;</p>
-
-<p>&ldquo;Gist Tag&rdquo;</p>
-
-<p>&ldquo;GitHub gist changes break gist plugin formatting #847&rdquo;</p>
 ]]></content>
   </entry>
   
@@ -152,8 +135,8 @@ abandon Tumblr in favor of posting here&hellip;</p>
     <updated>2014-01-25T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
-in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/">Jekyll</a> on
-<a href="https://pages.github.com">github.io</a>. I&rsquo;m swimming in the posibilities.</p>
+in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">Jekyll</a> on
+<a href="https://pages.github.com" title="GitHub Pages">github.io</a>. I&rsquo;m swimming in the posibilities.</p>
 
 <!-- more -->
 
@@ -170,10 +153,6 @@ which wasn&rsquo;t). Do I want to get invested in layout design as part of
 this? Not really, no. But it may be worth the effort.</p>
 
 <p>Things to consider on a lazy and cold Sunday.</p>
-
-<p>&ldquo;The Quickest Way to Blog on GitHub Pages&rdquo;</p>
-
-<p>&ldquo;GitHub Pages&rdquo;</p>
 ]]></content>
   </entry>
   

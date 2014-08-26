@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: unittest | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/unittest/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-26T10:21:06-04:00</updated>
+  <updated>2014-08-26T15:14:00-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -19,14 +19,10 @@
     <updated>2014-02-06T22:16:40-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been very happy spending my evenings working with a small project
-entitled <a href="https://github.com/obriencj/python-brine">python-brine</a>. The code is relatively straight-forward, the
+entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
 functionality and goals are well-defined. Put simply, brine allows you
 to pickle actual python code. For a significantly more in-depth
 explanation, click the above link and peruse the README.</p>
-
-<p>&ldquo;Advanced function pickling for Python&rdquo;</p>
-
-<p>&ldquo;Overview of python-brine&rdquo;</p>
 
 <!-- more -->
 
@@ -62,7 +58,7 @@ fun. It&rsquo;s very much like a game. The tasks are clearly defined,
 there&rsquo;s a simple attainable goal of a perfect score. Right up my
 alley!</p>
 
-<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html">unittest</a>
+<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html" title="unittest &mdash; Unit testing framework">unittest</a>
 cases.</p>
 
 <p>Those tests came in handy when I started actively hacking again on the
@@ -78,8 +74,6 @@ catch me in my errors before I strayed too far.</p>
 detailed reporting. I was able to definitively throw out legacy
 methods in some cases, while in others I expanded upon my unit tests
 until in no time at all I&rsquo;d reached the much vaunted 100% coverage.</p>
-
-<p>&ldquo;unittest &mdash; Unit testing framework&rdquo;</p>
 
 <h2>Fill in the blanks</h2>
 

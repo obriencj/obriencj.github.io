@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-26T10:21:06-04:00</updated>
+  <updated>2014-08-26T15:14:00-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -249,7 +249,7 @@ open heavens and friendly sunshine were just part of a fever dream.</p>
 <!-- more -->
 
 
-<p>I&rsquo;ve been spending more time than usual at my <a href="http://morningtimes-raleigh.com">favorite coffee spot</a>
+<p>I&rsquo;ve been spending more time than usual at my <a href="http://morningtimes-raleigh.com" title="The Morning Times, Raleigh">favorite coffee spot</a>
 and while there I&rsquo;ve been (of course) hacking around. As some will
 know already, I&rsquo;ve wanted for a while to write a proper LISP of my
 own. I view it as an important exercise, and a bit of a milestone!
@@ -260,8 +260,6 @@ first novel. While composing a book ill suits me &ndash; I&rsquo;m bereft of
 creative stories or unique views into real events &ndash; composing a
 compiler around what I consider to be an elegant and inspired computer
 language is right up my proverbial alley!</p>
-
-<p>&ldquo;The Morning Times, Raleigh&rdquo;</p>
 
 <p>But this path is not easily traversed. The routes my inadequate brain
 travels along are bumpy and often with poor visibility. In my personal
@@ -668,7 +666,7 @@ can envision a trampoline-like model that could cross processors or
 even machines. Of course that is remote code execution. And holy-shit
 is that ever a can of worms.</p>
 
-<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/">good friend</a>, I could implement a signing
+<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/" title="Phillip Jones on G+">good friend</a>, I could implement a signing
 step. When unpickling callable code it could be checked for a proper
 signature and an exception raised if something were amiss. It could
 use out-of-band key exchange or a certificate-based system&hellip; but I am
@@ -684,8 +682,6 @@ was once told <em>&ldquo;you can&rsquo;t pickle functions,&rdquo;</em> and I tho
 hell I can&rsquo;t!&rdquo;</em> However, I feel that if I&rsquo;ve made such a tool freely
 available (and I have) I should also take some care that it can be
 used responsibly.</p>
-
-<p>&ldquo;Phillip Jones on G+&rdquo;</p>
 
 <p>There is a light-on-details <a href="http://sourceforge.net/projects/trustedpickle/">TrustedPickle</a> project, but I cannot help
 noticing it commits one of the major sins in cryptogrophy &ndash;
@@ -745,7 +741,7 @@ version 1.0.0 soon, and posting the module up on PyPI.</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/02/09/python/"/>
     <updated>2014-02-09T22:20:51-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/02/09/python</id>
-    <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/">coffee shop</a>, trying to determine how
+    <content type="html"><![CDATA[<p>This fine Sunday was spent in a <a href="http://morningtimes-raleigh.com/" title="The Morning Times">coffee shop</a>, trying to determine how
 I wanted to generate the API documentation for <a href="http://github.com/obriencj/python-brine">brine</a>.</p>
 
 <!-- more -->
@@ -756,8 +752,6 @@ There&rsquo;s <code>pydoc</code> for the command-line, but nothing that will ext
 static html for easy reference online, etc. Other tools have spun into
 being to fill this void &ndash; and each project must pick their favorite
 when it comes time to ship docs.</p>
-
-<p>&ldquo;The Morning Times&rdquo;</p>
 
 <h2>Enter the contenders</h2>
 
@@ -781,11 +775,6 @@ lengthy expository body embedded entirely in one enormous docstring
 module while still loading the barrel module. Frustratingly it was
 either all submodules or no submodules.</p>
 
-<pre><code>and I can get behind that to some extent. But I think there are
-limits to just how much text you can sensibly cram into a
-docstring.
-</code></pre>
-
 <p>Finally I took a look at <a href="http://sphinx-doc.org/">Sphinx</a>. pdoc and Sphinx are in essence
 polar opposites. Pdoc will generate the API page for a module, and do
 nothing else. Sphinx will do just about anything at all as part of the
@@ -805,13 +794,11 @@ correct subset of modules presented nicely.</p>
 
 <h2>Hosting the docs</h2>
 
-<p><a href="http://github.io/">GitHub Pages</a> (neé github.io) offers gratis per-project
+<p><a href="http://github.io/" title="GitHub Pages">GitHub Pages</a> (neé github.io) offers gratis per-project
 hosting.  Simply <a href="https://help.github.com/articles/creating-project-pages-manually">create</a> a <code>gh-pages</code> branch in your project&rsquo;s
 repository; anything pushed on that branch will show up at your
 <a href="http://obriencj.preoccupied.net/python-brine/">project&rsquo;s URL</a>. This blog is hosted on GitHub Pages, so it
 seems sensible to host the docs for my projects here as well.</p>
-
-<p>&ldquo;GitHub Pages&rdquo;</p>
 
 <h2>Easy mode</h2>
 
@@ -826,7 +813,7 @@ see my revisions <a href="https://github.com/obriencj/python-brine/blob/master/d
 <hr/>
 <ol>
 <li id="fn:1">
-<p>I believe this is working as designed from the pdoc philosophy,<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<p>I believe this is working as designed from the pdoc philosophy, and I can get behind that to some extent. But I think there are limits to just how much text you can sensibly cram into a docstring.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
 
@@ -903,14 +890,6 @@ bring me butter sometimes, and then they cook. When they leave, they
 leave the butter. And then the butter spoils. So I never bother trying
 to cook with butter.</p>
 
-<pre><code>to make a "proper" breakfast, so go do that instead.
-
-straight from the carafe, the mug is optional.
-
-and don't care [how bad it gets]. If you're on city sewer, you'll
-need the jar.
-</code></pre>
-
 <p>Begin by starting the coffee. If all else goes well, it will be done
 by the time everything else is. If everything else goes to hell, well
 at least you&rsquo;ll have the coffee.</p>
@@ -980,11 +959,11 @@ godspeed.</p>
 <hr/>
 <ol>
 <li id="fn:1">
-<p>If you grind your own coffee or whatever, then you have the time<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<p>If you grind your own coffee or whatever, then you have the time to make a &ldquo;proper&rdquo; breakfast, so go do that instead.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
 <li id="fn:2">
-<p>If you are the sort of person who opts to drink the coffee<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<p>If you are the sort of person who opts to drink the coffee straight from the carafe, the mug is optional.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
 <li id="fn:3">
-<p>The jar of horrors is optional for those who have a septic tank<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<p>The jar of horrors is optional for those who have a septic tank and don&rsquo;t care [how bad it gets]. If you&rsquo;re on city sewer, you&rsquo;ll need the jar.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
 <li id="fn:4">
 <p>I don&rsquo;t have a dog, but in my imagination they&rsquo;d love this part<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
 </ol>
@@ -999,14 +978,10 @@ godspeed.</p>
     <updated>2014-02-06T22:16:40-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been very happy spending my evenings working with a small project
-entitled <a href="https://github.com/obriencj/python-brine">python-brine</a>. The code is relatively straight-forward, the
+entitled <a href="https://github.com/obriencj/python-brine" title="Advanced function pickling for Python">python-brine</a>. The code is relatively straight-forward, the
 functionality and goals are well-defined. Put simply, brine allows you
 to pickle actual python code. For a significantly more in-depth
 explanation, click the above link and peruse the README.</p>
-
-<p>&ldquo;Advanced function pickling for Python&rdquo;</p>
-
-<p>&ldquo;Overview of python-brine&rdquo;</p>
 
 <!-- more -->
 
@@ -1042,7 +1017,7 @@ fun. It&rsquo;s very much like a game. The tasks are clearly defined,
 there&rsquo;s a simple attainable goal of a perfect score. Right up my
 alley!</p>
 
-<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html">unittest</a>
+<p>So I took the example scripts and converted them to real <a href="http://docs.python.org/2/library/unittest.html" title="unittest &mdash; Unit testing framework">unittest</a>
 cases.</p>
 
 <p>Those tests came in handy when I started actively hacking again on the
@@ -1058,8 +1033,6 @@ catch me in my errors before I strayed too far.</p>
 detailed reporting. I was able to definitively throw out legacy
 methods in some cases, while in others I expanded upon my unit tests
 until in no time at all I&rsquo;d reached the much vaunted 100% coverage.</p>
-
-<p>&ldquo;unittest &mdash; Unit testing framework&rdquo;</p>
 
 <h2>Fill in the blanks</h2>
 
@@ -1093,8 +1066,8 @@ again!</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
     <updated>2014-01-28T02:24:05-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
-    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/">JekyllBootstrap</a> was turning out, so now
-I&rsquo;m playing around with <a href="http://octopress.org/">Octopress</a>.</p>
+    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
+I&rsquo;m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
 
 <!-- more -->
 
@@ -1107,8 +1080,8 @@ an actual blog. I have no idea why the default layout is so nutty
 baffled as to why post tagging behavior wasn&rsquo;t included with Octopress
 as a baseline feature.</p>
 
-<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/">gist plugin</a>, but it&rsquo;s currently rendering code
-blocks <a href="https://github.com/imathis/octopress/issues/847">terribly wrong</a>, so I&rsquo;m reduced to inserting the
+<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/" title="Gist Tag">gist plugin</a>, but it&rsquo;s currently rendering code
+blocks <a href="https://github.com/imathis/octopress/issues/847" title="GitHub gist changes break gist plugin formatting #847">terribly wrong</a>, so I&rsquo;m reduced to inserting the
 gists directly in any posts I write. This of course has its pros and
 cons. I am not reliant on a bit of javascript and the gist site itself
 to display my snippets, but I am also no longer receiving live updates
@@ -1117,14 +1090,6 @@ if I make any changes.</p>
 <p>I&rsquo;ve imported my scant few <a href="http://obriencj.tumblr.com">Tumblr</a> posts, and have gone through the
 tweaks to make them work in this blog. I believe that I shall now
 abandon Tumblr in favor of posting here&hellip;</p>
-
-<p>&ldquo;The Quickest Way to Blog on GitHub Pages&rdquo;</p>
-
-<p>&ldquo;A blogging framework for hackers&rdquo;</p>
-
-<p>&ldquo;Gist Tag&rdquo;</p>
-
-<p>&ldquo;GitHub gist changes break gist plugin formatting #847&rdquo;</p>
 ]]></content>
   </entry>
   
@@ -1146,8 +1111,8 @@ this moment&hellip;</p>
     <updated>2014-01-25T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
-in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/">Jekyll</a> on
-<a href="https://pages.github.com">github.io</a>. I&rsquo;m swimming in the posibilities.</p>
+in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">Jekyll</a> on
+<a href="https://pages.github.com" title="GitHub Pages">github.io</a>. I&rsquo;m swimming in the posibilities.</p>
 
 <!-- more -->
 
@@ -1164,10 +1129,6 @@ which wasn&rsquo;t). Do I want to get invested in layout design as part of
 this? Not really, no. But it may be worth the effort.</p>
 
 <p>Things to consider on a lazy and cold Sunday.</p>
-
-<p>&ldquo;The Quickest Way to Blog on GitHub Pages&rdquo;</p>
-
-<p>&ldquo;GitHub Pages&rdquo;</p>
 ]]></content>
   </entry>
   
@@ -1186,7 +1147,7 @@ face.</p>
 
 <p>But&hellip; I&rsquo;m surprised how the me from 2007 thought some of the features
 through &ndash; especially taking into consideration the
-<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif">state of my brain</a> at the time. The module itself runs the input code
+<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif" title="Come with me on an adventure you'll never remember">state of my brain</a> at the time. The module itself runs the input code
 through distinct parsing and evaluation steps, which includes a macro
 expansion pass before moving on to specials. I get the idea that I may
 have intended to write parts of Spexy <strong>in</strong> Spexy once I got
@@ -1293,8 +1254,6 @@ this I&rsquo;ve remembered more about just why the thing exists. It&rsquo;s not 
 project &ndash; it&rsquo;s a puzzle! The inspiration was never &ldquo;I need a tool
 that will do&hellip;&rdquo; it was &ldquo;I wonder if I can&hellip;&rdquo; and from there sprung
 up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#concept">rules</a>.</p>
-
-<p>&ldquo;Come with me on an adventure you&rsquo;ll never remember&rdquo;</p>
 ]]></content>
   </entry>
   

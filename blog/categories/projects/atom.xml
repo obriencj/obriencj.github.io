@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Projects | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/categories/projects/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-08-26T10:21:06-04:00</updated>
+  <updated>2014-08-26T15:14:00-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -186,7 +186,7 @@ open heavens and friendly sunshine were just part of a fever dream.</p>
 <!-- more -->
 
 
-<p>I&rsquo;ve been spending more time than usual at my <a href="http://morningtimes-raleigh.com">favorite coffee spot</a>
+<p>I&rsquo;ve been spending more time than usual at my <a href="http://morningtimes-raleigh.com" title="The Morning Times, Raleigh">favorite coffee spot</a>
 and while there I&rsquo;ve been (of course) hacking around. As some will
 know already, I&rsquo;ve wanted for a while to write a proper LISP of my
 own. I view it as an important exercise, and a bit of a milestone!
@@ -197,8 +197,6 @@ first novel. While composing a book ill suits me &ndash; I&rsquo;m bereft of
 creative stories or unique views into real events &ndash; composing a
 compiler around what I consider to be an elegant and inspired computer
 language is right up my proverbial alley!</p>
-
-<p>&ldquo;The Morning Times, Raleigh&rdquo;</p>
 
 <p>But this path is not easily traversed. The routes my inadequate brain
 travels along are bumpy and often with poor visibility. In my personal
@@ -516,7 +514,7 @@ can envision a trampoline-like model that could cross processors or
 even machines. Of course that is remote code execution. And holy-shit
 is that ever a can of worms.</p>
 
-<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/">good friend</a>, I could implement a signing
+<p>As had been suggested by a <a href="https://plus.google.com/+PhillipJones/" title="Phillip Jones on G+">good friend</a>, I could implement a signing
 step. When unpickling callable code it could be checked for a proper
 signature and an exception raised if something were amiss. It could
 use out-of-band key exchange or a certificate-based system&hellip; but I am
@@ -532,8 +530,6 @@ was once told <em>&ldquo;you can&rsquo;t pickle functions,&rdquo;</em> and I tho
 hell I can&rsquo;t!&rdquo;</em> However, I feel that if I&rsquo;ve made such a tool freely
 available (and I have) I should also take some care that it can be
 used responsibly.</p>
-
-<p>&ldquo;Phillip Jones on G+&rdquo;</p>
 
 <p>There is a light-on-details <a href="http://sourceforge.net/projects/trustedpickle/">TrustedPickle</a> project, but I cannot help
 noticing it commits one of the major sins in cryptogrophy &ndash;
