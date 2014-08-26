@@ -38,8 +38,7 @@ creative stories or unique views into real events -- composing a
 compiler around what I consider to be an elegant and inspired computer
 language is right up my proverbial alley!
 
-[favorite coffee spot]: http://morningtimes-raleigh.com
-"The Morning Times, Raleigh"
+[favorite coffee spot]: http://morningtimes-raleigh.com "The Morning Times, Raleigh"
 
 But this path is not easily traversed. The routes my inadequate brain
 travels along are bumpy and often with poor visibility. In my personal

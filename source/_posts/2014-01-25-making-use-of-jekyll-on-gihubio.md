@@ -31,10 +31,8 @@ Things to consider on a lazy and cold Sunday.
 
 [multimarkdown]: https://github.com/fletcher/peg-multimarkdown
 
-[Jekyll]: http://jekyllbootstrap.com/
-"The Quickest Way to Blog on GitHub Pages"
+[Jekyll]: http://jekyllbootstrap.com/ "The Quickest Way to Blog on GitHub Pages"
 
 [Tumblr]: http://obriencj.tumblr.com
 
-[github.io]: https://pages.github.com
-"GitHub Pages"
+[github.io]: https://pages.github.com "GitHub Pages"

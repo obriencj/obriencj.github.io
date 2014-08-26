@@ -90,5 +90,4 @@ up some [rules].
 
 [rules]: https://github.com/obriencj/python-spexy/blob/master/README.md#concept
 
-[state of my brain]: http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif
-"Come with me on an adventure you'll never remember"
+[state of my brain]: http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif "Come with me on an adventure you'll never remember"

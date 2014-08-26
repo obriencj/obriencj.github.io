@@ -35,20 +35,16 @@ I've imported my scant few [Tumblr] posts, and have gone through the
 tweaks to make them work in this blog. I believe that I shall now
 abandon Tumblr in favor of posting here...
 
-[JekyllBootstrap]: http://jekyllbootstrap.com/
-"The Quickest Way to Blog on GitHub Pages"
+[JekyllBootstrap]: http://jekyllbootstrap.com/ "The Quickest Way to Blog on GitHub Pages"
 
-[Octopress]: http://octopress.org/
-"A blogging framework for hackers"
+[Octopress]: http://octopress.org/ "A blogging framework for hackers"
 
 [tag-pages]: https://github.com/robbyedwards/octopress-tag-pages
 
 [tag-cloud]: https://github.com/robbyedwards/octopress-tag-cloud
 
-[gist plugin]: http://octopress.org/docs/plugins/gist-tag/
-"Gist Tag"
+[gist plugin]: http://octopress.org/docs/plugins/gist-tag/ "Gist Tag"
 
-[gist bug]: https://github.com/imathis/octopress/issues/847
-"GitHub gist changes break gist plugin formatting #847"
+[gist bug]: https://github.com/imathis/octopress/issues/847 "GitHub gist changes break gist plugin formatting #847"
 
 [Tumblr]: http://obriencj.tumblr.com
