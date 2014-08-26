@@ -75,6 +75,7 @@ frame).
 
 ## Getting Kickstart Parts
 
+[{% img right https://lh6.googleusercontent.com/-w1OpUyias3c/U9-1H7YPhDI/AAAAAAAAQIY/E9sJpv37D9o/s400/IMG_2816.JPG 300 400 Parts waiting to be installed }](https://picasaweb.google.com/lh/photo/GP8b38orKfEidb3ih70qOo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 The internal pieces of the actual kickstart assembly are identical to
 those from an older incarnation of the this family of engine: the
 SP250. These assemblies can frequently be [found on eBay][ks-ebay] for
