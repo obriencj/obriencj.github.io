@@ -2,7 +2,7 @@
 layout: page
 title: "TU250x Kickstart"
 description: "Guide to installing a kickstart on a TU250x"
-keywords: "TU250x, kickstart, kick-start, guide, howto, motorcycle"
+keywords: "TU250x, kickstart, kick-start, guide, howto, motorcycle, mods"
 date: 2014-08-19 19:00
 updated: 2014-08-25 19:00
 comments: false
@@ -82,9 +82,10 @@ frame).
 
 [{% img right https://lh6.googleusercontent.com/-w1OpUyias3c/U9-1H7YPhDI/AAAAAAAAQIY/E9sJpv37D9o/s400/IMG_2816.JPG 400 300 Parts waiting to be installed %}](https://picasaweb.google.com/lh/photo/GP8b38orKfEidb3ih70qOo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 The internal pieces of the actual kickstart assembly are identical to
-those from an older incarnation of the this family of engine: the
-SP250. These assemblies can frequently be [found on eBay][ks-ebay] for
-under $50 USD, although the completeness of parts can be hit or miss.
+those from the older SP250 incarnation of the this family of
+engine. These assemblies can frequently be [found on eBay][ks-ebay]
+for under $50 USD, although the completeness of parts can be hit or
+miss.
 
 [ks-ebay]: http://search.ebay.com/SP250+kick+start__W0QQsacat6028
 
@@ -99,22 +100,22 @@ gear does not appear in any prior models available in the US.
 You will need to find a new oil seal and the correct kickstart
 lever. The oil seal is available in the US, but the lever is not.
 
-Note that the 1983 SP250's lever sweeps in a different arc than the
-ST250's, which will very likely be an issue as the folded lever fits
-close to the motorcycle's frame. It would most probably would strike
-the frame or pegs, but I have not physically verified this.
+Note that the SP250's lever sweeps in a different arc than the
+ST250XK4's, which will very likely be an issue as the folded lever
+fits close to the motorcycle's frame. It would almost come into
+contact with the frame, but I have not physically verified this.
 
-There is an <a href="http://www.amazon.com/gp/product/B008Y39W9K/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008Y39W9K&linkCode=as2&tag=obrieisapileo-20&linkId=DI7S5QUN326WZUPC">EMGO Suzuki kickstart lever</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B008Y39W9K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> which looks like it will fit (correct curve, narrow attachment point), but once again I have not physically verified this.
+There is an <a href="http://www.amazon.com/gp/product/B008Y39W9K/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008Y39W9K&linkCode=as2&tag=obrieisapileo-20&linkId=DI7S5QUN326WZUPC">EMGO Suzuki kickstart lever</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B008Y39W9K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> which looks like it will fit (correct curve, narrow attachment point), but I have not physically verified this either.
 
 I had a good experience in obtaining the Japan-only parts from
 [Samurider.com], and I highly recommend going to them first. Simply
-give them the part numbers referenced above and they will email you
-with a quote.
+contect them with the part numbers [referenced](#required-parts), and
+they will reply to your inquiry with a quote.
 
 [samurider.com]: http://www.samurider.com/?page_id=117
 
-A complete list of parts is included in the
-[Required Parts](#required-parts) section below.
+A full parts list breakdown is available in the
+[required parts](#required-parts) section later in this document.
 
 
 ## What's Missing for the Decomp
@@ -149,14 +150,18 @@ time, space, and tools to bring it to completion. I was able to keep
 the engine work constrained to a 3' x 5' table, with tools on a nearby
 bench. Any smaller workspace may prove problematic.
 
-In the tools and consumables sections that follow I include an
-associate link to <a target="_blank" href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=obrieisapileo-20&linkId=452VVWKHEEQMRPPK">Amazon.com</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-where applicable. If you can find the items cheaper elsewhere, that's
-great! If you want to buy it from Amazon though, please use these
-links. It won't cost you more, but I'll get a nickel in my tip jar for
-having referred you. For the most part, I tried to find the bast match
-to the tool I actualy used, which may not necessarily be the best one
-available.
+In the [tools](#required-tools) and
+[consumables](#required-consumables) sections that follow I include an
+associate link to <a target="_blank"
+href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=obrieisapileo-20&linkId=452VVWKHEEQMRPPK">Amazon.com</a><img
+src="https://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=ur2&o=1"
+width="1" height="1" border="0" alt="" style="border:none !important;
+margin:0px !important;" /> where applicable. If you can find the items
+cheaper elsewhere, that's great! If you want to buy it from Amazon
+though, please use these links. It won't cost you more, but I'll get a
+nickel in my tip jar for having referred you. For the most part, I
+tried to find the bast match to the tool I actualy used, which may not
+necessarily be the best one available.
 
 [{% img right https://lh3.googleusercontent.com/-J3XlYj4ZvbI/U_OlzxnkQeI/AAAAAAAAQVU/gTCHxhL1fwU/s400/DSC00115.JPG 400 300 Manuel, relay instructions %}](https://picasaweb.google.com/lh/photo/hdiGnXv1VstAfb4W7UGMjo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 You will require a copy of the [TU250X Service Manual][Manual], which
@@ -216,7 +221,7 @@ Gaskets
 : - TU250X - [Parts Outlaw](http://www.partsoutlaw.com/oemparts/a/suz/506b663df8700235b8769717/gasket-set), [Motosport](http://www.motosport.com/cruiser/oem-parts/SUZUKI/2009/TU250/GASKET-SET), [Bike Bandit](http://www.bikebandit.com/oem-parts/2009-suzuki-tu250x/o/m19102#sch650221)
 
 
-### Required Tools
+### Required Tools <a name="required-tools"></a>
 
 Rear stand
 : For rear wheel removal, and as an aide in keeping the bike steady.
@@ -293,14 +298,14 @@ Neoprene gloves
   you'll be doing the work in short spurts.  - <a href="http://www.amazon.com/gp/product/B002XXO60M/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002XXO60M&linkCode=as2&tag=obrieisapileo-20&linkId=CTCDKBYB6V5ZL3Z3">SAS Safety 66518 Raven Powder-Free Disposable Black Nitrile 6 Mil Gloves, Large, 100 Gloves by Weight</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B002XXO60M" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
-### Required Consumables
+### Required Consumables <a name="required-consumables"></a>
 
 Assembly lube
 : Any part that touches metal needs assembly lube. This stuff adheres
   like a gel, but will dissolve in the engine oil once everything is
   back together again. Lube liberally.  - <a href="http://www.amazon.com/gp/product/B000M8RYUE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000M8RYUE&linkCode=as2&tag=obrieisapileo-20&linkId=IPEYCRJFVVZHSFS6">CRC SL3331 Extreme Pressure Engine Assembly Lube, 10 Wt Oz</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000M8RYUE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-Liquid gasket 1512
+Liquid gasket 1215
 : The case halves are machined to have a very tight mating
   surface. Liquid gasket is applied in a very thin bead along the
   specified surfaces (see your Service Guide) immediately prior to
@@ -456,37 +461,37 @@ service manual to double-check.
 The kickstart shaft mounts through the right side of the crank case,
 just above the hole for the shift lever rod.
 
-Grease the kickstart shaft, and install smaller sliding gear onto the
-shaft. Take care to line up the small dots that are impressed upon the
-shaft and the gear. Follow them with the tension spring and its large
-washer. The shaft can then be slid through the case where we will
-continue on the other side. Note that in this picture the gear guide
-and stopper are already installed -- I found it easier to install
-those parts after the next step.
+Lubricate the kickstart shaft, and install the smaller sliding ratchet
+gear onto it. Take care to line up the small dots that are impressed
+upon the shaft and the gear. Follow this with the tension spring and
+its large washer. The shaft can then be slid through the case where we
+will continue on the other side.
 
 [{% img right https://lh5.googleusercontent.com/-GUab07WGukU/U9-08AupG_I/AAAAAAAAQJc/fkMISI9NODs/s400/DSC00098.JPG 400 300 Return spring, guide, and circlip %}](https://picasaweb.google.com/lh/photo/-I6Ag3DLMJvMPw9fBd3ZX490Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 From the inside face of the right crank case, attach the return spring
 to the case and through the hole in the kickstart shaft. Set the
 spring guide into the spring with the angular end facing out. If the
-curved end is left facing out, the spring may escape the guide.
-Install the circlip to retain the guide. At this point, there should
-not be any tension on the return spring.
+guide is installed backwards (with the curved end facing out) the
+spring may escape the guide.  Install the circlip to retain the
+guide. At this point, there should not yet be any tension on the
+return spring.
 
 [{% img right https://lh5.googleusercontent.com/-qIIJSCnXm9o/U9-09kVffoI/AAAAAAAAQJY/CqEBy6sYhQI/s400/DSC00096.JPG 400 300 Temporarily attached kickstart lever for testing of action %}](https://picasaweb.google.com/lh/photo/H9mygTEKmkTzEw0TfsNmNI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 Temporarily attach the kickstart lever onto the kickstart shaft,
 pointing towards roughly 3 o'clock. With your left hand, rotate the
 shaft counter clock wise, which will put tension onto the return
-spring and rotating the sliding gear's guide into its correct "home"
-position. At this point, hold the lever in place and attach the
-stopper and guide plates by bolting it to the crank case. You can then
-slowly relax your hold on the lever, allowing the sliding gear to meet
-the guide plate and stop itself against the stopper plate.
+spring and rotate the sliding gear's guide into its correct "home"
+position. At this position, hold the lever in place and attach the
+stopper and guide plates by bolting them to the crank case. You can
+then slowly relax your hold on the lever, allowing the sliding gear to
+engage the the guide plate and come to rest pressing itself against
+the stopper plate.
 
-I found this method to be significantly easier to manage than
-attaching the guide and stopper plates first and attempting to put a
-quarter turn onto the return spring with pliers before installing the
-return spring guide. I hope that it saves you some frustration as
-well.
+I found this method to be significantly easier to manage than the
+documented one of attaching the guide and stopper plates first and
+attempting to put a quarter turn of tension onto the return spring
+using pliers before installing the return spring guide. I hope that it
+saves you some frustration as well.
 
 [{% img right https://lh6.googleusercontent.com/-JmoNKjYxQtA/U9-07OZu08I/AAAAAAAAQGA/JvL8p-2-PPo/s400/DSC00099.JPG 400 300 Sliding gear, guide, and stopper %}](https://picasaweb.google.com/lh/photo/RG9bm_BiNfZfcnO0Ecn9ZI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 Verify that the shaft rotates cleanly, with the sliding gear moving
@@ -519,11 +524,11 @@ you have the case surfaces mated, clamp them tightly together and start
 replacing all thirteen case bolts.
 
 The case bolts are a variety of lengths. An easy rule of thumb to
-determine that you're using the right length bolt in a particular hole
-is to simply check that it has a between 1 and 2 cm sticking out if
-you insert it without turning. If you can insert it flush, it's
-obviously too short of a bolt; if it only slides in a bit and leaves
-more than 2cm sticking out, then it's too long.
+determine that you're using the correct bolt in a particular hole is
+to simply check that it has a between 1 and 2 cm sticking out if you
+insert it without turning. If you can insert it flush, it's obviously
+too short of a bolt; if it only slides in a bit and leaves more than
+2cm sticking out, then it's too long.
 
 
 ## Install Idler and Complete Kickstart
