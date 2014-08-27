@@ -150,10 +150,13 @@ the engine work constrained to a 3' x 5' table, with tools on a nearby
 bench. Any smaller workspace may prove problematic.
 
 In the tools and consumables sections that follow I include an
-associate link to Amazon where applicable. If you can find the tool
-cheaper elsewhere, that's great! If you want to buy it from Amazon
-though, please use these links. It won't cost you more, but I'll get a
-penny in my tip jar for having referred you.
+associate link to <a target="_blank" href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=obrieisapileo-20&linkId=452VVWKHEEQMRPPK">Amazon.com</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+where applicable. If you can find the items cheaper elsewhere, that's
+great! If you want to buy it from Amazon though, please use these
+links. It won't cost you more, but I'll get a nickel in my tip jar for
+having referred you. For the most part, I tried to find the bast match
+to the tool I actualy used, which may not necessarily be the best one
+available.
 
 [{% img right https://lh3.googleusercontent.com/-J3XlYj4ZvbI/U_OlzxnkQeI/AAAAAAAAQVU/gTCHxhL1fwU/s400/DSC00115.JPG 400 300 Manuel, relay instructions %}](https://picasaweb.google.com/lh/photo/hdiGnXv1VstAfb4W7UGMjo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 You will require a copy of the [TU250X Service Manual][Manual], which
@@ -221,13 +224,13 @@ Rear stand
 Pneumatic jack
 : To aide in engine removal and replacement. I didn't use a jack
   specific to motorcycles, so I needed to use a piece of wood to
-  provide a relatively soft, flat surface between the jack and engine.
+  provide a relatively soft, flat surface between the jack and engine. - <a href="http://www.amazon.com/gp/product/B000H4I5VK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000H4I5VK&linkCode=as2&tag=obrieisapileo-20&linkId=TYHIP3Z6TMW5J6ZX">Powerbuilt 640181 Garage 2-Ton Trolley Jack</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000H4I5VK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Torque wrench
-: It will need to be adjustable to at least 100 N/m for this project.
+: It will need to be adjustable to at least 100 N/m for this project. - <a href="http://www.amazon.com/gp/product/B000MB53ZE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000MB53ZE&linkCode=as2&tag=obrieisapileo-20&linkId=HCIUCB5X5RKRS3SE">Neiko 3/8-Inch 10-80 Foot-Pounds Automatic Torque Wrench</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000MB53ZE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Breaker bar
-: A lot of tough bolts, you'll need the leverage.
+: A lot of tough bolts, you'll need the leverage. - <a href="http://www.amazon.com/gp/product/B000NPT5IK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NPT5IK&linkCode=as2&tag=obrieisapileo-20&linkId=SQZSDDVW3WIGKGIF">TEKTON 1703 1/2-Inch Drive x 25-Inch Flex Breaker Bar</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000NPT5IK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Impact driver
 : In order to remove the four shift mechanism screws, which have
@@ -251,7 +254,7 @@ remove the cam sprocket bolts, which have threadlock.
 
 Circlip Pliers
 : The transmission, kickstart assembly, and oil pump all use circlips
- to retain their gears.
+ to retain their gears. - <a href="http://www.amazon.com/gp/product/B000NPPASY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NPPASY&linkCode=as2&tag=obrieisapileo-20&linkId=EGKNQUKKD3Z2P7QR">TEKTON 3572 7-Inch External Bent Tip Snap Ring Pliers</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000NPPASY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 ### Optional Tools
@@ -265,12 +268,12 @@ Rotor holder
 : This is a specialty Suzuki tool specific for this task, but it's
   possible to get around using it as the rotor bolt has significantly
   more torque on it than many of the other bolts you'll be dealing
-  with
+  with. Suzuki part number `09930-44521`
 
 Bar clamps
 : Good for temporarily holding the case halves together when you are
   in the process of digging out the baggie of case bolts. Four small
-  ones is enough.
+  ones is enough. - <a href="http://www.amazon.com/gp/product/B00005R1HV/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00005R1HV&linkCode=as2&tag=obrieisapileo-20&linkId=RBRRRRHQYK3IU4YW">Jorgensen 3706-HD 6-Inch Heavy-Duty Steel Bar Clamp</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B00005R1HV" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Brass brush
 : For cleaning mating surfaces and removing gasket bits. Brass is soft
@@ -313,13 +316,13 @@ Thread lock
 Gasket set
 : You'll need to replace the gaskets for the clutch cover, generator
   cover, cylinder, and cylinder head during the tear-down and rebuild
-  process. See previous section for part numbers.
+  process. See [previous section](#required-parts) for part numbers.
 
 
 ### Optional Consumables
 
 WD-40
-: For cleaning components prior to re-lubbing them
+: For cleaning components prior to re-lubbing them - <a href="http://www.amazon.com/gp/product/B000NV5PRE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NV5PRE&linkCode=as2&tag=obrieisapileo-20&linkId=SRH3LLQLVW3WMO3E">WD-40 110071 Multi-Use Product Spray with Smart Straw, 11 oz. (Pack of 1)</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000NV5PRE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Gasket remover
 : Wasting time on tough gasket remnants sucks, just
@@ -332,12 +335,13 @@ Gallon baggies
 Shop towels
 : There will be a lot of oil, grease, and general chemical gunk,
   you're going to want something stronger than the paper towels in
-  your kitchen. Get the blue disposable shop towels.
+  your kitchen. Get the blue disposable shop towels. - <a href="http://www.amazon.com/gp/product/B008YX5O9W/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008YX5O9W&linkCode=as2&tag=obrieisapileo-20&linkId=MKUY2OIXO5R3KDST">SCOTT- Shop Towels, 12 rolls</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B008YX5O9W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Oven cleaner
 : I found that my cylinder head was encrusted with carbon deposits, as
   was my piston head. Oven cleaner, a brass brush, and a lot of elbow
-  grease will help to remove it.
+  grease will help to remove it. I just had some dollar-stuff around,
+  you're on your own here.
 
 
 ## Remove the engine
@@ -614,9 +618,10 @@ If you liked my terrible pictures, here's [the entire album](https://picasaweb.g
 
 ## Changelog
 
-- 2014-08-26 Mention the EMGO kickstart lever which *may* work
-- 2014-08-25 Re-read and found all sorts of terrible wording and bad
+- 2014-08-26: Mention the EMGO kickstart lever which *may* work. Added
+  more Amazon links.
+- 2014-08-25: Re-read and found all sorts of terrible wording and bad
   grammar. Added some product links, with more to come later.
-- 2014-08-19 Initial published revision. Need to add Amazon links for
+- 2014-08-19: Initial published revision. Need to add Amazon links for
   the various tools and consumables.
-- 2014-07-27 Draft layout
+- 2014-07-27: Draft layout.
