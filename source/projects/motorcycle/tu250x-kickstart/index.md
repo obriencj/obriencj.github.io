@@ -578,7 +578,11 @@ resinstall the rear wheel, the chain, the front-sprocket, and
 everything else you removed in the first place.
 
 If you wanted to remove your PAIR valve, this is the perfect
-opportunity, but I'll provide more details on that in a later post.
+opportunity -- just skip re-installing it and patch up the three
+connection points that need filling. For more information, visit my
+[PAIR removal] page.
+
+[PAIR removal]: /projects/motorcycle/tu250x-pair-removal/
 
 Put in a new oil filter, replace the shift neutral stopper, oil pan,
 and drain plug, and fill her up with clean oil. Double check all of
@@ -613,7 +617,7 @@ weekend of riding, you'll get the feel for it!
 
 Congratulations, ride safe, and have fun!
 
-If you liked my terrible pictures, here's [the entire album](https://picasaweb.google.com/114793537781613459114/TU250xKickstart?authuser=0&authkey=Gv1sRgCNfes67A1oXvdg&feat=directlink)
+If you liked my terrible pictures, here's [the entire album](https://picasaweb.google.com/114793537781613459114/TU250xKickstart?authuser=0&authkey=Gv1sRgCNfes67A1oXvdg&feat=directlink). If you wanted to read more about the mods I've done on Tux, check out my [motorcycle projects page](/projects/motorcycle).
 
 
 ## Changelog
