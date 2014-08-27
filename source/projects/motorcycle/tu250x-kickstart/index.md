@@ -104,6 +104,8 @@ ST250's, which will very likely be an issue as the folded lever fits
 close to the motorcycle's frame. It would most probably would strike
 the frame or pegs, but I have not physically verified this.
 
+There is an <a href="http://www.amazon.com/gp/product/B008Y39W9K/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008Y39W9K&linkCode=as2&tag=obrieisapileo-20&linkId=DI7S5QUN326WZUPC">EMGO Suzuki kickstart lever</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B008Y39W9K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> which looks like it will fit (correct curve, narrow attachment point), but once again I have not physically verified this.
+
 I had a good experience in obtaining the Japan-only parts from
 [Samurider.com], and I highly recommend going to them first. Simply
 give them the part numbers referenced above and they will email you
@@ -610,8 +612,9 @@ Congratulations, ride safe, and have fun!
 If you liked my terrible pictures, here's [the entire album](https://picasaweb.google.com/114793537781613459114/TU250xKickstart?authuser=0&authkey=Gv1sRgCNfes67A1oXvdg&feat=directlink)
 
 
-## Change Log
+## Changelog
 
+- 2014-08-26 Mention the EMGO kickstart lever which *may* work
 - 2014-08-25 Re-read and found all sorts of terrible wording and bad
   grammar. Added some product links, with more to come later.
 - 2014-08-19 Initial published revision. Need to add Amazon links for
