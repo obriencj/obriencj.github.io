@@ -149,12 +149,16 @@ task :new_page, :filename do |t, args|
     open(file, 'w') do |page|
       page.puts "---"
       page.puts "layout: page"
-      page.puts "title: \"#{title}\""
+      page.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+      page.puts "description: "
+      page.puts "keywords: "
       page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       page.puts "comments: true"
       page.puts "sharing: true"
       page.puts "footer: true"
-      page.puts "---"
+      page.puts "category: "
+      page.puts "tags: "
+      page.puts "\n---\n"
     end
   else
     puts "Syntax error: #{args.filename} contains unsupported characters"
