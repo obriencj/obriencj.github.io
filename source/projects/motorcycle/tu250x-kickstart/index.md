@@ -102,14 +102,14 @@ lever. The oil seal is available in the US, but the lever is not.
 
 Note that the SP250's lever sweeps in a different arc than the
 ST250XK4's, which will very likely be an issue as the folded lever
-fits close to the motorcycle's frame. It would almost come into
-contact with the frame, but I have not physically verified this.
+fits close to the motorcycle's frame. It would almost certainly come
+into contact with the frame, but I have not physically verified this.
 
-There is an <a href="http://www.amazon.com/gp/product/B008Y39W9K/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008Y39W9K&linkCode=as2&tag=obrieisapileo-20&linkId=DI7S5QUN326WZUPC">EMGO Suzuki kickstart lever</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B008Y39W9K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> which looks like it will fit (correct curve, narrow attachment point), but I have not physically verified this either.
+There is an <a href="http://www.amazon.com/gp/product/B008Y39W9K/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008Y39W9K&linkCode=as2&tag=obrieisapileo-20&linkId=DI7S5QUN326WZUPC">EMGO Suzuki kickstart lever</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B008Y39W9K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> which looks like it will fit. It appears to have the correct curve and narrow attachment point. I have not physically verified this either, but it is likely worth a shot as it is significantly less expensive than the OEM part.
 
 I had a good experience in obtaining the Japan-only parts from
 [Samurider.com], and I highly recommend going to them first. Simply
-contect them with the part numbers [referenced](#required-parts), and
+contect them with the part numbers [referenced below](#required-parts), and
 they will reply to your inquiry with a quote.
 
 [samurider.com]: http://www.samurider.com/?page_id=117
@@ -133,13 +133,13 @@ In order to add a decompression lever, one must acquire:
 - supporting cylinder head cover (normally only sold as a unit with
   the cylinder head)
 
-I weigh in at roughly 170 lbs with boots and gear and I am able --
-without any prior skill in the matter -- to kick start my modified
-TU250X without the assistance of a decompression lever. At this time I
-have not sought out the necessary parts to add this feature. I may
-consider doing so in the future just for the sake of completeness.
-When/If that happens, I will update this guide to include the
-additional steps.
+I weigh roughly 170 lbs with boots and gear and I am able -- without
+any prior skill in the matter -- to kick start my modified TU250X
+without the assistance of a decompression lever. At this time I have
+not sought out the necessary parts to add this feature. I may consider
+doing so in the future just for the sake of completeness.  When/If
+that happens, I will update this guide to include the additional
+steps.
 
 
 ## Prerequisites
