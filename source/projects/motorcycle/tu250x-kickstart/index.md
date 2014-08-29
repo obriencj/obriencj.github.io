@@ -2,7 +2,7 @@
 layout: page
 title: "TU250x Kickstart"
 description: "Guide to installing a kickstart on a TU250x"
-keywords: "TU250x, kickstart, kick-start, guide, howto, motorcycle, mods"
+keywords: "TU250x, tu250, st250, sp250, kickstart, kick start, guide, howto, motorcycle, mods, parts, tools, suzuki"
 date: 2014-08-19 19:00
 updated: 2014-08-25 19:00
 comments: false
@@ -259,7 +259,7 @@ remove the cam sprocket bolts, which have threadlock.
 
 Circlip Pliers
 : The transmission, kickstart assembly, and oil pump all use circlips
- to retain their gears. - <a href="http://www.amazon.com/gp/product/B000NPPASY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NPPASY&linkCode=as2&tag=obrieisapileo-20&linkId=EGKNQUKKD3Z2P7QR">TEKTON 3572 7-Inch External Bent Tip Snap Ring Pliers</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000NPPASY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+ to retain their gears. - <a href="http://www.amazon.com/gp/product/B0009OR8ZM/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0009OR8ZM&linkCode=as2&tag=obrieisapileo-20&linkId=FAV24YEIAR7AB6M2">Lisle 49200 Heavy Duty Snap Ring Plier</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B0009OR8ZM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 ### Optional Tools
@@ -627,6 +627,8 @@ If you liked my terrible pictures, here's [the entire album](https://picasaweb.g
 
 ## Changelog
 
+- 2014-08-29: Corrected circlip pliers suggested item -- it was too
+  big for the holes on the clips suzuki uses.
 - 2014-08-26: Mention the EMGO kickstart lever which *may* work. Added
   more Amazon links.
 - 2014-08-25: Re-read and found all sorts of terrible wording and bad
