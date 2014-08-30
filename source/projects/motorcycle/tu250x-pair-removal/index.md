@@ -122,9 +122,9 @@ very thin metal) but it does not appear to be leaking.
 There are a number of threads regarding how to properly "trick" the
 ECU into seeing a false PAIR valve. The original PAIR valve has a
 resistance of 22 Ohm. A 12V load on a 22 Ohm resistor would require
-the resistor to be capable of dissipating 6 Watts of power without
-burning up. Automotive resistors do exist with these attributes, but
-can be expensive.
+the resistor to be capable of dissipating more than 6 Watts of power
+without burning up. Automotive resistors do exist with these
+attributes, but can be expensive.
 
 I decided to go with two 1 KOhm 1/4 Watt resistors in parallel. They
 are well within their power dissipation rating at 12V, and the
