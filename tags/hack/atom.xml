@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: hack | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/tags/hack/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2014-08-30T22:44:19-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
+  <author>
+    <name><![CDATA[Christopher O'Brien]]></name>
+    <email><![CDATA[obriencj@preoccupied.net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[gist - output of spexy_try]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/"/>
+    <updated>2014-01-25T00:00:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try</id>
+    <content type="html"><![CDATA[<p>Because it&rsquo;s Friday night and I have nothing else going on, I&rsquo;ve been
+hacking away at <a href="https://github.com/obriencj/python-spexy">Spexy</a> again. It remains an utterly insane body of
+work, which no clear-minded individual should approach with a straight
+face.</p>
+
+<!-- more -->
+
+
+<p>But&hellip; I&rsquo;m surprised how the me from 2007 thought some of the features
+through &ndash; especially taking into consideration the
+<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif" title="Come with me on an adventure you'll never remember">state of my brain</a> at the time. The module itself runs the input code
+through distinct parsing and evaluation steps, which includes a macro
+expansion pass before moving on to specials. I get the idea that I may
+have intended to write parts of Spexy <strong>in</strong> Spexy once I got
+<code>defmacro</code> support written. Maybe that can be next.</p>
+
+<p>On this fine (albeit very cold) evening, I suffered a fit of
+inspiration (and giggling). When the dust settled, Spexy had gained
+support for <code>try/except</code> expressions.</p>
+
+<pre><code class="text output of spexy_try https://gist.github.com/obriencj/8610594 Gist">maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
+The original spexy source is
+-----
+(defun division (x y)
+  (let ((result None))
+    (try
+      (setf result (/ x y))
+
+      ((ZeroDivisionError)
+        (println "division by zero!" x "/" y)
+        False)
+      (:else
+        (println "result is" result)
+        result)
+      (:finally
+        (println "executing finally clause")))))
+-----
+
+parses into tree
+-----
+['defun', 'division', ['x', 'y'], ['let', [['result', 'None']], ['try', ['setf', 'result', ['/', 'x', 'y']], [['ZeroDivisionError'], ['println', '"division by zero!"', 'x', '"/"', 'y'], 'False'], [':else', ['println', '"result is"', 'result'], 'result'], [':finally', ['println', '"executing finally clause"']]]]]
+-----
+
+processed into Python
+-----
+globals().__setitem__('division', (lambda x, y: ((lambda result: (lambda _lcls:(eval(compile('def try_block(try_clause,except_0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n','&lt;spexy&gt;','single'),globals(),_lcls), _lcls)[-1])({})['try_block']((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__('sys').stdout.writelines(map(str, ("division by zero!", " ", x, " ", "/", " ", y, '\n'))), False,)[-1]), (lambda : (__import__('sys').stdout.writelines(map(str, ("result is", " ", result[0], '\n'))), result[0],)[-1]), (lambda : __import__('sys').stdout.writelines(map(str, ("executing finally clause", '\n'))))))([None]))))
+-----
+
+division(1, 2)
+result is 0
+executing finally clause
+result: 0
+
+division(4, 2)
+result is 2
+executing finally clause
+result: 2
+
+division(2, 0)
+division by zero! 2 / 0
+executing finally clause
+result: False
+
+it works!
+</code></pre>
+
+<p>It&rsquo;s pretty ugly. It&rsquo;s ugly pretty. Most importantly, it&rsquo;s satisfying
+the rules of Spexy. &ldquo;What rules,&rdquo; you ask? As I&rsquo;ve been toiling over
+this I&rsquo;ve remembered more about just why the thing exists. It&rsquo;s not a
+project &ndash; it&rsquo;s a puzzle! The inspiration was never &ldquo;I need a tool
+that will do&hellip;&rdquo; it was &ldquo;I wonder if I can&hellip;&rdquo; and from there sprung
+up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#concept">rules</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[gist - spexy repl example]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/"/>
+    <updated>2014-01-22T00:02:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example</id>
+    <content type="html"><![CDATA[<p>For those with strong stomachs I present an example of <a href="https://github.com/obriencj/python-spexy">Spexy</a>, and the
+perfectly valid Python it emits</p>
+
+<!-- more -->
+
+
+<pre><code class="text spexy repl example https://gist.github.com/obriencj/8567348 Gist">[siege@maybe src]$ python spexy.py
+&gt;&gt;&gt;&gt; (defun make_pair ()
+        (letrec ((value None)
+                (getter (lambda () value))
+                (setter (lambda (v) (setf value v))))
+            (make-list getter setter)))
+--&gt; globals().__setitem__('make_pair', (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
+&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
+        (define getter (getf gs 0))
+        (define setter (getf gs 1)))
+--&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__('getter', gs[0].__getitem__(0)), globals().__setitem__('setter', gs[0].__getitem__(1)),)[-1])([None]))
+&gt;&gt;&gt;&gt; (getter)
+--&gt; getter()
+&gt;&gt;&gt;&gt; getter
+--&gt; getter
+&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
+&gt;&gt;&gt;&gt; setter
+--&gt; setter
+&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
+&gt;&gt;&gt;&gt; (setter)
+--&gt; setter()
+## &lt;lambda&gt;() takes exactly 1 argument (0 given)
+&gt;&gt;&gt;&gt; (setter "hello world")
+--&gt; setter("hello world")
+&gt;&gt;&gt;&gt; (getter)
+--&gt; getter()
+'hello world'
+&gt;&gt;&gt;&gt; (getter)
+--&gt; getter()
+'hello world'
+&gt;&gt;&gt;&gt; (setter "919")
+--&gt; setter("919")
+&gt;&gt;&gt;&gt; (getter)
+--&gt; getter()
+'919'
+</code></pre>
+
+<pre><code class="text more spexy repl https://gist.github.com/obriencj/8609890 Gist">maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
+Python 2.7.6 (default, Nov 18 2013, 15:12:51)
+[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; from spexy import repl
+&gt;&gt;&gt; from datetime import datetime
+&gt;&gt;&gt; repl(globals())
+&gt;&gt;&gt;&gt; (let ((who "siege") (date 1999))
+       (letrec ((fmt "Hello %s, party like it is %i!")
+                (msg (% fmt (make-tuple who date))))
+         (println msg)))
+ --&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.__setitem__(0, "Hello %s, party like it is %i!"), msg.__setitem__(0, (fmt[0] % (who[0], date[0],))), __import__('sys').stdout.writelines(map(str, (msg[0], '\n'))),)[-1])([None], [None])))(["siege"], [1999]))
+Hello siege, party like it is 1999!
+&gt;&gt;&gt;&gt; (println "But..." "it isn't" 1999 "anymore, it's" (. (datetime.now) year))
+ --&gt; __import__('sys').stdout.writelines(map(str, ("But...", " ", "it isn't", " ", 1999, " ", "anymore, it's", " ", datetime.now().year, '\n')))
+But... it isn't 1999 anymore, it's 2014
+&gt;&gt;&gt;&gt; (quit)
+
+&gt;&gt;&gt; quit()
+maybe:python-spexy siege$
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Spexy? Oh god what did I do...]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
+    <updated>2014-01-22T00:01:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
+    <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
+Something I&rsquo;d forgotten. Something that is so bizarre I&rsquo;m not even
+sure what I was thinking when I hacked at it. Something I had to
+double check that I&rsquo;d actually written, because it was so foreign to
+me.</p>
+
+<!-- more -->
+
+
+<p>Then I noticed the date. Ah 2007, the Ambien era. When Space Lord
+Zolpidem guided me on battles through the multiverse on a nightly
+basis. I don&rsquo;t remember a whole lot from 2007. Wish I could say the
+same for 2008, but I digress.</p>
+
+<p>At some point in our adventures, SLZ and I apparently hacked together
+a LISP/Scheme-like python file encoding &ndash; &ldquo;spexy&rdquo;.</p>
+
+<p><em>Keep in mind, this isn&rsquo;t a scheme interpreter written in Python.</em> No
+no no, this decodes to Python. I think I&rsquo;m going to try and clean this
+up and see how much sense it can be made to make.</p>
+
+<p>And then you can bet your ass I&rsquo;m going to pollute GitHub with it.</p>
+
+<p>Stay off drugs, kids.</p>
+
+<hr />
+
+<ul>
+<li>2014-01-23: it&rsquo;s up on GitHub now &ndash; <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
+<li>2014-02-03: originally posted to Tumblr, moved over here</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

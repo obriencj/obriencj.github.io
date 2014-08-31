@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: github.io | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/tags/github-dot-io/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2014-08-30T22:44:19-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
+  <author>
+    <name><![CDATA[Christopher O'Brien]]></name>
+    <email><![CDATA[obriencj@preoccupied.net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Well how about Octopress instead?]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/"/>
+    <updated>2014-01-28T02:24:05-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead</id>
+    <content type="html"><![CDATA[<p>I was a bit unhappy with how <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">JekyllBootstrap</a> was turning out, so now
+I&rsquo;m playing around with <a href="http://octopress.org/" title="A blogging framework for hackers">Octopress</a>.</p>
+
+<!-- more -->
+
+
+<p>It&rsquo;s taken me a little over a week to get this looking something like
+an actual blog. I have no idea why the default layout is so nutty
+(huge fonts, etc).</p>
+
+<p>I&rsquo;m using the <a href="https://github.com/robbyedwards/octopress-tag-pages">tag-pages</a> and <a href="https://github.com/robbyedwards/octopress-tag-cloud">tag-cloud</a> plugins. I&rsquo;m a little bit
+baffled as to why post tagging behavior wasn&rsquo;t included with Octopress
+as a baseline feature.</p>
+
+<p>I want to use the <a href="http://octopress.org/docs/plugins/gist-tag/" title="Gist Tag">gist plugin</a>, but it&rsquo;s currently rendering code
+blocks <a href="https://github.com/imathis/octopress/issues/847" title="GitHub gist changes break gist plugin formatting #847">terribly wrong</a>, so I&rsquo;m reduced to inserting the
+gists directly in any posts I write. This of course has its pros and
+cons. I am not reliant on a bit of javascript and the gist site itself
+to display my snippets, but I am also no longer receiving live updates
+if I make any changes.</p>
+
+<p>I&rsquo;ve imported my scant few <a href="http://obriencj.tumblr.com">Tumblr</a> posts, and have gone through the
+tweaks to make them work in this blog. I believe that I shall now
+abandon Tumblr in favor of posting here&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Making use of Jekyll on github.io]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/"/>
+    <updated>2014-01-25T00:01:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve finally got a setup beyond a quick <a href="https://github.com/fletcher/peg-multimarkdown">multimarkdown</a>-generated page
+in <code>~/public_html</code> and have moved into the space age with <a href="http://jekyllbootstrap.com/" title="The Quickest Way to Blog on GitHub Pages">Jekyll</a> on
+<a href="https://pages.github.com" title="GitHub Pages">github.io</a>. I&rsquo;m swimming in the posibilities.</p>
+
+<!-- more -->
+
+
+<p>Is this more convenient or better than the <a href="http://obriencj.tumblr.com">Tumblr</a> I&rsquo;d been
+maintaining?  I&rsquo;m not sure. I know these pages get to take advantage
+of the CDN. That&rsquo;s a bonus. I also know that I have direct access to
+the full history and content of all of my posts immediately &ndash; also a
+bonus.</p>
+
+<p>But I am not very happy with the theming right now. I&rsquo;ve had to make a
+number of changes to what should have been a functioning theme (but
+which wasn&rsquo;t). Do I want to get invested in layout design as part of
+this? Not really, no. But it may be worth the effort.</p>
+
+<p>Things to consider on a lazy and cold Sunday.</p>
+]]></content>
+  </entry>
+  
+</feed>
