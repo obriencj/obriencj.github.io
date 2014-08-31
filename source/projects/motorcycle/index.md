@@ -8,10 +8,6 @@ decription: "About my Suzuki TU250x, the Tux"
 keywords: "tu250x"
 date: 2014-07-24 00:00:00 -0500
 comments: false
-category: projects
-tags:
-  - motorcycle
-  - tu250x
 
 ---
 

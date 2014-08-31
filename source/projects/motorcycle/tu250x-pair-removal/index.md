@@ -6,10 +6,6 @@ keywords: "tu250x, PAIR, PAIR removal, mod, parts, suzuki, resistor, motorcycle"
 date: 2014-08-26 19:00 -0400
 updated: 2014-08-30 18:00 -0400
 comments: false
-category: projects
-tags:
-  - tu250x
-  - motorcycle
 
 ---
 
