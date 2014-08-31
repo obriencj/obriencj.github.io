@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: zolpidem | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/tags/zolpidem/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2014-08-30T22:46:19-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
+  <author>
+    <name><![CDATA[Christopher O'Brien]]></name>
+    <email><![CDATA[obriencj@preoccupied.net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Spexy? Oh god what did I do...]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
+    <updated>2014-01-22T00:01:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
+    <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
+Something I&rsquo;d forgotten. Something that is so bizarre I&rsquo;m not even
+sure what I was thinking when I hacked at it. Something I had to
+double check that I&rsquo;d actually written, because it was so foreign to
+me.</p>
+
+<!-- more -->
+
+
+<p>Then I noticed the date. Ah 2007, the Ambien era. When Space Lord
+Zolpidem guided me on battles through the multiverse on a nightly
+basis. I don&rsquo;t remember a whole lot from 2007. Wish I could say the
+same for 2008, but I digress.</p>
+
+<p>At some point in our adventures, SLZ and I apparently hacked together
+a LISP/Scheme-like python file encoding &ndash; &ldquo;spexy&rdquo;.</p>
+
+<p><em>Keep in mind, this isn&rsquo;t a scheme interpreter written in Python.</em> No
+no no, this decodes to Python. I think I&rsquo;m going to try and clean this
+up and see how much sense it can be made to make.</p>
+
+<p>And then you can bet your ass I&rsquo;m going to pollute GitHub with it.</p>
+
+<p>Stay off drugs, kids.</p>
+
+<hr />
+
+<ul>
+<li>2014-01-23: it&rsquo;s up on GitHub now &ndash; <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
+<li>2014-02-03: originally posted to Tumblr, moved over here</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

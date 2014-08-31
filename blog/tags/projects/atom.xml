@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: projects | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/tags/projects/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2014-08-30T22:46:19-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
+  <author>
+    <name><![CDATA[Christopher O'Brien]]></name>
+    <email><![CDATA[obriencj@preoccupied.net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I wrote up my todo list]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/"/>
+    <updated>2014-01-26T00:01:00-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list</id>
+    <content type="html"><![CDATA[<p>I started to write up a <a href="/projects/ideas">TODO/Idea</a> list as a page, and now
+I am overwhelmed by how many things there are that I wanted to work
+on. And I know that there are more than what I could think to list at
+this moment&hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>
