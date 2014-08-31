@@ -31,6 +31,6 @@ two-tone. Maybe that can be a five-year present?
 
 [tps]: http://www.team-powersportsraleigh.com/
 
-[PAIR valve]: /projects/motorcycle/tu250x-pair-removal/
+[PAIR valve]: /projects/motorcycle/tu250x-pair-removal
 
-[kickstart]: /projects/motorcycle/tu250x-kickstart/
+[kickstart]: /projects/motorcycle/tu250x-kickstart

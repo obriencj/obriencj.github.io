@@ -57,9 +57,12 @@ operate correctly, but the ECU will not be able to see the problem.
 The device does not weigh much, and only draws on the battery in brief
 burts at idle RPMs. It is however a tangle of tubes and wires that I
 found myself having to fight with during the disassembly process, and
-which I was not interested in replacing during reassembly. There is no
-discernable performance increase. The engine does look less cluttered,
-from a visual appeal perspective.
+which I was not interested in replacing
+[during reassembly][kickstart].  There is no discernable performance
+increase. The engine does look less cluttered, from a visual appeal
+perspective.
+
+[kickstart]: /projects/motorcycle/tu250x-kickstart
 
 
 ## Patching Things Up
