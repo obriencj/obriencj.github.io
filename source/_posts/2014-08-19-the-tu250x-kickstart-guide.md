@@ -10,7 +10,7 @@ category: projects
 tags:
   - tu250x
   - motorcycle
-url: http://obriencj.preoccupied.net/projects/motorcycle/tu250x-kickstart/
+url: http://obriencj.preoccupied.net/projects/motorcycle/tu250x-kickstart
 
 ---
 
@@ -22,7 +22,7 @@ through a few more revisions, but it's in a state now where it may
 actually make sense to other people!
 
 So check out my
-[TU250x Kickstart](/projects/motorcycle/tu250x-kickstart/) page, which
+[TU250x Kickstart](/projects/motorcycle/tu250x-kickstart) page, which
 details the changes needed, the part numbers, and the work required to
 make it happen!
 
@@ -32,4 +32,4 @@ that are required to get the job done.
 
 [thread]: http://tu250riders.com/viewtopic.php?f=8&t=1809&start=21
 
-[forum]: http://tu250riders.com/
+[forum]: http://tu250riders.com

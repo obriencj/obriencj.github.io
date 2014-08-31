@@ -583,7 +583,7 @@ opportunity -- just skip re-installing it and patch up the three
 connection points that need filling. For more information, visit my
 [PAIR removal] page.
 
-[PAIR removal]: /projects/motorcycle/tu250x-pair-removal/
+[PAIR removal]: /projects/motorcycle/tu250x-pair-removal
 
 Put in a new oil filter, replace the shift neutral stopper, oil pan,
 and drain plug, and fill her up with clean oil. Double check all of
