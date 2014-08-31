@@ -4,10 +4,10 @@ meta: false
 footer: false
 title: "Projects"
 tagline: "that I happen to work on"
+description: "Collection of projects that I work on"
 date: 2014-01-01 00:00:00 -0500
+updated: 2014-08-30
 comments: false
-category: site
-tags: [ projects ]
 
 ---
 
@@ -27,6 +27,15 @@ the mess. It gives an excellent perspective.
 [gist]: https://gist.github.com/obriencj "Christopher O'Brien on Gist"
 
 [gcode]: https://code.google.com/p/obriencj "Projects on Google Code"
+
+
+## Motorcycle Projects
+
+I have a fantastic little motorcycle, let me tell you all about her!
+
+* [Motorcycle Project Page](/projects/motorcycle)
+* [TU250x Kickstart](/projects/motorcycle/tu250x-kickstart)
+* [TU250x PAIR Removal](/projects/motorcucle/tu250x-pair-removal)
 
 
 ## Project Ideas

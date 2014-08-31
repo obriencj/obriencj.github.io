@@ -6,10 +6,6 @@ keywords: "TU250x, tu250, st250, sp250, kickstart, kick start, guide, howto, mot
 date: 2014-08-19 19:00
 updated: 2014-08-25 19:00
 comments: false
-categoy: projects
-tags:
-  - motorcycle
-  - tu250x
 
 ---
 
