@@ -22,25 +22,25 @@ the mess. It gives an excellent perspective.
 * [obriencj on Gist][gist]
 * [obriencj on Google Code][gcode]
 
-[github]: https://github.com/obriencj "Christopher O'Brien on GitHub"
+[github]: https://github.com/obriencj/ "Christopher O'Brien on GitHub"
 
-[gist]: https://gist.github.com/obriencj "Christopher O'Brien on Gist"
+[gist]: https://gist.github.com/obriencj/ "Christopher O'Brien on Gist"
 
-[gcode]: https://code.google.com/p/obriencj "Projects on Google Code"
+[gcode]: https://code.google.com/p/obriencj/ "Projects on Google Code"
 
 
 ## Motorcycle Projects
 
 I have a fantastic little motorcycle, let me tell you all about her!
 
-* [Motorcycle Project Page](/projects/motorcycle)
-* [TU250x Kickstart](/projects/motorcycle/tu250x-kickstart)
-* [TU250x PAIR Removal](/projects/motorcycle/tu250x-pair-removal)
+* [Motorcycle Project Page](/projects/motorcycle/)
+* [TU250x Kickstart](/projects/motorcycle/tu250x-kickstart/)
+* [TU250x PAIR Removal](/projects/motorcycle/tu250x-pair-removal/)
 
 
 ## Project Ideas
 
-Massive disaster of [ideas](/projects/ideas)
+Massive disaster of [ideas](/projects/ideas/)
 
 
 ## Python Projects
@@ -57,12 +57,12 @@ opportunity to do so!
 * [python-spexy] Ridiculous hack, LISP-like preprocessor for Python
 * [python-sibilant] LISP dialect that compiles to Python bytecode
 
-[Python]: http://python.org
-[python-javatools]: http://github.com/obriencj/python-javatools
-[python-promises]: http://github.com/obriencj/python-promises
-[python-brine]: http://github.com/obriencj/python-brine
-[python-spexy]: http://github.com/obriencj/python-spexy
-[python-sibilant]: http://github.com/obriencj/python-sibilant
+[Python]: http://python.org/
+[python-javatools]: http://github.com/obriencj/python-javatools/
+[python-promises]: http://github.com/obriencj/python-promises/
+[python-brine]: http://github.com/obriencj/python-brine/
+[python-spexy]: http://github.com/obriencj/python-spexy/
+[python-sibilant]: http://github.com/obriencj/python-sibilant/
 
 
 ## Bukkit Plugins
@@ -81,17 +81,17 @@ on the [minecraft.preoccupied.net][mc.p.n] (which is currently offline).
 * [bukkit-want] Adds convenient names and aliases for giving items to
   players, including packs of multiple items.
 
-[Bukkit]: http://bukkit.org "Open Source Minecraft server wrapper"
+[Bukkit]: http://bukkit.org/ "Open Source Minecraft server wrapper"
 
-[mc.p.n]: http://tumblr.preoccupied.net "The Preoccupied Bukkit"
+[mc.p.n]: http://tumblr.preoccupied.net/ "The Preoccupied Bukkit"
 
-[bukkit-utils]: http://github.com/obriencj/bukkit-utils
-[bukkit-worlds]: http://github.com/obriencj/bukkit-worlds
-[bukkit-dispenser]: http://github.com/obriencj/bukkit-dispenser
-[bukkit-places]: http://github.com/obriencj/bukkit-places
-[bukkit-weather]: http://github.com/obriencj/bukkit-weather
-[bukkit-warp]: http://github.com/obriencj/bukkit-warp
-[bukkit-want]: http://github.com/obriencj/bukkit-want
+[bukkit-utils]: http://github.com/obriencj/bukkit-utils/
+[bukkit-worlds]: http://github.com/obriencj/bukkit-worlds/
+[bukkit-dispenser]: http://github.com/obriencj/bukkit-dispenser/
+[bukkit-places]: http://github.com/obriencj/bukkit-places/
+[bukkit-weather]: http://github.com/obriencj/bukkit-weather/
+[bukkit-warp]: http://github.com/obriencj/bukkit-warp/
+[bukkit-want]: http://github.com/obriencj/bukkit-want/
 
 
 ## Warcraft Addons
@@ -122,5 +122,5 @@ Interests change as time goes by.
   never got very far, but it was entertaining.
 
 [pidgin]: https://pidgin.im/
-[meanwhile]: https://sf.net/projects/meanwhile
-[jamud]: https://sf.net/projects/jamud
+[meanwhile]: https://sf.net/projects/meanwhile/
+[jamud]: https://sf.net/projects/jamud/

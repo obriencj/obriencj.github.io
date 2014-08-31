@@ -583,7 +583,7 @@ opportunity -- just skip re-installing it and patch up the three
 connection points that need filling. For more information, visit my
 [PAIR removal] page.
 
-[PAIR removal]: /projects/motorcycle/tu250x-pair-removal
+[PAIR removal]: /projects/motorcycle/tu250x-pair-removal/
 
 Put in a new oil filter, replace the shift neutral stopper, oil pan,
 and drain plug, and fill her up with clean oil. Double check all of
@@ -618,7 +618,9 @@ weekend of riding, you'll get the feel for it!
 
 Congratulations, ride safe, and have fun!
 
-If you liked my terrible pictures, here's [the entire album](https://picasaweb.google.com/114793537781613459114/TU250xKickstart?authuser=0&authkey=Gv1sRgCNfes67A1oXvdg&feat=directlink). If you wanted to read more about the mods I've done on Tux, check out my [motorcycle projects page](/projects/motorcycle).
+If you liked my terrible pictures, here's [the entire album](https://picasaweb.google.com/114793537781613459114/TU250xKickstart?authuser=0&authkey=Gv1sRgCNfes67A1oXvdg&feat=directlink). If you wanted to read more about the mods I've done on Tux, check out my [motorcycle projects page](/projects/motorcycle/).
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/g_86y2nkG1A" frameborder="0" allowfullscreen></iframe>
 
 
 ## Changelog

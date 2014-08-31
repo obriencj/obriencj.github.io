@@ -1,12 +1,11 @@
 ---
 layout: page
-meta: false
 footer: false
 title: "Support"
 tagline: "if you're feeling generous"
 date: 2014-02-16 13:44
+updated: 2014-08-31
 comments: false
-category: site
 
 ---
 
@@ -20,14 +19,11 @@ If you are interested in keeping the internet free (and you darned
 well ought to be), I entreat you to [donate to the EFF]. Get yourself
 some cool stickers!
 
-[freedom]: https://eff.org/r.1aes
-"Sign the Declaration of Internet Freedom"
+[freedom]: https://eff.org/r.1aes "Sign the Declaration of Internet Freedom"
 
-[electronic frontier foundation]: http://www.eff.org
-"The Electronic Frontier Foundation"
+[electronic frontier foundation]: http://www.eff.org "The Electronic Frontier Foundation"
 
-[donate to the EFF]: https://supporters.eff.org/donate
-"Support the Electronig Frontier Foundation"
+[donate to the EFF]: https://supporters.eff.org/donate "Support the Electronig Frontier Foundation"
 
 
 ## Personal Tip Jar
