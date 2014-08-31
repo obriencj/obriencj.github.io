@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "Contact"
-description: "how to reach me"
-date: 2014-01-01 00:00:00 -0500
-updated: 2014-08-11 10:00:00 -0500
 tagline: "how to reach me"
-category: site
+description: "how to reach me"
+keywords: "email, contact, Christopher O'Brien, siege, Chris, O'Brien"
+date: 2014-01-01 00:00:00 -0500
+updated: 2014-08-31
 footer: false
 
 ---
