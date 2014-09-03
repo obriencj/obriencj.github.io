@@ -1,12 +1,12 @@
 ---
 layout: page
-meta: false
 footer: false
 title: "My Motorcycle"
 tagline: "the suzuki tu250x"
 decription: "About my Suzuki TU250x, the Tux"
-keywords: "tu250x"
+keywords: "tu250x, suzuki"
 date: 2014-07-24 00:00:00 -0500
+updated: 2014-08-31
 comments: false
 
 ---
@@ -15,7 +15,7 @@ I ride a fantastic piece of Japanese machinery called the Suzuki
 TU250x. Fuel injected, SOHC, air-cooled -- 249cc of pure joy.
 
 Mine came from [Team Powersports in Raleigh][tps], and is a 2013
-model. I've only made a few minor modifications so far.
+model. I've only made a few modifications so far.
 
 * de-stickered
 * bar-end mirrors
@@ -28,6 +28,11 @@ model. I've only made a few minor modifications so far.
 I would love to pick up the classic-styled front and rear fender from
 Japan and to get the whole bike painted a nice deep Oxblood and cream
 two-tone. Maybe that can be a five-year present?
+
+I'm interested in some of the air and battery relocation jobs I've
+seen others do. I admire the minimalist look that results.
+
+A [Frankentux](/projects/motorcycle/frankentux/) might be a fun idea, too.
 
 [tps]: http://www.team-powersportsraleigh.com/
 
