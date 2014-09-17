@@ -15,19 +15,19 @@ comments: false
 The [Suzuki TU250x] is a 249cc EFI [UJM], produced in Japan and
 imported for sale in the United States from 2009 to 2015. The
 bi-yearly updates of the US version have thus far been limited to
-trimline changes.
+trim-line changes.
 
 [Suzuki TU250x]: http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx
 
 [UJM]: http://en.wikipedia.org/wiki/Universal_Japanese_motorcycle
 
 Outside of the US, the bike has a wider audience and has been
-available longer; originally as a carburated, 4-valve format with more
-varients and options. The closest direct kin to the modern TU250X in
+available longer; originally as a carbureted, 4-valve format with more
+variants and options. The closest direct kin to the modern TU250X in
 the Japanese market is the ST250.
 
 The ST250 was available in a standard model and an "E-Type" model. The
-E-Type is the fancier version, with a two-tone trimline, and prior to
+E-Type is the fancier version, with a two-tone trim-line, and prior to
 2008 a kickstarter and a decompression lever on the cylinder head
 cover. The kickstart feature was dropped from the E-Type line in 2008,
 along with a switch to fuel injection. Interestingly, the 2008 E-Type
@@ -37,13 +37,13 @@ I will use the following conventions when referring to models for the
 rest of this document:
 
 SP250
-: 1982 or 1983 SP250 dual sport, carburated 4 valve, with kickstart
+: 1982 or 1983 SP250 dual sport, carbureted 4 valve, with kickstart
 
 ST250
-: 2004 or later ST250, carburated 4 valve, no kickstart
+: 2004 or later ST250, carbureted 2 valve, no kickstart
 
 ST250XK4
-: 2004 through 2007 ST250 E-Type, carburated 4 valve, with
+: 2004 through 2007 ST250 E-Type, carbureted 2 valve, with
 kickstart
 
 ST250XK8
@@ -105,7 +105,7 @@ There is an <a href="http://www.amazon.com/gp/product/B008Y39W9K/ref=as_li_tl?ie
 
 I had a good experience in obtaining the Japan-only parts from
 [Samurider.com], and I highly recommend going to them first. Simply
-contect them with the part numbers [referenced below](#required-parts), and
+contact them with the part numbers [referenced below](#required-parts), and
 they will reply to your inquiry with a quote.
 
 [samurider.com]: http://www.samurider.com/?page_id=117
@@ -156,7 +156,7 @@ margin:0px !important;" /> where applicable. If you can find the items
 cheaper elsewhere, that's great! If you want to buy it from Amazon
 though, please use these links. It won't cost you more, but I'll get a
 nickel in my tip jar for having referred you. For the most part, I
-tried to find the bast match to the tool I actualy used, which may not
+tried to find the bast match to the tool I actually used, which may not
 necessarily be the best one available.
 
 [{% img right https://lh3.googleusercontent.com/-J3XlYj4ZvbI/U_OlzxnkQeI/AAAAAAAAQVU/gTCHxhL1fwU/s400/DSC00115.JPG 400 300 Manuel, relay instructions %}](https://picasaweb.google.com/lh/photo/hdiGnXv1VstAfb4W7UGMjo90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
@@ -278,9 +278,9 @@ Bar clamps
 
 Brass brush
 : For cleaning mating surfaces and removing gasket bits. Brass is soft
-  enough to not mar the aluminium of the engine. Do not use steel.
+  enough to not mar the aluminum of the engine. Do not use steel.
 
-Platic razor/scraper
+Plastic razor/scraper
 : For cutting away the side cover gaskets that inevitably adhere
   themselves to the covers. Do not use regular razor blades, you run a
   high risk of damaging mating surfaces and causing an oil leak.  - <a href="http://www.amazon.com/gp/product/B0086X6SIQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0086X6SIQ&linkCode=as2&tag=obrieisapileo-20&linkId=MBU27HFBO347QD42">Neiko 4-Piece Composite Scraper Set</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B0086X6SIQ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
@@ -323,12 +323,12 @@ Gasket set
 ### Optional Consumables
 
 WD-40
-: For cleaning components prior to re-lubbing them - <a href="http://www.amazon.com/gp/product/B000NV5PRE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NV5PRE&linkCode=as2&tag=obrieisapileo-20&linkId=SRH3LLQLVW3WMO3E">WD-40 110071 Multi-Use Product Spray with Smart Straw, 11 oz. (Pack of 1)</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000NV5PRE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+: For cleaning components prior to re-lubing them - <a href="http://www.amazon.com/gp/product/B000NV5PRE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NV5PRE&linkCode=as2&tag=obrieisapileo-20&linkId=SRH3LLQLVW3WMO3E">WD-40 110071 Multi-Use Product Spray with Smart Straw, 11 oz. (Pack of 1)</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000NV5PRE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Gasket remover
 : Wasting time on tough gasket remnants sucks, just
   spray this on them and peel them off like a potato skin with the
-  platic razor.  - <a href="http://www.amazon.com/gp/product/B000M8IE6W/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000M8IE6W&linkCode=as2&tag=obrieisapileo-20&linkId=J6S3JWLIKSMVFTJO">CRC 05021 Technician Grade Gasket Remover - 12 Wt Oz.</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000M8IE6W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  plastic razor.  - <a href="http://www.amazon.com/gp/product/B000M8IE6W/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000M8IE6W&linkCode=as2&tag=obrieisapileo-20&linkId=J6S3JWLIKSMVFTJO">CRC 05021 Technician Grade Gasket Remover - 12 Wt Oz.</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B000M8IE6W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Gallon baggies
 : Put every assembly and various groups of screws in their own bags
@@ -390,7 +390,7 @@ activity benefits from an assistant.
 
 [{% img right https://lh5.googleusercontent.com/-XD4a1Lebuvg/U9-1GpdX8rI/AAAAAAAAQII/_u3Ups5NFOA/s400/IMG_2838.JPG 400 300 I never did get into yoga %}](https://picasaweb.google.com/lh/photo/0N7z0AulW8uOVf1qNPTOBI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 If all goes well, you can now lug around the 70 lbs of filthy and
-unweidly engine to your workspace. Again, I recommend at least a 3' by
+unwieldy engine to your workspace. Again, I recommend at least a 3' by
 5' table to perform this work on, and optionally some sort of durable
 tablecloth or pad to deal with the mess. I, for example, finally got
 some use out of a yoga mat I've had sitting around.
@@ -401,7 +401,7 @@ some use out of a yoga mat I've had sitting around.
 There are a number of steps in the service manual that are geared more
 towards a full teardown. Since we are only interested in getting into
 the crank case, you can skip the removal of the generator rotor,
-removal of the pison, and removal of the crank shaft. You can also
+removal of the piston, and removal of the crank shaft. You can also
 skip a full teardown of the cylinder head cover or removal of the
 valves.
 
@@ -503,7 +503,7 @@ You can now re-assemble the crank-case contents as per the service
 manual. If you find that some of the shafts are very tight, I
 recommend bagging the assembly in question and sticking it in the
 freezer for a few hours. This will cause a minute amount of metal
-shringkage, which is often just enough to make the shafts not bind
+shrinkage, which is often just enough to make the shafts not bind
 when you attempt re-assembly. As I'd mentioned earlier, the
 counter-balance was a tough fit when warm, but when cold I was able to
 get the case halves together without an issue. This is important,
@@ -553,7 +553,7 @@ the proper oil seal. The plug is in there pretty well, so smack it
 firmly from the inside of the case, dead center on the plug
 itself. Take care not to accidentally gouge your cover. Once the plug
 pops out, the oil seal can be placed with only finger pressure and
-some patience. The opening through which you can see the tensioning
+some patience. The opening through which you can see the tension
 spring should face into the engine, not out. Make sure it fully
 seated, and lube it up with some lithium grease.
 
@@ -575,7 +575,7 @@ swingarm mounts lined up, and drove home that bolt before trying to
 line up any others.
 
 After the engine is secure, it's time to reconnect the cables,
-resinstall the rear wheel, the chain, the front-sprocket, and
+re-install the rear wheel, the chain, the front-sprocket, and
 everything else you removed in the first place.
 
 If you wanted to remove your PAIR valve, this is the perfect
@@ -623,8 +623,9 @@ If you liked my terrible pictures, here's [the entire album](https://picasaweb.g
 <iframe width="560" height="315" src="//www.youtube.com/embed/g_86y2nkG1A" frameborder="0" allowfullscreen></iframe>
 
 
-## Changelog
+## Change log
 
+- 2014-09-16: Spell checking.
 - 2014-08-29: Corrected circlip pliers suggested item -- it was too
   big for the holes on the clips suzuki uses.
 - 2014-08-26: Mention the EMGO kickstart lever which *may* work. Added
