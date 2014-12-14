@@ -34,8 +34,6 @@ the mess. It gives an excellent perspective.
 I have a fantastic little motorcycle, let me tell you all about her!
 
 * [Motorcycle Project Page](/projects/motorcycle/)
-* [TU250x Kickstart](/projects/motorcycle/tu250x-kickstart/)
-* [TU250x PAIR Removal](/projects/motorcycle/tu250x-pair-removal/)
 
 
 ## Project Ideas
