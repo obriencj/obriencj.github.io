@@ -1,21 +1,29 @@
 ---
 layout: page
 footer: false
-title: "My Motorcycle"
-tagline: "the suzuki tu250x"
-decription: "About my Suzuki TU250x, the Tux"
-keywords: "tu250x, suzuki"
+title: "My Motorcycles"
+tagline: "Tux and Uggo"
+decription: "About my Suzuki TU250x, the Tux, and my Honda VT500FT, Uggo"
+keywords: "tu250x, suzuki, vt500ft, honda, tux, uggo, motorcycle, projects"
 date: 2014-07-24 00:00:00 -0500
 updated: 2014-08-31
 comments: false
 
 ---
 
-I ride a fantastic piece of Japanese machinery called the Suzuki
-TU250x. Fuel injected, SOHC, air-cooled -- 249cc of pure joy.
+I currently own two motorcycles. I most frequently ride a fantastic
+piece of Japanese machinery, the Suzuki TU250x. I've recently picked
+up a beater/project bike. A 1984 Honda VT500FT. It's in rough
+condition, but it was inexpensive. I think it will be a lot of fun to
+fix.
 
-Mine came from [Team Powersports in Raleigh][tps], and is a 2013
-model. I've only made a few modifications so far.
+
+## 2013 Suzuki TU250x, Tux
+
+Fuel injected, SOHC, air-cooled -- 249cc of pure joy.  Mine came from
+[Team Powersports in Raleigh][tps]. I've made a few modifications so
+far, but apart from the possibility of a custom seat soem day I think
+I'm about done changing her up.
 
 * de-stickered
 * bar-end mirrors
@@ -41,4 +49,20 @@ A [Frankentux](/projects/motorcycle/frankentux/) might be a fun idea, too.
 
 [kickstart]: /projects/motorcycle/tu250x-kickstart/
 
-[RSY Beauty]: /blog/2014/10/10/rsy-beauty-megaphone/
+[RSY Beauty]: /projects/motorcycle/tu250x-rsy-beauty/
+
+
+## 1984 Honda VT500FT, Uggo
+
+I snagged the Uggo after it caught my eye on craigslist. It's as ugly
+as the nickname implies, but there's a certain charm that I find very
+appealing. She needs so much work, but that's all of the fun really.
+
+500cc, liquid cooled, v-twin, shaft-driven. Plastic bits that scream
+"look at me, I'm from the 80s" and some seriously warn components. I
+think she wants to become a cafe bike or perhaps a flat tracker. We
+shall have to see.
+
+Right now she's a [hot mess].
+
+[hot mess]: http://youtu.be/8HXSJg5Mar4
