@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: projects | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/projects/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2014-12-13T20:12:16-05:00</updated>
+  <updated>2014-12-13T20:15:40-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Introducing Uggo]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2014/12/13/introducing-uggo/"/>
+    <updated>2014-12-13T20:13:01-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2014/12/13/introducing-uggo</id>
+    <content type="html"><![CDATA[<p>I picked up something to work on over the holidays, courtesy of
+craigslist. Ladies and gentlemen, Uggo.</p>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/8HXSJg5Mar4" frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[I wrote up my todo list]]></title>
