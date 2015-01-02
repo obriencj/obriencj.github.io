@@ -8,7 +8,9 @@ date: 2014-12-13 20:13:01 -0500
 updated:
 comments: true
 category: projects
-tags: motorcycle, projects
+tags:
+  - motorcycle
+  - vt500ft
 
 ---
 
