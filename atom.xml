@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2015-01-02T00:39:21-05:00</updated>
+  <updated>2015-01-04T12:55:37-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,69 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Clutch Work]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2015/01/03/clutch-work/"/>
+    <updated>2015-01-03T23:22:25-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2015/01/03/clutch-work</id>
+    <content type="html"><![CDATA[<p><a href="https://picasaweb.google.com/lh/photo/2IGyztFD30jQwtHusELiE3SyM6G7abmUFe3wsEDzPy0?feat=embedwebsite"><img class="right" src="https://lh6.googleusercontent.com/-WTAGE71igQ8/VKcVVZL1xeI/AAAAAAAASM4/dyYOpSzj1O8/s288/DSC00220.JPG" width="288" height="216"></a>
+I got a bit more work done on Uggo, this past Friday. It was more of a
+struggle than it really out to be, getting myself moving and collected
+enough to work on anything. I think that I may be suffering from a bit
+of seasonal depression. Either that or the monumental, overwhelming
+dread of returning to work is getting to me. Whatever it is, I
+eventually conquered it enough to drag my tools out to the bike and
+get my hands dirty.</p>
+
+<!-- more -->
+
+
+<p>I started off by draining the oil. It came out thick and grey. This
+has me a little worried, but not terribly &ndash; I&rsquo;d mentioned before that
+I had to stuff rags into the intakes, but it&rsquo;s been miserable and
+rainy for a while, and condensation has been a real issue. I&rsquo;ll keep
+an eye on this after the bike is back together again.</p>
+
+<p>The oil filter had a bunch of big dents in it. It&rsquo;s in an awkward
+place, and I had to use a strap wrench and my breaker bar to get it
+turning, but off it did eventually come.</p>
+
+<p>I then replaced the drain plug, and placed a block of wood and my jack
+under the engine. I jacked it up enough that the rear wheel was on the
+ground and then I removed the sub-frame assembly from the right-side
+of the engine. A pleasant change from the Suzuki, all the bolts save
+one were identical, and all were 6mm alan heads. One of the bolts was
+slightly damaged, but I was able to get it to turn out after a bit of
+a fight.</p>
+
+<p>I wrestled away the side cover, and took a good look around the inside
+of the clutch side of the case. No obvious bits of metal or anything,
+so that&rsquo;s a bonus. The gasket material is going to be a real bastard
+to get off, as usual. I&rsquo;ve got a replacement gasket ready to go, once
+I can get this one cleaned off.</p>
+
+<p>I removed the press-plate from the clutch assembly, and the four
+springs. I had to do some gymnastics, standing on the back brake and
+yanking on the breaker bar to get the 24mm nut off of the assembly so
+I could pull it to replace the friction plates.</p>
+
+<p><a href="https://picasaweb.google.com/lh/photo/ugR1-alUvwjJQwW_9i9j7nSyM6G7abmUFe3wsEDzPy0?feat=embedwebsite"><img class="left" src="https://lh3.googleusercontent.com/-M77axPwOGF4/VKcVXfS-G0I/AAAAAAAASNA/A42Mf6O-aNE/s288/DSC00222.JPG" width="288" height="216"></a>
+Once I did get them out, the old friction plates were as I&rsquo;d
+expected. Three of the plates had been work completely smooth on both
+sides. The others were nearly there, but I could still make out a tiny
+indentation between the friction material pads on them. No wonder it
+slipped!</p>
+
+<p>I installed the new plates and re-assembled the stack and assembly,
+and performed more gymnastics to get it back attached to the
+countershaft. This is a very awkward arrangement &ndash; I much prefer the
+Suzuki for clutch plate maintenance &ndash; just remove the five bolts over
+the springs, and you can slide the pressure plate right off and remove
+the plates! Oh well, it&rsquo;s not like this is a particularly frequent
+check.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Holiday Work on Uggo]]></title>
@@ -1732,24 +1795,6 @@ up and see how much sense it can be made to make.</p>
 <li>2014-02-03: originally posted to Tumblr, moved over here</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Celebrating Three Years of an Unused Tumblr]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/"/>
-    <updated>2014-01-21T00:01:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr</id>
-    <content type="html"><![CDATA[<p>Tumblr let me know that this blog turned three today. It wanted me to post a picture of a cupcake, but I&#8217;ve spared myself that indignity.</p>
-<p>I&#8217;m reminded that I really haven&#8217;t been keeping on with my resolution to document more of what I work on. I wonder if &#8220;blog more&#8221; is the dork version of &#8220;go to the gym&#8221; resolutions.</p>
-
-<!-- more -->
-
-<p>I&#8217;ve been up to my usual foolishness; writing silly things in Python that nobody will ever likely use. The most recent such project is&nbsp;<a href="http://github.com/obriencj/python-promises">python-promises</a>, which is what it sounds like &#8211; a promises implementation in Python. The only interesting part (perhaps) is the transparent proxy implementation.</p>
-<p>I resurrected an older project,&nbsp;<a href="http://github.com/obriencj/python-brine">python-brine</a>, which is a library for pickling functions. Actually pickling them, not just referring to them by name as the default behavior of the pickle library would do.</p>
-<p>My&nbsp;<a href="http://github.com/obriencj/python-javatools">python-javatools</a>&nbsp;project sees a reasonable amount of use, thanks to the particulars of my employment. It&#8217;s proven quite useful as a check during productization of Java bits. It&#8217;s a shame that the HTML reports it generates are so glaringly ugly&#8230; I need to make friends with a UX/UI person.</p>
-<p>Once I get brine and promises a bit more fleshed out, I&#8217;ll probably abandon them in favor of my next crazy idea. I&#8217;ve been itching to see how hard it would be to reify continuations in Python, and then actually call/return through them again. I&#8217;m giggling just thinking about it.</p>
-<p>The bukkit server has been offline for a while now. I have all of these custom mods for bukkit, and they&#8217;re all terribly outdated (and some are obsoleted by in-built features). Zoe has been bugging me to get the server running again, but truth be told I&#8217;m not very interested in Minecraft lately. Maybe I will experience a personal resurgence! Looking through the&nbsp;<a href="http://tumblr.preoccupied.net/">tumblr for the server</a>&nbsp;I&#8217;m somewhat homesick for it&#8230; but not enough to actually get it set back up.</p>
 ]]></content>
   </entry>
   
