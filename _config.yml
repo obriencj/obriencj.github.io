@@ -10,12 +10,6 @@ simple_search: https://www.google.com/search
 description: "Projects and Ideas from Chris O'Brien"
 keywords: "python, lisp, java, programming, motorcycle, tu250x, opinions, ideas"
 
-# Default date format is "ordinal" (resulting in "July 22nd 2007")
-# You can customize the format as defined in
-# http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
-# Additionally, %o will give you the ordinal representation of the day
-date_format: "ordinal"
-
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
 subscribe_email:
