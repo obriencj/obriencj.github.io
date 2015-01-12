@@ -3,7 +3,7 @@ layout: post
 title: "Brake Reassembly"
 tagline: Because stopping is as important as starting
 description: Reassembling the front brake of the VT500FT
-keywords: vt500ft, Honda, motorcycle, brakleen, brakes
+keywords: VT500FT, Honda, motorcycle, brakes
 date: 2015-01-06 08:54:35 -0500
 updated:
 comments: true
