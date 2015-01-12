@@ -6,6 +6,25 @@
     font-size: 1.8em;
 }
 
+header[role="banner"] {
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-image: url(/assets/banner.png);
+    background-image: -webkit-gradient(linear,
+				       right top, left bottom,
+				       color-stop(0%,rgba(0,0,0,0)),
+				       color-stop(10%,rgba(0,0,0,0)),
+				       color-stop(50%,rgba(0,0,0,0.5)),
+				       color-stop(60%,rgba(0,0,0,1))),
+    url(/assets/banner.png);
+    background-image: linear-gradient(to left,
+				      rgba(0,0,0,0) 0%,
+				      rgba(0,0,0,0) 10%,
+				      rgba(0,0,0,0.5) 50%,
+				      rgba(0,0,0,1) 60%),
+    url(/assets/banner.png);
+}
+
 .entry-title {
     font-size: 1.8em;
     /* background-color: blue; */
