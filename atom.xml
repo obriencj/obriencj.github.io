@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2015-01-11T19:44:19-05:00</updated>
+  <updated>2015-01-16T14:21:53-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Brake Reassembly]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2015/01/06/brake-reassembly.md/"/>
+    <updated>2015-01-06T08:54:35-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2015/01/06/brake-reassembly.md</id>
+    <content type="html"><![CDATA[The new seal kit and the replacement brake pistons arrived! I had
+spent some of last night cleaning the caliper as best I could.
+
+<!-- more -->
+
+I initially attacked it inside and out with WD-40 and a soft brass
+brush. This would be an *awful* idea if I had not followed that up
+with a wipe down and then a second cleaning pass with CRC
+Brakleen. The residue that WD-40 leaves behind is a good protective
+cover for things that are left in the open air, but it&#8217;s just another
+bad contaminent on the insides of a caliper. However, it&#8217;s cheap and
+does a really great job as a &#8220;first pass&#8221; for getting rust, grit,
+gunk, and grime broken up and out of the way. The Brakleen pass then
+gets rid of any leftovers contaminents, and removes the WD-40&#8217;s
+residual lubrication. The result is a pair of brake cylinders that are
+clean and dry and ready for their new seals and pistons.
+
+On a side note, I use WD-40 on the chain of my TU250x in a similar
+fashion &#8211; as an initial cleaning pass. It&#8217;s inexpensive, readily
+available, and gets grime out of the way. I always follow that up with
+a wipe-down and an application of a proper teflon-based chain
+lubricant though.
+
+I installed the new seals, and took special care to ensure that the
+inner seal was right-side-up. There&#8217;s a very fine lip that needs to be
+towards the inside of the brake cylinder, or else under pressure the
+brake fluid will force its way out past the piston. The dust seal
+isn&#8217;t as finicky.
+
+Then it was just a matter of wetting the new pistons in clean brake
+fluid and pressing them carefully into their cylinders, taking care
+not to damage the seals on the way in. I closed up the drain screws on
+the caliper, and attached the new brake line.
+
+I&#8217;ll remove the existing controls from the drag bars and move them all
+over to the new emgo bars in the near future, and from there I&#8217;ll be
+in position to fill the and bleed the brake line and see whether
+things have improved. I&#8217;m pretty darn certain that they will have.
+
+It seems that we live in a new golden age for hobbyist
+mechanics. Youtube has been invaluable in providing education
+regarding the function and repair of the brakes, and amazon and ebay
+have been an extraordinary resource in obtaining replacement parts. A
+person need only be possessed of the appropriate will, some basic
+tools, and an internet connection, and they can repair a wide variety
+of mechanisms with confidence.
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Clutch Work]]></title>
@@ -1754,46 +1808,6 @@ perfectly valid Python it emits</p>
 </span><span class='line'>&gt;&gt;&gt; quit()
 </span><span class='line'>maybe:python-spexy siege$
 </span></code></pre></td></tr></table></div></figure>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spexy? Oh God What Did I Do...]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/"/>
-    <updated>2014-01-22T00:01:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do</id>
-    <content type="html"><![CDATA[<p>I was seeking to clean out <code>~/devel</code> today, and I found <em>something</em>.
-Something I&rsquo;d forgotten. Something that is so bizarre I&rsquo;m not even
-sure what I was thinking when I hacked at it. Something I had to
-double check that I&rsquo;d actually written, because it was so foreign to
-me.</p>
-
-<!-- more -->
-
-
-<p>Then I noticed the date. Ah 2007, the Ambien era. When Space Lord
-Zolpidem guided me on battles through the multiverse on a nightly
-basis. I don&rsquo;t remember a whole lot from 2007. Wish I could say the
-same for 2008, but I digress.</p>
-
-<p>At some point in our adventures, SLZ and I apparently hacked together
-a LISP/Scheme-like python file encoding &ndash; &ldquo;spexy&rdquo;.</p>
-
-<p><em>Keep in mind, this isn&rsquo;t a scheme interpreter written in Python.</em> No
-no no, this decodes to Python. I think I&rsquo;m going to try and clean this
-up and see how much sense it can be made to make.</p>
-
-<p>And then you can bet your ass I&rsquo;m going to pollute GitHub with it.</p>
-
-<p>Stay off drugs, kids.</p>
-
-<hr />
-
-<ul>
-<li>2014-01-23: it&rsquo;s up on GitHub now &ndash; <a href="https://github.com/obriencj/python-spexy">python-spexy</a></li>
-<li>2014-02-03: originally posted to Tumblr, moved over here</li>
-</ul>
 
 ]]></content>
   </entry>
