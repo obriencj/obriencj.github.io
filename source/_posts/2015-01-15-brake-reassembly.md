@@ -11,7 +11,7 @@ category: projects
 tags:
   - motorcycle
   - vt500ft
-published: false
+published: true
 
 ---
 
