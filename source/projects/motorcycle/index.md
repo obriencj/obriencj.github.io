@@ -6,16 +6,16 @@ tagline: "Tux and Uggo"
 decription: "About my Suzuki TU250x, the Tux, and my Honda VT500FT, Uggo"
 keywords: "tu250x, suzuki, vt500ft, honda, tux, uggo, motorcycle, projects"
 date: 2014-07-24 00:00:00 -0500
-updated: 2014-08-31
+updated: 2015-01-22 00:01 -0500
 comments: false
 
 ---
 
 I currently own two motorcycles. I most frequently ride a fantastic
 piece of Japanese machinery, the Suzuki TU250x. I've recently picked
-up a beater/project bike. A 1984 Honda VT500FT. It's in rough
-condition, but it was inexpensive. I think it will be a lot of fun to
-fix.
+up a beater/project bike, a 1984 Honda VT500FT. It's in rough
+condition, but it was inexpensive and I think it will be a lot of fun
+to fix.
 
 
 ## 2013 Suzuki TU250x, Tux
@@ -54,15 +54,17 @@ A [Frankentux](/projects/motorcycle/frankentux/) might be a fun idea, too.
 
 ## 1984 Honda VT500FT, Uggo
 
-I snagged the Uggo after it caught my eye on craigslist. It's as ugly
+I snagged the [Uggo] after it caught my eye on craigslist. It's as ugly
 as the nickname implies, but there's a certain charm that I find very
 appealing. She needs so much work, but that's all of the fun really.
 
 500cc, liquid cooled, v-twin, shaft-driven. Plastic bits that scream
-"look at me, I'm from the 80s" and some seriously warn components. I
+"look at me, I'm from the 80s" and some seriously worn components. I
 think she wants to become a cafe bike or perhaps a flat tracker. We
 shall have to see.
 
 Right now she's a [hot mess].
+
+[Uggo]: /blog/tags/vt500ft/
 
 [hot mess]: http://youtu.be/8HXSJg5Mar4
