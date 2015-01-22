@@ -16,12 +16,12 @@ tags:
 
 [{% img right https://lh6.googleusercontent.com/-WTAGE71igQ8/VKcVVZL1xeI/AAAAAAAASM4/dyYOpSzj1O8/s288/DSC00220.JPG 288 216 %}](https://picasaweb.google.com/lh/photo/2IGyztFD30jQwtHusELiE3SyM6G7abmUFe3wsEDzPy0?feat=embedwebsite)
 I got a bit more work done on Uggo, this past Friday. It was more of a
-struggle than it really out to be, getting myself moving and collected
-enough to work on anything. I think that I may be suffering from a bit
-of seasonal depression. Either that or the monumental, overwhelming
-dread of returning to work is getting to me. Whatever it is, I
-eventually conquered it enough to drag my tools out to the bike and
-get my hands dirty.
+struggle than it really ought to be, getting myself moving and
+collected enough to work on anything. I think that I may be suffering
+from a bit of seasonal depression. Either that or the monumental,
+overwhelming dread of returning to work is getting to me. Whatever it
+is, I eventually conquered it enough to drag my tools out to the bike
+and get my hands dirty.
 
 <!-- more -->
 
