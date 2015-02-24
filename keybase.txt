@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/obriencj
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://obriencj.preoccupied.net
+  * I am obriencj (https://keybase.io/obriencj) on keybase.
+  * I have a public key with fingerprint B813 6B61 D568 811E 626F  0DBA B5AB A230 5282 9C5C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "b8136b61d568811e626f0dbab5aba23052829c5c",
+            "host": "keybase.io",
+            "key_id": "b5aba23052829c5c",
+            "kid": "01019dd871d259cfd2d4b990343cb95b846ac4995521239c0bd7f1edda676a1ebcf50a",
+            "uid": "22b4fa763a692736fa9244605d51d419",
+            "username": "obriencj"
+        },
+        "service": {
+            "hostname": "obriencj.preoccupied.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424822187,
+    "expire_in": 157680000,
+    "prev": "2a44c7b548c102da1c8de674fe16a351f7c6a9b4358308aedf41931b4ff3c476",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.7 (Darwin)
+Comment: GPGTools - http://gpgtools.org
+
+owFlkltIFFEYxzWJvKAhuWVqCEM3ZVvmzJw5M7MZpEVX8CEsqpft3GYdLzPr7Lir
+mRGUohkZkUEQFd2DIojoIdJILAklkhD1wYIugoVUiL0U2IxED3VeDuc7v+//ff+P
+70x2Wsqi1FV1+0//WFI9njo0TVKqZpbebxGIzZqFcItQyxcuw7Si3Ik5puUKYYFo
+QEYEAaYgTQOAIwkZIiOYKJhgSRYVSZN0qlAhKFTbcT/DkyE4zkOm7cW8R8Rkvs7/
+fO3ChwhEoDOmqYBJik4NJjFIdF2UoUyJrhANIkyhriuKBCRZpyJhqgE4YxipCANO
+qKGI2JNrXJCTJAINrCIZI11SZWRgXYIQiQpTAINA98E4dyxczz3aJo7JLVojtAYF
+L5owKfdH4Dv5hwjFHG5T2hgzOQtZ3PV0Yo7t2tSu86hq142FfRG3OeZnJTmJ/NGL
+ENNi3ki9hAR34qZtCWHgkdQ1/QIASlCTJKCpQYE3xUyHR0yfUFSkid7xy/CEbwxD
+SFWiQI0CUWIYUI1xpEKDA4RlBRgqRVgnUFY0WdQwZ4bnVgbeNAyZQhUJvsMGyxbC
+itcmjgrhbCFuRi3sNjpcaM3sTA2kLV7YiL8rsuj7m/SUEy2pPY972lseV3x6dbSk
+d+hZYP2pR2vmu+fvLXsY/9Y/2FB+tODS6LFdF6dzZu4ObCpEk0d2bJvOnZlKuqU8
+u/9kcNuT7bGiaFvGxvNZs5MFT8foSNmj469nP1/r3NmRHyClKw+8z8rZXXMh1Pyp
+9mfHr+RwYO/wSGBPZX7uWGXX7aibGTxVc2FoeXpe9+q04tzhpqqBWzcz55bRhy8L
+Ntwp0+fK8+r3FX1InE3CHnLo+o3Nw9fzijMnzvbjaH1ZyVTOz/bOS6uKE31fn19Z
+03cw72Pn2NqJtz0r0l9UrP+VctU+fK5w9ExBZUMy48Hl3sKud5HuxsG2daHZG1u2
+jn9pdtYO/QY=
+=GcRy
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/obriencj
+
+==================================================================
