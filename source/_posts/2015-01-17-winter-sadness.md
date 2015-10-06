@@ -6,7 +6,7 @@ description: How I've been dealing with this peculiarly depressing winter
 keywords: winter, depression, sadness
 date: 2015-01-17 11:28:11 -0500
 updated:
-published: false
+published: true
 comments: true
 category: personal
 tags:
@@ -38,7 +38,7 @@ I've long since lost interest in World of Warcraft, there's no joy in
 it.
 
 I fight the feeling because I know I have no reason to be
-distressed. I am employed, warm, fed. I have a daughter and gainful
+distressed. I am housed, warm, fed. I have a daughter and gainful
 employment. The faults I find with my life are matters of comfort, not
 of safety. Yet I find myself inescapably drowning in a fugue. And I
 realize that it's nothing more than a response to the damned weather.
@@ -55,3 +55,5 @@ but nothing seems worth doing.
 
 And to top it all off, I still find myself thinking about a girl I
 only went out with twice.
+
+This winter can go fuck itself.
