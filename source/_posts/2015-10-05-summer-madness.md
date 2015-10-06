@@ -5,7 +5,7 @@ tagline: summer came and went in a flash
 description: How I spent my spring and summer, and what autumn brings
 keywords: spring, summer, autumn
 date: 2015-10-05 23:39:44 -0400
-updated:
+updated: 2015-10-06 18:36:00 -0400
 published: true
 comments: true
 category: projects
@@ -22,11 +22,12 @@ tags:
   - python
   - withscope
   - todo
+  - running
 
 ---
 
-Spring and Summer happened. I'm still a little bit in shock that
-they've already gone by, and Autumn is now here.
+Spring and Summer happened. I'm still in shock that they've already
+gone by and Autumn has arrived.
 
 I haven't been keeping record of my doings and thinkings, which now
 seems short-sighted. Let's use this post as a TODO, marking up the
@@ -41,9 +42,12 @@ glorious. I took PTO from work over the week of my birthday (which is
 in April) and started running. My goal at the time was to simply get
 to the point where I could run an entire mile without stopping -- a
 feat I'd never before been capable of. I managed it, and I've kept
-slowly increasing the distance every week since. My new goal is to
-surpass a 5k, and to register and complete a real run before the end
-of Autumn.
+slowly increasing the distance every week since. At the time of this
+writing I can regularly make 2.5 miles, and have made it to 3 miles in
+a single run.
+
+My new goal is to surpass a 5k (3.1 miles), and to register and
+complete a real run before the end of Autumn.
 
 
 ## Uggo
@@ -161,27 +165,30 @@ The exhaust was collecting some serious grime and rust. I cleaned and
 sanded that down, and painted it with some high-temperature rustoleum.
 
 The chain was sticking a bit, so I've got a new chain coming from
-Amazon.
+Amazon. I managed to destroy the pin on the master link when I
+attempted to take the old one apart. I never was good with those.
 
 I'll run some cleaner through the brake and throttle wire lines, hang
 'em up to drip, and then put some teflon into them. That should smooth
 the actions of those up nicely.
 
-My daughter wants to paint the whole thing blue. It's currently an
-awful white and red/brown. I've ordered some rattle-cans of light
-metallic blue paint. I figure I can give it a quick sanding job and
-just spray it over. It's a moped, it hardly needs to be show-room
-quality, and to be honest I've always favored a little bit of the
-rough and beaten look on a bike!
+My daughter wants to paint the whole thing blue, like Rainbow Dash
+from My Little Pony. It's currently an awful white and red/brown. I've
+ordered some rattle-cans of light metallic blue paint. I figure I can
+give it a quick sanding job and just spray it over. It's a moped, it
+hardly needs to be show-room quality, and to be honest I've always
+favored a little bit of the rough and beaten look on a bike!
 
-As of July 1 2015, mopeds are required to be registered with the
-DMV. This was a surprise to me! Once it's running again I'll have to
-go and get that taken care of, and mount a license plate. Not a huge
-problem, but it makes me wish I could lock the ignition on it. There's
-a steering lock in place on the neck, but it didn't come with the key
-for it --I'll have to keep an eye out on ebay for one of those. I
-wonder if I could wire something up so that the start switch circuit
-was only closed when the neck was unlocked?
+As of July 1, 2015, North Carolina law requires that mopeds be
+registered with the DMV. This was a surprise to me! Once it's running
+again I'll have to go and get that taken care of, and mount a license
+plate. Not a huge problem, but it makes me wish I could lock the
+ignition on it. There's a steering lock in place on the neck, but it
+didn't come with any key -- I'll have to keep an eye out on ebay for
+one of those. I wonder if I could wire something up so that the start
+switch circuit was only closed when the neck was unlocked?
+
+I need to find a print copy of the service manual and parts list.
 
 TODO: put together a Tomos Targa project page!
 
@@ -197,7 +204,7 @@ million points. I spent so much time there this summer. I'd hop on tux
 and ride into town, and play games and sip beer all night long.
 
 But the real reason I was going wasn't the games, or the beer. There
-is a bartender.  A brilliant woman, a clever woman, a beutiful
+is a bartender.  A brilliant woman, a clever woman, a beautiful
 woman. She was my age, and her smile set my heart thudding. I'd go
 just to sit at the bar and chat with her. She had such an interesting
 view into the process of thinking, of dealing with emotions and the
@@ -206,11 +213,11 @@ of a human being.
 
 Of course, it was never meant to be. She's engaged, and has a very
 busy life. My own situation is a disaster anyway -- single dad, joint
-custody, etc.. On top of that, I'm hardly a "catch," so even if she
-had spare time and weren't in a relationship, I'm way out of my
-league. Makes a mess of my head, as if it weren't enough of one
-already. Limerance it's called, bothersome affliction. So I've been
-dealing with that. Trying to distance myself from the place and the
-woman and the disappointment.
+custody, etc. On top of that mess, I'm hardly a "catch," so even if
+she had spare time and weren't in a relationship, she's way out of my
+proverbial league. The situation makes a mess of my head, as if it
+weren't enough of one already. "Limerance" the affliction is called,
+bothersome malady. So I've been dealing with that; trying to distance
+myself from the place and the woman and the disappointment.
 
 TODO: Get over her and find someplace else to hang out.
