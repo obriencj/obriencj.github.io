@@ -15,6 +15,13 @@ tags:
   - autumn
   - personal
   - projects
+  - vt500ft
+  - tu250x
+  - tomos
+  - boxcar
+  - python
+  - withscope
+  - todo
 
 ---
 
@@ -29,7 +36,7 @@ activites of warm weather that I need to write about!
 
 ## Running
 
-Last winter was awful, and when spring finally showed up it was
+Last winter was awful, but when spring finally showed up it was
 glorious. I took PTO from work over the week of my birthday (which is
 in April) and started running. My goal at the time was to simply get
 to the point where I could run an entire mile without stopping -- a
