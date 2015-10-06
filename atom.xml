@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2015-01-22T00:02:50-05:00</updated>
+  <updated>2015-10-06T00:52:46-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,250 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Summer Madness]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness/"/>
+    <updated>2015-10-05T23:39:44-04:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness</id>
+    <content type="html"><![CDATA[<p>Spring and Summer happened. I&rsquo;m still a little bit in shock that
+they&rsquo;ve already gone by, and Autumn is now here.</p>
+
+<p>I haven&rsquo;t been keeping record of my doings and thinkings, which now
+seems short-sighted. Let&rsquo;s use this post as a TODO, marking up the
+activites of warm weather that I need to write about!</p>
+
+<!-- more -->
+
+
+<h2>Running</h2>
+
+<p>Last winter was awful, and when spring finally showed up it was
+glorious. I took PTO from work over the week of my birthday (which is
+in April) and started running. My goal at the time was to simply get
+to the point where I could run an entire mile without stopping &ndash; a
+feat I&rsquo;d never before been capable of. I managed it, and I&rsquo;ve kept
+slowly increasing the distance every week since. My new goal is to
+surpass a 5k, and to register and complete a real run before the end
+of Autumn.</p>
+
+<h2>Uggo</h2>
+
+<p>Uggo was properly re-assembled and has been running great! I
+re-re-disassembled her carbs and properly chemdipped them. That did so
+much good I feel like a fool for not doing it this way the first
+time. Uggo has, since I purchased her, new clutch plates, new brake
+pads, new brake cylinders and seals, new master cylinder and braided
+line, new oil filter and oil, new coils, new spark plugs, a new
+battery, a new fuse box, new center stand, a repaired airbox, a new
+air filter, new bars, new grips, new mirrors.</p>
+
+<p>She has a new front disk as well, which I need to mount. She&rsquo;s been
+taken for a few test rides, and that old disk seems to have a
+deformity or very uneven wear &ndash; braking is a very shuddering and
+exciting event. But holy smokes does she run!</p>
+
+<p>I intend to make her into a gift for my sister, as soon as I get the
+last few tweaks made. There&rsquo;s a bit of a wiring issue with the left
+turn signal, and the headlight is being obstinate. Also, the radiator
+fan is unplugged and needs an inline fuse. But then that&rsquo;s it, I
+think. Maybe a clear-coat for her metal tank, and black for the
+plastics. She&rsquo;ll be lovely!</p>
+
+<p>TODO: more pics, maybe a new video</p>
+
+<h2>Tux</h2>
+
+<p>Tux has been such a trooper, as always. I removed her intake snorkel
+and wired her up with a PowerCommander-V. I played with fuel maps for
+a while to get her happy with the new exhaust. There aren&rsquo;t any shops
+around here that are willing to let me tune her on a dyno,
+unfortunately. The Harley place (Ray Price Harley Davidson) flat-out
+refuses to work on anything they don&rsquo;t sell, and they&rsquo;re the only
+remaining shop that is certified for PC-V dyno tuning.</p>
+
+<p>Other than that, Tux has been a perfect trooper. Great gas mileage,
+zoomy and fun. At the time of this post she&rsquo;s up to 15600 miles. Not
+bad for a 2013-model motorcycle!</p>
+
+<p>TODO: maybe a new video, and post my fuel map and some new pics</p>
+
+<h2>Python Hacking</h2>
+
+<p>I&rsquo;ve been poking around Python internals this past month, working on a
+module I&rsquo;ve named <a href="https://github.com/obriencj/python-withscope/"><code>withscope</code></a>. It lets you push lexical
+scopes onto an existing block. It&rsquo;s a total hack, and apart from the
+weird factor it&rsquo;s absolutely useless &ndash; awfully slow and confusing to
+use if you aren&rsquo;t already expecing your namespace to be modified.</p>
+
+<p>I&rsquo;m still making modifications to it, trying to make it into the best
+representation of this crooked idea. I&rsquo;ll probably have a last commit
+ready in a few weeks, depending on spare time.</p>
+
+<p>It&rsquo;s worth noting that Python 3 has a <code>nonlocal</code> statement, for
+declaring write-access to freevars, something that Python 2 cannot
+do without some hackery.</p>
+
+<p>TODO: write up a doc about variable scoping in Python 2, and how
+co_names, co_vars, co_cellvars, co_freevars, and the frame
+fast_locals work.</p>
+
+<h2>Tomos Targa</h2>
+
+<p>My daughter turned 11 years old at the start of this month
+(October). She&rsquo;d been wishing for two major presents since Christmas
+&ndash; an iPhone and a powered bike of her own.</p>
+
+<p>Of course she got both. She now has a better phone than I do, and an
+awesome little 49cc, 1.5HP moped &ndash; a 1994 Tomos Targa! It starts, it
+goes, it stops, it&rsquo;s the cutest thing. Zoe loves it already, and has
+been zooming around the cul-de-sac.</p>
+
+<p>When she went off to visit her mother, I decided to take a look at the
+guts of the thing. It has some serious gear whine, and had a bit of a
+hard time starting. I wanted to see if there was something obvious
+that I could fix.</p>
+
+<p>Well, first off it was filled with regular motor oil rather than
+transmission fluid. Not a huge deal, but something to change. Then
+I took a look at the clutch and saw that the first gear clutch pads
+were entirely worn away.</p>
+
+<p>What is it with craigslist bikes and worn clutches? Uggo was the same
+way, all the friction material just gone.</p>
+
+<p>Second gear clutch was a bit chewed up, but still present. I ordered a
+new set of OEM first gear pads, as well as the clutch-cover gasket.</p>
+
+<p>I found bits of the starter return spring while I was in
+there. Ordered a replacement for that as well. The bike runs without
+one just fine, but not having it there can cause the kickstarting
+ratchet to rub every now and then. Nothing serious, but if I&rsquo;m already
+in there fixing things I may as well replace it.</p>
+
+<p>The front light didn&rsquo;t come on when I bought it. I took that housing
+apart and discovered it wasn&rsquo;t properly plugged in. Easy enough. The
+front left turn signal cover was smashed up. The bulb and electric
+worked just fine, it just didn&rsquo;t have an orange lense over it. Ordered
+that from ebay.</p>
+
+<p>I found that the carburetor had been covered in some sort of liquid
+gasket material as well, where it joins to the cylinder. Possible air
+leak there? I&rsquo;ll check that gasket fitment when I reassemble. I&rsquo;ve got
+the carb off in prep of dipping (since it sat for a while before I
+bought it).</p>
+
+<p>The exhaust was collecting some serious grime and rust. I cleaned and
+sanded that down, and painted it with some high-temperature rustoleum.</p>
+
+<p>The chain was sticking a bit, so I&rsquo;ve got a new chain coming from
+Amazon.</p>
+
+<p>I&rsquo;ll run some cleaner through the brake and throttle wire lines, hang
+&lsquo;em up to drip, and then put some teflon into them. That should smooth
+the actions of those up nicely.</p>
+
+<p>My daughter wants to paint the whole thing blue. It&rsquo;s currently an
+awful white and red/brown. I&rsquo;ve ordered some rattle-cans of light
+metallic blue paint. I figure I can give it a quick sanding job and
+just spray it over. It&rsquo;s a moped, it hardly needs to be show-room
+quality, and to be honest I&rsquo;ve always favored a little bit of the
+rough and beaten look on a bike!</p>
+
+<p>As of July 1 2015, mopeds are required to be registered with the
+DMV. This was a surprise to me! Once it&rsquo;s running again I&rsquo;ll have to
+go and get that taken care of, and mount a license plate. Not a huge
+problem, but it makes me wish I could lock the ignition on it. There&rsquo;s
+a steering lock in place on the neck, but it didn&rsquo;t come with the key
+for it &ndash;I&rsquo;ll have to keep an eye out on ebay for one of those. I
+wonder if I could wire something up so that the start switch circuit
+was only closed when the neck was unlocked?</p>
+
+<p>TODO: put together a Tomos Targa project page!</p>
+
+<h2>Heartsick</h2>
+
+<p>I discovered a new place to hang out, a little Bar &amp; Arcade
+downtown. A brilliant venue, really excellent atmoshpere. They had a
+Galaga in great condition, and I worked my way up to where I could
+reliably get to 1 million points. I also got a lot better at 1942,
+with my personal high score now sitting at just a bit over 1.25
+million points. I spent so much time there this summer. I&rsquo;d hop on tux
+and ride into town, and play games and sip beer all night long.</p>
+
+<p>But the real reason I was going wasn&rsquo;t the games, or the beer. There
+is a bartender.  A brilliant woman, a clever woman, a beutiful
+woman. She was my age, and her smile set my heart thudding. I&rsquo;d go
+just to sit at the bar and chat with her. She had such an interesting
+view into the process of thinking, of dealing with emotions and the
+directions of life. I became ridiculously smitten with this treasure
+of a human being.</p>
+
+<p>Of course, it was never meant to be. She&rsquo;s engaged, and has a very
+busy life. My own situation is a disaster anyway &ndash; single dad, joint
+custody, etc.. On top of that, I&rsquo;m hardly a &ldquo;catch,&rdquo; so even if she
+had spare time and weren&rsquo;t in a relationship, I&rsquo;m way out of my
+league. Makes a mess of my head, as if it weren&rsquo;t enough of one
+already. Limerance it&rsquo;s called, bothersome affliction. So I&rsquo;ve been
+dealing with that. Trying to distance myself from the place and the
+woman and the disappointment.</p>
+
+<p>TODO: Get over her and find someplace else to hang out.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Winter Sadness]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2015/01/17/winter-sadness/"/>
+    <updated>2015-01-17T11:28:11-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2015/01/17/winter-sadness</id>
+    <content type="html"><![CDATA[<p>I enjoy the sun on my face. In warm weather I step outside to greet
+the day, shirtless with my arms stretched far over my head and my face
+turned to the sun. I dwell on the bright light that comes through my
+shut eyes, and I breathe and let myself be warmed. When I relax and
+stretch to touch my toes, I open my eyes and the world is transformed
+and blue, and I&rsquo;m happy.</p>
+
+<p>I am lucky to live in North Carolina. The winters come to visit still,
+but they do not stay as long as they do in my home town in upstate New
+York. The sky is almost always white or grey up there.</p>
+
+<p>This winter has been harder than any I recall in the past.</p>
+
+<!-- more -->
+
+
+<p>I met a girl, and fell for her, and have not fully recovered from her
+dismissal.</p>
+
+<p>I cannot ride my motorcycle. And lacking a garage I have trouble even
+being able to work on the new bike.</p>
+
+<p>I&rsquo;ve long since lost interest in World of Warcraft, there&rsquo;s no joy in
+it.</p>
+
+<p>I fight the feeling because I know I have no reason to be
+distressed. I am housed, warm, fed. I have a daughter and gainful
+employment. The faults I find with my life are matters of comfort, not
+of safety. Yet I find myself inescapably drowning in a fugue. And I
+realize that it&rsquo;s nothing more than a response to the damned weather.</p>
+
+<p>I&rsquo;ve been trying to exercise, but I don&rsquo;t always have the energy.</p>
+
+<p>I am starving all of the time, seeking some sort of richness. I
+haven&rsquo;t touched tobacco in well over a year, and yet I find myself
+longing for a cigarette&hellip; dwelling on the thick, rich smell I
+remember. I seek out food with too much spice and with loud flavors,
+just because I need something to kick my brain and remind me to keep
+thinking. I have so many projects that I should be able to focus on,
+but nothing seems worth doing.</p>
+
+<p>And to top it all off, I still find myself thinking about a girl I
+only went out with twice.</p>
+
+<p>This winter can go fuck itself.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Brake Reassembly]]></title>
@@ -1558,264 +1802,6 @@ which wasn&rsquo;t). Do I want to get invested in layout design as part of
 this? Not really, no. But it may be worth the effort.</p>
 
 <p>Things to consider on a lazy and cold Sunday.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gist - Output of Spexy_try]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/"/>
-    <updated>2014-01-25T00:00:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try</id>
-    <content type="html"><![CDATA[<p>Because it&rsquo;s Friday night and I have nothing else going on, I&rsquo;ve been
-hacking away at <a href="https://github.com/obriencj/python-spexy">Spexy</a> again. It remains an utterly insane body of
-work, which no clear-minded individual should approach with a straight
-face.</p>
-
-<!-- more -->
-
-
-<p>But&hellip; I&rsquo;m surprised how the me from 2007 thought some of the features
-through &ndash; especially taking into consideration the
-<a href="http://www.toothpastefordinner.com/052210/ambien-walrus-adventure.gif" title="Come with me on an adventure you'll never remember">state of my brain</a> at the time. The module itself runs the input code
-through distinct parsing and evaluation steps, which includes a macro
-expansion pass before moving on to specials. I get the idea that I may
-have intended to write parts of Spexy <strong>in</strong> Spexy once I got
-<code>defmacro</code> support written. Maybe that can be next.</p>
-
-<p>On this fine (albeit very cold) evening, I suffered a fit of
-inspiration (and giggling). When the dust settled, Spexy had gained
-support for <code>try/except</code> expressions.</p>
-
-<figure class='code'><figcaption><span>output of spexy_try</span><a href='https://gist.github.com/obriencj/8610594'>Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-<span class='line-number'>37</span>
-<span class='line-number'>38</span>
-<span class='line-number'>39</span>
-<span class='line-number'>40</span>
-<span class='line-number'>41</span>
-<span class='line-number'>42</span>
-<span class='line-number'>43</span>
-<span class='line-number'>44</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
-</span><span class='line'>The original spexy source is
-</span><span class='line'>-----
-</span><span class='line'>(defun division (x y)
-</span><span class='line'>  (let ((result None))
-</span><span class='line'>    (try
-</span><span class='line'>      (setf result (/ x y))
-</span><span class='line'>
-</span><span class='line'>      ((ZeroDivisionError)
-</span><span class='line'>        (println &quot;division by zero!&quot; x &quot;/&quot; y)
-</span><span class='line'>        False)
-</span><span class='line'>      (:else
-</span><span class='line'>        (println &quot;result is&quot; result)
-</span><span class='line'>        result)
-</span><span class='line'>      (:finally
-</span><span class='line'>        (println &quot;executing finally clause&quot;)))))
-</span><span class='line'>-----
-</span><span class='line'>
-</span><span class='line'>parses into tree
-</span><span class='line'>-----
-</span><span class='line'>[&#39;defun&#39;, &#39;division&#39;, [&#39;x&#39;, &#39;y&#39;], [&#39;let&#39;, [[&#39;result&#39;, &#39;None&#39;]], [&#39;try&#39;, [&#39;setf&#39;, &#39;result&#39;, [&#39;/&#39;, &#39;x&#39;, &#39;y&#39;]], [[&#39;ZeroDivisionError&#39;], [&#39;println&#39;, &#39;&quot;division by zero!&quot;&#39;, &#39;x&#39;, &#39;&quot;/&quot;&#39;, &#39;y&#39;], &#39;False&#39;], [&#39;:else&#39;, [&#39;println&#39;, &#39;&quot;result is&quot;&#39;, &#39;result&#39;], &#39;result&#39;], [&#39;:finally&#39;, [&#39;println&#39;, &#39;&quot;executing finally clause&quot;&#39;]]]]]
-</span><span class='line'>-----
-</span><span class='line'>
-</span><span class='line'>processed into Python
-</span><span class='line'>-----
-</span><span class='line'>globals().__setitem__(&#39;division&#39;, (lambda x, y: ((lambda result: (lambda _lcls:(eval(compile(&#39;def try_block(try_clause,except_0,else_clause,finally_clause):\n\tfrom sys import exc_info\n\ttry:\n\t\ttry_clause()\n\texcept (ZeroDivisionError,):\n\t\treturn except_0(*exc_info())\n\telse:\n\t\treturn else_clause()\n\tfinally:\n\t\tfinally_clause()\n&#39;,&#39;&lt;spexy&gt;&#39;,&#39;single&#39;),globals(),_lcls), _lcls)[-1])({})[&#39;try_block&#39;]((lambda : result.__setitem__(0, (x / y))),(lambda exc_type, exc_val, exc_tb: (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;division by zero!&quot;, &quot; &quot;, x, &quot; &quot;, &quot;/&quot;, &quot; &quot;, y, &#39;\n&#39;))), False,)[-1]), (lambda : (__import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;result is&quot;, &quot; &quot;, result[0], &#39;\n&#39;))), result[0],)[-1]), (lambda : __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;executing finally clause&quot;, &#39;\n&#39;))))))([None]))))
-</span><span class='line'>-----
-</span><span class='line'>
-</span><span class='line'>division(1, 2)
-</span><span class='line'>result is 0
-</span><span class='line'>executing finally clause
-</span><span class='line'>result: 0
-</span><span class='line'>
-</span><span class='line'>division(4, 2)
-</span><span class='line'>result is 2
-</span><span class='line'>executing finally clause
-</span><span class='line'>result: 2
-</span><span class='line'>
-</span><span class='line'>division(2, 0)
-</span><span class='line'>division by zero! 2 / 0
-</span><span class='line'>executing finally clause
-</span><span class='line'>result: False
-</span><span class='line'>
-</span><span class='line'>it works!
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>It&rsquo;s pretty ugly. It&rsquo;s ugly pretty. Most importantly, it&rsquo;s satisfying
-the rules of Spexy. &ldquo;What rules,&rdquo; you ask? As I&rsquo;ve been toiling over
-this I&rsquo;ve remembered more about just why the thing exists. It&rsquo;s not a
-project &ndash; it&rsquo;s a puzzle! The inspiration was never &ldquo;I need a tool
-that will do&hellip;&rdquo; it was &ldquo;I wonder if I can&hellip;&rdquo; and from there sprung
-up some <a href="https://github.com/obriencj/python-spexy/blob/master/README.md#concept">rules</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gist - Spexy Repl Example]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/"/>
-    <updated>2014-01-22T00:02:00-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example</id>
-    <content type="html"><![CDATA[<p>For those with strong stomachs I present an example of <a href="https://github.com/obriencj/python-spexy">Spexy</a>, and the
-perfectly valid Python it emits</p>
-
-<!-- more -->
-
-
-
-
-<figure class='code'><figcaption><span>spexy repl example</span><a href='https://gist.github.com/obriencj/8567348'>Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>[siege@maybe src]$ python spexy.py
-</span><span class='line'>&gt;&gt;&gt;&gt; (defun make_pair ()
-</span><span class='line'>        (letrec ((value None)
-</span><span class='line'>                (getter (lambda () value))
-</span><span class='line'>                (setter (lambda (v) (setf value v))))
-</span><span class='line'>            (make-list getter setter)))
-</span><span class='line'>--&gt; globals().__setitem__(&#39;make_pair&#39;, (lambda : ((lambda value, getter, setter: ((value.__setitem__(0, None), getter.__setitem__(0, (lambda : value[0])), setter.__setitem__(0, (lambda v: value.__setitem__(0, v))),)[-1], [getter[0], setter[0],],)[-1])([None], [None], [None]))))
-</span><span class='line'>&gt;&gt;&gt;&gt; (letrec ((gs (make_pair)))
-</span><span class='line'>        (define getter (getf gs 0))
-</span><span class='line'>        (define setter (getf gs 1)))
-</span><span class='line'>--&gt; ((lambda gs: (gs.__setitem__(0, make_pair()), globals().__setitem__(&#39;getter&#39;, gs[0].__getitem__(0)), globals().__setitem__(&#39;setter&#39;, gs[0].__getitem__(1)),)[-1])([None]))
-</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
-</span><span class='line'>--&gt; getter()
-</span><span class='line'>&gt;&gt;&gt;&gt; getter
-</span><span class='line'>--&gt; getter
-</span><span class='line'>&lt;function &lt;lambda&gt; at 0xb76c0df4&gt;
-</span><span class='line'>&gt;&gt;&gt;&gt; setter
-</span><span class='line'>--&gt; setter
-</span><span class='line'>&lt;function &lt;lambda&gt; at 0xb76c0e2c&gt;
-</span><span class='line'>&gt;&gt;&gt;&gt; (setter)
-</span><span class='line'>--&gt; setter()
-</span><span class='line'>## &lt;lambda&gt;() takes exactly 1 argument (0 given)
-</span><span class='line'>&gt;&gt;&gt;&gt; (setter &quot;hello world&quot;)
-</span><span class='line'>--&gt; setter(&quot;hello world&quot;)
-</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
-</span><span class='line'>--&gt; getter()
-</span><span class='line'>&#39;hello world&#39;
-</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
-</span><span class='line'>--&gt; getter()
-</span><span class='line'>&#39;hello world&#39;
-</span><span class='line'>&gt;&gt;&gt;&gt; (setter &quot;919&quot;)
-</span><span class='line'>--&gt; setter(&quot;919&quot;)
-</span><span class='line'>&gt;&gt;&gt;&gt; (getter)
-</span><span class='line'>--&gt; getter()
-</span><span class='line'>&#39;919&#39;
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-
-<figure class='code'><figcaption><span>more spexy repl</span><a href='https://gist.github.com/obriencj/8609890'>Gist</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
-</span><span class='line'>Python 2.7.6 (default, Nov 18 2013, 15:12:51)
-</span><span class='line'>[GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
-</span><span class='line'>Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-</span><span class='line'>&gt;&gt;&gt; from spexy import repl
-</span><span class='line'>&gt;&gt;&gt; from datetime import datetime
-</span><span class='line'>&gt;&gt;&gt; repl(globals())
-</span><span class='line'>&gt;&gt;&gt;&gt; (let ((who &quot;siege&quot;) (date 1999))
-</span><span class='line'>       (letrec ((fmt &quot;Hello %s, party like it is %i!&quot;)
-</span><span class='line'>                (msg (% fmt (make-tuple who date))))
-</span><span class='line'>         (println msg)))
-</span><span class='line'> --&gt; ((lambda who, date: ((lambda fmt, msg: (fmt.__setitem__(0, &quot;Hello %s, party like it is %i!&quot;), msg.__setitem__(0, (fmt[0] % (who[0], date[0],))), __import__(&#39;sys&#39;).stdout.writelines(map(str, (msg[0], &#39;\n&#39;))),)[-1])([None], [None])))([&quot;siege&quot;], [1999]))
-</span><span class='line'>Hello siege, party like it is 1999!
-</span><span class='line'>&gt;&gt;&gt;&gt; (println &quot;But...&quot; &quot;it isn&#39;t&quot; 1999 &quot;anymore, it&#39;s&quot; (. (datetime.now) year))
-</span><span class='line'> --&gt; __import__(&#39;sys&#39;).stdout.writelines(map(str, (&quot;But...&quot;, &quot; &quot;, &quot;it isn&#39;t&quot;, &quot; &quot;, 1999, &quot; &quot;, &quot;anymore, it&#39;s&quot;, &quot; &quot;, datetime.now().year, &#39;\n&#39;)))
-</span><span class='line'>But... it isn&#39;t 1999 anymore, it&#39;s 2014
-</span><span class='line'>&gt;&gt;&gt;&gt; (quit)
-</span><span class='line'>
-</span><span class='line'>&gt;&gt;&gt; quit()
-</span><span class='line'>maybe:python-spexy siege$
-</span></code></pre></td></tr></table></div></figure>
-
 ]]></content>
   </entry>
   

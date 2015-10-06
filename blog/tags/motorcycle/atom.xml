@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: motorcycle | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/motorcycle/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2015-01-22T00:02:50-05:00</updated>
+  <updated>2015-10-06T00:53:00-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -79,7 +79,7 @@ mechanisms with confidence.</p>
     <link href="http://obriencj.preoccupied.net/blog/2015/01/03/clutch-work/"/>
     <updated>2015-01-03T23:22:25-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2015/01/03/clutch-work</id>
-    <content type="html"><![CDATA[<p><a href="https://picasaweb.google.com/lh/photo/2IGyztFD30jQwtHusELiE3SyM6G7abmUFe3wsEDzPy0?feat=embedwebsite"><img class="right" src="https://lh6.googleusercontent.com/-WTAGE71igQ8/VKcVVZL1xeI/AAAAAAAASM4/dyYOpSzj1O8/s288/DSC00220.JPG" width="288" height="216"></a>
+    <content type="html"><![CDATA[<p><a href="https://picasaweb.google.com/lh/photo/2IGyztFD30jQwtHusELiE3SyM6G7abmUFe3wsEDzPy0?feat=embedwebsite">{% img right https://lh6.googleusercontent.com/-WTAGE71igQ8/VKcVVZL1xeI/AAAAAAAASM4/dyYOpSzj1O8/s288/DSC00220.JPG 288 216 %}</a>
 I got a bit more work done on Uggo, this past Friday. It was more of a
 struggle than it really ought to be, getting myself moving and
 collected enough to work on anything. I think that I may be suffering
@@ -120,7 +120,7 @@ springs. I had to do some gymnastics, standing on the back brake and
 yanking on the breaker bar to get the 24mm nut off of the assembly so
 I could pull it to replace the friction plates.</p>
 
-<p><a href="https://picasaweb.google.com/lh/photo/ugR1-alUvwjJQwW_9i9j7nSyM6G7abmUFe3wsEDzPy0?feat=embedwebsite"><img class="left" src="https://lh3.googleusercontent.com/-M77axPwOGF4/VKcVXfS-G0I/AAAAAAAASNA/A42Mf6O-aNE/s288/DSC00222.JPG" width="288" height="216"></a>
+<p><a href="https://picasaweb.google.com/lh/photo/ugR1-alUvwjJQwW_9i9j7nSyM6G7abmUFe3wsEDzPy0?feat=embedwebsite">{% img left https://lh3.googleusercontent.com/-M77axPwOGF4/VKcVXfS-G0I/AAAAAAAASNA/A42Mf6O-aNE/s288/DSC00222.JPG 288 216 %}</a>
 Once I did get them out, the old friction plates were as I&rsquo;d
 expected. Three of the plates had been work completely smooth on both
 sides. The others were nearly there, but I could still make out a tiny

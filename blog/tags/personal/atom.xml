@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: personal | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/tags/personal/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2015-10-06T00:53:00-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
+  <author>
+    <name><![CDATA[Christopher O'Brien]]></name>
+    <email><![CDATA[obriencj@preoccupied.net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Summer Madness]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness/"/>
+    <updated>2015-10-05T23:39:44-04:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness</id>
+    <content type="html"><![CDATA[<p>Spring and Summer happened. I&rsquo;m still a little bit in shock that
+they&rsquo;ve already gone by, and Autumn is now here.</p>
+
+<p>I haven&rsquo;t been keeping record of my doings and thinkings, which now
+seems short-sighted. Let&rsquo;s use this post as a TODO, marking up the
+activites of warm weather that I need to write about!</p>
+
+<!-- more -->
+
+
+<h2>Running</h2>
+
+<p>Last winter was awful, and when spring finally showed up it was
+glorious. I took PTO from work over the week of my birthday (which is
+in April) and started running. My goal at the time was to simply get
+to the point where I could run an entire mile without stopping &ndash; a
+feat I&rsquo;d never before been capable of. I managed it, and I&rsquo;ve kept
+slowly increasing the distance every week since. My new goal is to
+surpass a 5k, and to register and complete a real run before the end
+of Autumn.</p>
+
+<h2>Uggo</h2>
+
+<p>Uggo was properly re-assembled and has been running great! I
+re-re-disassembled her carbs and properly chemdipped them. That did so
+much good I feel like a fool for not doing it this way the first
+time. Uggo has, since I purchased her, new clutch plates, new brake
+pads, new brake cylinders and seals, new master cylinder and braided
+line, new oil filter and oil, new coils, new spark plugs, a new
+battery, a new fuse box, new center stand, a repaired airbox, a new
+air filter, new bars, new grips, new mirrors.</p>
+
+<p>She has a new front disk as well, which I need to mount. She&rsquo;s been
+taken for a few test rides, and that old disk seems to have a
+deformity or very uneven wear &ndash; braking is a very shuddering and
+exciting event. But holy smokes does she run!</p>
+
+<p>I intend to make her into a gift for my sister, as soon as I get the
+last few tweaks made. There&rsquo;s a bit of a wiring issue with the left
+turn signal, and the headlight is being obstinate. Also, the radiator
+fan is unplugged and needs an inline fuse. But then that&rsquo;s it, I
+think. Maybe a clear-coat for her metal tank, and black for the
+plastics. She&rsquo;ll be lovely!</p>
+
+<p>TODO: more pics, maybe a new video</p>
+
+<h2>Tux</h2>
+
+<p>Tux has been such a trooper, as always. I removed her intake snorkel
+and wired her up with a PowerCommander-V. I played with fuel maps for
+a while to get her happy with the new exhaust. There aren&rsquo;t any shops
+around here that are willing to let me tune her on a dyno,
+unfortunately. The Harley place (Ray Price Harley Davidson) flat-out
+refuses to work on anything they don&rsquo;t sell, and they&rsquo;re the only
+remaining shop that is certified for PC-V dyno tuning.</p>
+
+<p>Other than that, Tux has been a perfect trooper. Great gas mileage,
+zoomy and fun. At the time of this post she&rsquo;s up to 15600 miles. Not
+bad for a 2013-model motorcycle!</p>
+
+<p>TODO: maybe a new video, and post my fuel map and some new pics</p>
+
+<h2>Python Hacking</h2>
+
+<p>I&rsquo;ve been poking around Python internals this past month, working on a
+module I&rsquo;ve named <a href="https://github.com/obriencj/python-withscope/"><code>withscope</code></a>. It lets you push lexical
+scopes onto an existing block. It&rsquo;s a total hack, and apart from the
+weird factor it&rsquo;s absolutely useless &ndash; awfully slow and confusing to
+use if you aren&rsquo;t already expecing your namespace to be modified.</p>
+
+<p>I&rsquo;m still making modifications to it, trying to make it into the best
+representation of this crooked idea. I&rsquo;ll probably have a last commit
+ready in a few weeks, depending on spare time.</p>
+
+<p>It&rsquo;s worth noting that Python 3 has a <code>nonlocal</code> statement, for
+declaring write-access to freevars, something that Python 2 cannot
+do without some hackery.</p>
+
+<p>TODO: write up a doc about variable scoping in Python 2, and how
+co_names, co_vars, co_cellvars, co_freevars, and the frame
+fast_locals work.</p>
+
+<h2>Tomos Targa</h2>
+
+<p>My daughter turned 11 years old at the start of this month
+(October). She&rsquo;d been wishing for two major presents since Christmas
+&ndash; an iPhone and a powered bike of her own.</p>
+
+<p>Of course she got both. She now has a better phone than I do, and an
+awesome little 49cc, 1.5HP moped &ndash; a 1994 Tomos Targa! It starts, it
+goes, it stops, it&rsquo;s the cutest thing. Zoe loves it already, and has
+been zooming around the cul-de-sac.</p>
+
+<p>When she went off to visit her mother, I decided to take a look at the
+guts of the thing. It has some serious gear whine, and had a bit of a
+hard time starting. I wanted to see if there was something obvious
+that I could fix.</p>
+
+<p>Well, first off it was filled with regular motor oil rather than
+transmission fluid. Not a huge deal, but something to change. Then
+I took a look at the clutch and saw that the first gear clutch pads
+were entirely worn away.</p>
+
+<p>What is it with craigslist bikes and worn clutches? Uggo was the same
+way, all the friction material just gone.</p>
+
+<p>Second gear clutch was a bit chewed up, but still present. I ordered a
+new set of OEM first gear pads, as well as the clutch-cover gasket.</p>
+
+<p>I found bits of the starter return spring while I was in
+there. Ordered a replacement for that as well. The bike runs without
+one just fine, but not having it there can cause the kickstarting
+ratchet to rub every now and then. Nothing serious, but if I&rsquo;m already
+in there fixing things I may as well replace it.</p>
+
+<p>The front light didn&rsquo;t come on when I bought it. I took that housing
+apart and discovered it wasn&rsquo;t properly plugged in. Easy enough. The
+front left turn signal cover was smashed up. The bulb and electric
+worked just fine, it just didn&rsquo;t have an orange lense over it. Ordered
+that from ebay.</p>
+
+<p>I found that the carburetor had been covered in some sort of liquid
+gasket material as well, where it joins to the cylinder. Possible air
+leak there? I&rsquo;ll check that gasket fitment when I reassemble. I&rsquo;ve got
+the carb off in prep of dipping (since it sat for a while before I
+bought it).</p>
+
+<p>The exhaust was collecting some serious grime and rust. I cleaned and
+sanded that down, and painted it with some high-temperature rustoleum.</p>
+
+<p>The chain was sticking a bit, so I&rsquo;ve got a new chain coming from
+Amazon.</p>
+
+<p>I&rsquo;ll run some cleaner through the brake and throttle wire lines, hang
+&lsquo;em up to drip, and then put some teflon into them. That should smooth
+the actions of those up nicely.</p>
+
+<p>My daughter wants to paint the whole thing blue. It&rsquo;s currently an
+awful white and red/brown. I&rsquo;ve ordered some rattle-cans of light
+metallic blue paint. I figure I can give it a quick sanding job and
+just spray it over. It&rsquo;s a moped, it hardly needs to be show-room
+quality, and to be honest I&rsquo;ve always favored a little bit of the
+rough and beaten look on a bike!</p>
+
+<p>As of July 1 2015, mopeds are required to be registered with the
+DMV. This was a surprise to me! Once it&rsquo;s running again I&rsquo;ll have to
+go and get that taken care of, and mount a license plate. Not a huge
+problem, but it makes me wish I could lock the ignition on it. There&rsquo;s
+a steering lock in place on the neck, but it didn&rsquo;t come with the key
+for it &ndash;I&rsquo;ll have to keep an eye out on ebay for one of those. I
+wonder if I could wire something up so that the start switch circuit
+was only closed when the neck was unlocked?</p>
+
+<p>TODO: put together a Tomos Targa project page!</p>
+
+<h2>Heartsick</h2>
+
+<p>I discovered a new place to hang out, a little Bar &amp; Arcade
+downtown. A brilliant venue, really excellent atmoshpere. They had a
+Galaga in great condition, and I worked my way up to where I could
+reliably get to 1 million points. I also got a lot better at 1942,
+with my personal high score now sitting at just a bit over 1.25
+million points. I spent so much time there this summer. I&rsquo;d hop on tux
+and ride into town, and play games and sip beer all night long.</p>
+
+<p>But the real reason I was going wasn&rsquo;t the games, or the beer. There
+is a bartender.  A brilliant woman, a clever woman, a beutiful
+woman. She was my age, and her smile set my heart thudding. I&rsquo;d go
+just to sit at the bar and chat with her. She had such an interesting
+view into the process of thinking, of dealing with emotions and the
+directions of life. I became ridiculously smitten with this treasure
+of a human being.</p>
+
+<p>Of course, it was never meant to be. She&rsquo;s engaged, and has a very
+busy life. My own situation is a disaster anyway &ndash; single dad, joint
+custody, etc.. On top of that, I&rsquo;m hardly a &ldquo;catch,&rdquo; so even if she
+had spare time and weren&rsquo;t in a relationship, I&rsquo;m way out of my
+league. Makes a mess of my head, as if it weren&rsquo;t enough of one
+already. Limerance it&rsquo;s called, bothersome affliction. So I&rsquo;ve been
+dealing with that. Trying to distance myself from the place and the
+woman and the disappointment.</p>
+
+<p>TODO: Get over her and find someplace else to hang out.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Winter Sadness]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2015/01/17/winter-sadness/"/>
+    <updated>2015-01-17T11:28:11-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2015/01/17/winter-sadness</id>
+    <content type="html"><![CDATA[<p>I enjoy the sun on my face. In warm weather I step outside to greet
+the day, shirtless with my arms stretched far over my head and my face
+turned to the sun. I dwell on the bright light that comes through my
+shut eyes, and I breathe and let myself be warmed. When I relax and
+stretch to touch my toes, I open my eyes and the world is transformed
+and blue, and I&rsquo;m happy.</p>
+
+<p>I am lucky to live in North Carolina. The winters come to visit still,
+but they do not stay as long as they do in my home town in upstate New
+York. The sky is almost always white or grey up there.</p>
+
+<p>This winter has been harder than any I recall in the past.</p>
+
+<!-- more -->
+
+
+<p>I met a girl, and fell for her, and have not fully recovered from her
+dismissal.</p>
+
+<p>I cannot ride my motorcycle. And lacking a garage I have trouble even
+being able to work on the new bike.</p>
+
+<p>I&rsquo;ve long since lost interest in World of Warcraft, there&rsquo;s no joy in
+it.</p>
+
+<p>I fight the feeling because I know I have no reason to be
+distressed. I am housed, warm, fed. I have a daughter and gainful
+employment. The faults I find with my life are matters of comfort, not
+of safety. Yet I find myself inescapably drowning in a fugue. And I
+realize that it&rsquo;s nothing more than a response to the damned weather.</p>
+
+<p>I&rsquo;ve been trying to exercise, but I don&rsquo;t always have the energy.</p>
+
+<p>I am starving all of the time, seeking some sort of richness. I
+haven&rsquo;t touched tobacco in well over a year, and yet I find myself
+longing for a cigarette&hellip; dwelling on the thick, rich smell I
+remember. I seek out food with too much spice and with loud flavors,
+just because I need something to kick my brain and remind me to keep
+thinking. I have so many projects that I should be able to focus on,
+but nothing seems worth doing.</p>
+
+<p>And to top it all off, I still find myself thinking about a girl I
+only went out with twice.</p>
+
+<p>This winter can go fuck itself.</p>
+]]></content>
+  </entry>
+  
+</feed>

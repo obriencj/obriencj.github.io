@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: tu250x | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/tu250x/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2015-01-22T00:02:50-05:00</updated>
+  <updated>2015-10-06T00:53:00-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -64,7 +64,7 @@ less than a day! I&rsquo;ll have to think about it.</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/08/19/the-tu250x-kickstart-guide/"/>
     <updated>2014-08-19T16:50:57-04:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/08/19/the-tu250x-kickstart-guide</id>
-    <content type="html"><![CDATA[<p><a href="https://picasaweb.google.com/lh/photo/FNaKvuUKZWJIQsF4Q-ffZI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite"><img class="right" src="https://lh3.googleusercontent.com/-fSGZZbIGdes/U_O0qNy7CzI/AAAAAAAAQW0/lAdoqNhv_i4/s288/DSC00135.jpg" width="216" height="288"></a>
+    <content type="html"><![CDATA[<p><a href="https://picasaweb.google.com/lh/photo/FNaKvuUKZWJIQsF4Q-ffZI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite">{% img right https://lh3.googleusercontent.com/-fSGZZbIGdes/U_O0qNy7CzI/AAAAAAAAQW0/lAdoqNhv_i4/s288/DSC00135.jpg 216 288 %}</a>
 I&rsquo;ve finally written up and vastly expanded upon the information I
 originally had been posting in the &ldquo;<a href="http://tu250riders.com/viewtopic.php?f=8&amp;t=1809&amp;start=21">Kickstart for the TU?</a>&rdquo;
 thread on <a href="http://tu250riders.com/">tu250riders.com</a>. It almost certainly will go
