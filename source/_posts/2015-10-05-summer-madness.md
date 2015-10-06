@@ -6,13 +6,15 @@ description: How I spent my spring and summer, and what autumn brings
 keywords: spring, summer, autumn
 date: 2015-10-05 23:39:44 -0400
 updated:
-published: false
+published: true
 comments: true
-category: personal
+category: projects
 tags:
   - spring
   - summer
   - autumn
+  - personal
+  - projects
 
 ---
 
@@ -23,6 +25,7 @@ I haven't been keeping record of my doings and thinkings, which now
 seems short-sighted. Let's use this post as a TODO, marking up the
 activites of warm weather that I need to write about!
 
+<!-- more -->
 
 ## Running
 

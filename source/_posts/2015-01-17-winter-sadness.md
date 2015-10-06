@@ -12,6 +12,7 @@ category: personal
 tags:
   - winter
   - depression
+  - personal
 
 ---
 
@@ -27,6 +28,8 @@ but they do not stay as long as they do in my home town in upstate New
 York. The sky is almost always white or grey up there.
 
 This winter has been harder than any I recall in the past.
+
+<!-- more -->
 
 I met a girl, and fell for her, and have not fully recovered from her
 dismissal.
