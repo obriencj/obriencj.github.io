@@ -143,7 +143,7 @@ way, all the friction material just gone.
 Second gear clutch was a bit chewed up, but still present. I ordered a
 new set of OEM first gear pads, as well as the clutch-cover gasket.
 
-I found bits of the starter return spring while I was in
+I found bits of the starting engagement spring while I was in
 there. Ordered a replacement for that as well. The bike runs without
 one just fine, but not having it there can cause the kickstarting
 ratchet to rub every now and then. Nothing serious, but if I'm already
@@ -179,14 +179,18 @@ give it a quick sanding job and just spray it over. It's a moped, it
 hardly needs to be show-room quality, and to be honest I've always
 favored a little bit of the rough and beaten look on a bike!
 
-As of July 1, 2015, North Carolina law requires that mopeds be
-registered with the DMV. This was a surprise to me! Once it's running
-again I'll have to go and get that taken care of, and mount a license
-plate. Not a huge problem, but it makes me wish I could lock the
-ignition on it. There's a steering lock in place on the neck, but it
-didn't come with any key -- I'll have to keep an eye out on ebay for
-one of those. I wonder if I could wire something up so that the start
-switch circuit was only closed when the neck was unlocked?
+As of July 1, 2015, [North Carolina law][moped-law] requires that
+[mopeds be registered][moped-faq] with the DMV. This was a surprise to
+me! Once it's running again I'll have to go and get that taken care
+of, and mount a license plate. Not a huge problem, but it makes me
+wish I could lock the ignition on it. There's a steering lock in place
+on the neck, but it didn't come with any key -- I'll have to keep an
+eye out on ebay for one of those. I wonder if I could wire something
+up so that the start switch circuit was only closed when the neck was
+unlocked?
+
+[moped-law]: http://www.ncleg.net/Sessions/2013/Bills/House/PDF/H1145v8.pdf
+[moped-faq]: http://www.ncdot.gov/dmv/vehicle/title/vehicles/mopedfaq.html
 
 I need to find a print copy of the service manual and parts list.
 
@@ -211,13 +215,10 @@ view into the process of thinking, of dealing with emotions and the
 directions of life. I became ridiculously smitten with this treasure
 of a human being.
 
-Of course, it was never meant to be. She's engaged, and has a very
-busy life. My own situation is a disaster anyway -- single dad, joint
-custody, etc. On top of that mess, I'm hardly a "catch," so even if
-she had spare time and weren't in a relationship, she's way out of my
-proverbial league. The situation makes a mess of my head, as if it
-weren't enough of one already. "Limerance" the affliction is called,
-bothersome malady. So I've been dealing with that; trying to distance
-myself from the place and the woman and the disappointment.
+Of course, it was never meant to be. She's unavailable, and even if
+she were I'm hardly a "catch." The situation makes a mess of my head,
+as if it weren't enough of one already. "Limerance" the affliction is
+called, bothersome malady. So I've been dealing with that; trying to
+distance myself from the place and the woman and the disappointment.
 
 TODO: Get over her and find someplace else to hang out.
