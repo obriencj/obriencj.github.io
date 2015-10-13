@@ -26,13 +26,17 @@ far, but apart from the possibility of a custom seat soem day I think
 I'm about done changing her up.
 
 * de-stickered
-* bar-end mirrors
+* added tank knee pads
+* intake snorkel removed
+* second-hand, black flyscreen from Dart
+* [Kyle Racing bar-end weights](http://www.shop.kyleusa.com/product.sc?productId=629&categoryId=58) and generic bar-end mirrors
 * [OEM fork gaiters](http://japan.webike.net/products/1566192.html)
 * <a href="http://www.amazon.com/gp/product/B001AVS6H2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001AVS6H2&linkCode=as2&tag=obrieisapileo-20&linkId=K6LGILBZWIVUP2RE">16T Front Sprocket</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B001AVS6H2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 * Shinko 712 tires <a href="http://www.amazon.com/gp/product/B001CD8W68/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001CD8W68&linkCode=as2&tag=obrieisapileo-20&linkId=XQGQJPYZMHPVUZFW">Front - 100/90-18</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B001CD8W68" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, <a href="http://www.amazon.com/gp/product/B005242JDA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005242JDA&linkCode=as2&tag=obrieisapileo-20&linkId=DVM3KYOM7AXL5AKS">Rear - 120/90-18</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B005242JDA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> (one size up for both)
 * [PAIR valve] removed
-* [kickstart] added (from the Japanese ST250 E-Type)
-* [RSY Beauty] exhaust
+* [Kickstart] added (from the Japanese ST250 E-Type)
+* [RSY Beauty] exhaust (now painted black)
+* Power Commander V
 
 I would love to pick up the classic-styled front and rear fender from
 Japan and to get the whole bike painted a nice deep Oxblood and cream
