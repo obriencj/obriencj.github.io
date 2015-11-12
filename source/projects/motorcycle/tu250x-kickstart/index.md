@@ -101,7 +101,7 @@ ST250XK4's, which will very likely be an issue as the folded lever
 fits close to the motorcycle's frame. It would almost certainly come
 into contact with the frame, but I have not physically verified this.
 
-There is an <a href="http://www.amazon.com/gp/product/B008Y39W9K/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008Y39W9K&linkCode=as2&tag=obrieisapileo-20&linkId=DI7S5QUN326WZUPC">EMGO Suzuki kickstart lever</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B008Y39W9K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> which looks like it will fit. It appears to have the correct curve and narrow attachment point. I have not physically verified this either, but it is likely worth a shot as it is significantly less expensive than the OEM part.
+There is an <a href="http://www.amazon.com/gp/product/B008Y39W9K/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008Y39W9K&linkCode=as2&tag=obrieisapileo-20&linkId=DI7S5QUN326WZUPC">EMGO Suzuki kickstart lever</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=obrieisapileo-20&l=as2&o=1&a=B008Y39W9K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> <del>which looks like it will fit</del> which does not fit. The teeth on the kickstart shaft attach point are the wrong size.
 
 I had a good experience in obtaining the Japan-only parts from
 [Samurider.com], and I highly recommend going to them first. Simply
@@ -388,6 +388,10 @@ rush it and try not to lose your temper or your grip on the
 precariously balanced engine. More than any other aspect, this
 activity benefits from an assistant.
 
+Leave the two bolts in place on either arm of the swingarm
+assembly. There are seals and covers that you risk having fall out or
+becoming misaligned if you don't have a bolt running through them.
+
 [{% img right https://lh5.googleusercontent.com/-XD4a1Lebuvg/U9-1GpdX8rI/AAAAAAAAQII/_u3Ups5NFOA/s400/IMG_2838.JPG 400 300 I never did get into yoga %}](https://picasaweb.google.com/lh/photo/0N7z0AulW8uOVf1qNPTOBI90Bmq-8q5KVhdpQ6O0Fv4?feat=embedwebsite)
 If all goes well, you can now lug around the 70 lbs of filthy and
 unwieldy engine to your workspace. Again, I recommend at least a 3' by
@@ -570,9 +574,10 @@ and elbow grease with a plastic razor before I could call it
 ready. But all that work sure beats having an oil leak later.
 
 Remount the engine by lifting it slowly with the pneumatic jack, and
-turning and guiding it into place. I focused first on getting the
-swingarm mounts lined up, and drove home that bolt before trying to
-line up any others.
+turning, twisting, and guiding it into place. I focused first on
+getting the swingarm mount lined up, and drove home that bolt before
+trying to line up any others. As you push the swingarm mount bolt
+through, it will force the rear axle bolt back out.
 
 After the engine is secure, it's time to reconnect the cables,
 re-install the rear wheel, the chain, the front-sprocket, and
@@ -608,9 +613,10 @@ your TU into life!
 [It may take you a while to get the hang of it][kickvideo], but don't
 be discouraged. The fuel pump will sporadically start whenever you
 turn the engine even slightly, just ignore it and give the lever a
-good strong kick back and down. I find it helps to grab the rear brake
-lever along with the clutch, and push back on the bars a bit. After a
-weekend of riding, you'll get the feel for it!
+good strong kick back and down. I find it helps to grab the front
+brake lever along with the clutch, and push back on the bars a
+bit. After a weekend of riding and starting it by kick, you'll get the
+feel for it!
 
 [itsalive]: https://www.youtube.com/watch?v=0VkrUG3OrPc
 
@@ -625,6 +631,7 @@ If you liked my terrible pictures, here's [the entire album](https://picasaweb.g
 
 ## Change log
 
+- 2015-11-11: Remove mention of EMGO lever, it does NOT work.
 - 2014-09-16: Spell checking.
 - 2014-08-29: Corrected circlip pliers suggested item -- it was too
   big for the holes on the clips suzuki uses.
