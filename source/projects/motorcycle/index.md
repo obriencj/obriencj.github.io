@@ -58,17 +58,54 @@ A [Frankentux](/projects/motorcycle/frankentux/) might be a fun idea, too.
 
 ## 1984 Honda VT500FT, Uggo
 
-I snagged the [Uggo] after it caught my eye on craigslist. It's as ugly
-as the nickname implies, but there's a certain charm that I find very
-appealing. She needs so much work, but that's all of the fun really.
+I snagged the [Uggo] in December of 2014 after she caught my eye on
+craigslist. She's as ugly as the nickname implies, but there's a
+certain charm that I find very appealing. She needs so much work, but
+that's all of the fun really.
 
 500cc, liquid cooled, v-twin, shaft-driven. Plastic bits that scream
 "look at me, I'm from the 80s" and some seriously worn components. I
 think she wants to become a cafe bike or perhaps a flat tracker. We
 shall have to see.
 
-Right now she's a [hot mess].
+She came to me as a [hot mess], but now she's [hauling ass].
 
 [Uggo]: /blog/tags/vt500ft/
 
 [hot mess]: http://youtu.be/8HXSJg5Mar4
+
+[hauling ass]: /projects/motorcycle/vt500ft-uggo-the-warrior/
+
+
+## 1994 Tomos Targa
+
+This is actually Zoe's bike, not mine. For her birthday in 2015 I
+bought her a 49cc two-stroke moped. It needed some love, but was
+functional from day one. Zoe loves it, but she's only allowed to take
+it on back roads until she's older. So far she claims to have gotten
+it up to 31 mph, an impressive feat!
+
+
+## 1976 Suzuki GT250, Peanut
+
+There's something about two-strokes. I think it's the sound when they
+idle, or maybe the smell of that smoke. Whatever it is, I've been
+wanting one of my own ever since Zoe has been hauling around on her
+Tomos. Fortune lead me to Suzuki's old GT model line, and as luck
+would have it, I discovered a listing for a GT250 from 1976. '76 was a
+good year for this bike, they got rid of some crazy cooling devices in
+favor of more sensible fins on the cylinder, and tweaked the porting
+and jet sizes to give it more power.
+
+So in December of 2015, I ended up with Peanut, named thus because of
+the whole, unshelled, oily, ancient peanut I scooped out of her front
+sprocket compartment along with around 2 lbs of mud and leaves. I am
+already in love. She's the size and weight of Tux, so she handles like
+a sparrow. While she's admittedly a limp noodle below 4k RPM, from 6k
+to 8k she'll happily lift that front wheel. Six speed gearbox and a
+twin pair of pipes that sing the ring-ding-ding song of her
+people. She only had 6k miles on her when she arrived in my
+driveway. I've been hard at work getting her as healthy as I can. She
+ran after just a spark regapping, but I want her to be better than I
+found her. So new tires, new sprockets, new chain, new clutch pack,
+carb rebuild, etc etc.
