@@ -103,4 +103,6 @@ a few final touches on another project of mine. [python-withscope] is
 yet another one of those odd-ball things that nobody will ever use,
 but which I've written for fun. It adds nestable lexical scopes,
 similar to the special form `let` from scheme. I'm still somewhat
-amazed that I could make such a feature work.
+amazed that I could make such a feature work. I'd posted about this
+project before, but the first implementations were a bungling
+mess. It's significantly cleaner now.
