@@ -84,7 +84,9 @@ A wonderful two stroke twin from the era of the best bikes, I am very
 lucky to have been in the right place at the right time to snag this
 bike.
 
-[More about Gertie][/projects/motorcycle/gt250a-gertie-peanut-suzuki]
+[More about Gertie][gertie]
+
+[gertie]: /projects/motorcycle/gt250a-gertie-peanut-suzuki/
 
 
 ## 1994 Tomos Targa
