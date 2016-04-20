@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tag: vt500ft | obriencj]]></title>
+  <title><![CDATA[Tag: vt500ft, | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/vt500ft/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2016-02-23T12:51:25-05:00</updated>
+  <updated>2016-04-20T13:46:06-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -14,580 +14,104 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Summer Madness]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness/"/>
-    <updated>2015-10-05T23:39:44-04:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness</id>
-    <content type="html"><![CDATA[<p>Spring and Summer happened. I&rsquo;m still in shock that they&rsquo;ve already
-gone by and Autumn has arrived.</p>
-
-<p>I haven&rsquo;t been keeping record of my doings and thinkings, which now
-seems short-sighted. Let&rsquo;s use this post as a TODO, marking up the
-activites of warm weather that I need to write about!</p>
-
-<!-- more -->
-
-
-<h2>Running</h2>
-
-<p>Last winter was awful, but when spring finally showed up it was
-glorious. I took PTO from work over the week of my birthday (which is
-in April) and started running. My goal at the time was to simply get
-to the point where I could run an entire mile without stopping &ndash; a
-feat I&rsquo;d never before been capable of. I managed it, and I&rsquo;ve kept
-slowly increasing the distance every week since. At the time of this
-writing I can regularly make 2.5 miles, and have made it to 3 miles in
-a single run.</p>
-
-<p>My new goal is to surpass a 5k (3.1 miles), and to register and
-complete a real run before the end of Autumn.</p>
-
-<h2>Uggo</h2>
-
-<p>Uggo was properly re-assembled and has been running great! I
-re-re-disassembled her carbs and properly chemdipped them. That did so
-much good I feel like a fool for not doing it this way the first
-time. Uggo has, since I purchased her, new clutch plates, new brake
-pads, new brake cylinders and seals, new master cylinder and braided
-line, new oil filter and oil, new coils, new spark plugs, a new
-battery, a new fuse box, new center stand, a repaired airbox, a new
-air filter, new bars, new grips, new mirrors.</p>
-
-<p>She has a new front disk as well, which I need to mount. She&rsquo;s been
-taken for a few test rides, and that old disk seems to have a
-deformity or very uneven wear &ndash; braking is a very shuddering and
-exciting event. But holy smokes does she run!</p>
-
-<p>I intend to make her into a gift for my sister, as soon as I get the
-last few tweaks made. There&rsquo;s a bit of a wiring issue with the left
-turn signal, and the headlight is being obstinate. Also, the radiator
-fan is unplugged and needs an inline fuse. But then that&rsquo;s it, I
-think. Maybe a clear-coat for her metal tank, and black for the
-plastics. She&rsquo;ll be lovely!</p>
-
-<p>TODO: more pics, maybe a new video</p>
-
-<h2>Tux</h2>
-
-<p>Tux has been such a trooper, as always. I removed her intake snorkel
-and wired her up with a PowerCommander-V. I played with fuel maps for
-a while to get her happy with the new exhaust. There aren&rsquo;t any shops
-around here that are willing to let me tune her on a dyno,
-unfortunately. The Harley place (Ray Price Harley Davidson) flat-out
-refuses to work on anything they don&rsquo;t sell, and they&rsquo;re the only
-remaining shop that is certified for PC-V dyno tuning.</p>
-
-<p>Other than that, Tux has been a perfect trooper. Great gas mileage,
-zoomy and fun. At the time of this post she&rsquo;s up to 15600 miles. Not
-bad for a 2013-model motorcycle!</p>
-
-<p>TODO: maybe a new video, and post my fuel map and some new pics</p>
-
-<h2>Python Hacking</h2>
-
-<p>I&rsquo;ve been poking around Python internals this past month, working on a
-module I&rsquo;ve named <a href="https://github.com/obriencj/python-withscope/"><code>withscope</code></a>. It lets you push lexical
-scopes onto an existing block. It&rsquo;s a total hack, and apart from the
-weird factor it&rsquo;s absolutely useless &ndash; awfully slow and confusing to
-use if you aren&rsquo;t already expecing your namespace to be modified.</p>
-
-<p>I&rsquo;m still making modifications to it, trying to make it into the best
-representation of this crooked idea. I&rsquo;ll probably have a last commit
-ready in a few weeks, depending on spare time.</p>
-
-<p>It&rsquo;s worth noting that Python 3 has a <code>nonlocal</code> statement, for
-declaring write-access to freevars, something that Python 2 cannot
-do without some hackery.</p>
-
-<p>TODO: write up a doc about variable scoping in Python 2, and how
-co_names, co_vars, co_cellvars, co_freevars, and the frame
-fast_locals work.</p>
-
-<h2>Tomos Targa</h2>
-
-<p>My daughter turned 11 years old at the start of this month
-(October). She&rsquo;d been wishing for two major presents since Christmas
-&ndash; an iPhone and a powered bike of her own.</p>
-
-<p>Of course she got both. She now has a better phone than I do, and an
-awesome little 49cc, 1.5HP moped &ndash; a 1994 Tomos Targa! It starts, it
-goes, it stops, it&rsquo;s the cutest thing. Zoe loves it already, and has
-been zooming around the cul-de-sac.</p>
-
-<p>When she went off to visit her mother, I decided to take a look at the
-guts of the thing. It has some serious gear whine, and had a bit of a
-hard time starting. I wanted to see if there was something obvious
-that I could fix.</p>
-
-<p>Well, first off it was filled with regular motor oil rather than
-transmission fluid. Not a huge deal, but something to change. Then
-I took a look at the clutch and saw that the first gear clutch pads
-were entirely worn away.</p>
-
-<p>What is it with craigslist bikes and worn clutches? Uggo was the same
-way, all the friction material just gone.</p>
-
-<p>Second gear clutch was a bit chewed up, but still present. I ordered a
-new set of OEM first gear pads, as well as the clutch-cover gasket.</p>
-
-<p>I found bits of the starting engagement spring while I was in
-there. Ordered a replacement for that as well. The bike runs without
-one just fine, but not having it there can cause the kickstarting
-ratchet to rub every now and then. Nothing serious, but if I&rsquo;m already
-in there fixing things I may as well replace it.</p>
-
-<p>The front light didn&rsquo;t come on when I bought it. I took that housing
-apart and discovered it wasn&rsquo;t properly plugged in. Easy enough. The
-front left turn signal cover was smashed up. The bulb and electric
-worked just fine, it just didn&rsquo;t have an orange lense over it. Ordered
-that from ebay.</p>
-
-<p>I found that the carburetor had been covered in some sort of liquid
-gasket material as well, where it joins to the cylinder. Possible air
-leak there? I&rsquo;ll check that gasket fitment when I reassemble. I&rsquo;ve got
-the carb off in prep of dipping (since it sat for a while before I
-bought it).</p>
-
-<p>The exhaust was collecting some serious grime and rust. I cleaned and
-sanded that down, and painted it with some high-temperature rustoleum.</p>
-
-<p>The chain was sticking a bit, so I&rsquo;ve got a new chain coming from
-Amazon. I managed to destroy the pin on the master link when I
-attempted to take the old one apart. I never was good with those.</p>
-
-<p>I&rsquo;ll run some cleaner through the brake and throttle wire lines, hang
-&lsquo;em up to drip, and then put some teflon into them. That should smooth
-the actions of those up nicely.</p>
-
-<p>My daughter wants to paint the whole thing blue, like Rainbow Dash
-from My Little Pony. It&rsquo;s currently an awful white and red/brown. I&rsquo;ve
-ordered some rattle-cans of light metallic blue paint. I figure I can
-give it a quick sanding job and just spray it over. It&rsquo;s a moped, it
-hardly needs to be show-room quality, and to be honest I&rsquo;ve always
-favored a little bit of the rough and beaten look on a bike!</p>
-
-<p>As of July 1, 2015, <a href="http://www.ncleg.net/Sessions/2013/Bills/House/PDF/H1145v8.pdf">North Carolina law</a> requires that
-<a href="http://www.ncdot.gov/dmv/vehicle/title/vehicles/mopedfaq.html">mopeds be registered</a> with the DMV. This was a surprise to
-me! Once it&rsquo;s running again I&rsquo;ll have to go and get that taken care
-of, and mount a license plate. Not a huge problem, but it makes me
-wish I could lock the ignition on it. There&rsquo;s a steering lock in place
-on the neck, but it didn&rsquo;t come with any key &ndash; I&rsquo;ll have to keep an
-eye out on ebay for one of those. I wonder if I could wire something
-up so that the start switch circuit was only closed when the neck was
-unlocked?</p>
-
-<p>I need to find a print copy of the service manual and parts list.</p>
-
-<p>TODO: put together a Tomos Targa project page!</p>
-
-<h2>Heartsick</h2>
-
-<p>I discovered a new place to hang out, a little Bar &amp; Arcade
-downtown. A brilliant venue, really excellent atmoshpere. They had a
-Galaga in great condition, and I worked my way up to where I could
-reliably get to 1 million points. I also got a lot better at 1942,
-with my personal high score now sitting at just a bit over 1.25
-million points. I spent so much time there this summer. I&rsquo;d hop on tux
-and ride into town, and play games and sip beer all night long.</p>
-
-<p>But the real reason I was going wasn&rsquo;t the games, or the beer. There
-is a bartender.  A brilliant woman, a clever woman, a beautiful
-woman. She was my age, and her smile set my heart thudding. I&rsquo;d go
-just to sit at the bar and chat with her. She had such an interesting
-view into the process of thinking, of dealing with emotions and the
-directions of life. I became ridiculously smitten with this treasure
-of a human being.</p>
-
-<p>Of course, it was never meant to be. She&rsquo;s unavailable, and even if
-she were I&rsquo;m hardly a &ldquo;catch.&rdquo; The situation makes a mess of my head,
-as if it weren&rsquo;t enough of one already. &ldquo;Limerance&rdquo; the affliction is
-called, bothersome malady. So I&rsquo;ve been dealing with that; trying to
-distance myself from the place and the woman and the disappointment.</p>
-
-<p>TODO: Get over her and find someplace else to hang out.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Brake Reassembly]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2015/01/15/brake-reassembly/"/>
-    <updated>2015-01-15T20:54:35-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2015/01/15/brake-reassembly</id>
-    <content type="html"><![CDATA[<p>The new seal kit and the replacement brake pistons arrived! I had
-spent some of last night cleaning the caliper as best I could.</p>
+    <title type="html"><![CDATA[Withscope and Uggo the Warrior]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2015/11/29/withscope-and-uggo-the-warrior/"/>
+    <updated>2015-11-29T23:13:03-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2015/11/29/withscope-and-uggo-the-warrior</id>
+    <content type="html"><![CDATA[<p>My Thanksgiving vacation draws to a close. It is 11PM on a Sunday
+night, and tomorrow morning I will haul my carcass back down to my
+desk and log in to work and get back to the grind. The days are once
+again depressingly short, and I must combat the darkness by soaking up
+as much sunlight as possible. It becomes difficult to see the sun at
+all &ndash; wake up, walk downstairs into the home office, and stay there
+until the workday is done.</p>
 
 <!-- more -->
 
 
-<h2>Cleaning</h2>
-
-<p>I initially attacked it inside and out with WD-40 and a soft brass
-brush. This would be an <em>awful</em> idea if I had not followed that up
-with a wipe down and then a second cleaning pass with CRC
-Brakleen. The residue that WD-40 leaves behind is a good protective
-cover for things that are left in the open air, but it&rsquo;s just another
-bad contaminant on the insides of a caliper. However, it&rsquo;s cheap and
-does a really great job as a &ldquo;first pass&rdquo; for getting rust, grit,
-gunk, and grime broken up and out of the way. The Brakleen pass then
-gets rid of any leftovers contaminants, and removes the WD-40&rsquo;s
-residual lubrication. The result is a pair of brake cylinders that are
-clean and dry and ready for their new seals and pistons.</p>
-
-<p>On a side note, I use WD-40 on the chain of my TU250x in a similar
-fashion &ndash; as an initial cleaning pass. It&rsquo;s inexpensive, readily
-available, and gets grime out of the way. I always follow that up with
-a wipe-down and an application of a proper Teflon-based chain
-lubricant though.</p>
-
-<h2>Rebuild</h2>
-
-<p>I installed the new seals, and took special care to ensure that the
-inner seal was right-side-up. There&rsquo;s a very fine lip that needs to be
-towards the inside of the brake cylinder, else when under pressure the
-brake fluid will force its way out past the piston. The dust seal
-isn&rsquo;t as finicky.</p>
-
-<p>Then it was just a matter of wetting the new pistons in clean brake
-fluid and pressing them carefully into their cylinders, taking care
-not to damage the seals on the way in. I closed up the drain screws on
-the caliper, and attached the new brake line.</p>
-
-<h2>Todo</h2>
-
-<p>I&rsquo;ll remove the existing controls from the drag bars and move them all
-over to the new EMGO bars in the near future, and from there I&rsquo;ll be
-in position to fill the and bleed the brake line and see whether
-things have improved. I&rsquo;m pretty darn certain that they will have.</p>
-
-<p>It seems that we live in a new golden age for the hobbyist
-mechanic. YouTube has been invaluable in providing education regarding
-the function and repair of the brakes, and Amazon and eBay have been
-an extraordinary resource in obtaining replacement parts. A person
-need only be possessed of the appropriate will, some basic tools, and
-an internet connection, and they can repair a wide variety of
-mechanisms with confidence.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Clutch Work]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2015/01/03/clutch-work/"/>
-    <updated>2015-01-03T23:22:25-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2015/01/03/clutch-work</id>
-    <content type="html"><![CDATA[<p><a href="https://picasaweb.google.com/lh/photo/2IGyztFD30jQwtHusELiE3SyM6G7abmUFe3wsEDzPy0?feat=embedwebsite"><img class="right" src="https://lh6.googleusercontent.com/-WTAGE71igQ8/VKcVVZL1xeI/AAAAAAAASM4/dyYOpSzj1O8/s288/DSC00220.JPG" width="288" height="216"></a>
-I got a bit more work done on Uggo, this past Friday. It was more of a
-struggle than it really ought to be, getting myself moving and
-collected enough to work on anything. I think that I may be suffering
-from a bit of seasonal depression. Either that or the monumental,
-overwhelming dread of returning to work is getting to me. Whatever it
-is, I eventually conquered it enough to drag my tools out to the bike
-and get my hands dirty.</p>
-
-<!-- more -->
-
-
-<p>I started off by draining the oil. It came out thick and grey. This
-has me a little worried, but not terribly &ndash; I&rsquo;d mentioned before that
-I had to stuff rags into the intakes, but it&rsquo;s been miserable and
-rainy for a while, and condensation has been a real issue. I&rsquo;ll keep
-an eye on this after the bike is back together again.</p>
-
-<p>The oil filter had a bunch of big dents in it. It&rsquo;s in an awkward
-place, and I had to use a strap wrench and my breaker bar to get it
-turning, but off it did eventually come.</p>
-
-<p>I then replaced the drain plug, and placed a block of wood and my jack
-under the engine. I jacked it up enough that the rear wheel was on the
-ground and then I removed the sub-frame assembly from the right-side
-of the engine. A pleasant change from the Suzuki, all the bolts save
-one were identical, and all were 6mm alan heads. One of the bolts was
-slightly damaged, but I was able to get it to turn out after a bit of
-a fight.</p>
-
-<p>I wrestled away the side cover, and took a good look around the inside
-of the clutch side of the case. No obvious bits of metal or anything,
-so that&rsquo;s a bonus. The gasket material is going to be a real bastard
-to get off, as usual. I&rsquo;ve got a replacement gasket ready to go, once
-I can get this one cleaned off.</p>
-
-<p>I removed the press-plate from the clutch assembly, and the four
-springs. I had to do some gymnastics, standing on the back brake and
-yanking on the breaker bar to get the 24mm nut off of the assembly so
-I could pull it to replace the friction plates.</p>
-
-<p><a href="https://picasaweb.google.com/lh/photo/ugR1-alUvwjJQwW_9i9j7nSyM6G7abmUFe3wsEDzPy0?feat=embedwebsite"><img class="left" src="https://lh3.googleusercontent.com/-M77axPwOGF4/VKcVXfS-G0I/AAAAAAAASNA/A42Mf6O-aNE/s288/DSC00222.JPG" width="288" height="216"></a>
-Once I did get them out, the old friction plates were as I&rsquo;d
-expected. Three of the plates had been work completely smooth on both
-sides. The others were nearly there, but I could still make out a tiny
-indentation between the friction material pads on them. No wonder it
-slipped!</p>
-
-<p>I installed the new plates and re-assembled the stack and assembly,
-and performed more gymnastics to get it back attached to the
-countershaft. This is a very awkward arrangement &ndash; I much prefer the
-Suzuki for clutch plate maintenance &ndash; just remove the five bolts over
-the springs, and you can slide the pressure plate right off and remove
-the plates! Oh well, it&rsquo;s not like this is a particularly frequent
-check.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Holiday Work on Uggo]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2015/01/01/holiday-work-on-uggo/"/>
-    <updated>2015-01-01T22:45:16-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2015/01/01/holiday-work-on-uggo</id>
-    <content type="html"><![CDATA[<p>My holiday PTO is rapidly coming to an end. I did not get nearly as
-much work done on the VT500FT as I had intended. The weather has been
-rainy and cold, and the decreased sunlight exposure is definitely
-getting to me. I&rsquo;ve made some good progress on a few important aspects
-though, so I will share those.</p>
-
-<!-- more -->
-
-
-<h2>General Notes</h2>
-
-<p>Whoever did work on this last, whether the guy I bought it from or the
-guy before him, they either didn&rsquo;t own a torque wrench or just didn&rsquo;t
-care. A large number of the bolts that I&rsquo;ve encountered have only been
-loosely in place. The side spark plugs, for instance, spun freely
-without the need for any socket tool. The seat and tank similarly
-could be removed without putting any pressure on the wrench at all;
-I probably could have taken them out with just my fingers had I tried.</p>
-
-<p>Since I paid relatively little for the bike I&rsquo;m not upset when I find
-things like that, it just makes me laugh. I keep finding all these
-signs of neglect, but under it all there&rsquo;s a solid motorcycle that
-somehow has managed to keep running just the same. I can see that with
-some attention and care this could be a really solid machine.</p>
-
-<h2>Note on California Emissions</h2>
-
-<p>The 1984 VT500FT had two variations: normal, and California. The cali
-variant had features meant to meet the stricter emissions standards
-for that state. The carbs on this bike appear to be cali, but none of
-the supporting hardware is present.</p>
-
-<p>The cali design is such that the gas tank vents into a charcoal
-cannister rather than to open air through the gas cap. Gasoline vapor
-collects in that cannister, and a purge-control-valve connects the
-carburetors to the callector and the tank vent. When the bike is
-running, part of the air supply would be fed from those lines, causing
-the vapor to be burnt as part of the combustion process.</p>
-
-<p>The problem here is that there&rsquo;s no evidence of the charcoal cannister
-or purge-control-valve left on the bike. There&rsquo;s also no vent built
-into the gas tank. Best guess is that these carbs are replacements for
-the originals, and they&rsquo;re just the wrong ones.</p>
-
-<p>In the first VT500FT video I recorded, there is a dangling hose that
-causes the engine to struggle when I put my finger over the end. This
-line is what would normally connect to the PCV. I need to completely
-plug that line - right now it&rsquo;s sucking unfiltered air right into the
-carbs. I&rsquo;ve already adjusted the pilot screws to compensate &ndash; the
-cali setting is significantly more &ldquo;lean&rdquo; since it intends to be
-sucking vapor from the tank to augment any other mixture.</p>
-
-<p>I&rsquo;m hoping the normal pilot setting and plugged vapor inlets will get
-things running smoothly.</p>
-
-<h2>Carburetors</h2>
-
-<p>I started disassembly late one day on the week before Christmas. I
-removed the seat and tank, and took a good look around. I was happy to
-see that the air plenum was in pristine condition. The various pieces
-of clamping hardware didn&rsquo;t look too terrible, but there was
-definitely corrosion and gunk. I went around the engine and hit every
-single screw, nut, bolt, and clamp I could see with a liberal shot of
-WD-40, and left that to soak for the night.</p>
-
-<p>The next day I removed the air plenum, disconnected the throttle and
-choke lines from the carburetors, loosened all the clamps, and
-fidgeted with it until it finally came free from the engine.</p>
-
-<p>The caps covering the vaccuum cylinders are terribly pitted for both
-carbs, far more beaten up than the carbs themselves. I wonder if these
-are replacements scavenged from another set?</p>
-
-<p>The float bowl for one carburetor was filled with a blubbery mess that
-looks like threebond&rsquo;s liquid gasket. My best guess is that the bowl
-had been leaking and someone &ldquo;fixed&rdquo; it. It looked to have definitely
-been interfering with the operation of the float, and I wouldn&rsquo;t be
-surprised if it was also covering some of the jet intakes. The bowl of
-the other carb was better, but had some varnishing and an unfamiliar
-dark green substance smeared along the gasket.</p>
-
-<p>I replaced both float bowl gaskets with new ones.</p>
-
-<p>The vaccuum cylinders were fine, with the exception of a major kink
-and bend in the spring of the left/rear carb. I ordered a pair of new
-matching springs. The needles themselves were fine, though the
-right/front one had a bit of varnish and corrosion at the very tip.</p>
-
-<p>I cleaned some suspicious black grit in a few places. Might have been
-sucked into the system from the dangling vapor line?</p>
-
-<p>A few of the screws were stripped, so I replaced them all with new
-ones as well. It&rsquo;s amazing how much a parts supplied will try to
-charge you for what is simply an M8 screw! I now have 100pc baggies
-for a fraction of that cost thanks to amazon.</p>
-
-<p>I found that the pilot screws had been un-plugged (they are set in
-place at the factory and covered with a plug to prevent altering). The
-rear carb was turned out the suggested 2 &frac14; turns. The front carb
-however was set all of the way in! I&rsquo;m anxious to get the carb back on
-after cleaning and adjusting those pilot screws, I bet that will have
-fixed the 300F temperature difference in the cylinders.</p>
-
-<p>Since there wasn&rsquo;t any really major evidence of varnishing being a
-problem, I didn&rsquo;t do any kind of full-immersion carb cleaning. With
-the exception of the float-bowls, I just wiped everything down with
-marvel and called it fine. The bowls needed to be cleaned of their odd
-gasket sealants and had a bit of stinky varnish pooled in the
-recesses. Easy enough to clean up by hand.</p>
-
-<h2>Compression</h2>
-
-<p>After I&rsquo;d taken the carb off, I ran a compression test. I was very
-happy to see the pressure gauge get to 170 psi for both cylinders
-after a few cranks of the starter. I won&rsquo;t be doing anything with the
-rings or valves (except checking/adjusting the tappet clearance
-later).</p>
-
-<p>Since I knew I wouldn&rsquo;t be running the engine again for a while, I put
-a bit of marvel into either cylinder through the plug holes and the
-intake and then stuffed the holes with oily rags. It&rsquo;s been wet, cold,
-and generally horrible and I didn&rsquo;t want anything collecting
-condensation while it sat.</p>
-
-<h2>Exhaust</h2>
-
-<p>The echo chamber had been removed from the exhaust collector, and a
-plate had been sloppily welded over that side. In a similar vein, the
-muffler&rsquo;s packing screws are gone, and big sloppy welds have the can
-permanently closed (and there&rsquo;s SOMETHING rattling around inside of
-it, where the packing used to be).</p>
-
-<p>I found a used exhaust on ebay that promised no holes in either the
-muffler or the echo chamber, so I&rsquo;ve got replacements en route.</p>
-
-<p>Additionally, I&rsquo;d already noticed that there was a hole burned into
-the tool box which sits just behind and below the rear cylinder&rsquo;s
-exhaust port. Upon removing the exhaust entirely, I noted that it was
-only loosely bolted into place (with the wrong bolts). I&rsquo;ve got new
-front and rear exhaust gaskets, and I&rsquo;ll try to dig up the proper
-flanged bolts so that I can re-attach those pipes with the appropriate
-torque to prevent any future blow-by.</p>
-
-<h2>Center stand</h2>
-
-<p>I managed to find a center stand with spring and spacers on ebay, and
-installed it.</p>
-
-<p>However, it turns out that the center-stand uses the echo chamber as a
-stop when in the up position. Without the echo chamber, it lifts to
-the point of interfering with the rear brake rod. Luckily I&rsquo;ve got that
-covered with the replacement exhaust coming soon.</p>
-
-<h2>Front brake</h2>
-
-<p>I removed the front wheel and brake calipers, line, and master cylinder.</p>
-
-<p>The pads are completely black, greasy, and do not appear usable. I
-have new pads anyway. I&rsquo;m baffled as to how they ended up in this
-condition, though.</p>
-
-<p>The caliper appears to have been given a coat of black spray paint at
-some point, right over any road gunk that was present at the
-time. This became evident as I was cleaning it, and the paint started
-to peel off, revealing grime beneath.</p>
-
-<p>The brake pistons have black flecks and pits on them. I removed and
-tried to clean them, but haven&rsquo;t had any luck. The dust seal on one
-cylinder was not intact. There was also a buildup of dark grey mud
-inside the cylinder itself.</p>
-
-<p>There was evidence of more threebond liquid gasket on the threads of
-the bleeder valve.</p>
-
-<p>The rubber boots on some of the mounting hardware were very frail and
-one was torn. Removed all of those.</p>
-
-<p>New boots, seals, and pistons are on the way (relatively inexpensive).
-I also have a new master cylinder and a nice braided line ready to go.</p>
-
-<p>I&rsquo;m waiting on some CRC Brakleen to really get into the insides of the
-caliper before rebuilding. There&rsquo;s a lot of solid contaminent in there
-that needs to come out.</p>
-
-<p>After inspecting the disk itself, I don&rsquo;t believe it is too worn to
-use, and the fault of the bad braking action can easily be attributed
-to the disastrous condition of the pads and caliper.</p>
-
-<h2>Handle bars</h2>
-
-<p>I picked up a pair of inexpensive Emgo bars with a slightly lower rise
-than the originals. The originals are damaged, with the right side
-having a crimp at the bend, indicating they were the ones on it when
-it received the dent in the tank and the scuffs to the right side of
-the engine.</p>
-
-<p>The bike currently has some drag-style bars in place. These come
-terribly close to hitting the tank. In fact, the only reason they
-don&rsquo;t actually hit the tank is that one of the previous owners had
-limited the turning range by attaching a few bolts through a bent clip
-at the stops. I&rsquo;ll restore the full range by removing those and
-putting on more comfortable bars.</p>
-
-<h2>Clutch</h2>
-
-<p>The original clutch adjustment was very tight &ndash; only slightly pulling
-in the clutch lever would completely disengage the clutch. It was so
-tightly adjusted that even all the way out, the clutch would slip a
-bit. I ended up changing this on the fly during the ride home, moving
-the friction zone towards the center of the lever&rsquo;s movement. I
-noticed that even after that was done, giving the bike a bit of
-throttle seemed to still slip! I am intending to replace the clutch
-springs and friction plates. I have the parts, I just haven&rsquo;t gotten
-around to removing the sub-frame and side cover yet. I should have
-done that today (New Years day) but I find myself completely out of
-motivation.</p>
-
-<h2>Oil and filter</h2>
-
-<p>I&rsquo;ve got oil and a new filter on-hand, but I&rsquo;ll be doing that the same
-time as the clutch adjustment above. I wish I&rsquo;d have thought to have
-broken the seal on the filter when the bike was still warm from the
-last time I ran it. I&rsquo;m guessing it&rsquo;s going to be a real bear to get
-the strap wrench to move that filter.</p>
-
-<p>I wonder when the oil was last actually changed?</p>
-
-<h2>Final Drive</h2>
-
-<p>I need to get the rear wheel off and take a good look at the drive
-shaft and the final gearing itself. I&rsquo;m expecting to see a mess, but
-maybe I&rsquo;ll be pleasantly surprised and see clean grease and fresh,
-adequate oil in there!</p>
-
-<h2>So Much To Do</h2>
-
-<p>Well, that&rsquo;s about where I am now. I&rsquo;ve taken a few pictures that I&rsquo;ll
-try to link into here later. For now it&rsquo;s time to get some sleep!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Introducing Uggo]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/12/13/introducing-uggo/"/>
-    <updated>2014-12-13T20:13:01-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/12/13/introducing-uggo</id>
-    <content type="html"><![CDATA[<p>I picked up something to work on over the holidays, courtesy of
-craigslist. Ladies and gentlemen, Uggo.</p>
-
-<iframe width="560" height="315" src="//www.youtube.com/embed/8HXSJg5Mar4" frameborder="0" allowfullscreen></iframe>
-
+<h2>Uggo Yesterday</h2>
+
+<p>As previously noted, I have been working like mad to get Uggo running
+and in good condition again. This effort is redoubled because Tux has
+had her exaust pipe off for ceramic coating for the past two weeks,
+rendering her unrideable.</p>
+
+<p>Yesterday was Saturday, and I took her out for a ride down to
+Lillington. The beast hadn&rsquo;t seen much real road time since I&rsquo;d bought
+her and started tearing her apart. I really opened her up on those
+empty roads, and was pleasantly surprised. The new coils and plugs,
+the cleaned carbs, the new clutch plates all let her just jump forward
+with a twist of the wrist. She seemed genuinely eager to haul ass. If
+you can get her to 6k RPM, it doesn&rsquo;t seem to matter what gear she&rsquo;s
+in, a quick rev and she&rsquo;ll jump to 9k like it&rsquo;s nothing at all. The
+resulting acceleration is exhilerating to say the least. Sometimes a
+little terrifying. Not once did the new plates slip.</p>
+
+<p>The new front brake was fantastic as well. A firm pressure on the
+lever had a very satisfying stopping time.</p>
+
+<p>There&rsquo;s a lot of buzzing and rattling at various RPMs &ndash; some of this
+I think is due to the bent-up heat shields that act as barriers
+between my right leg and her two exhaust pipes as they emerge from the
+cylinder head. Since those suckers regularly get to 500F, I can
+appreciate the presence of the shields, even if they make an
+incredibly annoying noise when the engine frequency makes them
+wiggle. Perhaps I should get these pipes coated as well, and then wrap
+them? I could probably leave off the guards at that point.</p>
+
+<p>I put 115 miles on the bike before parking for a refresher at
+Boxcar. Much to my dismay when I went to leave, she started but idled
+weakly and then stalled out. I could not get her to start again. I was
+concerned I&rsquo;d fouled her plugs, or she&rsquo;d swamped, or any number of
+things. But then the cavalry arrived (my sister Littlebear) and with
+her a simpler suggestion.</p>
+
+<p>Out of gas. Apparently, Uggo gets around 46 miles per gallon. Coupled with
+a 2.6 gallon tank&hellip; I must have arrived at <a href="http://theboxcarbar.com">Boxcar</a> on fumes.</p>
+
+<p>A quick run to a nearby station for a container of fuel, and I was on
+my way home! Thank goodness for cool sisters!</p>
+
+<h2>Uggo Today</h2>
+
+<p>I started today by attacking Uggo&rsquo;s wiring harness, one of the few
+really bad bits remaining. Her turn signals had long given me issue,
+and the wiring in general has been a disaster since day one, almost a
+year ago. Sometimes she wouldn&rsquo;t start, sometimes the headlight
+wouldn&rsquo;t work, sometimes indicator lights would sporadically stop
+functioning.</p>
+
+<p>I disconnected the entirety of the mess that was tangled beneath her
+headlight and took a serious look at it. The majority of the bulk was
+the result of a number of butt-end connectors that combined the
+various control lines together to be sent off elsewhere on the
+loom. The plug-in segment that these connectors had been sharing space
+with was a totally separate piece, and with some arranging I was able
+to move all the joinery up into the headlight bucket where it belongs.
+Suddenly what was once a fat nest was just a few parallel bundles, and
+there was plenty of room for control cables and the final outer
+plastic covering.</p>
+
+<p>I pulled out the manual while I was at this, and pored over the wiring
+diagram to discern what was the issue with the turn signals. There
+were a few color mis-matches (possible replacement pieces, who knows)
+to act as stumbling blocks, but my multi-meter and I prevailed, and
+with a bit of electrical cleaner spray and pliers-work, all four
+signals were blinking as intended!</p>
+
+<p>Just in time to get her inspected, since her registration is
+approaching its expiration point!</p>
+
+<h2>Withscope</h2>
+
+<p>With my morning cup of coffee, before I attacked Uggo&rsquo;s wiring, I got
+a few final touches on another project of mine. <a href="https://github.com/obriencj/python-withscope">python-withscope</a> is
+yet another one of those odd-ball things that nobody will ever use,
+but which I&rsquo;ve written for fun. It adds nestable lexical scopes,
+similar to the special form <code>let</code> from scheme. I&rsquo;m still somewhat
+amazed that I could make such a feature work. I&rsquo;d posted about this
+project before, but the first implementations were a bungling
+mess. It&rsquo;s significantly cleaner now.</p>
 ]]></content>
   </entry>
   

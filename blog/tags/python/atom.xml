@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tag: python | obriencj]]></title>
+  <title><![CDATA[Tag: python, | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/python/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2016-02-23T12:51:25-05:00</updated>
+  <updated>2016-04-20T13:46:06-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -14,684 +14,104 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Summer Madness]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness/"/>
-    <updated>2015-10-05T23:39:44-04:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness</id>
-    <content type="html"><![CDATA[<p>Spring and Summer happened. I&rsquo;m still in shock that they&rsquo;ve already
-gone by and Autumn has arrived.</p>
-
-<p>I haven&rsquo;t been keeping record of my doings and thinkings, which now
-seems short-sighted. Let&rsquo;s use this post as a TODO, marking up the
-activites of warm weather that I need to write about!</p>
-
-<!-- more -->
-
-
-<h2>Running</h2>
-
-<p>Last winter was awful, but when spring finally showed up it was
-glorious. I took PTO from work over the week of my birthday (which is
-in April) and started running. My goal at the time was to simply get
-to the point where I could run an entire mile without stopping &ndash; a
-feat I&rsquo;d never before been capable of. I managed it, and I&rsquo;ve kept
-slowly increasing the distance every week since. At the time of this
-writing I can regularly make 2.5 miles, and have made it to 3 miles in
-a single run.</p>
-
-<p>My new goal is to surpass a 5k (3.1 miles), and to register and
-complete a real run before the end of Autumn.</p>
-
-<h2>Uggo</h2>
-
-<p>Uggo was properly re-assembled and has been running great! I
-re-re-disassembled her carbs and properly chemdipped them. That did so
-much good I feel like a fool for not doing it this way the first
-time. Uggo has, since I purchased her, new clutch plates, new brake
-pads, new brake cylinders and seals, new master cylinder and braided
-line, new oil filter and oil, new coils, new spark plugs, a new
-battery, a new fuse box, new center stand, a repaired airbox, a new
-air filter, new bars, new grips, new mirrors.</p>
-
-<p>She has a new front disk as well, which I need to mount. She&rsquo;s been
-taken for a few test rides, and that old disk seems to have a
-deformity or very uneven wear &ndash; braking is a very shuddering and
-exciting event. But holy smokes does she run!</p>
-
-<p>I intend to make her into a gift for my sister, as soon as I get the
-last few tweaks made. There&rsquo;s a bit of a wiring issue with the left
-turn signal, and the headlight is being obstinate. Also, the radiator
-fan is unplugged and needs an inline fuse. But then that&rsquo;s it, I
-think. Maybe a clear-coat for her metal tank, and black for the
-plastics. She&rsquo;ll be lovely!</p>
-
-<p>TODO: more pics, maybe a new video</p>
-
-<h2>Tux</h2>
-
-<p>Tux has been such a trooper, as always. I removed her intake snorkel
-and wired her up with a PowerCommander-V. I played with fuel maps for
-a while to get her happy with the new exhaust. There aren&rsquo;t any shops
-around here that are willing to let me tune her on a dyno,
-unfortunately. The Harley place (Ray Price Harley Davidson) flat-out
-refuses to work on anything they don&rsquo;t sell, and they&rsquo;re the only
-remaining shop that is certified for PC-V dyno tuning.</p>
-
-<p>Other than that, Tux has been a perfect trooper. Great gas mileage,
-zoomy and fun. At the time of this post she&rsquo;s up to 15600 miles. Not
-bad for a 2013-model motorcycle!</p>
-
-<p>TODO: maybe a new video, and post my fuel map and some new pics</p>
-
-<h2>Python Hacking</h2>
-
-<p>I&rsquo;ve been poking around Python internals this past month, working on a
-module I&rsquo;ve named <a href="https://github.com/obriencj/python-withscope/"><code>withscope</code></a>. It lets you push lexical
-scopes onto an existing block. It&rsquo;s a total hack, and apart from the
-weird factor it&rsquo;s absolutely useless &ndash; awfully slow and confusing to
-use if you aren&rsquo;t already expecing your namespace to be modified.</p>
-
-<p>I&rsquo;m still making modifications to it, trying to make it into the best
-representation of this crooked idea. I&rsquo;ll probably have a last commit
-ready in a few weeks, depending on spare time.</p>
-
-<p>It&rsquo;s worth noting that Python 3 has a <code>nonlocal</code> statement, for
-declaring write-access to freevars, something that Python 2 cannot
-do without some hackery.</p>
-
-<p>TODO: write up a doc about variable scoping in Python 2, and how
-co_names, co_vars, co_cellvars, co_freevars, and the frame
-fast_locals work.</p>
-
-<h2>Tomos Targa</h2>
-
-<p>My daughter turned 11 years old at the start of this month
-(October). She&rsquo;d been wishing for two major presents since Christmas
-&ndash; an iPhone and a powered bike of her own.</p>
-
-<p>Of course she got both. She now has a better phone than I do, and an
-awesome little 49cc, 1.5HP moped &ndash; a 1994 Tomos Targa! It starts, it
-goes, it stops, it&rsquo;s the cutest thing. Zoe loves it already, and has
-been zooming around the cul-de-sac.</p>
-
-<p>When she went off to visit her mother, I decided to take a look at the
-guts of the thing. It has some serious gear whine, and had a bit of a
-hard time starting. I wanted to see if there was something obvious
-that I could fix.</p>
-
-<p>Well, first off it was filled with regular motor oil rather than
-transmission fluid. Not a huge deal, but something to change. Then
-I took a look at the clutch and saw that the first gear clutch pads
-were entirely worn away.</p>
-
-<p>What is it with craigslist bikes and worn clutches? Uggo was the same
-way, all the friction material just gone.</p>
-
-<p>Second gear clutch was a bit chewed up, but still present. I ordered a
-new set of OEM first gear pads, as well as the clutch-cover gasket.</p>
-
-<p>I found bits of the starting engagement spring while I was in
-there. Ordered a replacement for that as well. The bike runs without
-one just fine, but not having it there can cause the kickstarting
-ratchet to rub every now and then. Nothing serious, but if I&rsquo;m already
-in there fixing things I may as well replace it.</p>
-
-<p>The front light didn&rsquo;t come on when I bought it. I took that housing
-apart and discovered it wasn&rsquo;t properly plugged in. Easy enough. The
-front left turn signal cover was smashed up. The bulb and electric
-worked just fine, it just didn&rsquo;t have an orange lense over it. Ordered
-that from ebay.</p>
-
-<p>I found that the carburetor had been covered in some sort of liquid
-gasket material as well, where it joins to the cylinder. Possible air
-leak there? I&rsquo;ll check that gasket fitment when I reassemble. I&rsquo;ve got
-the carb off in prep of dipping (since it sat for a while before I
-bought it).</p>
-
-<p>The exhaust was collecting some serious grime and rust. I cleaned and
-sanded that down, and painted it with some high-temperature rustoleum.</p>
-
-<p>The chain was sticking a bit, so I&rsquo;ve got a new chain coming from
-Amazon. I managed to destroy the pin on the master link when I
-attempted to take the old one apart. I never was good with those.</p>
-
-<p>I&rsquo;ll run some cleaner through the brake and throttle wire lines, hang
-&lsquo;em up to drip, and then put some teflon into them. That should smooth
-the actions of those up nicely.</p>
-
-<p>My daughter wants to paint the whole thing blue, like Rainbow Dash
-from My Little Pony. It&rsquo;s currently an awful white and red/brown. I&rsquo;ve
-ordered some rattle-cans of light metallic blue paint. I figure I can
-give it a quick sanding job and just spray it over. It&rsquo;s a moped, it
-hardly needs to be show-room quality, and to be honest I&rsquo;ve always
-favored a little bit of the rough and beaten look on a bike!</p>
-
-<p>As of July 1, 2015, <a href="http://www.ncleg.net/Sessions/2013/Bills/House/PDF/H1145v8.pdf">North Carolina law</a> requires that
-<a href="http://www.ncdot.gov/dmv/vehicle/title/vehicles/mopedfaq.html">mopeds be registered</a> with the DMV. This was a surprise to
-me! Once it&rsquo;s running again I&rsquo;ll have to go and get that taken care
-of, and mount a license plate. Not a huge problem, but it makes me
-wish I could lock the ignition on it. There&rsquo;s a steering lock in place
-on the neck, but it didn&rsquo;t come with any key &ndash; I&rsquo;ll have to keep an
-eye out on ebay for one of those. I wonder if I could wire something
-up so that the start switch circuit was only closed when the neck was
-unlocked?</p>
-
-<p>I need to find a print copy of the service manual and parts list.</p>
-
-<p>TODO: put together a Tomos Targa project page!</p>
-
-<h2>Heartsick</h2>
-
-<p>I discovered a new place to hang out, a little Bar &amp; Arcade
-downtown. A brilliant venue, really excellent atmoshpere. They had a
-Galaga in great condition, and I worked my way up to where I could
-reliably get to 1 million points. I also got a lot better at 1942,
-with my personal high score now sitting at just a bit over 1.25
-million points. I spent so much time there this summer. I&rsquo;d hop on tux
-and ride into town, and play games and sip beer all night long.</p>
-
-<p>But the real reason I was going wasn&rsquo;t the games, or the beer. There
-is a bartender.  A brilliant woman, a clever woman, a beautiful
-woman. She was my age, and her smile set my heart thudding. I&rsquo;d go
-just to sit at the bar and chat with her. She had such an interesting
-view into the process of thinking, of dealing with emotions and the
-directions of life. I became ridiculously smitten with this treasure
-of a human being.</p>
-
-<p>Of course, it was never meant to be. She&rsquo;s unavailable, and even if
-she were I&rsquo;m hardly a &ldquo;catch.&rdquo; The situation makes a mess of my head,
-as if it weren&rsquo;t enough of one already. &ldquo;Limerance&rdquo; the affliction is
-called, bothersome malady. So I&rsquo;ve been dealing with that; trying to
-distance myself from the place and the woman and the disappointment.</p>
-
-<p>TODO: Get over her and find someplace else to hang out.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Surprise, There Are Users]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/04/26/surprise/"/>
-    <updated>2014-04-26T12:35:18-04:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/04/26/surprise</id>
-    <content type="html"><![CDATA[<p>My motorcycle is in the shop this morning. I ride a little <a href="http://www.suzukicycles.com/Product%20Lines/Cycles/Products/TU250X/2013/TU250X.aspx">TU250x</a>
-that I call &ldquo;Tux&rdquo;. I bought her for myself as a birthday present last
-year, and have put a little over 6000 miles on her since. She&rsquo;s a good
-bike, and I take a lot of pleasure in our rides together. I perform
-the majority of her maintenance myself &ndash; oil, chain, valves,
-electrical. But one thing I didn&rsquo;t want to do was replace and balance
-the tires, so I&rsquo;m paying the guys at <a href="http://www.team-powersports.com/">Team Powersports</a> to do it.</p>
-
-<p>While Tux is off getting new tires, my daughter and I are sitting on
-the back porch. She has been reading <a href="http://en.wikipedia.org/wiki/Rurouni_Kenshin">Rurouni Kenshin</a> for the first
-time, and I have been working on the documentation for
-<a href="http://github.com/obriencj/python-promises">python-promises</a>.</p>
+    <title type="html"><![CDATA[Withscope and Uggo the Warrior]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2015/11/29/withscope-and-uggo-the-warrior/"/>
+    <updated>2015-11-29T23:13:03-05:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2015/11/29/withscope-and-uggo-the-warrior</id>
+    <content type="html"><![CDATA[<p>My Thanksgiving vacation draws to a close. It is 11PM on a Sunday
+night, and tomorrow morning I will haul my carcass back down to my
+desk and log in to work and get back to the grind. The days are once
+again depressingly short, and I must combat the darkness by soaking up
+as much sunlight as possible. It becomes difficult to see the sun at
+all &ndash; wake up, walk downstairs into the home office, and stay there
+until the workday is done.</p>
 
 <!-- more -->
 
 
-<p>I recently discovered, much to my surprise, that promises has a
-user. Possibly more than one. This is crazy to me because of all my
-projects promises has the most direct competition. It&rsquo;s also one I
-decided not to publish on <a href="http://pypi.python.org/pypi/">PyPI</a> (for the very reason of the
-previously mentioned competing modules). It would appear that indeed
-the very act of publishing code publicly will draw <em>someone</em> to use
-it. I had maintained doubt about this rule, but I will have to take
-this new anecdote in stride.</p>
-
-<p>Oh dear. I hope that doesn&rsquo;t mean <a href="http://github.com/obriencj/python-spexy">Spexy</a> has users&hellip;</p>
-
-<p>This new-found user has turned out to be very useful. They&rsquo;ve already
-<a href="https://github.com/obriencj/python-promises/issues/1">provided</a> excellent and insightful feedback, which in turn
-has blossomed into new features. I can only hope that my other
-projects will over time gather attention of similar quality.</p>
-
-<p>Perhaps I&rsquo;ll rethink promises a bit more. After I give it a good hard
-look I&rsquo;ll reconsider if maybe &ndash; just maybe &ndash; I ought to publish it
-to PyPI after all.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Javatools to setuptools]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/"/>
-    <updated>2014-04-03T18:52:24-04:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools</id>
-    <content type="html"><![CDATA[<p>I was supposed to write about <a href="http://github.com/obriencj/python-sibilant">sibilant</a>, but of course I&rsquo;ve been
-distracted.</p>
-
-<p>My daughter is out of school on spring break, and I&rsquo;ve taken leave
-from work so that we could hang out together. Of course this means
-that we&rsquo;ve just been finding new ways to ignore each other as the week
-has gone by. We&rsquo;ve certainly spent a lot of time at various parks and
-playgrounds, and we&rsquo;ve played an awful lot of Minecraft together. But
-on the evenings we&rsquo;ve also set up something approaching residency at
-our <a href="http://morningtimes-raleigh.com">favorite coffee shop</a>. She will sit and munch on chocolate chip
-cookies while watching videos and playing games on her ipad&ndash;
-oblivious to my presence&ndash; and I&rsquo;ll find myself looking for something
-unimportant to half-heartedly hack on. It&rsquo;s a pleasant and relaxing
-situation, this modern bonding.</p>
-
-<p>And so it came to pass that I was looking over the <a href="http://github.com/obriencj/python-javatools">python-javatools</a>
-project again.</p>
-
-<!-- more -->
-
-
-<h2>Javatools</h2>
-
-<p>I typically write my projects and tools in reverse&ndash; that is to say, I
-write them as if I had the API that I wanted, and then I create the
-library to fulfill that wish. In the end, I have a library and a tool
-that consumes it.</p>
-
-<p><a href="http://github.com/obriencj/python-javatools">Javatools</a> still turned out to be a bit of a mess. It arose from a
-simple enough question, it was suspected that a change in the binaries
-for some classes was limited to line numbering and was otherwise
-harmless. I took a quick glance at the format specifications for Java
-class files, and indeed that information is trivial to fetch.</p>
-
-<p>Thus, organically, began the life of a tool whose purpose is to
-compare class binaries and discover the &ldquo;meaningful&rdquo; differences.</p>
-
-<h2>Unit tests</h2>
-
-<p>This likely sounds mad, but I enjoy writing unit tests. They&rsquo;re easy
-to throw together without paying a whole lot of attention, and you
-aren&rsquo;t likely to actively break something. Use tools like
-<a href="http://nedbatchelder.com/code/coverage/">coverage.py</a> and it becomes a game; trying to reach 100% <a href="https://docs.python.org/2/library/unittest.html">unittest</a>
-coverage for some little library that has a total of 20 users in the
-entire world.</p>
-
-<p>I started writing Javatools before I&rsquo;d developed the habit of writing
-tests in parallel. Mind you, I &ldquo;tested&rdquo; the project frequently,
-running it against all manner of samples from out in the wild. I kept
-a script in git whose sole job was to compare two versions of JBoss AS
-against one-another&ndash; that was my test case.</p>
-
-<p>Approaching actual test writing for this project seemed daunting at
-first&ndash; it meant I&rsquo;d need to create data to test against, and that
-meant writing Java code so that I could disassemble it again later and
-check that what my tooling reports is indeed what ought to be there.
-But that&rsquo;s exactly what I&rsquo;ve been doing this week in the coffee shop&ndash;
-creating sample classes that I could tear apart. I&rsquo;ve found one bug in
-javatools so far with this, so I even have something to show for it.</p>
-
-<h2>Setuptools</h2>
-
-<p>In order to more easily manage my unittests, I&rsquo;ve migrated setup.py
-from the in-built <a href="https://docs.python.org/2/distutils/">distutils</a> module to <a href="http://pythonhosted.org/setuptools/">setuptools</a>. Setuptools has a
-few quirks, and I&rsquo;ve had to make adjustments to accommodate those. For
-instance, renaming the <code>src</code> directory to <code>javatools</code>. In theory I
-will be able to simplify setup.py by moving the <code>pylint</code> command out
-into its own file, but I haven&rsquo;t arrived at that point yet.</p>
-
-<p>Unfortunately, I still need to override the <code>build_py</code> command class
-to pre-compile my <a href="http://www.cheetahtemplate.org/">Cheetah</a> templates into python modules.</p>
-
-<p>Since this introduces a dependency for the project, I&rsquo;ve kept these
-changes (including the unittests) in a <a href="https://github.com/obriencj/python-javatools/tree/setuptools">separate branch</a> until I can
-ascertain that it&rsquo;s not too much churn for the upcoming 1.4 release.</p>
-
-<p>Setuptools is widely-enough used that I sincerely doubt there will be
-any real issue with the switch. After a few more tests I&rsquo;ll hopefully
-merge back to master and finally tag version 1.4 in git.</p>
-
-<p>And then I&rsquo;ll have to go back to thinking about the compiler for
-sibilant.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Weather and Backtracking]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking/"/>
-    <updated>2014-03-24T00:05:53-04:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking</id>
-    <content type="html"><![CDATA[<p>Spring should be arriving any moment now, and indeed there are hints
-of warmth and green coming soon. Those glimpses of a happy future are
-punctuated with an almost spiteful enthusiasm by incredibly gross
-weather. &ldquo;Gross&rdquo; is definitely the right word for it. The temperature
-will drop 30 degrees (F) overnight, and a harsh gusting wind will
-bring rain and occasionally sleet. The sky becomes dim and grey. You
-find yourself bundled up against it, wondering if the previous day&rsquo;s
-open heavens and friendly sunshine were just part of a fever dream.</p>
-
-<!-- more -->
-
-
-<p>I&rsquo;ve been spending more time than usual at my <a href="http://morningtimes-raleigh.com" title="The Morning Times, Raleigh">favorite coffee spot</a>
-and while there I&rsquo;ve been (of course) hacking around. As some will
-know already, I&rsquo;ve wanted for a while to write a proper LISP of my
-own. I view it as an important exercise, and a bit of a milestone!
-There are so many implementations out there already, I am not so
-deluded as to think that mine will be of use except as a material
-lesson during the course of its creation. It is, to my mind, akin to a
-first novel. While composing a book ill suits me &ndash; I&rsquo;m bereft of
-creative stories or unique views into real events &ndash; composing a
-compiler around what I consider to be an elegant and inspired computer
-language is right up my proverbial alley!</p>
-
-<p>But this path is not easily traversed. The routes my inadequate brain
-travels along are bumpy and often with poor visibility. In my personal
-hacks I don&rsquo;t always know where I&rsquo;m going, psychologically or
-programmatically, until I get there. I may indicate &ndash; as with a vague
-gesture &ndash; that I&rsquo;m headed in so-and-so direction. Where the journey
-actually ends, who knows.</p>
-
-<p>In this particular venture, I&rsquo;ve already found myself at a dead-end. A
-LISP compiler must, by the very definition of things, be
-incremental. And I have painted myself into a corner, trying to be
-clever and converting the structure of the source code into an AST
-that includes special forms. Since a LISP macro (they being <em>the whole
-goddamn point</em>) can conceivably be defined at any expression (at any
-depth) I cannot safely create an AST in such a fashion. I need to
-delay that step, and compile and execute the expression tree
-<em>in-place</em>, with the environment traversing along with the
-compiler. And so I must back track, a difficult lesson
-learned. There&rsquo;s good reason that LISPs don&rsquo;t use structures past
-cons-lists, and now I see one of those reasons quite clearly.</p>
-
-<p>But let&rsquo;s focus on the happy discoveries over the frustrating ones,
-today, yes? Let&rsquo;s talk about continuations and trampolines!</p>
-
-<h2>Teaching Phantoms</h2>
-
-<p>Often, in order to consider things in their entirety in my own mind, I
-try to explain them as to an interested novice. I do this in the
-shower, or while staring off into space while my coffee grows cold. I
-dream up a situation &ndash; as many mad people do &ndash; where another person
-exists that wants to learn something, and I must rise to the occasion
-to teach them.</p>
-
-<p>This mental habit has served me surprisingly well, though it may have
-contributed to my social failings. It&rsquo;s hard to find love while
-staring vacantly off into space.</p>
-
-<p>So let me pretend &ndash; in the interest of advancing this narrative &ndash;
-that there is someone in need of teaching, so that I may be forced to
-organize my own thoughts enough to communicate them better to myself.
-Or put another way, let me pretend to be someone smarter, and you can
-pretend to be me.</p>
-
-<h2>Return of the Continuation</h2>
-
-<p>One thing that I&rsquo;ve found profoundly exciting is the concept of the
-current continuation. Every expression of a program has one, hiding
-under the covers, invisible to the eye and editor. It is almost
-surprising, given the reclusive nature of the thing, to realize that
-most programming languages do in fact offer some view of this wild
-creature. It&rsquo;s called often by a familar name, <code>return</code>, and you may
-well have taken it for granted throughout your years of programming.
-Or worse, having memorized a particular implementation of the concept,
-you may now be blinded to greater possibilities. A certain amount of
-willing flexibility is required to proceed. Remember the wisdom of
-Yoda!</p>
-
-<p>The unassuming <code>return</code> is almost always disguised as a statement
-rather than an expression. <code>return</code> does double duty &ndash; it is both a
-messenger, and a director. It will duly hand off a value, but it will
-also adjust the underlying program state such that execution can
-proceed and the program can eventually terminate.</p>
-
-<p><code>return</code> can be viewed thus as a function which executes the rest of
-the program, accepting only a single argument as its parameter.</p>
-
-<p>Imagine if you were able to somehow capture that function named
-<code>return</code>.  Imagine keeping a reference to it somewhere outside of the
-current scope!</p>
-
-<p>What in the world would that captive <code>return</code> be good for?</p>
-
-<p>If you&rsquo;re polluted with an implementation-based understanding of
-<code>return</code> you&rsquo;re probably vehemently thinking something like &ldquo;it pops a
-frame off of the call stack! It places the passed value on the stack
-so that the caller can get to it! That&rsquo;s what <code>return</code> does and what
-<code>return</code> must do! All other ideas are lies!&rdquo; That&rsquo;s certainly a
-possibility &ndash; in this case, a single instance of <code>return</code> works in
-all places. It is entirely side-effect driven. But&hellip; what if&hellip;</p>
-
-<p>What if we made a small adjustment to the common implementation, and
-changed our definition of a call stack from a linear piece of memory
-to a singly-linked-list. Consider a chain, hanging from a hook,
-representing where the program is, and where it will go next. What if
-the action of <code>return</code> was less about &ldquo;pop&rdquo; and more about explicitly
-putting a particular link from that chain onto the hook. If that were
-the case, then each function would need its own <code>return</code>, created with
-that <em>specific</em> link held within its closure. If you somehow captured
-that <code>return</code> function and stored it somewhere safe, then calling it
-again would result in the call chain being put back to hang on the
-hook exactly as it had been the first time that the now-captive
-<code>return</code> was called. All manner of side-effects may have occurred in
-the interim &ndash; values in various scopes may have changed, objects may
-have been mutated, output perhaps written to streams &ndash; but execution
-picks up once again just where it had. The passage of time is not been
-undone, but the path we traverse <em>has</em>. Perhaps this go around a
-different condition is fulfilled and execution travels down a
-different path.</p>
-
-<p>When <code>return</code> can behave as such &ndash; when it can be captured &ndash; it is
-properly called the &ldquo;reified continuation.&rdquo; An implementation detail
-of the environment of the program, made available as part of that same
-program.</p>
-
-<p>It is important to me that the LISP I author supports fully reified
-continuations. At any point in the program, I want the opportunity to
-ask for the continuation, and to do what I will with it.</p>
-
-<h2>Call Conformity</h2>
-
-<p>To this end, I have a powerful tool which can help me to make it
-happen. A variety of kung-fu known for convoluting the sanest of
-minds. Continuation-passing-style.</p>
-
-<p>Using CPS, we never use the underlying <code>return</code> of the implementing
-language. Instead, every function we define must take an additional
-parameter &ndash; the continuation, sometimes named simply <code>k</code>. The idea is
-that the function <code>k</code> acts as a stand-in for <code>return</code>. When <code>k</code> is
-called, it is given a value, and the job of <code>k</code> is to execute the rest
-of the program.</p>
-
-<p>Consider the following incredibly simple function.</p>
-
-<pre><code class="python"># return-style
-def add_one_hundred(onto_bar):
-    return onto_bar + 100
-print(add_one_hundred(5))
-</code></pre>
-
-<p>Here we shall convert it to CPS</p>
-
-<pre><code class="python"># continuation-passing-style
-def add_one_hundred(k, onto_bar):
-    k(onto_bar + 100)
-add_one_hundred(print, 5)
-</code></pre>
-
-<p>A wonderful side-effect of implementing a compiler which uses a
-continuation-passing call-conformity for all of its compiled
-expressions is that at any given point, the continuation is <em>right
-there</em>, you simply have to snag it.</p>
-
-<p>A less wonderful side-effect is that your more <em>traditional</em> call
-stack can become quite deep, to the point of over-flowing. The
-implementation language doesn&rsquo;t necessarily know that you never intend
-to descend back out of the call stack &ndash; that your program is just one
-call after another after another. It holds onto data you never wish to
-make use of.</p>
-
-<p>Thus, if you&rsquo;re implementing a continuation-passing-style compiler on
-top of a language with a traditional stack management system, you&rsquo;re
-likely going to exhaust its stack allocation.</p>
-
-<p>Unless, of course, you find a way to dump that call stack from time to
-time. You don&rsquo;t need it after-all &ndash; your program only moves
-<em>forward</em>, never <em>backwards</em> now that it&rsquo;s passing <code>k</code> along. You need
-a harness to assist you in doing this. And that is a trampoline.</p>
-
-<h2>A Trampoline</h2>
-
-<p>If you&rsquo;re never going to return, it might become imparative that you
-leave the past behind. It&rsquo;ll bog you down, otherwise.</p>
-
-<p>Let&rsquo;s contrive an example. Here we&rsquo;ll use a recursive factorial
-definition.</p>
-
-<pre><code class="python"># recursive factorial definition
-def factorial(num):
-    if num == 0 or num == 1:
-        return 1
-    else:
-        return num * factorial(num - 1)
-
-# prints 120
-print(factorial(5))
-</code></pre>
-
-<p>No problem. Now let&rsquo;s convert that to CPS</p>
-
-<pre><code class="python"># a continuation-passing-style recursive factorial
-def factorial(cont, num):
-    if num == 0 or num == 1:
-        cont(1)
-    else:
-        k = lambda x: cont(num * x)
-        factorial(k, num - 1)
-
-# also prints 120
-factorial(print, 5)
-</code></pre>
-
-<p>For large numbers, they&rsquo;re both going to run up against the recursion
-limit on Python (or stack space if you disable such limits). However,
-the CPS factorial doesn&rsquo;t actually <em>need</em> the stack that it is
-consuming &ndash; it never returns! The value is accumulated deeper and
-deeper down a line of continuations.</p>
-
-<p>What follows is a rewrite of the CPS factorial that makes use of a
-trampoline backing the recursive calls. When the call stack becomes
-deeper than a certain limit, an exception is raised with the
-continutation captured as a parameter. The trampoline catches the
-exception, and calls that captive continuation. Python&rsquo;s call stack at
-the time of the raised exception is simply discarded. The continuation
-was &ldquo;the rest of the program&rdquo; and the trampoline made sure that the
-program will be run to completion.</p>
-
-<pre><code class="python trampoline https://gist.github.com/obriencj/9555480 Gist">from functools import partial
-from inspect import currentframe
-
-import sys
-
-
-STACK_LIMIT = 64
-
-
-class ContinueCall(BaseException):
-    pass
-
-
-def countstack():
-    # this is the slowest part, by far. There are better ways to
-    # implement this metric, but they are signficantly more
-    # involved. This is good enough for an example.
-
-    counter = 0
-    frame = currentframe()
-    while frame:
-        frame = frame.f_back
-        counter += 1
-    return counter
-
-
-def bounce_call(work, *args):
-    # this could also be implemented without a stack check, and as
-    # such could bounce every single call.
-
-    if countstack() &gt;= STACK_LIMIT:
-        raise ContinueCall(partial(work, *args)).with_traceback(None)
-    else:
-        work(*args)
-
-
-def bouncy(func, final_cont, *args):
-    work = partial(func, final_cont, *args)
-    while True:
-        try:
-            work()
-        except ContinueCall as cc:
-            work = cc.args[0]
-        else:
-            break
-
-
-def factorial(cont, num):
-    if num == 0 or num == 1:
-        bounce_call(cont, 1)
-    else:
-        k = lambda x: bounce_call(cont, num * x)
-        bounce_call(factorial, k, num - 1)
-
-
-def main(value):
-    bouncy(factorial, print, value)
-</code></pre>
-
-<p>Just before the end, any remainder Python call stack does indeed get
-traversed. But it is an unimportant side-effect at this point &ndash; we
-aren&rsquo;t using it to pass a value back, we&rsquo;re just letting Python return
-to its normal behavior.</p>
-
-<h2>So What Next?</h2>
-
-<p>If we can guarantee a trampoline (and of course we can, we&rsquo;re writing
-the compiler and interpreter), then we can with relative safety make
-use of CPS in our generated executable. We must be consistent though
-&ndash; if we&rsquo;re going to be throwing away the return stack, we need to be
-certain that we definitely haven&rsquo;t emitted code that wants to use it!
-This is the call-conformity. We must compile every expression into a
-series of steps, each of which has the conformity in its evaluation,
-that it takes a continuation and will (eventually) pass execution
-along to it with the result.</p>
-
-<p>In my next post, I will endeavor to communicate just how I&rsquo;ve decided
-to do such!</p>
-
-<hr />
-
-<p><em>Edited 2014-03-25 : explain the problems I&rsquo;ve run into in sibilant
-with macros, thus clarifying the post title</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Delivering on Promises]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/"/>
-    <updated>2014-03-02T14:16:30-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s beautiful, this fine sunny Sunday. Zoe is outside playing with
-the neighbors and I&rsquo;m relaxing in the breeze. I&rsquo;m working on a bit of
-clean-up coding from yesterday&rsquo;s hacking session on <a href="http://github.com/obriencj/python-promises">python-promises</a>.
-I had finally gotten around to <a href="https://gist.github.com/obriencj/9298654">writing</a> a unit test
-harness for the XML-RPC multicall promise bits. I was so excited to
-have that working that I charged through writing tests and fixing bugs
-for the multiprocess and multithread modules as well. Before I knew
-it, my promises module was looking darn-near worthy of a 1.0</p>
-
-<!-- more -->
-
-
-<p>As I had done before with <a href="http://github.com/obriencj/python-brine">brine</a> I went ahead and set up <a href="https://travis-ci.org/obriencj/python-promises">travis.ci</a>
-and <a href="https://coveralls.io/r/obriencj/python-promises?branch=master">coveralls.io</a> hooks. I am still astounded (and grateful) that
-there&rsquo;s such infrastructure available gratis to the open source
-community.</p>
-
-<p>I&rsquo;ve also started the more tedious task of going through the
-docstrings and getting them into the format that <a href="https://github.com/numpy/numpydoc">numpydocs</a> and
-<a href="http://sphinx-doc.org/">sphinx</a> are expecting. I need to write up significantly more examples
-for <a href="http://obriencj.preoccupied.net/python-promises/">the documentation</a>. That can be what I work on in the evenings in
-bed, this week.</p>
-
-<p>I&rsquo;ll let the project sit for a bit, and see if anything else crops up
-that needs changing. But if all goes well, I think I&rsquo;ll be tagging
-version 1.0.0 soon, and posting the module up on PyPI.</p>
+<h2>Uggo Yesterday</h2>
+
+<p>As previously noted, I have been working like mad to get Uggo running
+and in good condition again. This effort is redoubled because Tux has
+had her exaust pipe off for ceramic coating for the past two weeks,
+rendering her unrideable.</p>
+
+<p>Yesterday was Saturday, and I took her out for a ride down to
+Lillington. The beast hadn&rsquo;t seen much real road time since I&rsquo;d bought
+her and started tearing her apart. I really opened her up on those
+empty roads, and was pleasantly surprised. The new coils and plugs,
+the cleaned carbs, the new clutch plates all let her just jump forward
+with a twist of the wrist. She seemed genuinely eager to haul ass. If
+you can get her to 6k RPM, it doesn&rsquo;t seem to matter what gear she&rsquo;s
+in, a quick rev and she&rsquo;ll jump to 9k like it&rsquo;s nothing at all. The
+resulting acceleration is exhilerating to say the least. Sometimes a
+little terrifying. Not once did the new plates slip.</p>
+
+<p>The new front brake was fantastic as well. A firm pressure on the
+lever had a very satisfying stopping time.</p>
+
+<p>There&rsquo;s a lot of buzzing and rattling at various RPMs &ndash; some of this
+I think is due to the bent-up heat shields that act as barriers
+between my right leg and her two exhaust pipes as they emerge from the
+cylinder head. Since those suckers regularly get to 500F, I can
+appreciate the presence of the shields, even if they make an
+incredibly annoying noise when the engine frequency makes them
+wiggle. Perhaps I should get these pipes coated as well, and then wrap
+them? I could probably leave off the guards at that point.</p>
+
+<p>I put 115 miles on the bike before parking for a refresher at
+Boxcar. Much to my dismay when I went to leave, she started but idled
+weakly and then stalled out. I could not get her to start again. I was
+concerned I&rsquo;d fouled her plugs, or she&rsquo;d swamped, or any number of
+things. But then the cavalry arrived (my sister Littlebear) and with
+her a simpler suggestion.</p>
+
+<p>Out of gas. Apparently, Uggo gets around 46 miles per gallon. Coupled with
+a 2.6 gallon tank&hellip; I must have arrived at <a href="http://theboxcarbar.com">Boxcar</a> on fumes.</p>
+
+<p>A quick run to a nearby station for a container of fuel, and I was on
+my way home! Thank goodness for cool sisters!</p>
+
+<h2>Uggo Today</h2>
+
+<p>I started today by attacking Uggo&rsquo;s wiring harness, one of the few
+really bad bits remaining. Her turn signals had long given me issue,
+and the wiring in general has been a disaster since day one, almost a
+year ago. Sometimes she wouldn&rsquo;t start, sometimes the headlight
+wouldn&rsquo;t work, sometimes indicator lights would sporadically stop
+functioning.</p>
+
+<p>I disconnected the entirety of the mess that was tangled beneath her
+headlight and took a serious look at it. The majority of the bulk was
+the result of a number of butt-end connectors that combined the
+various control lines together to be sent off elsewhere on the
+loom. The plug-in segment that these connectors had been sharing space
+with was a totally separate piece, and with some arranging I was able
+to move all the joinery up into the headlight bucket where it belongs.
+Suddenly what was once a fat nest was just a few parallel bundles, and
+there was plenty of room for control cables and the final outer
+plastic covering.</p>
+
+<p>I pulled out the manual while I was at this, and pored over the wiring
+diagram to discern what was the issue with the turn signals. There
+were a few color mis-matches (possible replacement pieces, who knows)
+to act as stumbling blocks, but my multi-meter and I prevailed, and
+with a bit of electrical cleaner spray and pliers-work, all four
+signals were blinking as intended!</p>
+
+<p>Just in time to get her inspected, since her registration is
+approaching its expiration point!</p>
+
+<h2>Withscope</h2>
+
+<p>With my morning cup of coffee, before I attacked Uggo&rsquo;s wiring, I got
+a few final touches on another project of mine. <a href="https://github.com/obriencj/python-withscope">python-withscope</a> is
+yet another one of those odd-ball things that nobody will ever use,
+but which I&rsquo;ve written for fun. It adds nestable lexical scopes,
+similar to the special form <code>let</code> from scheme. I&rsquo;m still somewhat
+amazed that I could make such a feature work. I&rsquo;d posted about this
+project before, but the first implementations were a bungling
+mess. It&rsquo;s significantly cleaner now.</p>
 ]]></content>
   </entry>
   
