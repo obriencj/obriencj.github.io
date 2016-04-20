@@ -6,7 +6,7 @@ description:
 keywords: vt500ft, python, withscope, uggo, honda
 date: 2015-11-29 23:13:03 -0500
 updated:
-published: false
+published: true
 comments: true
 category: projects
 tags: vt500ft, python, withscope, uggo, honda
@@ -57,14 +57,17 @@ I put 115 miles on the bike before parking for a refresher at
 Boxcar. Much to my dismay when I went to leave, she started but idled
 weakly and then stalled out. I could not get her to start again. I was
 concerned I'd fouled her plugs, or she'd swamped, or any number of
-things. But then the cavalry arrived (my sister) and with her a simpler
-suggestion.
+things. But then the cavalry arrived (my sister Littlebear) and with
+her a simpler suggestion.
 
 Out of gas. Apparently, Uggo gets around 46 miles per gallon. Coupled with
-a 2.6 gallon tank... I must have arrived at Boxcar on fumes.
+a 2.6 gallon tank... I must have arrived at [Boxcar] on fumes.
 
 A quick run to a nearby station for a container of fuel, and I was on
 my way home! Thank goodness for cool sisters!
+
+[Boxcar]: http://theboxcarbar.com
+
 
 ## Uggo Today
 
@@ -96,6 +99,7 @@ signals were blinking as intended!
 Just in time to get her inspected, since her registration is
 approaching its expiration point!
 
+
 ## Withscope
 
 With my morning cup of coffee, before I attacked Uggo's wiring, I got
@@ -106,3 +110,5 @@ similar to the special form `let` from scheme. I'm still somewhat
 amazed that I could make such a feature work. I'd posted about this
 project before, but the first implementations were a bungling
 mess. It's significantly cleaner now.
+
+[python-withscope]: https://github.com/obriencj/python-withscope
