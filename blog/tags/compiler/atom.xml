@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: compiler, | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/tags/compiler/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2017-09-17T19:41:39-04:00</updated>
+  <updated>2017-09-17T19:43:04-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My First Lisp Compiler]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2017/09/17/my-first-list-compiler/"/>
+    <link href="http://obriencj.preoccupied.net/blog/2017/09/17/my-first-lisp-compiler/"/>
     <updated>2017-09-17T18:52:59-04:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2017/09/17/my-first-list-compiler</id>
+    <id>http://obriencj.preoccupied.net/blog/2017/09/17/my-first-lisp-compiler</id>
     <content type="html"><![CDATA[<p>There&rsquo;s a lot of liberty to be expressed in programming a project
 for which you&rsquo;ll be the only consumer. Really, the same could be said
 of any task performed purely for yourself.</p>
