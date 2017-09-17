@@ -18,6 +18,11 @@ run together. Okay, let's start from here and now, and I can work my
 way backwards in later posts. This is my own fault for not writing
 up all my projects as I was actually working on them. Ah well!
 
+Let's start with looking at Python bytecode to detect how the results
+from a function call will be consumed, and what we can do with that
+knowledge.
+
+<!-- more -->
 
 ## Mapbind
 
