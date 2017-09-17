@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My First List Compiler"
+title: "My First Lisp Compiler"
 tagline: python-sibilant
 description:
 keywords: sibilant, lisp, python, compiler, bytecode
