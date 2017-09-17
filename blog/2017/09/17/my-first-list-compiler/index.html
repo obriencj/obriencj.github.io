@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>My First List Compiler - obriencj</title>
+  <meta name="author" content="Christopher O'Brien">
+
+  
+  <meta name="description" content="Projects and Ideas from Chris O'Brien">
+  
+  <meta name="keywords" content="sibilant, lisp, python, compiler, bytecode">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2017/09/17/my-first-list-compiler">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="obriencj" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-47351906-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">obriencj</a></h1>
+  
+    <h2>is a pile of bits</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:obriencj.preoccupied.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">My First List Compiler<br /><small>python-sibilant</small></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+	<time datetime="2017-09-17T18:52:59-04:00" pubdate data-updated="true">September 17, 2017</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>There&rsquo;s a lot of liberty to be expressed in programming a project
+for which you&rsquo;ll be the only consumer. Really, the same could be said
+of any task performed purely for yourself.</p>
+
+<p>I am a one-semester, community-college dropout, a self-taught fool.
+Judged on a coarse scale, I don&rsquo;t regret this &ndash; I am content with my
+life. However, there are a few features of higher education which I
+have felt that I truly am less for missing out on, trials and
+endeavors that lend a certain amount of seasoning to the spirit. Some
+of it is purely social, and some of it is curriculum.</p>
+
+<!-- more -->
+
+
+<p>I try to prove myself (to myself) sometimes. The projects I take up
+and seek to invent from scratch are (occasionally) my interpretation
+of what someone might learn in a more formal setting. Rather than
+receiving it as a whole, guided and directed, I have to start from
+scratch and just make shit up to accumulate similar experiences.</p>
+
+<p>I reinvent what&rsquo;s already perfected. It&rsquo;s like running, I suppose.
+The expenditure of effort doesn&rsquo;t move humanity forward, doesn&rsquo;t solve
+some grand problem. It&rsquo;s pleasant, and good exercise, and a healthy
+routine. Cars and bicycles exist, and they are more efficient in the
+act of transporting a person from one place to another, but the act of
+running is the purpose. I am astounded at the number of times I&rsquo;ve had
+to use this analogy when someone demands &ldquo;what&rsquo;s it for&rdquo; about
+anything I&rsquo;ve done in my own time.</p>
+
+<p>I cannot fix them, and that&rsquo;s okay.</p>
+
+<h2>Sibilant</h2>
+
+<p><a href="https://github.com/obriencj/python-sibilant">Sibilant</a> isn&rsquo;t for anything. Sibilant is a dialect of lisp which is
+implemented in Python. It is compiled to Python bytecode. It has
+distinct read, compile, and run times. It can be consumed
+transparently from other Python modules, and can in turn transparently
+consume more traditional Python modules. It is an effort to make the
+Python runtime environment bilingual. I am not the first to start on
+such a ridiculous task, and I hopefully will not be the last.</p>
+
+<p>Sibilant features tail-call optimization, via a rudimentary trampoline
+system. It compiles the vast majority of simple operands and
+comparators to the appropriate bytecode, and also allows use of those
+ops as run-time functions. It allows user-defined reader and
+compile-time macros. It supports closures and global bindings,
+exception handling, the managed object interface, generators,
+iterative and imperative looping, class definitions, and keyword and
+variadic formal arguments and parameters.</p>
+
+<p>I&rsquo;m pretty happy with it, but it has a long way to go before I&rsquo;ll
+really consider it done. The current implementation is really version
+zero. When it has enough fetures that I think it&rsquo;s useable, I will
+rewrite every aspect of it in itself. I will use version zero to
+compile version one of sibilant, and then I will re-compile version
+one using itself.</p>
+
+<p>And then sibilant will be done.</p>
+
+<p>Maybe I&rsquo;ll write something in it, or use it for small projects. Maybe
+I&rsquo;ll leave it forever.</p>
+
+<p>There&rsquo;s some really great frameworks out there already. Racket is
+particularly appealing. I think I&rsquo;m going to prioritize learning it
+next. If I want to write something amazing in a lisp, I&rsquo;ll probably
+use that.</p>
+
+<p>Sibilant&rsquo;s purpose is to be an exercise &ndash; author the components of a
+compiler without having been taught how to do so. Make mistakes,
+realize why some ideas are bad first-hand. Come to new conclusions,
+move forward.</p>
+
+<p>Somewhere, there&rsquo;s a course that would have provided me all of this,
+bundled up with quizzes, lectures, and some credits at the end. I
+didn&rsquo;t get any of that, so I&rsquo;m making good with what I&rsquo;ve got.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Christopher O&#8217;Brien</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2017-09-17T18:52:59-04:00" pubdate data-updated="true">September 17, 2017</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/projects/'>projects</a>
+  
+</span>
+
+
+      
+
+<span class="tags">
+  
+    <a class='tag' href='/blog/tags/bytecode/'>bytecode</a>, <a class='tag' href='/blog/tags/compiler/'>compiler,</a>, <a class='tag' href='/blog/tags/lisp/'>lisp,</a>, <a class='tag' href='/blog/tags/python/'>python,</a>, <a class='tag' href='/blog/tags/sibilant/'>sibilant,</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://obriencj.preoccupied.net/blog/2017/09/17/my-first-list-compiler/" data-via="obriencj" data-counturl="http://obriencj.preoccupied.net/blog/2017/09/17/my-first-list-compiler/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2017/09/17/divining-the-left-handed-future-in-python/" title="Previous Post: Divining the Left-Handed Future in Python">&laquo; Divining the Left-Handed Future in Python</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/09/17/my-first-list-compiler/">My First List Compiler</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/09/17/divining-the-left-handed-future-in-python/">Divining the Left-Handed Future in Python</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/11/29/withscope-and-uggo-the-warrior/">Withscope and Uggo the Warrior</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/05/summer-madness/">Summer Madness</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/17/winter-sadness/">Winter Sadness</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>Tags</h1>
+
+  <div class="tag-cloud">
+  <p class="tags">
+<a style="font-size: 114%" href="/blog/tags/brine/">brine</a>
+<a style="font-size: 114%" href="/blog/tags/hack/">hack</a>
+<a style="font-size: 105%" href="/blog/tags/ideas/">ideas</a>
+<a style="font-size: 114%" href="/blog/tags/lisp/">lisp</a>
+<a style="font-size: 132%" href="/blog/tags/motorcycle/">motorcycle</a>
+<a style="font-size: 140%" href="/blog/tags/python/">python</a>
+<a style="font-size: 114%" href="/blog/tags/python/">python,</a>
+<a style="font-size: 114%" href="/blog/tags/spexy/">spexy</a>
+<a style="font-size: 114%" href="/blog/tags/tu250x/">tu250x</a>
+<a style="font-size: 125%" href="/blog/tags/vt500ft/">vt500ft</a>
+
+  </p>
+  <p class="tag-cloud-more">
+  <a href="/blog/tags/">more &rarr;</a>
+  </p>
+  </div>
+</section>
+<section>
+<h1>Twitter</h1>
+
+<a class="twitter-timeline" href="https://twitter.com/obriencj" data-widget-id="428062589986168832">Tweets by @obriencj</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</section>
+<section>
+  <h1>Author</h1>
+  <p>A generally nice guy, who just wants to hack for fun. Proud
+  father. Motorcycle rider. Currently emplyed with Red Hat as a
+  Release Engineer. </p>
+  <p><a href="https://plus.google.com/+ChristopherOBrien/?rel=author">Christopher O&#8217;Brien on G+</a></p>
+</section>
+
+<section class="googleplus googleplus-hidden">
+  <h1>
+    <a href="https://plus.google.com/+ChristopherOBrien?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - Christopher O&#8217;Brien -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
