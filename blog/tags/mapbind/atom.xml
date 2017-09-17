@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: mapbind | obriencj]]></title>
+  <link href="http://obriencj.preoccupied.net/blog/tags/mapbind/atom.xml" rel="self"/>
+  <link href="http://obriencj.preoccupied.net/"/>
+  <updated>2017-09-17T13:07:12-04:00</updated>
+  <id>http://obriencj.preoccupied.net/</id>
+  <author>
+    <name><![CDATA[Christopher O'Brien]]></name>
+    <email><![CDATA[obriencj@preoccupied.net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Divining the Left-Handed Future in Python]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2017/09/17/divining-the-left-handed-future-in-python/"/>
+    <updated>2017-09-17T09:00:16-04:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2017/09/17/divining-the-left-handed-future-in-python</id>
+    <content type="html"><![CDATA[<p>Composing words is hard. Too much to tell, too many ideas; they all
+run together. Okay, let&rsquo;s start from here and now, and I can work my
+way backwards in later posts. This is my own fault for not writing
+up all my projects as I was actually working on them. Ah well!</p>
+
+<h2>Mapbind</h2>
+
+<p>A good friend of mine mentioned an idea he&rsquo;d had for an extension of
+the Python syntax for structured binding. Put simply, he was tired of
+copying the contents of large dictionaries into the local namespace in
+order to operate on them. He proposed an expression similar to the kwd
+variadic parameters of function calls.</p>
+
+<pre><code class="python"># proposed syntax
+** = big_ol_dictionary
+</code></pre>
+
+<p>My familiarity with how Python implemented local variables told me
+that this wouldn&rsquo;t work &ndash; Python needs to know the variables far in
+advance, during compilation, so that it can allocate fast local
+storage for them, and compile subsequent accessors into <code>LOAD_FAST</code>
+and <code>STORE_FAST</code> ops. Fetching those variables from a dictionary at
+run time would be much too late. But if the local variables all
+existed, surely we could implement something that would assign to
+them?</p>
+
+<p>But that means you still need to have assigned to those values in
+advance, to tell the compiler that they exist.</p>
+
+<pre><code class="python"># declare them first
+a = None
+b = None
+
+# then this could then in theory bind mappings matching "a" and "b",
+# since they already exist.
+** = big_ol_dictionary
+</code></pre>
+
+<p>The problem then becomes that the declaration is somewhat verbose, and
+we aren&rsquo;t being perfectly clear just which local variables we want to
+assign to.</p>
+
+<p>In another project, I&rsquo;d been spending a lot of time becoming familiar
+with the <a href="https://docs.python.org/3.5/library/dis.html">Python bytecode</a> ops. I&rsquo;d recently implemented structured
+unpacking for <a href="https://github.com/obriencj/python-sibilant">that project</a>, and I knew the layout of those
+operations after the right-hand side of the assignment had been
+evaluated.</p>
+
+<p>So I reasoned, a simple heuristic could be implemented which would
+look at a frame, take its code and index values, and check for the
+unpacking and assignment operations that followed. From there, a
+list of binding names could be harvested, and the function could
+return a value crafted specifically for such an assignment.</p>
+
+<p>In other words, I could write a function <code>bindings</code> which when used
+in an assignment such as</p>
+
+<pre><code class="python">a, b, c = bindings()
+</code></pre>
+
+<p>Would be able to determine at run time that its results were destined
+for three variables, and that their names in order were &ldquo;a&rdquo;, &ldquo;b&rdquo;, and
+&ldquo;c&rdquo;.</p>
+
+<p>The next logical step would be to give <code>bindings</code> a unary function to
+use to provide those values, and that became <code>funbind</code>:</p>
+
+<pre><code class="python">def do_something(dest_name):
+    return "I'm bound to " + name
+a, b, c = funbind(do_something)
+</code></pre>
+
+<p>From this generalized concept I could create <code>mapbind</code> which
+would discover the bindings, and then look up the appropriate return
+value from a dictionary:</p>
+
+<pre><code class="python">a, b, c = mapbind({"a": 1, "b": 2, "c": 3, "ignored": 900})
+</code></pre>
+
+<p>Similar implementation could be created for <code>objbind</code> which
+instead of finding map items, would look up object attributes:</p>
+
+<pre><code class="python">a, b, c = objbind(some_object)
+</code></pre>
+
+<p>Finally, I also realized that this had uses in cases where perhaps the
+names didn&rsquo;t matter, like unpacking an iterable. I could ensure that
+I&rsquo;d fetch exactly the right amount of values from the iterable, and
+thus <code>takebind</code> was created.</p>
+
+<pre><code class="python">a, b, c = takebind(range(0, 1000))
+</code></pre>
+
+<p>I wrapped all this up into a package named <code>mapbind</code> and wrote a pile
+of unit tests.</p>
+
+<p><a href="https://github.com/obriencj/python-mapbind">python-mapbind on GitHub</a></p>
+]]></content>
+  </entry>
+  
+</feed>

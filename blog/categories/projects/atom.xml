@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Projects | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/categories/projects/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2016-04-20T13:46:06-04:00</updated>
+  <updated>2017-09-17T13:07:12-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -12,6 +12,111 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Divining the Left-Handed Future in Python]]></title>
+    <link href="http://obriencj.preoccupied.net/blog/2017/09/17/divining-the-left-handed-future-in-python/"/>
+    <updated>2017-09-17T09:00:16-04:00</updated>
+    <id>http://obriencj.preoccupied.net/blog/2017/09/17/divining-the-left-handed-future-in-python</id>
+    <content type="html"><![CDATA[<p>Composing words is hard. Too much to tell, too many ideas; they all
+run together. Okay, let&rsquo;s start from here and now, and I can work my
+way backwards in later posts. This is my own fault for not writing
+up all my projects as I was actually working on them. Ah well!</p>
+
+<h2>Mapbind</h2>
+
+<p>A good friend of mine mentioned an idea he&rsquo;d had for an extension of
+the Python syntax for structured binding. Put simply, he was tired of
+copying the contents of large dictionaries into the local namespace in
+order to operate on them. He proposed an expression similar to the kwd
+variadic parameters of function calls.</p>
+
+<pre><code class="python"># proposed syntax
+** = big_ol_dictionary
+</code></pre>
+
+<p>My familiarity with how Python implemented local variables told me
+that this wouldn&rsquo;t work &ndash; Python needs to know the variables far in
+advance, during compilation, so that it can allocate fast local
+storage for them, and compile subsequent accessors into <code>LOAD_FAST</code>
+and <code>STORE_FAST</code> ops. Fetching those variables from a dictionary at
+run time would be much too late. But if the local variables all
+existed, surely we could implement something that would assign to
+them?</p>
+
+<p>But that means you still need to have assigned to those values in
+advance, to tell the compiler that they exist.</p>
+
+<pre><code class="python"># declare them first
+a = None
+b = None
+
+# then this could then in theory bind mappings matching "a" and "b",
+# since they already exist.
+** = big_ol_dictionary
+</code></pre>
+
+<p>The problem then becomes that the declaration is somewhat verbose, and
+we aren&rsquo;t being perfectly clear just which local variables we want to
+assign to.</p>
+
+<p>In another project, I&rsquo;d been spending a lot of time becoming familiar
+with the <a href="https://docs.python.org/3.5/library/dis.html">Python bytecode</a> ops. I&rsquo;d recently implemented structured
+unpacking for <a href="https://github.com/obriencj/python-sibilant">that project</a>, and I knew the layout of those
+operations after the right-hand side of the assignment had been
+evaluated.</p>
+
+<p>So I reasoned, a simple heuristic could be implemented which would
+look at a frame, take its code and index values, and check for the
+unpacking and assignment operations that followed. From there, a
+list of binding names could be harvested, and the function could
+return a value crafted specifically for such an assignment.</p>
+
+<p>In other words, I could write a function <code>bindings</code> which when used
+in an assignment such as</p>
+
+<pre><code class="python">a, b, c = bindings()
+</code></pre>
+
+<p>Would be able to determine at run time that its results were destined
+for three variables, and that their names in order were &ldquo;a&rdquo;, &ldquo;b&rdquo;, and
+&ldquo;c&rdquo;.</p>
+
+<p>The next logical step would be to give <code>bindings</code> a unary function to
+use to provide those values, and that became <code>funbind</code>:</p>
+
+<pre><code class="python">def do_something(dest_name):
+    return "I'm bound to " + name
+a, b, c = funbind(do_something)
+</code></pre>
+
+<p>From this generalized concept I could create <code>mapbind</code> which
+would discover the bindings, and then look up the appropriate return
+value from a dictionary:</p>
+
+<pre><code class="python">a, b, c = mapbind({"a": 1, "b": 2, "c": 3, "ignored": 900})
+</code></pre>
+
+<p>Similar implementation could be created for <code>objbind</code> which
+instead of finding map items, would look up object attributes:</p>
+
+<pre><code class="python">a, b, c = objbind(some_object)
+</code></pre>
+
+<p>Finally, I also realized that this had uses in cases where perhaps the
+names didn&rsquo;t matter, like unpacking an iterable. I could ensure that
+I&rsquo;d fetch exactly the right amount of values from the iterable, and
+thus <code>takebind</code> was created.</p>
+
+<pre><code class="python">a, b, c = takebind(range(0, 1000))
+</code></pre>
+
+<p>I wrapped all this up into a package named <code>mapbind</code> and wrote a pile
+of unit tests.</p>
+
+<p><a href="https://github.com/obriencj/python-mapbind">python-mapbind on GitHub</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Withscope and Uggo the Warrior]]></title>
@@ -431,252 +536,6 @@ Suzuki for clutch plate maintenance &ndash; just remove the five bolts over
 the springs, and you can slide the pressure plate right off and remove
 the plates! Oh well, it&rsquo;s not like this is a particularly frequent
 check.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Holiday Work on Uggo]]></title>
-    <link href="http://obriencj.preoccupied.net/blog/2015/01/01/holiday-work-on-uggo/"/>
-    <updated>2015-01-01T22:45:16-05:00</updated>
-    <id>http://obriencj.preoccupied.net/blog/2015/01/01/holiday-work-on-uggo</id>
-    <content type="html"><![CDATA[<p>My holiday PTO is rapidly coming to an end. I did not get nearly as
-much work done on the VT500FT as I had intended. The weather has been
-rainy and cold, and the decreased sunlight exposure is definitely
-getting to me. I&rsquo;ve made some good progress on a few important aspects
-though, so I will share those.</p>
-
-<!-- more -->
-
-
-<h2>General Notes</h2>
-
-<p>Whoever did work on this last, whether the guy I bought it from or the
-guy before him, they either didn&rsquo;t own a torque wrench or just didn&rsquo;t
-care. A large number of the bolts that I&rsquo;ve encountered have only been
-loosely in place. The side spark plugs, for instance, spun freely
-without the need for any socket tool. The seat and tank similarly
-could be removed without putting any pressure on the wrench at all;
-I probably could have taken them out with just my fingers had I tried.</p>
-
-<p>Since I paid relatively little for the bike I&rsquo;m not upset when I find
-things like that, it just makes me laugh. I keep finding all these
-signs of neglect, but under it all there&rsquo;s a solid motorcycle that
-somehow has managed to keep running just the same. I can see that with
-some attention and care this could be a really solid machine.</p>
-
-<h2>Note on California Emissions</h2>
-
-<p>The 1984 VT500FT had two variations: normal, and California. The cali
-variant had features meant to meet the stricter emissions standards
-for that state. The carbs on this bike appear to be cali, but none of
-the supporting hardware is present.</p>
-
-<p>The cali design is such that the gas tank vents into a charcoal
-cannister rather than to open air through the gas cap. Gasoline vapor
-collects in that cannister, and a purge-control-valve connects the
-carburetors to the callector and the tank vent. When the bike is
-running, part of the air supply would be fed from those lines, causing
-the vapor to be burnt as part of the combustion process.</p>
-
-<p>The problem here is that there&rsquo;s no evidence of the charcoal cannister
-or purge-control-valve left on the bike. There&rsquo;s also no vent built
-into the gas tank. Best guess is that these carbs are replacements for
-the originals, and they&rsquo;re just the wrong ones.</p>
-
-<p>In the first VT500FT video I recorded, there is a dangling hose that
-causes the engine to struggle when I put my finger over the end. This
-line is what would normally connect to the PCV. I need to completely
-plug that line - right now it&rsquo;s sucking unfiltered air right into the
-carbs. I&rsquo;ve already adjusted the pilot screws to compensate &ndash; the
-cali setting is significantly more &ldquo;lean&rdquo; since it intends to be
-sucking vapor from the tank to augment any other mixture.</p>
-
-<p>I&rsquo;m hoping the normal pilot setting and plugged vapor inlets will get
-things running smoothly.</p>
-
-<h2>Carburetors</h2>
-
-<p>I started disassembly late one day on the week before Christmas. I
-removed the seat and tank, and took a good look around. I was happy to
-see that the air plenum was in pristine condition. The various pieces
-of clamping hardware didn&rsquo;t look too terrible, but there was
-definitely corrosion and gunk. I went around the engine and hit every
-single screw, nut, bolt, and clamp I could see with a liberal shot of
-WD-40, and left that to soak for the night.</p>
-
-<p>The next day I removed the air plenum, disconnected the throttle and
-choke lines from the carburetors, loosened all the clamps, and
-fidgeted with it until it finally came free from the engine.</p>
-
-<p>The caps covering the vaccuum cylinders are terribly pitted for both
-carbs, far more beaten up than the carbs themselves. I wonder if these
-are replacements scavenged from another set?</p>
-
-<p>The float bowl for one carburetor was filled with a blubbery mess that
-looks like threebond&rsquo;s liquid gasket. My best guess is that the bowl
-had been leaking and someone &ldquo;fixed&rdquo; it. It looked to have definitely
-been interfering with the operation of the float, and I wouldn&rsquo;t be
-surprised if it was also covering some of the jet intakes. The bowl of
-the other carb was better, but had some varnishing and an unfamiliar
-dark green substance smeared along the gasket.</p>
-
-<p>I replaced both float bowl gaskets with new ones.</p>
-
-<p>The vaccuum cylinders were fine, with the exception of a major kink
-and bend in the spring of the left/rear carb. I ordered a pair of new
-matching springs. The needles themselves were fine, though the
-right/front one had a bit of varnish and corrosion at the very tip.</p>
-
-<p>I cleaned some suspicious black grit in a few places. Might have been
-sucked into the system from the dangling vapor line?</p>
-
-<p>A few of the screws were stripped, so I replaced them all with new
-ones as well. It&rsquo;s amazing how much a parts supplied will try to
-charge you for what is simply an M8 screw! I now have 100pc baggies
-for a fraction of that cost thanks to amazon.</p>
-
-<p>I found that the pilot screws had been un-plugged (they are set in
-place at the factory and covered with a plug to prevent altering). The
-rear carb was turned out the suggested 2 &frac14; turns. The front carb
-however was set all of the way in! I&rsquo;m anxious to get the carb back on
-after cleaning and adjusting those pilot screws, I bet that will have
-fixed the 300F temperature difference in the cylinders.</p>
-
-<p>Since there wasn&rsquo;t any really major evidence of varnishing being a
-problem, I didn&rsquo;t do any kind of full-immersion carb cleaning. With
-the exception of the float-bowls, I just wiped everything down with
-marvel and called it fine. The bowls needed to be cleaned of their odd
-gasket sealants and had a bit of stinky varnish pooled in the
-recesses. Easy enough to clean up by hand.</p>
-
-<h2>Compression</h2>
-
-<p>After I&rsquo;d taken the carb off, I ran a compression test. I was very
-happy to see the pressure gauge get to 170 psi for both cylinders
-after a few cranks of the starter. I won&rsquo;t be doing anything with the
-rings or valves (except checking/adjusting the tappet clearance
-later).</p>
-
-<p>Since I knew I wouldn&rsquo;t be running the engine again for a while, I put
-a bit of marvel into either cylinder through the plug holes and the
-intake and then stuffed the holes with oily rags. It&rsquo;s been wet, cold,
-and generally horrible and I didn&rsquo;t want anything collecting
-condensation while it sat.</p>
-
-<h2>Exhaust</h2>
-
-<p>The echo chamber had been removed from the exhaust collector, and a
-plate had been sloppily welded over that side. In a similar vein, the
-muffler&rsquo;s packing screws are gone, and big sloppy welds have the can
-permanently closed (and there&rsquo;s SOMETHING rattling around inside of
-it, where the packing used to be).</p>
-
-<p>I found a used exhaust on ebay that promised no holes in either the
-muffler or the echo chamber, so I&rsquo;ve got replacements en route.</p>
-
-<p>Additionally, I&rsquo;d already noticed that there was a hole burned into
-the tool box which sits just behind and below the rear cylinder&rsquo;s
-exhaust port. Upon removing the exhaust entirely, I noted that it was
-only loosely bolted into place (with the wrong bolts). I&rsquo;ve got new
-front and rear exhaust gaskets, and I&rsquo;ll try to dig up the proper
-flanged bolts so that I can re-attach those pipes with the appropriate
-torque to prevent any future blow-by.</p>
-
-<h2>Center stand</h2>
-
-<p>I managed to find a center stand with spring and spacers on ebay, and
-installed it.</p>
-
-<p>However, it turns out that the center-stand uses the echo chamber as a
-stop when in the up position. Without the echo chamber, it lifts to
-the point of interfering with the rear brake rod. Luckily I&rsquo;ve got that
-covered with the replacement exhaust coming soon.</p>
-
-<h2>Front brake</h2>
-
-<p>I removed the front wheel and brake calipers, line, and master cylinder.</p>
-
-<p>The pads are completely black, greasy, and do not appear usable. I
-have new pads anyway. I&rsquo;m baffled as to how they ended up in this
-condition, though.</p>
-
-<p>The caliper appears to have been given a coat of black spray paint at
-some point, right over any road gunk that was present at the
-time. This became evident as I was cleaning it, and the paint started
-to peel off, revealing grime beneath.</p>
-
-<p>The brake pistons have black flecks and pits on them. I removed and
-tried to clean them, but haven&rsquo;t had any luck. The dust seal on one
-cylinder was not intact. There was also a buildup of dark grey mud
-inside the cylinder itself.</p>
-
-<p>There was evidence of more threebond liquid gasket on the threads of
-the bleeder valve.</p>
-
-<p>The rubber boots on some of the mounting hardware were very frail and
-one was torn. Removed all of those.</p>
-
-<p>New boots, seals, and pistons are on the way (relatively inexpensive).
-I also have a new master cylinder and a nice braided line ready to go.</p>
-
-<p>I&rsquo;m waiting on some CRC Brakleen to really get into the insides of the
-caliper before rebuilding. There&rsquo;s a lot of solid contaminent in there
-that needs to come out.</p>
-
-<p>After inspecting the disk itself, I don&rsquo;t believe it is too worn to
-use, and the fault of the bad braking action can easily be attributed
-to the disastrous condition of the pads and caliper.</p>
-
-<h2>Handle bars</h2>
-
-<p>I picked up a pair of inexpensive Emgo bars with a slightly lower rise
-than the originals. The originals are damaged, with the right side
-having a crimp at the bend, indicating they were the ones on it when
-it received the dent in the tank and the scuffs to the right side of
-the engine.</p>
-
-<p>The bike currently has some drag-style bars in place. These come
-terribly close to hitting the tank. In fact, the only reason they
-don&rsquo;t actually hit the tank is that one of the previous owners had
-limited the turning range by attaching a few bolts through a bent clip
-at the stops. I&rsquo;ll restore the full range by removing those and
-putting on more comfortable bars.</p>
-
-<h2>Clutch</h2>
-
-<p>The original clutch adjustment was very tight &ndash; only slightly pulling
-in the clutch lever would completely disengage the clutch. It was so
-tightly adjusted that even all the way out, the clutch would slip a
-bit. I ended up changing this on the fly during the ride home, moving
-the friction zone towards the center of the lever&rsquo;s movement. I
-noticed that even after that was done, giving the bike a bit of
-throttle seemed to still slip! I am intending to replace the clutch
-springs and friction plates. I have the parts, I just haven&rsquo;t gotten
-around to removing the sub-frame and side cover yet. I should have
-done that today (New Years day) but I find myself completely out of
-motivation.</p>
-
-<h2>Oil and filter</h2>
-
-<p>I&rsquo;ve got oil and a new filter on-hand, but I&rsquo;ll be doing that the same
-time as the clutch adjustment above. I wish I&rsquo;d have thought to have
-broken the seal on the filter when the bike was still warm from the
-last time I ran it. I&rsquo;m guessing it&rsquo;s going to be a real bear to get
-the strap wrench to move that filter.</p>
-
-<p>I wonder when the oil was last actually changed?</p>
-
-<h2>Final Drive</h2>
-
-<p>I need to get the rear wheel off and take a good look at the drive
-shaft and the final gearing itself. I&rsquo;m expecting to see a mess, but
-maybe I&rsquo;ll be pleasantly surprised and see clean grease and fresh,
-adequate oil in there!</p>
-
-<h2>So Much To Do</h2>
-
-<p>Well, that&rsquo;s about where I am now. I&rsquo;ve taken a few pictures that I&rsquo;ll
-try to link into here later. For now it&rsquo;s time to get some sleep!</p>
 ]]></content>
   </entry>
   
