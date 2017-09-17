@@ -115,123 +115,16 @@ run together. Okay, let&rsquo;s start from here and now, and I can work my
 way backwards in later posts. This is my own fault for not writing
 up all my projects as I was actually working on them. Ah well!</p>
 
-<h2>Mapbind</h2>
+<p>Let&rsquo;s start with looking at Python bytecode to detect how the results
+from a function call will be consumed, and what we can do with that
+knowledge.</p>
 
-<p>A good friend of mine mentioned an idea he&rsquo;d had for an extension of
-the Python syntax for structured binding. Put simply, he was tired of
-copying the contents of large dictionaries into the local namespace in
-order to operate on them. He proposed an expression similar to the kwd
-variadic parameters of function calls.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># proposed syntax</span>
-</span><span class='line'><span class="o">**</span> <span class="o">=</span> <span class="n">big_ol_dictionary</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>My familiarity with how Python implemented local variables told me
-that this wouldn&rsquo;t work &ndash; Python needs to know the variables far in
-advance, during compilation, so that it can allocate fast local
-storage for them, and compile subsequent accessors into <code>LOAD_FAST</code>
-and <code>STORE_FAST</code> ops. Fetching those variables from a dictionary at
-run time would be much too late. But if the local variables all
-existed, surely we could implement something that would assign to
-them?</p>
-
-<p>But that means you still need to have assigned to those values in
-advance, to tell the compiler that they exist.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># declare them first</span>
-</span><span class='line'><span class="n">a</span> <span class="o">=</span> <span class="bp">None</span>
-</span><span class='line'><span class="n">b</span> <span class="o">=</span> <span class="bp">None</span>
-</span><span class='line'>
-</span><span class='line'><span class="c"># then this could then in theory bind mappings matching &quot;a&quot; and &quot;b&quot;,</span>
-</span><span class='line'><span class="c"># since they already exist.</span>
-</span><span class='line'><span class="o">**</span> <span class="o">=</span> <span class="n">big_ol_dictionary</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>The problem then becomes that the declaration is somewhat verbose, and
-we aren&rsquo;t being perfectly clear just which local variables we want to
-assign to.</p>
-
-<p>In another project, I&rsquo;d been spending a lot of time becoming familiar
-with the <a href="https://docs.python.org/3.5/library/dis.html">Python bytecode</a> ops. I&rsquo;d recently implemented structured
-unpacking for <a href="https://github.com/obriencj/python-sibilant">that project</a>, and I knew the layout of those
-operations after the right-hand side of the assignment had been
-evaluated.</p>
-
-<p>So I reasoned, a simple heuristic could be implemented which would
-look at a frame, take its code and index values, and check for the
-unpacking and assignment operations that followed. From there, a
-list of binding names could be harvested, and the function could
-return a value crafted specifically for such an assignment.</p>
-
-<p>In other words, I could write a function <code>bindings</code> which when used
-in an assignment such as</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">bindings</span><span class="p">()</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Would be able to determine at run time that its results were destined
-for three variables, and that their names in order were &ldquo;a&rdquo;, &ldquo;b&rdquo;, and
-&ldquo;c&rdquo;.</p>
-
-<p>The next logical step would be to give <code>bindings</code> a unary function to
-use to provide those values, and that became <code>funbind</code>:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">def</span> <span class="nf">do_something</span><span class="p">(</span><span class="n">dest_name</span><span class="p">):</span>
-</span><span class='line'>  <span class="k">return</span> <span class="s">&quot;I&#39;m bound to &quot;</span> <span class="o">+</span> <span class="n">name</span>
-</span><span class='line'><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">funbind</span><span class="p">(</span><span class="n">do_something</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>From this generalized concept I could create <code>mapbind</code> which
-would discover the bindings, and then look up the appropriate return
-value from a dictionary:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">mapbind</span><span class="p">({</span><span class="s">&quot;a&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">&quot;b&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">&quot;c&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s">&quot;ignored&quot;</span><span class="p">:</span> <span class="mi">900</span><span class="p">})</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Similar implementation could be created for <code>objbind</code> which
-instead of finding map items, would look up object attributes:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">objbind</span><span class="p">(</span><span class="n">some_object</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Finally, I also realized that this had uses in cases where perhaps the
-names didn&rsquo;t matter, like unpacking an iterable. I could ensure that
-I&rsquo;d fetch exactly the right amount of values from the iterable, and
-thus <code>takebind</code> was created.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">takebind</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1000</span><span class="p">))</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>I wrapped all this up into a package named <code>mapbind</code> and wrote a pile
-of unit tests.</p>
-
-<p><a href="https://github.com/obriencj/python-mapbind">python-mapbind on GitHub</a></p>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2017/09/17/divining-the-left-handed-future-in-python/">continue &rarr;</a>
+    </footer>
   
 
 

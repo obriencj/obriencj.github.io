@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2017-09-17T13:07:12-04:00</updated>
+  <updated>2017-09-17T13:12:16-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -22,6 +22,13 @@
 run together. Okay, let&rsquo;s start from here and now, and I can work my
 way backwards in later posts. This is my own fault for not writing
 up all my projects as I was actually working on them. Ah well!</p>
+
+<p>Let&rsquo;s start with looking at Python bytecode to detect how the results
+from a function call will be consumed, and what we can do with that
+knowledge.</p>
+
+<!-- more -->
+
 
 <h2>Mapbind</h2>
 
