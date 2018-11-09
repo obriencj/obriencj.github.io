@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hosting | obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/blog/categories/hosting/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2017-09-17T19:43:04-04:00</updated>
+  <updated>2018-05-06T22:47:59-04:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -161,10 +161,10 @@ this? Not really, no. But it may be worth the effort.</p>
     <link href="http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/"/>
     <updated>2014-01-21T00:01:00-05:00</updated>
     <id>http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr</id>
-    <content type="html"><![CDATA[<p>Tumblr let me know that this blog turned three today. It wanted me to post a picture of a cupcake, but I&#8217;ve spared myself that indignity.</p>
+    <content type="html"><![CDATA[<p>Tumblr let me know that this blog turned three today. It wanted me to post a picture of a cupcake, but I've spared myself that indignity.</p>
 
 
-<p>I&#8217;m reminded that I really haven&#8217;t been keeping on with my resolution to document more of what I work on. I wonder if &#8220;blog more&#8221; is the dork version of &#8220;go to the gym&#8221; resolutions.</p>
+<p>I'm reminded that I really haven't been keeping on with my resolution to document more of what I work on. I wonder if "blog more" is the dork version of "go to the gym" resolutions.</p>
 
 
 
@@ -174,19 +174,19 @@ this? Not really, no. But it may be worth the effort.</p>
 
 
 
-<p>I&#8217;ve been up to my usual foolishness; writing silly things in Python that nobody will ever likely use. The most recent such project is&nbsp;<a href="http://github.com/obriencj/python-promises">python-promises</a>, which is what it sounds like &#8211; a promises implementation in Python. The only interesting part (perhaps) is the transparent proxy implementation.</p>
+<p>I've been up to my usual foolishness; writing silly things in Python that nobody will ever likely use. The most recent such project is&nbsp;<a href="http://github.com/obriencj/python-promises">python-promises</a>, which is what it sounds like -- a promises implementation in Python. The only interesting part (perhaps) is the transparent proxy implementation.</p>
 
 
 <p>I resurrected an older project,&nbsp;<a href="http://github.com/obriencj/python-brine">python-brine</a>, which is a library for pickling functions. Actually pickling them, not just referring to them by name as the default behavior of the pickle library would do.</p>
 
 
-<p>My&nbsp;<a href="http://github.com/obriencj/python-javatools">python-javatools</a>&nbsp;project sees a reasonable amount of use, thanks to the particulars of my employment. It&#8217;s proven quite useful as a check during productization of Java bits. It&#8217;s a shame that the HTML reports it generates are so glaringly ugly&#8230; I need to make friends with a UX/UI person.</p>
+<p>My&nbsp;<a href="http://github.com/obriencj/python-javatools">python-javatools</a>&nbsp;project sees a reasonable amount of use, thanks to the particulars of my employment. It's proven quite useful as a check during productization of Java bits. It's a shame that the HTML reports it generates are so glaringly ugly... I need to make friends with a UX/UI person.</p>
 
 
-<p>Once I get brine and promises a bit more fleshed out, I&#8217;ll probably abandon them in favor of my next crazy idea. I&#8217;ve been itching to see how hard it would be to reify continuations in Python, and then actually call/return through them again. I&#8217;m giggling just thinking about it.</p>
+<p>Once I get brine and promises a bit more fleshed out, I'll probably abandon them in favor of my next crazy idea. I've been itching to see how hard it would be to reify continuations in Python, and then actually call/return through them again. I'm giggling just thinking about it.</p>
 
 
-<p>The bukkit server has been offline for a while now. I have all of these custom mods for bukkit, and they&#8217;re all terribly outdated (and some are obsoleted by in-built features). Zoe has been bugging me to get the server running again, but truth be told I&#8217;m not very interested in Minecraft lately. Maybe I will experience a personal resurgence! Looking through the&nbsp;<a href="http://tumblr.preoccupied.net/">tumblr for the server</a>&nbsp;I&#8217;m somewhat homesick for it&#8230; but not enough to actually get it set back up.</p>
+<p>The bukkit server has been offline for a while now. I have all of these custom mods for bukkit, and they're all terribly outdated (and some are obsoleted by in-built features). Zoe has been bugging me to get the server running again, but truth be told I'm not very interested in Minecraft lately. Maybe I will experience a personal resurgence! Looking through the&nbsp;<a href="http://tumblr.preoccupied.net/">tumblr for the server</a>&nbsp;I'm somewhat homesick for it... but not enough to actually get it set back up.</p>
 
 ]]></content>
   </entry>

@@ -1,240 +1,321 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2017/09/17/my-first-lisp-compiler/</loc>
-    <lastmod>2017-09-17T18:52:59-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2017/09/17/divining-the-left-handed-future-in-python/</loc>
-    <lastmod>2017-09-17T09:00:16-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2015/11/29/withscope-and-uggo-the-warrior/</loc>
-    <lastmod>2015-11-29T23:13:03-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness/</loc>
-    <lastmod>2015-10-05T23:39:44-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2015/01/17/winter-sadness/</loc>
-    <lastmod>2015-01-17T11:28:11-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2015/01/15/brake-reassembly/</loc>
-    <lastmod>2015-01-15T20:54:35-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2015/01/03/clutch-work/</loc>
-    <lastmod>2015-01-03T23:22:25-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2015/01/01/holiday-work-on-uggo/</loc>
-    <lastmod>2015-01-01T22:45:16-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/12/13/introducing-uggo/</loc>
-    <lastmod>2014-12-13T20:13:01-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/10/10/rsy-beauty-megaphone/</loc>
-    <lastmod>2014-10-10T20:57:59-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/08/19/the-tu250x-kickstart-guide/</loc>
-    <lastmod>2014-08-19T16:50:57-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/05/22/bindings-shed/</loc>
-    <lastmod>2014-05-22T00:18:33-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/04/26/surprise/</loc>
-    <lastmod>2014-04-26T12:35:18-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/</loc>
-    <lastmod>2014-04-03T18:52:24-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking/</loc>
-    <lastmod>2014-03-24T00:05:53-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/</loc>
-    <lastmod>2014-03-05T13:00:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/</loc>
-    <lastmod>2014-03-02T14:16:30-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/02/09/python/</loc>
-    <lastmod>2014-02-09T22:20:51-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon/</loc>
-    <lastmod>2014-02-08T13:00:04-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/</loc>
-    <lastmod>2014-02-06T22:16:40-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/</loc>
-    <lastmod>2014-01-28T02:24:05-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/</loc>
-    <lastmod>2014-01-26T00:01:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/</loc>
-    <lastmod>2014-01-25T00:01:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/</loc>
-    <lastmod>2014-01-25T00:00:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/</loc>
-    <lastmod>2014-01-22T00:02:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/</loc>
-    <lastmod>2014-01-22T00:01:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/</loc>
-    <lastmod>2014-01-21T00:01:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/archives/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/about/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/about/support/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/blog/tags/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/ideas/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/ideas/sibilant/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/about/contact/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/motorcycle/frankentux/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/motorcycle/gt250a-gertie-peanut-suzuki/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/motorcycle/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/motorcycle/tu250x-kickstart/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/motorcycle/tu250x-pair-removal/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/motorcycle/tu250x-rsy-beauty/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/motorcycle/vt500ft-the-beginning/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://obriencj.preoccupied.net/projects/motorcycle/vt500ft-uggo-the-warrior/</loc>
-    <lastmod>2017-09-17T19:43:04-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2017/09/17/my-first-lisp-compiler/</loc>
+<lastmod>2017-09-17T18:52:59-04:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2017/09/17/divining-the-left-handed-future-in-python/</loc>
+<lastmod>2017-09-17T09:00:16-04:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2015/11/29/withscope-and-uggo-the-warrior/</loc>
+<lastmod>2015-11-29T23:13:03-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2015/10/05/summer-madness/</loc>
+<lastmod>2015-10-05T23:39:44-04:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2015/01/17/winter-sadness/</loc>
+<lastmod>2015-01-17T11:28:11-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2015/01/15/brake-reassembly/</loc>
+<lastmod>2015-01-15T20:54:35-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2015/01/03/clutch-work/</loc>
+<lastmod>2015-01-03T23:22:25-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2015/01/01/holiday-work-on-uggo/</loc>
+<lastmod>2015-01-01T22:45:16-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/12/13/introducing-uggo/</loc>
+<lastmod>2014-12-13T20:13:01-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/10/10/rsy-beauty-megaphone/</loc>
+<lastmod>2014-10-10T20:57:59-04:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/08/19/the-tu250x-kickstart-guide/</loc>
+<lastmod>2014-08-19T16:50:57-04:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/05/22/bindings-shed/</loc>
+<lastmod>2014-05-22T00:18:33-04:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/04/26/surprise/</loc>
+<lastmod>2014-04-26T12:35:18-04:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/04/03/javatools-to-setuptools/</loc>
+<lastmod>2014-04-03T18:52:24-04:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/03/24/weather-and-backtracking/</loc>
+<lastmod>2014-03-24T00:05:53-04:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/03/05/brine-on-the-wire/</loc>
+<lastmod>2014-03-05T13:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/03/02/delivering-on-promises/</loc>
+<lastmod>2014-03-02T14:16:30-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/02/09/python/</loc>
+<lastmod>2014-02-09T22:20:51-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/02/08/eggs-and-bacon/</loc>
+<lastmod>2014-02-08T13:00:04-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/02/06/barrels-of-brine/</loc>
+<lastmod>2014-02-06T22:16:40-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/01/28/well-how-about-octopress-instead/</loc>
+<lastmod>2014-01-28T02:24:05-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/01/26/i-wrote-up-my-todo-list/</loc>
+<lastmod>2014-01-26T00:01:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/01/25/making-use-of-jekyll-on-gihubio/</loc>
+<lastmod>2014-01-25T00:01:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/01/25/gist-output-of-spexy-try/</loc>
+<lastmod>2014-01-25T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/01/22/gist-spexy-repl-example/</loc>
+<lastmod>2014-01-22T00:02:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/01/22/spexy-oh-god-what-did-i-do/</loc>
+<lastmod>2014-01-22T00:01:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/2014/01/21/celebrating-three-years-of-an-unused-tumblr/</loc>
+<lastmod>2014-01-21T00:01:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/archives/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/motorcycle/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/motorcycle/vt500ft-the-beginning/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/motorcycle/frankentux/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/motorcycle/vt500ft-uggo-the-warrior/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/ideas/sibilant/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/motorcycle/tu250x-pair-removal/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/ideas/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/about/contact/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/about/support/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/about/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/motorcycle/gt250a-gertie-peanut-suzuki/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/motorcycle/tu250x-rsy-beauty/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/projects/motorcycle/tu250x-kickstart/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/tumblr/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/python/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/hack/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/zolpidem/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/lisp/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/spexy/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/gist/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/github-dot-io/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/jekyll/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/projects/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/ideas/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/todo/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/octopress/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/brine/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/github/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/unittest/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/coverage/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/food/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/epydoc/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/pdoc/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/sphinx/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/promises/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/weather/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/sibilant/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/javatools/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/setuptools/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/motorcycle/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/birthday/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/tu250x/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/vt500ft/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/winter/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/depression/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/personal/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/spring/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/summer/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/autumn/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/tomos/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/boxcar/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/withscope/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/running/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/vt500ft/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/python/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/withscope/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/uggo/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/honda/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/mapbind/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/sibilant/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/lisp/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/compiler/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/bytecode/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/categories/hosting/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/categories/projects/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/categories/personal/</loc>
+</url>
 </urlset>
