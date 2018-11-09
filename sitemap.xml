@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://obriencj.preoccupied.net/blog/2018/10/31/meanwhile-again/</loc>
+<lastmod>2018-10-31T15:54:07-04:00</lastmod>
+</url>
+<url>
 <loc>http://obriencj.preoccupied.net/blog/2017/09/17/my-first-lisp-compiler/</loc>
 <lastmod>2017-09-17T18:52:59-04:00</lastmod>
 </url>
@@ -310,6 +314,21 @@
 <loc>http://obriencj.preoccupied.net/blog/tags/bytecode/</loc>
 </url>
 <url>
+<loc>http://obriencj.preoccupied.net/blog/tags/meanwhile/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/ibm/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/red/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/hat/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/blog/tags/sametime/</loc>
+</url>
+<url>
 <loc>http://obriencj.preoccupied.net/blog/categories/hosting/</loc>
 </url>
 <url>
@@ -317,5 +336,20 @@
 </url>
 <url>
 <loc>http://obriencj.preoccupied.net/blog/categories/personal/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/posts/2/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/posts/3/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/posts/4/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/posts/5/</loc>
+</url>
+<url>
+<loc>http://obriencj.preoccupied.net/posts/6/</loc>
 </url>
 </urlset>
