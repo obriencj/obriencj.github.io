@@ -6,7 +6,7 @@ description: An Open Source implementation of Sametime stirs in the darkness
 keywords: meanwhile, ibm, red hat, sametime
 date: 2018-10-31 15:54:07 -0400
 updated:
-published: false
+published: true
 comments: true
 category: projects
 tags: meanwhile, ibm, red hat, sametime
