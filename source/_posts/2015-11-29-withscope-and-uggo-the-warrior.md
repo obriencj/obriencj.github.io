@@ -9,7 +9,7 @@ updated:
 published: true
 comments: true
 category: projects
-tags: vt500ft, python, withscope, uggo, honda
+tags: [vt500ft, python, withscope, uggo, honda]
 
 ---
 

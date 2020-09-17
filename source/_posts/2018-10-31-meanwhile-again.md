@@ -3,13 +3,13 @@ layout: post
 title: "Meanwhile Again"
 tagline: "IBM buys Red Hat, Potential Meanwhile Comeback"
 description: An Open Source implementation of Sametime stirs in the darkness
-keywords: meanwhile, ibm, red hat, sametime
+keywords: meanwhile ibm redhat sametime
 date: 2018-10-31 15:54:07 -0400
 updated: 2020-08-30 20:23:00 -0400
 published: true
 comments: true
 category: projects
-tags: meanwhile, ibm, red hat, sametime
+tags: meanwhile ibm redhat sametime
 
 ---
 

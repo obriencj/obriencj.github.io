@@ -3,13 +3,13 @@ layout: post
 title: "Gertie in the Spring Time"
 tagline: warm days and two-stroke smoke
 description:
-keywords: gt250, suzuki, two-stroke, gertie, spring
+keywords: gt250 suzuki two-stroke gertie spring
 date: 2016-04-20 12:55:00 -0400
 updated:
 published: false
 comments: true
 category: projects
-tags: gt250, spring, gertie, suzuki, two-stroke
+tags: gt250 spring gertie suzuki two-stroke
 
 ---
 

@@ -9,7 +9,7 @@ updated:
 published: true
 comments: true
 category: projects
-tags: python, mapbind
+tags: python mapbind
 
 ---
 
