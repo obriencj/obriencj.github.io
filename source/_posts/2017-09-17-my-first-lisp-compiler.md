@@ -3,13 +3,13 @@ layout: post
 title: "My First Lisp Compiler"
 tagline: python-sibilant
 description:
-keywords: sibilant, lisp, python, compiler, bytecode
+keywords: sibilant lisp python compiler bytecode
 date: 2017-09-17 18:52:59 -0400
 updated:
 published: true
 comments: true
 category: projects
-tags: sibilant, lisp, python, compiler, bytecode
+tags: sibilant lisp python compiler bytecode
 
 ---
 
