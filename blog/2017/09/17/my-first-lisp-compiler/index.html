@@ -9,9 +9,9 @@
   <meta name="author" content="Christopher O'Brien">
 
   
-  <meta name="description" content="There&rsquo;s a lot of liberty to be expressed in programming a project
-for which you&rsquo;ll be the only consumer. Really, the same could be said &hellip;">
-  <meta name="keywords" content="sibilant, lisp, python, compiler, bytecode">
+  <meta name="description" content="Projects and Ideas from Chris O'Brien">
+  
+  <meta name="keywords" content="sibilant lisp python compiler bytecode">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -19,13 +19,13 @@ for which you&rsquo;ll be the only consumer. Really, the same could be said &hel
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2017/09/17/my-first-lisp-compiler/">
+  <link rel="canonical" href="http://obriencj.preoccupied.net/blog/2017/09/17/my-first-lisp-compiler">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="obriencj" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -63,7 +63,7 @@ for which you&rsquo;ll be the only consumer. Really, the same could be said &hel
   
 <form action="https://www.google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="obriencj.preoccupied.net">
+    <input type="hidden" name="q" value="site:obriencj.preoccupied.net" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -82,7 +82,7 @@ for which you&rsquo;ll be the only consumer. Really, the same could be said &hel
   
   <header>
     
-      <h1 class="entry-title">My First Lisp Compiler</h1>
+      <h1 class="entry-title">My First Lisp Compiler<br /><small>python-sibilant</small></h1>
     
     
       <p class="meta">
@@ -91,7 +91,16 @@ for which you&rsquo;ll be the only consumer. Really, the same could be said &hel
 
 
 
-<time class='entry-date' datetime='2017-09-17T18:52:59-04:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>6:52 pm</span></time>
+
+
+
+
+  
+
+
+
+
+	<time datetime="2017-09-17T18:52:59-04:00" pubdate data-updated="true">September 17, 2017</time>
         
       </p>
     
@@ -188,12 +197,29 @@ didn&rsquo;t get any of that, so I&rsquo;m making good with what I&rsquo;ve got.
 
 
 
-<time class='entry-date' datetime='2017-09-17T18:52:59-04:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>6:52 pm</span></time>
+
+
+
+
+  
+
+
+
+<time datetime="2017-09-17T18:52:59-04:00" pubdate data-updated="true">September 17, 2017</time>
       
 
 <span class="categories">
   
     <a class='category' href='/blog/categories/projects/'>projects</a>
+  
+</span>
+
+
+      
+
+<span class="tags">
+  
+    <a class='tag' href='/blog/tags/bytecode/'>bytecode</a>, <a class='tag' href='/blog/tags/compiler/'>compiler</a>, <a class='tag' href='/blog/tags/lisp/'>lisp</a>, <a class='tag' href='/blog/tags/python/'>python</a>, <a class='tag' href='/blog/tags/sibilant/'>sibilant</a>
   
 </span>
 
@@ -257,15 +283,15 @@ didn&rsquo;t get any of that, so I&rsquo;m making good with what I&rsquo;ve got.
 
   <div class="tag-cloud">
   <p class="tags">
-<a style="font-size: 114%" href="/blog/tags/brine/">brine</a>
-<a style="font-size: 105%" href="/blog/tags/github-dot-io/">github.io</a>
-<a style="font-size: 114%" href="/blog/tags/hack/">hack</a>
-<a style="font-size: 114%" href="/blog/tags/lisp/">lisp</a>
-<a style="font-size: 132%" href="/blog/tags/motorcycle/">motorcycle</a>
+<a style="font-size: 111%" href="/blog/tags/brine/">brine</a>
+<a style="font-size: 104%" href="/blog/tags/gist/">gist</a>
+<a style="font-size: 104%" href="/blog/tags/github-dot-io/">github.io</a>
+<a style="font-size: 111%" href="/blog/tags/hack/">hack</a>
+<a style="font-size: 117%" href="/blog/tags/lisp/">lisp</a>
+<a style="font-size: 128%" href="/blog/tags/motorcycle/">motorcycle</a>
 <a style="font-size: 140%" href="/blog/tags/python/">python</a>
-<a style="font-size: 114%" href="/blog/tags/python/">python,</a>
-<a style="font-size: 114%" href="/blog/tags/spexy/">spexy</a>
-<a style="font-size: 114%" href="/blog/tags/tu250x/">tu250x</a>
+<a style="font-size: 111%" href="/blog/tags/spexy/">spexy</a>
+<a style="font-size: 111%" href="/blog/tags/tu250x/">tu250x</a>
 <a style="font-size: 125%" href="/blog/tags/vt500ft/">vt500ft</a>
 
   </p>
@@ -307,7 +333,7 @@ didn&rsquo;t get any of that, so I&rsquo;m making good with what I&rsquo;ve got.
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2018 - Christopher O'Brien -
+  Copyright &copy; 2020 - Christopher O'Brien -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
