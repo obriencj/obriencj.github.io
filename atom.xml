@@ -4,7 +4,7 @@
   <title><![CDATA[obriencj]]></title>
   <link href="http://obriencj.preoccupied.net/atom.xml" rel="self"/>
   <link href="http://obriencj.preoccupied.net/"/>
-  <updated>2020-11-27T13:54:21-05:00</updated>
+  <updated>2020-11-27T13:58:38-05:00</updated>
   <id>http://obriencj.preoccupied.net/</id>
   <author>
     <name><![CDATA[Christopher O'Brien]]></name>
@@ -59,44 +59,48 @@ ordered a pair!</p>
 <p>I didn&rsquo;t research deeply enough.</p>
 
 <p>Here&rsquo;s what I discovered after having the eeros in service for a few
-weeks.
-* management is cloud-based only. There&rsquo;s no local management
-  interface on the eeros, they connect out to api-user.e2ro.com and
-  that&rsquo;s what you have to talk to in order to check the device status
-  or change settings. There is a <a href="https://github.com/343max/eero-client">python package</a> which can
-  authenticate against this REST endpoint in order to query the device
-  status.
-* the eeros have an undocumented MAC address that they use when in
-  bridge mode to get an IP for themselves. I watched my dhcpd logs to
-  discover this, and subsequently assigned them specific IPs. There is
-  no way to configure an IP from the eero itself when it&rsquo;s in bridge
-  mode.
-* the eeros use dhcp to get an IP, but do not honor the dns or ntp
-  options. Instead they have hard-coded lists of name and time servers
-  and will use those directly. I discovered this watching iptables
-  logs, and added some pre-routing rules to dnat to my own name and
-  time services.
-* the eeros run <a href="https://samknows.com/technology/tests/speed-tests">samknows1 speedtests</a> nightly, and this cannot be
-  disabled. This uses TCP ports 6004 and 6500, and UDP port 6003
-* the eeros perform software updates automatically, and this cannot be
-  disabled. I noticed this when my wireless network just decided to
-  reboot one day. This is considered to be a design feature.
-* the eeros determine if the network is up or not by occasionally
-  hitting [<a href="http://eeroup.com/up.css">http://eeroup.com/up.css</a>] but as mentioned previously
-  blocking the software update connections will still trigger it to
-  start flashing an error. Nonetheless I started hosting my own copy
-  of this file and redirect as I was with dns and ntp.
-* the eeros get some unknown information via https. Some of this is
-  directed at the samknows1 hosts, so is probably for geolocation and
-  fetching lists of speedtest servers. The rest is directed to EC2
-  which is probably where the cloud control lives. I did attempted to
-  mitm these connections, but it&rsquo;s set to validate the certificate so
-  it wasn&rsquo;t fooled.
-* the much anticipated zigbee bridge requires you to link the eero to
-  an <a href="https://alexa.amazon.com/">amazon alexa</a> account. Devices it discovers are only available via
-  alexa integration, which means control leaves the house.
-* nothing I own can take advantage of wifi6. At best I get 400Mb/s
-  from my most modern wireless devices.</p>
+weeks.</p>
+
+<ul>
+<li>management is cloud-based only. There&rsquo;s no local management
+interface on the eeros, they connect out to api-user.e2ro.com and
+that&rsquo;s what you have to talk to in order to check the device status
+or change settings. There is a <a href="https://github.com/343max/eero-client">python package</a> which can
+authenticate against this REST endpoint in order to query the device
+status.</li>
+<li>the eeros have an undocumented MAC address that they use when in
+bridge mode to get an IP for themselves. I watched my dhcpd logs to
+discover this, and subsequently assigned them specific IPs. There is
+no way to configure an IP from the eero itself when it&rsquo;s in bridge
+mode.</li>
+<li>the eeros use dhcp to get an IP, but do not honor the dns or ntp
+options. Instead they have hard-coded lists of name and time servers
+and will use those directly. I discovered this watching iptables
+logs, and added some pre-routing rules to dnat to my own name and
+time services.</li>
+<li>the eeros run <a href="https://samknows.com/technology/tests/speed-tests">samknows1 speedtests</a> nightly, and this cannot be
+disabled. This uses TCP ports 6004 and 6500, and UDP port 6003</li>
+<li>the eeros perform software updates automatically, and this cannot be
+disabled. I noticed this when my wireless network just decided to
+reboot one day. This is considered to be a design feature.</li>
+<li>the eeros determine if the network is up or not by occasionally
+hitting [<a href="http://eeroup.com/up.css">http://eeroup.com/up.css</a>] but as mentioned previously
+blocking the software update connections will still trigger it to
+start flashing an error. Nonetheless I started hosting my own copy
+of this file and redirect as I was with dns and ntp.</li>
+<li>the eeros get some unknown information via https. Some of this is
+directed at the samknows1 hosts, so is probably for geolocation and
+fetching lists of speedtest servers. The rest is directed to EC2
+which is probably where the cloud control lives. I did attempted to
+mitm these connections, but it&rsquo;s set to validate the certificate so
+it wasn&rsquo;t fooled.</li>
+<li>the much anticipated zigbee bridge requires you to link the eero to
+an <a href="https://alexa.amazon.com/">amazon alexa</a> account. Devices it discovers are only available via
+alexa integration, which means control leaves the house.</li>
+<li>nothing I own can take advantage of wifi6. At best I get 400Mb/s
+from my most modern wireless devices.</li>
+</ul>
+
 
 <p>In short, the eero6 is really more like an amazon service than an
 access point. You&rsquo;re very limited in what you&rsquo;re allowed to do with
