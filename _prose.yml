@@ -20,42 +20,42 @@ prose:
           element: text
           label: Subtitle
 
-      - category:
-          field:
-            element: select
-            label: Category
-            value: personal
-            options:
-              - programming
-              - personal
-              - hosting
-              - motorcycle
-              - technology
+      - name: category
+        field:
+          element: select
+          label: Category
+          value: personal
+          options:
+            - programming
+            - personal
+            - hosting
+            - motorcycle
+            - technology
 
-      - tags:
-          field:
-            element: multiselect
-            label: Tags
-            alterable: true
-            options:
-              - rambling
-              - ideas
-              - python
-              - mechanic
+      - name: tags
+        field:
+          element: multiselect
+          label: Tags
+          alterable: true
+          options:
+            - rambling
+            - ideas
+            - python
+            - mechanic
 
-      - date:
-          field:
-            element: text
-            label: Created
-            value: CURRENT_DATETIME
+      - name: date
+        field:
+          element: text
+          label: Created
+          value: CURRENT_DATETIME
 
-      - draft:
-          field:
-            element: checkbox
-            label: Draft
-            value: draft
-            on: draft
-            off: published
+      - name: draft
+        field:
+          element: checkbox
+          label: Draft
+          value: draft
+          on: draft
+          off: published
 
     content/projects:
       - name: title
@@ -69,19 +69,19 @@ prose:
           element: text
           label: Subtitle
 
-      - date:
-          field:
-            element: text
-            label: Created
-            value: CURRENT_DATETIME
+      - name: date
+        field:
+          element: text
+          label: Created
+          value: CURRENT_DATETIME
 
-      - draft:
-          field:
-            element: checkbox
-            label: Draft
-            value: draft
-            on: draft
-            off: published
+      - name: draft
+        field:
+          element: checkbox
+          label: Draft
+          value: draft
+          on: draft
+          off: published
 
 
 # The end.
