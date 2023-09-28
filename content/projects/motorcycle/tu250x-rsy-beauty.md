@@ -16,7 +16,7 @@ I've been wanting a new exhaust for [Tux] for a while now. The factory
 muffler is enormous, heavy, tends towards rust at the end, and is
 effectively silent in traffic.
 
-[Tux]: {filename}/projects/motorcycle/index.md
+[Tux]: {filename}/projects/motorcycle.md
 
 I'd tried out the inexpensive slip-on [Mini-Norton] from
 [Dime City Cycles], but it was too flipping loud (distractingly so

@@ -22,7 +22,7 @@ actually make sense to other people!
 So check out my [TU250x Kickstart] page, which details the changes
 needed, the part numbers, and the work required to make it happen!
 
-[TU250x Kickstart]: {filename}/projects/motorcycle/tu250x-kickstart/index.md
+[TU250x Kickstart]: {filename}/projects/motorcycle/tu250x-kickstart.md
 
 *edit*: I've rewritten bits of the guide to make more sense, and I've
 added Amazon.com links to a number of the tools or consumable items

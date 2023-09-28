@@ -41,15 +41,15 @@ two-tone. Maybe that can be a five-year present?
 I'm interested in some of the air and battery relocation jobs I've
 seen others do. I admire the minimalist look that results.
 
-A [Frankentux]({filename}/projects/motorcycle/frankentux/index.md) might be a fun idea, too.
+A [Frankentux]({filename}/projects/motorcycle/frankentux.md) might be a fun idea, too.
 
 [tps]: http://www.team-powersportsraleigh.com/
 
-[PAIR valve]: {filename}/projects/motorcycle/tu250x-pair-removal/index.md
+[PAIR valve]: {filename}/projects/motorcycle/tu250x-pair-removal.md
 
-[kickstart]: {filename}/projects/motorcycle/tu250x-kickstart/index.md
+[kickstart]: {filename}/projects/motorcycle/tu250x-kickstart.md
 
-[RSY Beauty]: {filename}/projects/motorcycle/tu250x-rsy-beauty/index.md
+[RSY Beauty]: {filename}/projects/motorcycle/tu250x-rsy-beauty.md
 
 
 ## 1984 Honda VT500FT, Uggo
@@ -70,7 +70,7 @@ She came to me as a [hot mess], but now she's [hauling ass].
 
 [hot mess]: http://youtu.be/8HXSJg5Mar4
 
-[hauling ass]: {filename}/projects/motorcycle/vt500ft-uggo-the-warrior/index.md
+[hauling ass]: {filename}/projects/motorcycle/vt500ft-uggo-the-warrior.md
 
 
 ## 1976 Suzuki GT250, Gertie Peanut
@@ -81,7 +81,7 @@ bike.
 
 [More about Gertie][gertie]
 
-[gertie]: {filename}/projects/motorcycle/gt250a-gertie-peanut-suzuki/index.md
+[gertie]: {filename}/projects/motorcycle/gt250a-gertie-peanut-suzuki.md
 
 
 ## 1994 Tomos Targa

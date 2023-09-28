@@ -71,7 +71,7 @@ perspective.
 
 [DSC00136]: {static}/photos/DSC00136.JPG
 
-[kickstart]: {filename}/projects/motorcycle/tu250x-kickstart/index.md
+[kickstart]: {filename}/projects/motorcycle/tu250x-kickstart.md
 
 
 ## Patching Things Up
@@ -170,7 +170,7 @@ reduction in instances of "cold-stop-stalls" that the TU is slightly
 infamous for, though I've hardly had enough time to consider this
 change in behavior as anything other than a blip of data.
 
-If you enjoyed the photos, here's the [entire album](https://picasaweb.google.com/114793537781613459114/TU250xPAIRValve?authuser=0&authkey=Gv1sRgCJPOlbjdrIi9lgE&feat=directlink). You can read more about the mods I've made to Tux on my [motorcycle projects page]({filename}/projects/motorcycle/index.md)
+If you enjoyed the photos, here's the [entire album](https://picasaweb.google.com/114793537781613459114/TU250xPAIRValve?authuser=0&authkey=Gv1sRgCJPOlbjdrIi9lgE&feat=directlink). You can read more about the mods I've made to Tux on my [motorcycle projects page]({filename}/projects/motorcycle.md)
 
 
 ## Changelog

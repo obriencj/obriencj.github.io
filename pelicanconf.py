@@ -44,8 +44,6 @@ DEFAULT_PAGINATION = 0
 
 RECENT_ARTICLE_SUMMARY = True
 
-PATH_METADATA= '(?P<dirname>.*)/(?P<basename>.*)\..*'
-
 
 # Social widget
 SOCIAL = (
@@ -67,18 +65,31 @@ DISPLAY_CATEGORIES_ON_MENU = False
 APPLAUSE_BUTTON = False
 
 
+PATH_METADATA = '(?P<dirname>.*/)(?P<basename>.*)\.md'
+EXTRA_PATH_METADATA = {
+    'about.md': {
+        'dirname': '',
+        'basename': 'about'
+    },
+    'projects.md': {
+        'dirname': '',
+        'basename': 'projects'
+    },
+}
+
+
 ARTICLE_PATHS = ['blog', ]
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 PAGE_PATHS = [
-    'about', 'projects', ]
-PAGE_URL = '{dirname}/'
-PAGE_SAVE_AS = '{dirname}/index.html'
+    'about', 'about.md', 'projects', 'projects.md']
+PAGE_URL = '{dirname}{basename}/'
+PAGE_SAVE_AS = '{dirname}{basename}/index.html'
 
 STATIC_PATHS = [
-    'gpg', 'images', 'photos', 'theme/css/custom.css',
-    'CNAME', 'keybase.txt', 'robots.txt', ]
+    'CNAME', 'gpg', 'images', 'keybase.txt', 'photos',
+    'robots.txt', 'theme', ]
 
 
 PLUGIN_PATHS = ["/pelican/plugins", ]

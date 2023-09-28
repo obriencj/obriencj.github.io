@@ -14,7 +14,7 @@ I've been wanting a new exhaust for [Tux] for a while now. The factory
 muffler is enormous, heavy, tends towards rust at the end, and is
 almost silent.
 
-[Tux]: {filename}/projects/motorcycle/index.md
+[Tux]: {filename}/projects/motorcycle.md
 
 <!-- more -->
 

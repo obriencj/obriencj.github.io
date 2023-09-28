@@ -28,12 +28,12 @@ the mess. It gives an excellent perspective.
 
 I have a fantastic little motorcycle, let me tell you all about her!
 
-* [Motorcycle Project Page]({filename}/projects/motorcycle/index.md)
+* [Motorcycle Project Page]({filename}/projects/motorcycle.md)
 
 
 ## Project Ideas
 
-Massive disaster of [ideas]({filename}/projects/ideas/index.md)
+Massive disaster of [ideas]({filename}/projects/ideas.md)
 
 
 ## Python Projects

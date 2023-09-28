@@ -51,7 +51,7 @@ still find me on GitHub and Mastodon
 ## More information
 
 If you're interested in the various projects I am working on, please
-visit the [projects page]({filename}/projects/index.md).
+visit the [projects page]({filename}/projects.md).
 
 If you're looking for a tip jar, I've hidden it
-[over here]({filename}/about/support/index.md).
+[over here]({filename}/about/support.md).

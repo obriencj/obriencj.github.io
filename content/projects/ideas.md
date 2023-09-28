@@ -53,7 +53,7 @@ I imported this a few days ago from an old CVS checkout. It's
 currently living in GitHub in a non-working state. I'd love to get my
 brain wrapped around this and really get it working.
 
-[More on sibilant]({filename}/projects/ideas/sibilant/index.md)
+[More on sibilant]({filename}/projects/ideas/sibilant.md)
 
 
 ## python call/cc
