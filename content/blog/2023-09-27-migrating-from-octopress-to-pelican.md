@@ -128,7 +128,7 @@ some changes.
 
 I forked Elegant and began work on [InElegant].
 
-[InElegant]: https://github.com/obriencj/pelican-theme-inelegant
+[InElegant]: https://github.com/obriencj/pelican-inelegant
 
 
 ## New Problems
@@ -173,19 +173,19 @@ plugins and theme, all sealed into place together. My publication
 I'd never have to worry about losing access to my environment. I could
 easily pull the container or reproduce it locally for development.
 
-[container]: https://github.com/obriencj/pelican-theme-inelegant/blob/master/Containerfile
+[container]: https://github.com/obriencj/pelican-inelegant/blob/master/Containerfile
 
 [process]: https://github.com/obriencj/obriencj.github.io/blob/master/.github/workflows/pelican.yml
 
 
 ## Final Workflow
 
-In the end I had two repositories. There was [pelican-theme-inelegant]
+In the end I had two repositories. There was [pelican-inelegant]
 which would store my modified theme as well as the containerized
 tooling for producing the site. Then there was [obriencj.github.io]
 which would store all of the source content.
 
-[pelican-theme-inelegant]: https://github.com/obriencj/pelican-theme-inelegant
+[pelican-inelegant]: https://github.com/obriencj/pelican-inelegant
 
 [obriencj.github.io]: https://github.com/obriencj/obriencj.github.io
 
