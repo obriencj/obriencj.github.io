@@ -3,7 +3,7 @@
 AUTHOR = "Christopher O'Brien"
 SITENAME = 'obriencj'
 SITESUBTITLE = "selfish as a shellfish"
-SITEURL = 'https://obriencj.preoccupied.net/maybe-pelican'
+SITEURL = 'https://obriencj.preoccupied.net/'
 
 LICENSE_NAME = "CC BY-SA 4.0"
 LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0/"

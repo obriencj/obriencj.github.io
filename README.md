@@ -11,9 +11,9 @@ It is built using the container from [InElegant]
 
 Author: Christopher O'Brien  <obriencj@gmail.com>
 
-Repository: <https://github.com/obriencj/maybe-pelican>
+Repository: <https://github.com/obriencj/obriencj.github.io>
 
-Hosted Site: <https://obriencj.preoccupied.net/maybe-pelican>
+Hosted Site: <https://obriencj.preoccupied.net/obriencj.github.io>
 
 
 ## License
