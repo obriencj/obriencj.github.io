@@ -1,22 +1,23 @@
 # Overview
 
-This is a WIP migration from Octopress to Pelican
+GitHub Pages site built using [Pelican] using the container from
+[InElegant].
 
-It is built using the container from [InElegant]
+[Pelican]: https://github.com/getpelican/pelican
 
-[InElegant]: https://github.com/obriencj/pelican-theme-inelegant
+[InElegant]: https://github.com/obriencj/pelican-inelegant
 
 
-## Contact
+# Contact
 
 Author: Christopher O'Brien  <obriencj@gmail.com>
 
 Repository: <https://github.com/obriencj/obriencj.github.io>
 
-Hosted Site: <https://obriencj.preoccupied.net/obriencj.github.io>
+Hosted Site: <https://obriencj.preoccupied.net/>
 
 
-## License
+# License
 
 The prose and photos within this repository and the resulting hosted
 site are licensed under the [CC BY-SA 4.0]
