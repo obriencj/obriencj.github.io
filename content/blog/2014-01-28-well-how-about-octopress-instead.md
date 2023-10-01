@@ -1,7 +1,7 @@
 ---
 title: Well how about Octopress instead?
 date: 2014-01-28
-updated: 2014-02-06
+modified: 2014-02-06
 category: hosting
 tags:
   - github.io

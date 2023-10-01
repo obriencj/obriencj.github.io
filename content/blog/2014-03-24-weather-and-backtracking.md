@@ -2,7 +2,7 @@
 title: Weather and Backtracking
 tagline: Miserable Drizzle and Muddled Thinking
 date: 2014-03-24
-updated: 2014-03-27
+modified: 2014-03-27
 category: programming
 tags:
   - sibilant

@@ -1,7 +1,7 @@
 ---
 title: Summer Madness
 date: 2015-10-05
-updated: 2015-10-06
+modified: 2015-10-06
 category: personal
 tags:
   - rambling

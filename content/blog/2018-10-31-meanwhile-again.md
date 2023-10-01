@@ -2,7 +2,7 @@
 title: Meanwhile Again
 subtitle: IBM buys Red Hat, Potential Meanwhile Comeback
 date: 2018-10-31
-updated: 2020-08-30
+modified: 2020-08-30
 category: personal
 tags:
   - meanwhile

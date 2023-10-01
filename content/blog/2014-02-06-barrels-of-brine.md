@@ -1,7 +1,7 @@
 ---
 title: Barrels of brine
 date: 2014-02-06
-updated: 2014-02-07
+modified: 2014-02-07
 category: programming
 tags:
   - python

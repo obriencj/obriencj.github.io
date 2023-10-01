@@ -1,7 +1,7 @@
 ---
 title: Making use of Jekyll on github.io
 date: 2014-01-25
-updated: 2014-02-06
+modified: 2014-02-06
 category: hosting
 tags:
   - github.io

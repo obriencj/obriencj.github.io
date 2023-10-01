@@ -1,7 +1,7 @@
 ---
 title: The TU250x Kickstart Guide
 date: 2014-08-19
-updated: 2014-08-31
+modified: 2014-08-31
 category: motorcycle
 tags:
   - tu250x

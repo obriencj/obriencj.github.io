@@ -1,7 +1,7 @@
 ---
 title: gist - spexy repl example
 date: 2014-01-22
-updated: 2014-01-24
+modified: 2014-01-24
 category: programming
 tags:
   - python
