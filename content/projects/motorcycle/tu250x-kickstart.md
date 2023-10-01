@@ -2,7 +2,7 @@
 title: "TU250x Kickstart"
 summary: "Guide to installing a kickstart on a Suzuki TU250x"
 date: 2014-08-19
-updated: 2023-09-24
+modified: 2023-09-24
 
 ---
 

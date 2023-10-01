@@ -2,7 +2,7 @@
 title: "RSY Beauty Megaphone"
 summary: "After-market exhaust for a Suzuki TU250x"
 date: 2014-10-10
-updated: 2014-12-13
+modified: 2014-12-13
 tags:
   - tu250x
   - motorcycle

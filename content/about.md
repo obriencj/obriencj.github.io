@@ -2,7 +2,7 @@
 title: About me
 subtitle: what did you want to know?
 date: 2014-01-01
-updated: 2023-09-25
+modified: 2023-09-25
 
 ---
 

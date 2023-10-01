@@ -3,7 +3,7 @@ title: "TU250x PAIR Removal"
 summary: "Removing the PAIR valve on a Suzuki TU250x"
 keywords:
 date: 2014-08-26
-updated: 2014-08-30
+modified: 2014-08-30
 comments: false
 tags:
   - tu250x
