@@ -25,7 +25,7 @@ jobs:
         run: |
           podman run --rm -it \
             --volume .:/work \
-            ghcr.io/obriencj/pelican-inelegant:latest
+            ghcr.io/obriencj/pelican-inelegant:master
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v2
