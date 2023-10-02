@@ -45,14 +45,35 @@ DEFAULT_PAGINATION = 0
 RECENT_ARTICLE_SUMMARY = True
 
 
+FEATURED_IMAGE = None  # TODO
+
+LANDING_PAGE_TITLE = "Christopher O'Brien"
+
+
+PROJECTS_TITLE = "Projects"
+PROJECTS = [
+    {
+        "name": "koji-smoky-dingo",
+        "url": "https://github.com/obriencj/koji-smoky-dingo",
+        "description": "Client utilities for the koji build system",
+    },
+    {
+        "name": "pelican-inelegant",
+        "url": "https://github.com/obriencj/pelican-inelegant",
+        "description": "Containerized pelican theme used by this site",
+    },
+]
+
+
 # Social widget
 SOCIAL = (
-    ('GitHub', 'https://github.com/obriencj'),
-    ('Mastodon', 'https://fosstodon.org/@obriencj'),
-    ('Instagram', 'https://instagram.com/obrien.christopher/'), )
+    ( 'GitHub', 'https://github.com/obriencj', ),
+    ( 'Mastodon', 'https://fosstodon.org/@obriencj', ),
+    ( 'Instagram', 'https://instagram.com/obriencj.preoccupied/', ),
+)
 
 
-GITHUB_URL = "https://github.com/obriencj/obriencj.preoccupied.net/"
+GITHUB_URL = "https://github.com/obriencj/obriencj.github.io/"
 GITHUB_USER = "obriencj"
 GITHUB_REPO_COUNT = 0
 GITHUB_SKIP_FORK = True
@@ -71,6 +92,10 @@ EXTRA_PATH_METADATA = {
         'dirname': '',
         'basename': 'about'
     },
+    'landing.md': {
+        'dirname': '',
+        'basename': 'landing'
+    },
     'projects.md': {
         'dirname': '',
         'basename': 'projects'
@@ -78,23 +103,27 @@ EXTRA_PATH_METADATA = {
 }
 
 
-ARTICLE_PATHS = ['blog', ]
+ARTICLE_PATHS = [ 'blog', ]
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 PAGE_PATHS = [
-    'about', 'about.md', 'projects', 'projects.md']
+    'about', 'about.md', 'landing.md', 'projects', 'projects.md',
+]
 PAGE_URL = '{dirname}{basename}/'
 PAGE_SAVE_AS = '{dirname}{basename}/index.html'
 
 STATIC_PATHS = [
     'CNAME', 'gpg', 'images', 'keybase.txt', 'photos',
-    'robots.txt', 'theme', ]
+    'robots.txt', 'theme',
+]
 
 
-PLUGIN_PATHS = ["/pelican/plugins", ]
-PLUGINS = ["extract_toc", "image_process", "liquid_tags",
-           "summary", "yaml_metadata", ]
+PLUGIN_PATHS = [ "/pelican/plugins", ]
+PLUGINS = [
+    "extract_toc", "image_process", "liquid_tags",
+    "summary", "yaml_metadata",
+]
 
 
 IMAGE_PROCESS = {
