@@ -30,9 +30,8 @@ jobs:
 
       - name: Build site
         run: |
-          podman run --rm -it \
-            --volume .:/work \
-            ghcr.io/obriencj/pelican-inelegant:${{ inputs.container_tag }}
+          podman run --rm --volume .:/work \
+            'ghcr.io/obriencj/pelican-inelegant:${{ inputs.container_tag }}'
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v2
