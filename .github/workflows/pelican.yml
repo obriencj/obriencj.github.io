@@ -5,6 +5,13 @@ name: Build site with pelican-inelegant
 on:
   workflow_call:
   workflow_dispatch:
+    inputs:
+      container_tag:
+        description: container tag to build against
+        required: true
+        type: string
+        default: master
+
   push:
     branches:
       - master
@@ -25,7 +32,7 @@ jobs:
         run: |
           podman run --rm -it \
             --volume .:/work \
-            ghcr.io/obriencj/pelican-inelegant:master
+            ghcr.io/obriencj/pelican-inelegant:${{ inputs.container_tag }}
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v2
