@@ -22,7 +22,6 @@ on:
 
 env:
   ctag: ${{ github.action == 'push' && 'master' || inputs.container_tag }}
-  spec: ghcr.io/obriencj/pelican-inelegant:${{ env.ctag }}
 
 
 jobs:
@@ -35,7 +34,8 @@ jobs:
 
       - name: Build site
         run: |
-          podman run --rm --volume .:/work '${{ env.spec }}'
+          podman run --rm --volume .:/work \
+          'ghcr.io/obriencj/pelican-inelegant:${{ env.ctag }}'
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v2
