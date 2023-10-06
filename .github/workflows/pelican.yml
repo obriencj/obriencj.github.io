@@ -20,6 +20,11 @@ on:
       - pelicanconf.py
 
 
+env:
+  ctag: ${{ github.action == 'push' && 'master' || inputs.container_tag }}
+  spec: ghcr.io/obriencj/pelican-inelegant:${{ env.ctag }}
+
+
 jobs:
   build-site:
     runs-on: ubuntu-latest
@@ -30,8 +35,7 @@ jobs:
 
       - name: Build site
         run: |
-          podman run --rm --volume .:/work \
-            'ghcr.io/obriencj/pelican-inelegant:${{ inputs.container_tag }}'
+          podman run --rm --volume .:/work '${{ env.spec }}'
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v2
