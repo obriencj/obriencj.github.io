@@ -17,14 +17,24 @@ help:	## Display this help  (default)
 
 
 html: clean	## Regenerates static site
-	podman run --rm --volume ./:/work \
+	@mkdir -p output
+	@podman run --rm --volume ./:/work \
           pelican-inelegant:latest \
 	  -s developconf.py \
 	  -e SITEURL="\"file://$(PWD)/output\""
 
 
+develop-html: clean	## Regenerates static site until interrupted
+	@mkdir -p output
+	@podman run --rm --volume ./:/work \
+          pelican-inelegant:latest -r \
+	  -s developconf.py \
+	  -e SITEURL="\"file://$(PWD)/output\""
+
+
 develop:	## Launches web server that constantly regenerates site
-	podman run --rm --volume ./:/work --network host \
+	@mkdir -p output
+	@podman run --rm --volume ./:/work --network host \
           pelican-inelegant:latest -lr -p $(PORT) \
 	  -s developconf.py \
 	  -e SITEURL="\"https://localhost:$(PORT)\""
