@@ -8,6 +8,18 @@ status: draft
 [TOC]
 
 
+## tl;dr
+
+* separate the tools from the content
+* create a container holding pelican, plugins, and theme
+* use container to build site from content source
+* ensure a local rebuild of the container can be used with local copy
+  of content
+* use github actions to rebuild the container when tool changes happen
+* use github actions to rebuild and deploy site when content changes
+  happen
+
+
 ## Builder Repository
 
 This repository will be used to hold a working copy of your pelican
