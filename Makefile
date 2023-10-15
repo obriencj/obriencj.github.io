@@ -40,6 +40,11 @@ develop:	## Launches web server that constantly regenerates site
 	  -e SITEURL="\"https://localhost:$(PORT)\""
 
 
+preview:	html
+	@python3 -B -m http.server -d output \
+	  -b 127.0.0.1 $(PORT)
+
+
 purge-cache:
 	@git rm -rf content/photos/processed
 
