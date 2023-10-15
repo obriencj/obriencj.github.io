@@ -1,0 +1,5 @@
+h1#changelog + dl > dt {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+}
