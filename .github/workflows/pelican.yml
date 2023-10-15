@@ -21,7 +21,7 @@ on:
 
 
 env:
-  ctag: ${{ github.action == 'push' && 'master' || inputs.container_tag }}
+  ctag: ${{ inputs.container_tag || 'master' }}
 
 
 jobs:
