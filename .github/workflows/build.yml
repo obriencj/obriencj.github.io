@@ -14,7 +14,7 @@ on:
 
 
 env:
-  ctag: ${{ inputs.container_tag || 'master' }}
+  inelegant: ${{ inputs.version || 'master' }}
 
 
 jobs:
@@ -26,9 +26,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build site
-        uses: obriencj/pelican-inelegant/build@master
+        uses: obriencj/pelican-inelegant/build@${{ github.env.inelegant }}
         with:
-          version: ${{ github.env.ctag }}
+          version: ${{ github.env.inelegant }}
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v2
