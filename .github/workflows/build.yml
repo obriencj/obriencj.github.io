@@ -13,10 +13,6 @@ on:
         default: master
 
 
-env:
-  inelegant: ${{ inputs.version || 'master' }}
-
-
 jobs:
   build-site:
     runs-on: ubuntu-latest
@@ -26,9 +22,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build site
-        uses: obriencj/pelican-inelegant/build@${{ github.env.inelegant }}
+        uses: obriencj/pelican-inelegant/build@master
         with:
-          version: ${{ github.env.inelegant }}
+          version: ${{ inputs.version || 'master' }}
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v2
