@@ -1,0 +1,51 @@
+
+matrix:
+  - name: Content
+    sources:
+      - content/*.md
+      - content/about/*.md
+      - content/about/**/*.md
+      - content/blog/*.md
+      - content/projects/*.md
+      - content/projects/**/*.md
+
+    pipeline:
+      - pyspelling.filters.markdown:
+          markdown_extensions:
+            - markdown.extensions.abbr:
+            - markdown.extensions.attr_list:
+            - markdown.extensions.codehilite:
+                css_class: highlight
+                guess_lang: False
+                pygments_style: default
+                use_pygments: True
+            - markdown.extensions.def_list:
+            - markdown.extensions.toc:
+                marker: "[TOC]"
+                permalink: ""
+      - pyspelling.filters.html:
+          comments: false
+          attributes:
+            - title
+            - alt
+          ignores:
+            - :matches(code, pre, blockquote)
+            - div.highlight
+
+    spellchecker: aspell
+
+    aspell:
+      lang: en
+      d: en_US
+      camel-case:
+      mode: markdown
+
+    dictionary:
+      wordlists:
+        - spelling/acronyms.txt
+        - spelling/names.txt
+        - spelling/words.txt
+      output: spelling/custom.dic
+
+
+# The end.

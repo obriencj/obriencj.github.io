@@ -58,6 +58,10 @@ photo-cache: purge-cache html
 	@git add content/photos/processed/**/*.*
 
 
+spellcheck:
+	@pyspelling
+
+
 ##@ Cleanup
 
 clean:	## Removes output dir
