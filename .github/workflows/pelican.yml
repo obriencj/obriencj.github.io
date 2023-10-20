@@ -1,5 +1,5 @@
 
-name: Build site with pelican-inelegant
+name: Build and deploy site
 
 
 on:
