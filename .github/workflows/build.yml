@@ -1,0 +1,35 @@
+
+name: Build with pelican-inelegant action
+
+
+on:
+  workflow_call:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: pelican-inelegant version to use
+        required: true
+        type: string
+        default: master
+
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build site
+        uses: obriencj/pelican-inelegant/build@master
+        with:
+          version: ${{ inputs.version || 'master' }}
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: output
+
+
+# The end.
