@@ -1,11 +1,18 @@
 ---
 title: GitHub Pages Publishing for Sites
 date: 2023-10-10
-status: draft
+status: published
 
 ---
 
 [TOC]
+
+
+Here I attempt to organize my thoughts around the site publishing
+patterns that would work best for me. This solution may or may not
+apply to your own needs. I hope at the least that it can serve as
+inspiration, or even a good laugh over how complicated I've made
+things.
 
 
 ## tl;dr
@@ -38,11 +45,11 @@ static content used by the theme itself.
 
 This site is using a fork of the [Elegant] theme, and as such there
 are some processing steps applied to its sources.  Primarily these
-actions are focused on producing a minified CSS and JS. To accommodate
-this, the container process will be multi-stage. The first stage will
-be used to pull in the original source CSS and JS files, then
-transform and crunch them down into the singular files that will be
-copied into the final container.
+actions are focused on producing a minified site-wide CSS and JS. To
+accommodate this, the container process will be multi-stage. The first
+stage will be used to pull in the original source CSS and JS files,
+then transform and crunch them down into the singular files that will
+be copied into the final container.
 
 ```Docker
 FROM node:20 AS BUILD
@@ -60,6 +67,8 @@ RUN npx gulp
 Depending on the theme chosen it may not be necessary to perform these
 steps. If the theme is available already complete, then you can move
 directly onto bundling it up.
+
+[Elegant]: https://github.com/Pelican-Elegant/elegant
 
 
 ### Containerize Pelican
