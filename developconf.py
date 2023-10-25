@@ -7,6 +7,7 @@ from pelicanconf import *
 
 
 GOOGLE_ANALYTICS = None
+MODERN_GOOGLE_ANALYTICS = None
 
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
