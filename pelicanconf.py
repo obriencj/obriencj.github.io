@@ -91,20 +91,6 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 
 PATH_METADATA = '(?P<dirname>.*/?)(?P<basename>.*)\.md'
-# EXTRA_PATH_METADATA = {
-#     'about.md': {
-#         'dirname': '',
-#         'basename': 'about'
-#     },
-#     'landing.md': {
-#         'dirname': '',
-#         'basename': 'landing'
-#     },
-#     'projects.md': {
-#         'dirname': '',
-#         'basename': 'projects'
-#     },
-# }
 
 
 ARTICLE_PATHS = [ 'blog', ]
