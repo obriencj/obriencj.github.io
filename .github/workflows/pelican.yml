@@ -29,6 +29,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build site
+        id: build
         uses: obriencj/pelican-inelegant@master
         with:
           version: ${{ inputs.inelegant_version || 'master' }}
@@ -36,7 +37,7 @@ jobs:
       - name: Upload site
         uses: actions/upload-pages-artifact@v2
         with:
-          path: output
+          path: ${{ steps.build.outputs.output-path }}
 
   deploy-site:
     runs-on: ubuntu-latest

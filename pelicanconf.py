@@ -6,11 +6,11 @@ from datetime import datetime
 AUTHOR = "Christopher O'Brien"
 SITENAME = 'obriencj'
 SITESUBTITLE = "selfish as a shellfish"
-SITEURL = 'https://obriencj.preoccupied.net/'
+SITEURL = 'https://obriencj.preoccupied.net'
 
 
 LICENSE_NAME = "CC BY-SA 4.0"
-LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0/"
+LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0"
 
 COPYRIGHT = f"2014-{datetime.now().year}, {AUTHOR}"
 
@@ -79,7 +79,7 @@ SOCIAL = (
     ( 'Keybase', 'https://keybase.io/obriencj', ),
     ( 'Mastodon', 'https://fosstodon.org/@obriencj', ),
     # ( 'Twitter', 'https://twitter.com/obriencj', ),
-    ( 'Instagram', 'https://instagram.com/obriencj.preoccupied/', ),
+    ( 'Instagram', 'https://instagram.com/obriencj.preoccupied', ),
     ( 'Strava', 'https://strava.com/athletes/obriencj', ),
 )
 
