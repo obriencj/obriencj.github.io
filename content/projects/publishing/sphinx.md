@@ -17,16 +17,30 @@ status: draft
 * use pandoc to produce `docs/overview.rst` from your `README.md`
   for the documentation
 * use tox to manage the environment that sphinx will run in
-* builds docs as dirhtml, and host via `http.server` for local preview
+* build docs as dirhtml, and host via `http.server` for local preview
 * use a Makefile to handle all the above steps easily
-* github action triggered on published to checkout, build, and deploy
-  docs to github pages
+* github action triggered on published release: checkout, build, and
+  deploy docs to github pages
 
 
 ## Sphinx
 
+Sphinx is my go-to, but that is primarily because most of my projects
+are based on Python.
+
 
 ## Tox
 
+While tox may seem like primarily a harness to hang test environments
+off of, it's fantastic at ensuring that a virtualenv is set up in
+place for just about anything. Using a tox definition to define the
+environment that you want to build docs in is a winning proposition.
+
 
 ## Automation
+
+GitHub actions can be set to trigger docs builds via tox just like
+they can be set to trigger unit tests via tox. It's a simple matter of
+selecting the right triggering event (like a release moving to the
+published state), then invoking tox, collecting up the output, and
+publishing it to your GitHub pages for the project.
