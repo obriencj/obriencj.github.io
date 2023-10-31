@@ -1,11 +1,11 @@
 # Overview
 
-GitHub Pages site built using [Pelican] using the container from
-[InElegant].
+GitHub Pages site built with [Pelican] using the action from
+[Inelegant].
 
 [Pelican]: https://github.com/getpelican/pelican
 
-[InElegant]: https://github.com/obriencj/pelican-inelegant
+[Inelegant]: https://github.com/obriencj/pelican-inelegant
 
 
 # Contact
