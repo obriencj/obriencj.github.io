@@ -1,6 +1,7 @@
 # Primary site build configuration using Pelican
 
-from datetime import datetime
+import logging
+import datetime
 
 
 AUTHOR = "Christopher O'Brien"
@@ -12,7 +13,7 @@ SITEURL = 'https://obriencj.preoccupied.net'
 LICENSE_NAME = "CC BY-SA 4.0"
 LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0"
 
-COPYRIGHT = f"2014-{datetime.now().year}, {AUTHOR}"
+COPYRIGHT = f"2014-{datetime.datetime.now().year}, {AUTHOR}"
 
 SITE_LICENSE = f"""
 &copy; {COPYRIGHT},
@@ -122,10 +123,12 @@ PLUGINS = [
 # the image-process plugin
 IMAGE_PROCESS = {
     "inline": {
+        # inline images in horizontal mode
         "type": "image",
         "ops": ["scale_out 300 225 True"],
     },
     "upline": {
+        # inline images in portrait mode
         "type": "image",
         "ops": ["scale_out 225 300 True"],
     },
@@ -138,6 +141,7 @@ IMAGE_PROCESS_COPY_EXIF_TAGS = True
 # liquid tags plugin settings
 LIQUID_TAGS = ["img", "literal", "video", "youtube",
                "vimeo", "include_code", ]
+
 
 # summary plugin settings
 SUMMARY_BEGIN_MARKER = "<!-- summary -->"
@@ -165,6 +169,10 @@ MARKDOWN = {
     },
     "output_format": "xhtml",
 }
+
+
+# this is very annoying
+LOG_FILTER = [(logging.WARN, 'Empty alt attribute for image %s in %s')]
 
 
 # The end.
