@@ -5,14 +5,15 @@ status: published
 
 ---
 
-[TOC]
-
 
 Here I attempt to organize my thoughts around the site publishing
 patterns that would work best for me. This solution may or may not
 apply to your own needs. I hope at the least that it can serve as
 inspiration, or even a good laugh over how complicated I've made
 things.
+
+
+[TOC]
 
 
 ## tl;dr
@@ -183,7 +184,8 @@ pertinent change is committed to the repository. Thus:
 
 ## Content Repository
 
-Shifting
+With the majority of the tooling shifted elsewhere, the content can
+reside entirely on its own in a separate repository.
 
 
 ### Automate

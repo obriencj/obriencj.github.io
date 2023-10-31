@@ -1,11 +1,15 @@
 ---
 title: GitHub Pages Publication for Projects
 date: 2023-10-10
-status: draft
+status: published
 
 ---
 
 [TOC]
+
+
+This is very much a work in progress, but I can't just leave it as an
+unpublished draft forever, so here we go
 
 
 ## tl;dr
@@ -25,16 +29,20 @@ status: draft
 
 ## Sphinx
 
-Sphinx is my go-to, but that is primarily because most of my projects
+[Sphinx] is my go-to, but that is primarily because most of my projects
 are based on Python.
+
+[sphinx]: https://www.sphinx-doc.org
 
 
 ## Tox
 
-While tox may seem like primarily a harness to hang test environments
+While [tox] may seem like primarily a harness to hang test environments
 off of, it's fantastic at ensuring that a virtualenv is set up in
 place for just about anything. Using a tox definition to define the
 environment that you want to build docs in is a winning proposition.
+
+[tox]: https://github.com/tox-dev/tox
 
 
 ## Automation

@@ -5,8 +5,6 @@ status: published
 
 ---
 
-[TOC]
-
 This is a living document which outlines what I consider to be an
 ideal for GitHub Pages publication pipelines. The document is driven
 entirely by my own opinions, experiences, and experimentation. Here we
