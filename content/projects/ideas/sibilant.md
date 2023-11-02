@@ -10,7 +10,7 @@ footer: false
 Originally started in 2008 as a followup to the much-maligned [spexy],
 sibilant was meant to be a serious take on a LISP dialect that
 compiled to a [Python] module. It fell by the wayside when real life
-interferred in a big way.
+interfered in a big way.
 
 Spexy and Sibilant were both [re-discovered] in January of 2014, and
 I've been looking over them to see what-- if anything-- can be

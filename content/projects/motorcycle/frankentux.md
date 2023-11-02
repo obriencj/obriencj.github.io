@@ -1,17 +1,12 @@
 ---
-layout: page
 title: "The Theoretical Frankentux"
-tagline: "a mix of engine parts"
-description: "ideas for a mixup of pieces from various Suzuki 250cc engines"
-keywords: "suzuki, idea, tu250x, sp250, scem, motorcycle, frankentux"
-date: 2014-09-01 18:46
-sharing: true
-footer: true
+subtitle: "a mix of engine parts"
+date: 2014-09-01
 
 ---
 
 The Frankentux is a poorly named idea wherein I take features from a
-variety of Suzuk 250cc engines and stick them on a TU250's frame.
+variety of Suzuki 250cc engines and stick them on a TU250's frame.
 
 From the TU250x
 : - frame, seat, fuel tank

@@ -18,10 +18,10 @@ that is hella fun to ride.
 
 Fuel injected, SOHC, air-cooled -- 249cc of pure joy.  Mine came from
 [Team Powersports in Raleigh][tps]. I've made a few modifications so
-far, but apart from the possibility of a custom seat soem day I think
+far, but apart from the possibility of a custom seat someday I think
 I'm about done changing her up.
 
-* de-stickered
+* removed stickers
 * added tank knee pads
 * intake snorkel removed
 * second-hand, black flyscreen from Dart

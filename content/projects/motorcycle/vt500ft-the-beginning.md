@@ -37,7 +37,7 @@ to think of so far.
 * Compression Test
 	* if problem, could be rings or valves.
 	* start by checking valves -- removal of cylinder head, etc.
-	* knap valves
+	* lap valves
 	* visually inspect piston rings
 * Remove Carbs
 	* check and clean carbs
@@ -85,7 +85,7 @@ to think of so far.
 	* with a minor amount of marvel to clean up any existing residue
 * Check the radiator
 	* Ensure the fan comes on
-	* Straighten some of the coolign fins as needed
+	* Straighten some of the cooling fins as needed
 	* Clean out radiator
 	* Flush radiator fluid?
 	* Replacement for overflow

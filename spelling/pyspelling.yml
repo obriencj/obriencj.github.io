@@ -2,12 +2,12 @@
 matrix:
   - name: Content
     sources:
-      - content/*.md
-      - content/about/*.md
-      - content/about/**/*.md
-      - content/blog/*.md
-      - content/projects/*.md
-      - content/projects/**/*.md
+      - ../content/*.md
+      - ../content/about/*.md
+      - ../content/about/**/*.md
+      - ../content/blog/*.md
+      - ../content/projects/*.md
+      - ../content/projects/**/*.md
 
     pipeline:
       - pyspelling.filters.markdown:
@@ -42,10 +42,10 @@ matrix:
 
     dictionary:
       wordlists:
-        - spelling/acronyms.txt
-        - spelling/names.txt
-        - spelling/words.txt
-      output: spelling/custom.dic
+        - acronyms.txt
+        - names.txt
+        - words.txt
+      output: custom.dic
 
 
 # The end.

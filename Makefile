@@ -59,7 +59,7 @@ photo-cache: purge-cache html
 
 
 spellcheck:
-	@pyspelling
+	@tox -c spelling/tox.ini
 
 
 ##@ Cleanup
