@@ -1,7 +1,7 @@
 # Overview
 
-GitHub Pages site built with [Pelican] using the action from
-[Inelegant].
+GitHub Pages site built with [Pelican] using the action from the
+[Inelegant] theme.
 
 [Pelican]: https://github.com/getpelican/pelican
 
