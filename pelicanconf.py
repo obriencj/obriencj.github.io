@@ -139,8 +139,10 @@ IMAGE_PROCESS_COPY_EXIF_TAGS = True
 
 
 # liquid tags plugin settings
-LIQUID_TAGS = ["img", "literal", "video", "youtube",
-               "vimeo", "include_code", ]
+LIQUID_TAGS = [
+    "img", "literal", "video", "youtube",
+    "vimeo", "include_code",
+]
 
 
 # summary plugin settings
