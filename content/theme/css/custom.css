@@ -1,0 +1,15 @@
+
+.highlight {
+  overflow-y: auto;
+  white-space: nowrap;
+  word-wrap: unset;
+}
+
+.highlight pre {
+  box-sizing: border-box;
+  line-break: unset;
+  white-space: pre;
+  width: 100%;
+  word-break: unset;
+  word-wrap: unset;
+}
