@@ -108,8 +108,8 @@ PAGE_SAVE_AS = '{dirname}{basename}/index.html'
 
 
 STATIC_PATHS = [
-    'CNAME', 'gpg', 'images', 'keybase.txt', 'photos',
-    'robots.txt', 'theme',
+    'CNAME', 'favicon.ico', 'gpg', 'images', 'keybase.txt',
+    'photos', 'robots.txt', 'theme',
 ]
 
 
@@ -139,8 +139,10 @@ IMAGE_PROCESS_COPY_EXIF_TAGS = True
 
 
 # liquid tags plugin settings
-LIQUID_TAGS = ["img", "literal", "video", "youtube",
-               "vimeo", "include_code", ]
+LIQUID_TAGS = [
+    "img", "literal", "video", "youtube",
+    "vimeo", "include_code",
+]
 
 
 # summary plugin settings
