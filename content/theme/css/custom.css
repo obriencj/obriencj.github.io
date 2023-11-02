@@ -1,10 +1,9 @@
 
 .highlight {
   overflow-y: auto;
-  white-space: nowrap;
+  white-space: pre;
   word-wrap: unset;
 }
-
 .highlight pre {
   box-sizing: border-box;
   line-break: unset;
@@ -12,4 +11,13 @@
   width: 100%;
   word-break: unset;
   word-wrap: unset;
+}
+.highlight code {
+  text-align: left;
+  white-space: pre;
+}
+.highlight span {
+  text-align: left;
+  word-wrap: unset;
+  white-space: nowrap;
 }
