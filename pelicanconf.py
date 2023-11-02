@@ -108,8 +108,8 @@ PAGE_SAVE_AS = '{dirname}{basename}/index.html'
 
 
 STATIC_PATHS = [
-    'CNAME', 'gpg', 'images', 'keybase.txt', 'photos',
-    'robots.txt', 'theme',
+    'CNAME', 'favicon.ico', 'gpg', 'images', 'keybase.txt',
+    'photos', 'robots.txt', 'theme',
 ]
 
 
