@@ -3,6 +3,7 @@
 *\#
 *~
 .DS_Store
+.cache
 .bundle
 .gist-cache
 .pygments-cache

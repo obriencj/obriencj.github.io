@@ -179,4 +179,9 @@ MARKDOWN = {
 LOG_FILTER = [(logging.WARN, 'Empty alt attribute for image %s in %s')]
 
 
+CACHE_CONTENT = True
+CACHE_PATH = ".cache"
+LOAD_CONTENT_CACHE = True
+
+
 # The end.
