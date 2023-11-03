@@ -1,6 +1,7 @@
 ---
 title: GitHub Pages Publishing for Sites
 date: 2023-10-10
+modified: 2023-11-03
 status: published
 
 ---
@@ -87,13 +88,6 @@ using pip-tools, and the modified requirements can be committed.
 ```Docker
 FROM python:3.9
 
-ARG GIT_REPO="https://github.com/obriencj/pelican-inelegant.git"
-ARG GIT_COMMIT=""
-
-LABEL \
-  git-repository="${GIT_REPO}" \
-  git-commit="${GIT_COMMIT}"
-
 
 # We needeed exiftool for the pelican-image-process plugin, or else
 # our photos will lose their EXIF orientation data
@@ -104,6 +98,7 @@ WORKDIR /pelican
 
 # Install pelican and available plugins
 COPY requirements.txt .
+ENV PIP_ROOT_USER_ACTION=ignore
 RUN pip3 install --upgrade pip && pip3 install -r requirements.txt
 
 
@@ -181,11 +176,31 @@ pertinent change is committed to the repository. Thus:
 * trigger a container build from the commit
 * publish that container build into ghcr.io so it can be utilized
 
+Reference:
+
+* my builder repository's [container.yml](https://github.com/obriencj/pelican-inelegant/blob/master/.github/workflows/container.yml) workflow
+
+
+### Simplify Use
+
+While anyone who wanted to could now pull and run the container we've
+produced, we can take this a step further by creating an action which
+does the heavy lifting. With that in place, triggering the build can
+be simplified. This also allows us to add a layer of indirection,
+enabling a consistent action interface which can adapt to potentially
+different steps as time passes.
+
+Reference:
+
+* my builder repository's [action.yml](https://github.com/obriencj/pelican-inelegant/blob/master/action.yml)
+
 
 ## Content Repository
 
 With the majority of the tooling shifted elsewhere, the content can
-reside entirely on its own in a separate repository.
+reside entirely on its own in a separate repository. This means git
+history will focus on updates to prose, rather than intermingled
+styling changes.
 
 
 ### Automate
@@ -199,3 +214,14 @@ workflow:
 * build the site by running our tooling container against the relevant
   content checkout
 * deploy the built site to github pages
+
+
+Reference:
+
+* my content repository's [pelican.yml](https://github.com/obriencj/obriencj.github.io/blob/master/.github/workflows/pelican.yml) workflow
+
+
+## Changelog
+
+- 2023-11-03: Added mention of using a github action defintion to wrap
+  the container invocation. Added more reference links.
