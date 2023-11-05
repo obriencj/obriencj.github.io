@@ -49,7 +49,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-DIRECT_TEMPLATES = ['index', 'archives', 'tags', 'categories', 'pages']
+DIRECT_TEMPLATES = [
+    '404', 'index', 'archives', 'tags', 'categories', 'pages',
+]
 
 DEFAULT_PAGINATION = 0
 
