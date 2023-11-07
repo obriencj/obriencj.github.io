@@ -36,7 +36,7 @@ THEME = 'inelegant'
 PATH = 'content'
 OUTPUT_PATH = 'output'
 
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 
 TIMEZONE = 'America/New_York'
@@ -181,6 +181,8 @@ LOG_FILTER = [(logging.WARN, 'Empty alt attribute for image %s in %s')]
 
 CACHE_CONTENT = True
 CACHE_PATH = ".cache"
+CHECK_MODIFIED_METHOD = 'sha1'
+CONTENT_CACHE_LAYER = 'generator'
 LOAD_CONTENT_CACHE = True
 
 
