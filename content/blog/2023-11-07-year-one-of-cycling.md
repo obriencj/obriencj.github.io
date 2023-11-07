@@ -33,7 +33,9 @@ heavy, clunky, had big knobly tires, and twist-shift hand-grips. I had
 nothing at all at that point. I spent some time trying to best
 identify what bike would work for how we wanted to ride. After listing
 out the features that I thought mattered most, I settled on a
-Diamondback Division 1.
+[Diamondback Division 1][div1].
+
+[div1]: https://roadbikedatabase.com/bikes/2022/diamondback/division/2022-diamondback-division-1/
 
 I remember the first test-rides around my cul-de-sac. I kept trying to
 counter-steer as if it were a motorcycle. It was a struggle, to be
@@ -55,14 +57,16 @@ was a good time, I think for both of us.
 I normally hate to exercise, but riding a bike feels great, and the
 incremental increases in stamina were just noticable enough that I could
 stay motivated. Our rides together were more like bar-room chats. We'd
-ride side-by-side and talk almsot the entire time.
+ride side-by-side and talk almost the entire time.
 
-She bought a different bike, a Kona Dew. I lost my mechanical
+She bought a different bike, a [Kona Dew]. I lost my mechanical
 advantage instantly, and she'd fly up every hill ahead of me while I
 panted along behind. It was fine though, because I was learning to
 focus on breathing and keeping the pedals spinning. Just zoning
 out for a short while, and making my body do what it struggled to
 do. Then we'd top the hill and resume our conversation.
+
+[Kona Dew]: https://www.konaworld.com/products/dew
 
 I am somewhat resilient to injuries of pride -- I have a defensive
 mechanism that works well for me. I simply accept that I am not the
@@ -74,11 +78,13 @@ far we'd come. Sure we weren't fast, but twenty miles on gravel and
 sand!
 
 I started to look at upgrading to a different bike, and test-rode a
-Kona Rove. I told myself it could be a birthday present six months
+[Kona Rove]. I told myself it could be a birthday present six months
 out, but it wasn't even a single month later that I bought it. I
 vastly prefered the drop-bars over the flats, and the steel frame was
 certainly heavier but it soaked up a lot of vibration that the
 aluminium bike would happily transmit directly to my wrists.
+
+[Kona Rove]: https://www.konaworld.com/products/rove
 
 I wanted to push our distance further and further. So I proposed a
 ride one day which was one of the worst mistakes I've made to date. It
@@ -116,12 +122,12 @@ joke with her about me winning on the downhills. She got quiet. I'll
 probably never know what was really going through her head at the
 time. It's hard to remember anything other than my anxiety, and
 focusing on just keeping the pedals moving. Long hill climbs, and I'd
-discover all of a sudden that she was fifty feet behind me. She
-wouldn't call out for me to slow down. The first time I stopped for
-her. The second time I slowed to let her catch up. The third time I
-was starting to get very frustrated. We needed to get this done, what
-was she doing? Use the downhills to get the speed to conquer the next
-uphill, keep pedaling!
+look up to discover all of a sudden that she was fifty feet behind
+me. She wouldn't call out for me to slow down. The first time I
+stopped for her. The second time I slowed to let her catch up. The
+third time I was starting to get very frustrated. We needed to get
+this done, what was she doing? Use the downhills to get the speed to
+conquer the next uphill, keep pedaling!
 
 Looking back it all makes sense, she was probably just out of gas. But
 my expectation was that she was the stronger rider, why would she be
@@ -206,11 +212,14 @@ distance and speed.
 
 It's been less than one year since I bought the Rove. I only have 2500
 miles on it, but I've managed to cross the 100km barrier (I've
-actually managed 69 miles in a single ride so far, at the time of this
+actually managed [69 miles] in a single ride so far, at the time of this
 writing). I've just recently managed to sustain an average speed of
-15mph over a 30 mile ride.
+[15mph] over a 30 mile ride.
 
-She claims her interests are more in mountain bikes now, trail riding
+[69 miles]: https://www.strava.com/activities/10098752789
+[15mph]: https://www.strava.com/activities/10160453330
+
+She says her interests are more in mountain bikes now, in trail riding
 and downhill. That kind of thing makes me nervous. She said she hates
 the long and boring rides. I like having the time to be inside of my
 head, dreaming. She hates that kind of thing, I think.
@@ -224,18 +233,21 @@ of a person. Well, slowly becoming less of a potato I suppose. I see
 her every now and then, but we just pass one another. I struggle to
 keep the memories of why we split up in mind, it's always easier to
 fall into missing the good things. The sound of her laugh, just there
-to my right. The way she'd spy unique birds only her sharp eyes could
-spot. The way she'd scream hysterically at squirrels as they dashed
-into our paths. The shared language that we developed. It's hard to
-have lost that, but that's how it goes.
+to my right. The way she'd point out unique birds only her sharp eyes
+could spot. The way she'd scream hysterically at squirrels as they
+dashed into our paths. The shared language that we developed. It's
+hard to have lost that, but that's how it goes.
 
 I rode, alone, the route that defeated us as a couple. It was still
 pretty challenging, but I did it. It wasn't the victory that I had
 hoped it would be. Just another activity on strava.
 
-Next year I'd like to get up the bravery to ride the GAP-C&O route,
-from Pittsburg to DC. I think my legs can handle it, around 50 miles
-each day, mostly downhill. Fifty miles isn't a big deal anymore. My
-struggle will be in having the guts to do it alone.
+Next year I'd like to get up the bravery to ride the
+[GAP-C&O route][gapco], from Pittsburg to DC. I think my legs can
+handle it, around 50 miles each day, mostly downhill. Fifty miles
+isn't a big deal anymore. My struggle will be in having the guts to do
+it alone.
+
+[gapco]: https://www.bikabout.com/great-allegheny-passage-trail
 
 We'll just have to see.
