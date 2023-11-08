@@ -48,14 +48,14 @@ preview:	html
 	  -b 127.0.0.1 $(PORT)
 
 
-purge-cache:
-	@git rm -rf content/photos/processed
+# purge-cache:
+# 	@git rm -rf content/photos/processed
 
 
-photo-cache: purge-cache html
-	@mkdir -p content/photos/processed
-	@cp -ru output/photos/processed/* content/photos/processed/
-	@git add content/photos/processed/**/*.*
+# photo-cache: purge-cache html
+# 	@mkdir -p content/photos/processed
+# 	@cp -ru output/photos/processed/* content/photos/processed/
+# 	@git add content/photos/processed/**/*.*
 
 
 ##@ Cleanup
