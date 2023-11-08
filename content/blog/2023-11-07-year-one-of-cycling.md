@@ -153,9 +153,12 @@ emotionally.
 
 We'd continue riding together for the next year, but not that route
 again. We'd do loops around the city, or out-and-back on long river
-trails. She started to say she hated certain trails, that they just
-filled her with dreadful boredom. That was fine, we started riding the
-ones she liked more.
+trails. She started to say she hated certain trails, that they filled
+her with a dreadful boredom. That was fine, we started riding the ones
+she liked more. At some point she shifted through a few different
+bikes, settling eventually on one from [State]. I stuck with the Rove.
+
+[State]: https://www.statebicycle.com/collections/4130-all-road/products/4130-all-road-flat-bar-matte-olive-650b-700c
 
 We both grew stronger, and the differences in our goals became more
 apparent. I'd warn her that a segment on strava was coming up, and I'd
@@ -211,12 +214,11 @@ paths she didn't like. I've been pushing my legs and heart through
 distance and speed.
 
 It's been less than one year since I bought the Rove. I only have 2500
-miles on it, but I've managed to cross the 100km barrier (I've
-actually managed [69 miles] in a single ride so far, at the time of this
-writing). I've just recently managed to sustain an average speed of
-[15mph] over a 30 mile ride.
+miles on it, but on separate occasions I've managed to [cross the
+100km barrier][100km] and to [sustain an average speed of
+15mph][15mph] over a 30 mile ride.
 
-[69 miles]: https://www.strava.com/activities/10098752789
+[100km]: https://www.strava.com/activities/10098752789
 [15mph]: https://www.strava.com/activities/10160453330
 
 She says her interests are more in mountain bikes now, in trail riding
