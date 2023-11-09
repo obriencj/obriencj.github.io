@@ -197,16 +197,16 @@ through it with the same method as always, just breathe and focus on
 my feet moving. One two, left right. Everything ends, you just keep
 moving and you get there.
 
-We picked up a habit of riding one of her favorite routes, and
-drinking at a bar mid-way. Those felt like good times, but I wonder
-now how she actually felt. She would smile and I'd feel happy looking
-at her, but who knows what was behind that.
+Time passed, and We picked up a habit of riding one of her favorite
+routes, and drinking at a bar mid-way. Those felt like good times, but
+I wonder now how she actually felt. She would smile and I'd feel happy
+just to be looking at her, but who knows what was behind that.
 
 Eventually we split up. Not during a ride, or after a ride. It was
 just clear we didn't like one another anymore, and I said so. She
-agreed.
+didn't disagree.
 
-It's been hard riding alone. I miss her being there. I miss that
+It's been hard riding alone. I miss her being there. I miss the
 feeling that there was this powerplant of a woman ready to just charge
 up anything, even long past the point where she was doing that sort of
 thing. I've kept at it though. I've set my own goals. I've ridden the
@@ -224,7 +224,8 @@ miles on it, but on separate occasions I've managed to [cross the
 She says her interests are more in mountain bikes now, in trail riding
 and downhill. That kind of thing makes me nervous. She said she hates
 the long and boring rides. I like having the time to be inside of my
-head, dreaming. She hates that kind of thing, I think.
+head, dreaming. She hates that kind of thing, I think. I need to stop
+talking to her.
 
 I'm grateful to her, for introducing me to this way of spending my
 time. To giving me this method of meditating in motion, and forcing my
