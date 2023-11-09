@@ -2,11 +2,11 @@
 title: Support
 subtitle: if you're feeling generous
 date: 2014-02-16
-modified: 2014-08-31
+modified: 2023-11-09
 
 ---
 
-## The Electronic Frontier Foundation
+# The Electronic Frontier Foundation
 
 Like so many others I rely heavily on the [freedom] of an open internet
 to express myself, to pursue my interests, and to earn a living. To
@@ -21,14 +21,3 @@ some cool stickers!
 [electronic frontier foundation]: http://www.eff.org "The Electronic Frontier Foundation"
 
 [donate to the EFF]: https://supporters.eff.org/donate "Support the Electronig Frontier Foundation"
-
-
-## Personal Tip Jar
-
-If you're already a member of the EFF and just want to throw me a few
-coins for a cup of coffee or lunch, you're welcome to do so via either
-
-* [BitCoin](http://bitcoin.org/) to [`1DK3tYk9psa29vsnFSaMZBR8j6VpAwDCWA`](https://blockchain.info/address/1DK3tYk9psa29vsnFSaMZBR8j6VpAwDCWA)
-* [PayPal](http://paypal.com) to [`obriencj@gmail.com`](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=obriencj%40gmail%2ecom&lc=US&item_name=obriencj%2epreoccupied%2enet&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest)
-
-Thank you!
