@@ -1,10 +1,11 @@
 ---
 title: "Ideas"
-description: "brainstorms and todos"
-category: site
 date: 2014-01-01
+modified: 2023-11-10
 
 ---
+
+[TOC]
 
 There are so many things that I'd like to work on or play around with
 as time permits. My interests and focus are as mercurial as my
@@ -12,6 +13,53 @@ personality.
 
 _these are in no meaningful order_
 
+
+### Current
+
+## sibilant
+__lisp dialect that compiles to python__
+
+I got a mostly-working version of [sibilant] going in 2020. It worked
+reasonably well. The python importer was modified on load to spot
+`.lspy` file extensions and pass them to the sibilant compiler. That
+would then load the s-expressions from the module one at a time,
+compile them to pseudops, compile the pseudops to version-specific
+python bytecode, and then execute the expression in the namespace of
+the module. The pseudop translation layer was an excellent
+idea... until it wasn't anymore. Once CPython upstream started
+releasing updates that removed opcodes it really broke things for me.
+
+So lately I've been working on my own bytecode interpreter loop for
+sibilant, called sibilant-ceval. It's been a fun experience, since
+I've never worked on something like this before. It's still a
+work-in-progress, but it enables proper tailcall optimization without
+a trampoline, as well as bounded call/cc forms
+
+[sibilant]: https://github.com/obriencj/python-sibilant
+[More on sibilant]({filename}/projects/ideas/sibilant.md)
+
+
+## rebuild home network
+
+My home network is pretty well cobbled together from inexpensive
+nonsense. I'd like to resolve the tangle of wires and mismatched
+hardware into some unified wall-mounted rack. I'd also like to try out
+dedicated routing hardware instead of cheap SBC linux hosts!
+
+Also, I'd like to get my VPN re-established, so I can connect back
+into the home from remote.
+
+
+## containerized preoccupied.net
+
+I finally shifted off of the ridiculously expensive Rackspace onto a
+single image on EC2. In so doing, I collapsed three ancient hosts into
+three containers. However, I just sort-of threw those together in a
+hurry. I'd like to properly lay out a compose for them, so I can
+update or re-deploy without issues.
+
+
+### Archived
 
 ## mudblock
 __custom voxel adventure/simulation game__
@@ -34,6 +82,12 @@ will evolve more as time goes by and it will fill this space for me,
 but I still could end up hacking on it just because I flipping love
 reinventing things from my own perspective.
 
+Status: I started working in OpenGL, and then read some books that
+made me realize my GL was really out of date. Then I started learning
+about pipelines and realized they weren't even in use anymore, it was
+totally different shaders entirely. I got so frustrated I gave up on
+it.
+
 
 ## whoseaura
 __world of warcraft addon__
@@ -45,15 +99,7 @@ And if it's not missing, I'd like to see who is providing it.
 Currently the tooltip index doesn't match up with the UnitAura index,
 so it's never getting the right caster. Bothersome!
 
-
-## sibilant
-__lisp dialect that compiles to python__
-
-I imported this a few days ago from an old CVS checkout. It's
-currently living in GitHub in a non-working state. I'd love to get my
-brain wrapped around this and really get it working.
-
-[More on sibilant]({filename}/projects/ideas/sibilant.md)
+Status: I stopped playing World of Warcraft
 
 
 ## python call/cc
@@ -67,32 +113,8 @@ continuation at a point in execution... and then call it again later!
 It seems like such a glorious hack, I really need to devote the time
 to it.
 
-
-## jekyll bootstrap theme
-__because this site is currently weird__
-
-I'm using the Twitter JB theme right now, and it's been a real
-bastard. There are all sorts of weird spots where things aren't
-variables (but they ought to be) so I've already had to modify
-it. Like the copyright... it was hardcoded to 2012. And the tagline
-field was never used, each page just statically displayed the text
-"Page Tagline".
-
-Well I want to set up a front page that shows my most recent 3 blog
-entries (that aren't tagged with "personal"), merges in my most recent
-Twitter posts, and then jumps to a brief "About" page.
-
-I want to create a second rss feed, and filter the default one. The
-default should omit any of the "personal" posts just like the front
-page does. The second rss feed can include the whole collection.
-
-I want pages to support tags, not just posts. When I look at the tags
-view, I want any static pages that I've written up to be listed as
-well!
-
-I'm considering discarding the "categories" concept entirely, and just
-going with tags all the way. I think if I need to namespace things,
-I'll just make them sub-pages and use that as my organization method.
+Status: After learning how the cpython ceval loop works, I don't think
+this can be done anymore.
 
 
 ## workspace on GitHub
@@ -107,16 +129,8 @@ default). This would get me a common layout across the three machines
 I commonly use, and would make it easy to get setup on a new machine
 as well. Maybe there is already something that does this?
 
-
-## move off of tumblr
-__control freak__
-
-I think once I've got the theme working on this site, as well as the
-various rss feeds, etc (and mobile?) I should drop my tumblr and move
-it all over here. I really like the idea of how re-hostable Jekyll
-is... if github decides to go evil tomorrow evening, I could change
-DNS and set up my own repo hosting and stand up a webserver that hosts
-the exact same content. I do not like being beholden to Tumblr...
+Status: This didn't really provide much of the benefit that I thought
+it would, so I stopped using it.
 
 
 ## meanwhile
@@ -146,6 +160,9 @@ server. Users could begin migrating to different clients, but the
 stubborn ones could continue using their Sametime client with the
 proxy. That would be quite a thing.
 
+Status: IBM bought Red Hat, but it looks like nobody uses Sametime
+anymore, so it isn't relevant.
+
 
 ## home message bus
 __personal internet of things__
@@ -161,30 +178,7 @@ I want to observe and log EVERYTHING.
 And encrypt the everloving shit out of it, because it's my data and
 nobody else's!
 
-
-## migrate preoccupied.net mail to google apps
-__because I'm a lazy admin__
-
-I am tired of maintaining the firewall list and software updates for
-my mail server. Especially since I'm just `.forward`-ing all my mail
-to my gmail account anyway! Let's cut out the middleman. If I ever
-need to move back to self-hosting, I can. But right now I don't want
-to do it anymore.
-
-I'd also consider collapsing the number of rackspace images I had, if
-this were to happen. The cost savings of fewer images and reduced
-bandwidth consumption may just offset the monthly cost of two or three
-google account users, while at the same time providing the benefit of
-not having to spend time on admin duties for the mail server. Sheesh.
-
-
-## go-pro on my tux
-__the tu250x I'm currently dating__
-
-I've been interested in playing around with ride-recording. Just a
-go-pro mount and iMovie, basically. Seems like a simple setup to
-manage, but I have to invest real dollars in the hardware. Perhaps
-come spring this will seem more viable.
+Status: I started using [Home Assistant](https://www.home-assistant.io/)
 
 
 ## triple-tree leather guard
@@ -195,3 +189,5 @@ wrap for the top of the tripple-tree on the tux. Something that
 allowed access to the starter key and let the neutral and fuel
 indicators show through, but that kept the other key on that keyring
 from scraping things up.
+
+Status: this would still be pretty cool, actually...
