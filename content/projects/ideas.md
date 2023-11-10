@@ -11,10 +11,11 @@ There are so many things that I'd like to work on or play around with
 as time permits. My interests and focus are as mercurial as my
 personality.
 
-_these are in no meaningful order_
 
+# Current Ideas
 
-### Current
+Things I either am working on, or really do intend to work on
+
 
 ## sibilant
 __lisp dialect that compiles to python__
@@ -59,7 +60,10 @@ hurry. I'd like to properly lay out a compose for them, so I can
 update or re-deploy without issues.
 
 
-### Archived
+# Archived Ideas
+
+Stuff I'm not working on anymore, for whatever reason
+
 
 ## mudblock
 __custom voxel adventure/simulation game__
