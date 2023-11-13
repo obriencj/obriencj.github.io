@@ -254,3 +254,9 @@ it alone.
 [gapco]: https://www.bikabout.com/great-allegheny-passage-trail
 
 We'll just have to see.
+
+---
+
+[![Two bicycles, riderless, aside a field of flowers][bikewife]{.image-process-photo}][bikewife]
+
+[bikewife]: {static}/photos/bikewife-2023.jpg

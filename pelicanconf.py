@@ -136,6 +136,21 @@ IMAGE_PROCESS = {
         "type": "image",
         "ops": ["scale_out 225 300 True"],
     },
+    "photo": {
+        "type": "image",
+        "ops": ["scale_out 600 450 True"],
+        # "type": "responsive-image",
+        # "sizes": ("(min-width: 1200px) 800px, "
+        #           "(min-width: 900px) 600px, "
+        #           "(min-width: 600px) 400px, "
+        #           "100vw",),
+        # "srcset": [
+        #     ("800px", ["scale_out 800 600 True"]),
+        #     ("600px", ["scale_out 600 450 True"]),
+        #     ("400px", ["scale_out 400 300 True"]),
+        # ],
+        # "default": "600px",
+    },
 }
 
 IMAGE_PROCESS_DIR = "processed"
