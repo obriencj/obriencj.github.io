@@ -40,10 +40,15 @@ develop: clean	## Launches web server that constantly regenerates site
 	  --volume ./:/work \
           pelican-inelegant:latest -lr -p $(PORT) \
 	  -s developconf.py \
-	  -e SITEURL="\"https://localhost:$(PORT)\""
+	  -e SITEURL="\"http://localhost:$(PORT)\""
 
 
-preview:	html
+preview: clean
+	@podman run --rm --network host \
+	  --volume ./:/work \
+          pelican-inelegant:latest \
+	  -s developconf.py \
+	  -e SITEURL="\"http://localhost:$(PORT)\""
 	@python3 -B -m http.server -d output \
 	  -b 127.0.0.1 $(PORT)
 
