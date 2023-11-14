@@ -18,7 +18,7 @@ perfectly valid Python it emits
 
 <!-- more -->
 
-```text spexy repl example https://gist.github.com/obriencj/8567348 Gist
+```text
 [siege@maybe src]$ python spexy.py
 >>>> (defun make_pair ()
         (letrec ((value None)
@@ -56,8 +56,8 @@ perfectly valid Python it emits
 '919'
 ```
 
-```text more spexy repl https://gist.github.com/obriencj/8609890 Gist
-maybe:python-spexy siege$maybe:python-spexy siege$ PYTHONPATH=./ python
+```text
+[siege@maybe src]$ PYTHONPATH=./ python
 Python 2.7.6 (default, Nov 18 2013, 15:12:51)
 [GCC 4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -76,5 +76,4 @@ But... it isn't 1999 anymore, it's 2014
 >>>> (quit)
 
 >>> quit()
-maybe:python-spexy siege$
 ```

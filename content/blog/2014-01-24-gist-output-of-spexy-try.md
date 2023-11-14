@@ -1,6 +1,6 @@
 ---
 title: gist - output of spexy_try
-date: 2014-01-25
+date: 2014-01-24
 category: programming
 tags:
   - python
@@ -30,8 +30,8 @@ On this fine (albeit very cold) evening, I suffered a fit of
 inspiration (and giggling). When the dust settled, Spexy had gained
 support for `try/except` expressions.
 
-```text output of spexy_try https://gist.github.com/obriencj/8610594 Gist
-maybe:python-spexy siege$ PYTHONPATH=./ python tmp/spexy_try.py
+```text
+[siege@maybe python-spexy]$ PYTHONPATH=./ python tmp/spexy_try.py
 The original spexy source is
 -----
 (defun division (x y)
@@ -73,8 +73,6 @@ division(2, 0)
 division by zero! 2 / 0
 executing finally clause
 result: False
-
-it works!
 ```
 
 It's pretty ugly. It's ugly pretty. Most importantly, it's satisfying
