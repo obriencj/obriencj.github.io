@@ -197,7 +197,7 @@ through it with the same method as always, just breathe and focus on
 my feet moving. One two, left right. Everything ends, you just keep
 moving and you get there.
 
-Time passed, and We picked up a habit of riding one of her favorite
+Time passed, and we picked up a habit of riding one of her favorite
 routes, and drinking at a bar mid-way. Those felt like good times, but
 I wonder now how she actually felt. She would smile and I'd feel happy
 just to be looking at her, but who knows what was behind that.
