@@ -109,8 +109,8 @@ apart.
 
 I am no paragon of riding, but my focus had always been on just
 muddling through, in keeping a consistent pace, trying to go even when
-my body said there wasn't any gas left in the tank. Her focus was, as
-best I can tell, on how strong her legs were. On how hard she could
+my body said there wasn't any gas left in the tank. Her focus, as best
+I can tell, was on how strong her legs were. On how hard she could
 push on a hill, so much more than I could. It was on the ride back
 that this difference in focus really made itself clear. The sky kept
 getting dimmer, the distance felt forever away, and we were constantly
@@ -222,10 +222,11 @@ miles on it, but on separate occasions I've managed to [cross the
 [15mph]: https://www.strava.com/activities/10160453330
 
 She says her interests are more in mountain bikes now, in trail riding
-and downhill. That kind of thing makes me nervous. She said she hates
+and downhill. That kind of thing makes me nervous. Thinking of her
+being hurt bothers me a lot, and it is such a risk. She said she hates
 the long and boring rides. I like having the time to be inside of my
 head, dreaming. She hates that kind of thing, I think. I need to stop
-talking to her.
+thinking about her.
 
 I'm grateful to her, for introducing me to this way of spending my
 time. To giving me this method of meditating in motion, and forcing my
