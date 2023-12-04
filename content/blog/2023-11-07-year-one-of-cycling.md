@@ -68,14 +68,15 @@ do. Then we'd top the hill and resume our conversation.
 
 [Kona Dew]: https://www.konaworld.com/products/dew
 
-I am somewhat resilient to injuries of pride -- I have a defensive
-mechanism that works well for me. I simply accept that I am not the
+I am somewhat resilient to injuries of pride. I have a defensive
+mechanism that works well for me; I simply accept that I am not the
 best, and that I can continue to grow. So I'd laugh it off as she flew
-up the climbs time and time again. Our rides moved to greenways and
-gravel trails, growing ever longer. Ten miles while she had a sinus
-infection. Twenty miles in the cold. We congratulated ourselves on how
-far we'd come. Sure we weren't fast, but twenty miles on gravel and
-sand!
+up the climbs time and time again. Sometimes I'd have to call out for
+her to wait for me as I struggled, panting, to crest the hill and
+catch up. Our rides moved to greenways and gravel trails, growing ever
+longer. Ten miles while she had a sinus infection. Twenty miles in the
+cold. We congratulated ourselves on how far we'd come. Sure we weren't
+fast, but twenty miles on gravel and sand!
 
 I started to look at upgrading to a different bike, and test-rode a
 [Kona Rove]. I told myself it could be a birthday present six months
@@ -94,8 +95,8 @@ the start we flew down the gravel paths, giddy that this would be a
 triumph.
 
 There's something important I need to note here. I still considered
-her, at that time, to be the better cyclist. To be stronger than
-me. There's a certain liberation in being the weak one on a ride,
+her then, just as I do now, to be the better cyclist. To be stronger
+than me. There's a certain liberation in being the weak one on a ride,
 because you just have to do your best to keep up. What never occured
 to me, until long after this ride was over, was that I had started to
 outpace her in some ways. I was unprepared for this.
