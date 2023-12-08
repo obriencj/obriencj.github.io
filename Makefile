@@ -36,7 +36,7 @@ develop-html: clean	## Regenerates static site until interrupted
 
 develop: clean	## Launches web server that constantly regenerates site
 	@mkdir -p output
-	@podman run --rm --network host \
+	@podman run --rm --network bridge \
 	  --volume ./:/work \
           pelican-inelegant:latest -lr -p $(PORT) \
 	  -s developconf.py \
@@ -44,7 +44,7 @@ develop: clean	## Launches web server that constantly regenerates site
 
 
 preview: clean
-	@podman run --rm --network host \
+	@podman run --rm \
 	  --volume ./:/work \
           pelican-inelegant:latest \
 	  -s developconf.py \
