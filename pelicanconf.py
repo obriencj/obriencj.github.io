@@ -105,7 +105,8 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 
 PAGE_PATHS = [
-    'about', 'about.md', 'landing.md', 'projects', 'projects.md',
+    'about', 'about.md', 'landing.md',
+    'projects', 'projects.md', 'thoughts',
 ]
 PAGE_URL = '{dirname}{basename}/'
 PAGE_SAVE_AS = '{dirname}{basename}/index.html'
