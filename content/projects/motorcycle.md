@@ -1,6 +1,5 @@
 ---
 title: "My Motorcycles"
-summary: "past and present"
 date: 2014-07-24
 modified: 2015-01-22
 
