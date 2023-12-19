@@ -4,40 +4,37 @@ date: 2023-12-16
 
 ---
 
-# Current Bikes
 
 I currently own three bicycles. They are very distinct beasts from
 one-another.
 
 
-## Kona Rove - Gravel and Greenway
+## Kona Rove
 
 The [Rove] is my go-to and default bike. I take the rove on city
 streets, greenways, and gravel rail-trails. I've had in on a number of
 single-track rides, before I got a proper mountain bike, and it never
 once complained.
 
-It was on the rove that I spent [one of the best years of my
-life][bikewife] with my partner at the time.
+It was on the rove that I spent one of the
+[best years of my life][bikewife] with my partner at the time.
 
 [bikewife]: {filename}/blog/2023-11-07-year-one-of-cycling.md
 
 I've updated a number of components on the rove. It rides on a 700c
-wheelset, featuring a [DT Swiss rear] and [Velocity Aileron front],
-with a [Son generator hub]. I prefer the [American Classic Kimberlite
-tires][kimberlite] due to the fact that I'm almost always on
-hard-packed clean gravel or paved greenways. The drivetrain was
-upgraded to a 1x11 SRAM configuration, mixing their [Force
-derailleur], [Rival crank], and [Apex controls]. I perch on a [Brooks
-C17 saddle]. The handlebars are [RedShift's Kitchen Sink][kitchen] on
-their [Shock-Stop] stem.
+wheelset, featuring a DT Swiss rear and Velocity Aileron front,
+with a [Son generator hub]. I prefer the
+[American Classic Kimberlite tires][kimberlite] due to the fact that
+I'm almost always on hard-packed clean gravel or paved greenways.  The
+drivetrain was upgraded to a 1x11 SRAM configuration, mixing their
+[Force derailleur], [Rival crank], and [Apex controls]. I perch on a
+[Brooks C17 saddle]. The handlebars are
+[RedShift's Kitchen Sink][kitchen] on their [Shock-Stop] stem.
 
 I bought the rove directly from [Oak City Cycling] in November of 2022.
 
 [rove]: https://www.konaworld.com/products/rove?variant=41027508895788
-[dt swiss rear]: https://
-[velocity aileron front]: https://
-[son generator hub]: https://
+[son generator hub]: https://nabendynamo.de/en/products/hub-dynamos/for-thru-axles/
 [kimberlite]: https://www.amazon.com/AMERICAN-CLASSIC-Kimberlite-Tubeless-Bicycle/dp/B09QVBV5SP?&_encoding=UTF8&tag=obrieisapileo-20&linkCode=ur2&linkId=be2dde7fd9852b314f7d2398a92b64ce&camp=1789&creative=9325
 [force derailleur]: https://www.amazon.com/gp/product/B073S4N8NS?&_encoding=UTF8&tag=obrieisapileo-20&linkCode=ur2&linkId=626658d03f7df3c14d25a40a980831d2&camp=1789&creative=9325
 [rival crank]: https://www.amazon.com/gp/product/B00V8ST9VE?&_encoding=UTF8&tag=obrieisapileo-20&linkCode=ur2&linkId=ec456eb4755324ab69647a2c99e3726f&camp=1789&creative=9325
@@ -48,9 +45,9 @@ I bought the rove directly from [Oak City Cycling] in November of 2022.
 [oak city cycling]: http://www.oakcitycycling.com/
 
 
-## Kona Big Honzo - Trails and Downhill
+## Kona Big Honzo
 
-The [Big Honzo] is my goto for offroading. I have only recently (as of
+The [Big Honzo] is my go-to for offroading. I have only recently (as of
 December 2023) begun taking it out and about on proper trails. I'm
 still nervous, but there's a lot of fun to be had bouncing around on
 the dirt.
@@ -61,9 +58,9 @@ I bought the big honzo from [Jenson] in October of 2023.
 [jenson]: https://www.jensonusa.com/Kona-Big-Honzo-Bike
 
 
-## Kona Ute - Ridiculous
+## Kona Ute
 
-The kona ute is the result of a post-breakup break-down that led me
+The [kona ute] is the result of a post-breakup break-down that led me
 feeling overly spontaneous. I had been dwelling on the idea of a cargo
 bike and misty-eyed dreams of picnic rides with a cooler and blanket
 rolls and folding chairs. I could easily accommodate all of those
@@ -76,7 +73,4 @@ up and get it into a usable state for grocery rides in the summer.
 
 I bought the ute from a fellow in Lititz, PA in December of 2023.
 
-[ute]: https://road.cc/content/review/6203-kona-ute
-
-
-# Retired Bikes
+[kona ute]: https://road.cc/content/review/6203-kona-ute
