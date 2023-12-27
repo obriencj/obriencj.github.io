@@ -2,6 +2,7 @@
 title: Addiction of Love
 date: 2023-12-17
 status: hidden
+series: thoughts
 
 ---
 
@@ -29,15 +30,15 @@ low. The first was my (ex)wife, which was a fight and a nightmare that
 lasted for years. It has been fifteen years since then, when I felt so
 out of control of my own thoughts and emotions. I did not want to be
 here again. Yet here and now, the second such episode has been
-affected by the absense of [my cycling friend and partner][bikewife].
+affected by the absense of [my bikewife].
 
-[bikewife]: {filename}/blog/2023-11-07-year-one-of-cycling.md
+[my bikewife]: {filename}/blog/2023-11-07-year-one-of-cycling.md
 
 I postulate that love is an addictive thing. I mean this in the worst
-possible way. It is like heroin or nicotine or alcohol. There is a
-pleasure response which you will become dependant upon, and when the
-thing that provides that feeling is gone, there will be physical and
-chemical reactions that your body will suffer.
+possible way. It is like nicotine or alcohol. There is a pleasure
+response which you will become dependant upon, and when the thing that
+provides that feeling is gone, there will be physical and chemical
+reactions that your body will suffer.
 
 It snuck up on me this time around. She and I had dated before, and
 the last two times we had split it was a relief. This time we split
@@ -102,8 +103,8 @@ made, only frustration. I can go on a bike ride, but there's no pace
 that keeps me from expecting to hear her voice along-side me. It's
 inescapable, the sense of loss.
 
-Heroin, alcohol, nicotine, cocaine. These are not glorious or
-romantic. They are recognized as harmful and addictive. Imbibe with
+Alcohol, nicotine -- hell, heroin or cocaine -- these are not glorious
+or romantic. They are recognized as harmful and addictive. Imbibe with
 great caution and awareness of their impacts, or even better not at
 all. So too with falling in love. Do not let the stress leave your
 body in their embrace. Do not look at their face when you are happy on
