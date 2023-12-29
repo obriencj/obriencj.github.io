@@ -99,6 +99,13 @@ DISPLAY_CATEGORIES_ON_MENU = False
 PATH_METADATA = '(?P<dirname>.*/?)(?P<basename>.*)\.md'
 
 
+EXTRA_PATH_METADATA = {
+    'thoughts': {
+        'category': 'thoughts',
+    },
+}
+
+
 ARTICLE_PATHS = [ 'blog', ]
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
@@ -121,7 +128,7 @@ STATIC_PATHS = [
 PLUGIN_PATHS = [ "/pelican/plugins", ]
 PLUGINS = [
     "extract_toc", "image_process", "liquid_tags",
-    "summary", "yaml_metadata",
+    "series", "summary", "yaml_metadata",
 ]
 
 

@@ -1,15 +1,15 @@
 ---
 title: Loneliness Mind Block
 date: 2023-12-27
+series: Heartbreak
 status: hidden
-series: thoughts
 
 ---
 
 I'm trying to move on after the [affliction of heartbreak][love] but
 it's a struggle I don't feel I'm making progress on.
 
-[love]: {filename}/thoughts/addiction-of-love.md
+[love]: {filename}addiction-of-love.md
 
 Sitting today at the coffee shop. I've written so many words from
 here, so much code. Held so many conversations. Today I cannot think

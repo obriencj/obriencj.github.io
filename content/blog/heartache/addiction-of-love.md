@@ -1,8 +1,8 @@
 ---
 title: Addiction of Love
 date: 2023-12-17
+series: Heartbreak
 status: hidden
-series: thoughts
 
 ---
 
