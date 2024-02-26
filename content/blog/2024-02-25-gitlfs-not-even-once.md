@@ -44,7 +44,7 @@ directly into git. I had heard that Github supported LFS, so I thought
 to myself that this would be an interesting opportunity to try the
 feature out!
 
-[host]: {filename}/content/blog/2023-09-27-migrating-from-octopress-to-pelican.md
+[host]: {filename}/blog/2023-09-27-migrating-from-octopress-to-pelican.md
 
 [source]: https://github.com/obriencj/obriencj.github.io
 
@@ -69,57 +69,61 @@ methods.
 
 **The bandwidth value is consumed by any and all downloaders**. If
 your repository is public this means any random person or bot can (and
-will) consume your account's resources. I personally experienced this
-when two unknown users performed clones on the 2nd and then 5th of
-February 2024. I received an email alert from Github stating that I
-had consumed 86% of my bandwidth allotment for the month. This was
-quite the surprise, as I had done nothing with my blog at that point
-in time for over two months.
+will) consume your account's resources. In my case I received an email
+alert on the 5th of February of 2024. It warned that I had consumed
+86% of my resource allocation for the month. This was quite the
+surprise, as I had done nothing with my blog at that point in time for
+over two months. I looked through the insights tab and noticed that
+there had been some new unique clones done on the 2nd and 5th. That is
+what had spent my bandwidth.
 
 **Even Github's own action runners consume bandwidth value**. The
-workflow for building these pages means checking it out and then
-running pelican to produce the static site for upload. That checkout
-process needs to pull from LFS to fetch the images, and Github didn't
-deem it necessary to grant its own builders unfettered access.
+workflow for building these pages means checking them out and then
+running a containerized version of pelican to produce the static site
+for upload. That checkout process needed to pull from LFS to fetch the
+images. When the owning account runs out of resources, it's blocked
+from further LFS access until it has resources again. The site would
+thus fail to build, as it could not complete the checkout step of the
+workflow.
 
-Two random, anonymous clones meant that I no longer had the resources
-necessary to checkout the site sources for the rest of the month of
-February.  Unless, of course, I were to buy a 5GB resource pack from
-Github to temporarily grant more bandwidth to my account. Bandwidth
-which could then be again consumed by anonymous checkouts.
+That's right. Two random, anonymous clones meant that I no longer had
+the resources necessary to checkout the site sources for the rest of
+the month of February.  Unless, of course, I were to buy a 5GB
+resource pack from Github to temporarily grant more bandwidth to my
+account. Bandwidth which could then be again consumed by anonymous
+checkouts. Even if the bandwidth metering hadn't been impacted by
+anonymous cloners, the fact that Github's own action runners count
+against that number means that I would likely run afoul of this any
+time I was feeling slightly prolific.
 
-Even if the bandwidth metering hadn't been impacted by anonymous
-clones, the fact that Github's own action runners count against that
-number means that I would likely run afoul of this any time I was
-feeling slightly prolific.
+I've since migrated the site back to storing the photos directly in
+git.
 
-There are other well-documented complaints against git LFS that I've
-come to realize. Most of these I would have probably ignored, as they
-weren't particularly pertinent to my use case. I would not be worried
-about how it don't operate well (or at all) with multiple remotes for
-example. I didn't mind that it required having a separate package
-installed in all the places I wanted to work.
+Thankfully I never *needed* to use LFS for this site. I simply thought
+that perhaps the technology would be sensible for storage of static
+binary content like source images. There are other well-documented
+complaints against git LFS that I've come to realize, but most of
+these I would have probably ignored, as they weren't particularly
+pertinent to my use case. I would not be worried about how it don't
+operate well (or at all) with multiple remotes for example. I didn't
+mind that it required having a separate package installed in all the
+places I wanted to work.
+
+I doubt that I will ever find myself in a position where I need large
+files support in git. If I do there are two mandatory caveats before I
+would consider using it with Github. Firstly, it would be necessary
+that the project is configured to be owned by a dedicated organization
+rather than by my user account. Secondly the repository would need to
+be made private to prevent anonymous clones.
 
 Github's absolutely ridiculous [metering] and [billing] rules around
-the use of LFS is the real and definite pain point. I've since
-migrated the site back to storing the original photos directly in git.
+the use of LFS are the real and definite pain points. I feel that it
+is completely unreasonable that Github's action workers consume
+project owner bandwidth numbers.
 
 [metering]: https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-storage-and-bandwidth-usage
 
 [billing]: https://docs.github.com/en/billing/managing-billing-for-git-large-file-storage/upgrading-git-large-file-storage#purchasing-additional-storage-and-bandwidth-for-a-personal-account
-
-I feel that it is completely unreasonable that Github's action workers
-consume project owner bandwidth numbers.
-
-Thankfully I never *needed* to use LFS for this site. I simply thought
-that perhaps the technology would be sensible for storage of static
-binary content like source images. I doubt that I will ever find
-myself in a position where I need large files support in git. If I do
-there are two mandatory caveats before I would consider using it with
-Github. Firstly, it would be necessary that the project is configured
-to be owned by a dedicated organization rather than by my user
-account. Secondly the repository would need to be made private to
-prevent anonymous clones.
 
 **Github's metering alone renders git LFS as an anti-feature**. It is
 dangerous to open source projects, and should not be used except in
