@@ -35,9 +35,8 @@ develop-html: clean	## Regenerates static site until interrupted
 
 
 develop: clean	## Launches web server that constantly regenerates site
-	@mkdir -p output
 	@podman run --rm --network bridge \
-	  --volume ./:/work \
+	  --volume ./:/work -p $(PORT) \
           pelican-inelegant:latest -lr -p $(PORT) \
 	  -s developconf.py \
 	  -e SITEURL="\"http://localhost:$(PORT)\""
