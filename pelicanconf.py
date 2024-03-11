@@ -76,16 +76,16 @@ PROJECTS = [
 
 
 # Social widget
-SOCIAL_PROFILE_LABEL = "Social"
+SOCIAL_PROFILE_LABEL = "Connect"
 
 SOCIAL = (
-    # ( 'GMail', 'mailto://obriencj@gmail.com', ),
-    ( 'GitHub', 'https://github.com/obriencj', ),
-    ( 'Keybase', 'https://keybase.io/obriencj', ),
-    ( 'Mastodon', 'https://fosstodon.org/@obriencj', ),
-    # ( 'Twitter', 'https://twitter.com/obriencj', ),
-    ( 'Instagram', 'https://instagram.com/obriencj.preoccupied', ),
-    ( 'Strava', 'https://strava.com/athletes/obriencj', ),
+    ( 'Keybase', 'https://keybase.io/obriencj' ),
+    ( 'GitHub', 'https://github.com/obriencj' ),
+    ( 'Instagram', 'https://instagram.com/obrien.christopher' ),
+    ( 'Strava', 'https://strava.com/athletes/obriencj' ),
+    ( 'Mastodon', 'https://fosstodon.org/@obriencj' ),
+    ( 'Threads', 'https://www.threads.net/@obrien.christopher' ),
+    ( 'Bluesky', 'https://bsky.app/profile/obriencj.bsky.social' ),
 )
 
 
