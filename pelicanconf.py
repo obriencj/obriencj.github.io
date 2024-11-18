@@ -128,7 +128,7 @@ STATIC_PATHS = [
 PLUGIN_PATHS = [ "/pelican/plugins", ]
 PLUGINS = [
     "extract_toc", "image_process", "liquid_tags",
-    "series", "summary", "yaml_metadata",
+    "search", "series", "summary", "yaml_metadata",
 ]
 
 
